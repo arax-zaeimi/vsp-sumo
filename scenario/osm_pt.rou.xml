@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-09-14 21:18:45.658211 by $Id: ptlines2flows.py v1_3_1+0313-ccb31df3eb jakob.erdmann@dlr.de 2019-09-02 13:26:32 +0200 $ v1_14_1+0000-f654d7b963e
+  options: 
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="rail_urban"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_minibus" vClass="bus"/>
+    <vType id="pt_share_taxi" vClass="taxi"/>
+    <vType id="pt_aerialway" vClass="bus"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="pt_bus_165-N:0" edges="-165217827#4 -165217827#3 -165217827#2 -165217827#1 -41258974#2 -41258974#1 -41258974#0 -143920958#3 -143920958#2 -143920958#1 -143920958#0 4872827" >
+        <stop busStop="-504318025" duration="20" until="31.0"/> <!-- Station Guy-Concordia (Guy / De Maisonneuve) -->
+        <stop busStop="-6010971144" duration="20" until="135.0"/> <!-- Côte-des-Neiges / Sherbrooke -->
+        <stop busStop="-1457825329" duration="20" until="181.0"/> <!-- Côte-des-Neiges / Summerhill -->
+        <stop busStop="1457813196" duration="20" until="244.0"/> <!-- Côte-des-Neiges / du Docteur-Penfield -->
+    </route>
+    <route id="pt_bus_144-E:0" edges="329694559#0 329694559#1 329694559#2 329694559#3 231387459 453949528 474841418#0 474841418#1" >
+        <stop busStop="6010967076" duration="20" until="31.0"/> <!-- Station Atwater (Atwater / Tupper) -->
+        <stop busStop="6010974370" duration="20" until="95.0"/> <!-- Atwater / Lincoln -->
+        <stop busStop="6010978061" duration="20" until="138.0"/> <!-- Atwater / Sherbrooke -->
+    </route>
+    <route id="pt_bus_24-E:0" edges="561490751#0 561490751#2 561490749 561490748#0 561490748#1 465408864#0 465408864#3 465408864#4 465408857#0 465408857#1 465408857#2 465408857#3 465408862#1 465408862#2 465408862#3 465408862#4 465411711#1 165217870#1" >
+        <stop busStop="6010981247" duration="20" until="31.0"/> <!-- Sherbrooke / Atwater -->
+        <stop busStop="6010979145" duration="20" until="88.0"/> <!-- Sherbrooke / Chomedey -->
+        <stop busStop="6010971302" duration="20" until="165.0"/> <!-- Sherbrooke / Saint-Marc -->
+        <stop busStop="6010965396" duration="20" until="236.0"/> <!-- Sherbrooke / Saint-Mathieu -->
+        <stop busStop="6010964910" duration="20" until="285.0"/> <!-- Sherbrooke / Côte-des-Neiges -->
+    </route>
+    <route id="pt_bus_24-O:0" edges="-465408860#0 -165217870#2 -165217870#1 -465411712#0 -465408862#4 -465408862#3 -465408862#2 -465408862#1 -465408857#3 -465408857#2 -465408857#1 -465408857#0 -465408864#4 -465408864#3 -465408864#0 561490750#0" >
+        <stop busStop="-6010970054" duration="20" until="31.0"/> <!-- Sherbrooke / Côte-des-Neiges -->
+        <stop busStop="-6010971829" duration="20" until="89.0"/> <!-- Sherbrooke / Saint-Mathieu -->
+        <stop busStop="-6010981492" duration="20" until="133.0"/> <!-- Sherbrooke / Saint-Marc -->
+        <stop busStop="-6010981038" duration="20" until="218.0"/> <!-- Sherbrooke / Chomedey -->
+        <stop busStop="6010968874" duration="20" until="297.0"/> <!-- Sherbrooke / Atwater -->
+    </route>
+    <route id="pt_bus_427-E:0" edges="330150736#0 330150736#1 330150434#0 330150434#1 330150434#2 330150434#5 330150434#6 330150434#7 330150434#8 1051530916#0 41258973#1 41258973#2 41258973#4 455083980#0 455083970#1" >
+        <stop busStop="6010966040" duration="20" until="42.0"/> <!-- Station Guy-Concordia (Maisonneuve / St-Mathieu) -->
+        <stop busStop="6010977969" duration="20" until="95.0"/> <!-- Saint-Mathieu / Sainte-Catherine -->
+        <stop busStop="6010971108" duration="20" until="188.0"/> <!-- René-Lévesque / Guy -->
+        <stop busStop="6010975333" duration="20" until="319.0"/> <!-- René-Lévesque / Bishop -->
+    </route>
+    <route id="pt_bus_15-E:0" edges="394910074#0 329694554#0 329694554#1 329694554#2 329694554#3 329694554#4 329694554#5 329694554#7 329694554#10 329694554#11" >
+        <stop busStop="6010966061" duration="20" until="36.0"/> <!-- Station Atwater (Sainte-Catherine / Atwater) -->
+        <stop busStop="6010977514" duration="20" until="116.0"/> <!-- Sainte-Catherine / du Fort -->
+        <stop busStop="6010968682" duration="20" until="196.0"/> <!-- Sainte-Catherine / Saint-Mathieu -->
+        <stop busStop="6010975640" duration="20" until="256.0"/> <!-- Sainte-Catherine / Guy -->
+    </route>
+    <route id="pt_bus_427-O:0" edges="455083984#2 455083979#1 455083981#1 -455083994#3 -455083994#2 -455083993#3 -455083993#2 -455083993#0 330153470#0 330153470#1 330150736#0" >
+        <stop busStop="4030794085" duration="20" until="40.0"/> <!-- René-Lévesque / Bishop -->
+        <stop busStop="6010968827" duration="20" until="110.0"/> <!-- René-Lévesque / Guy -->
+        <stop busStop="-6010981282" duration="20" until="238.0"/> <!-- Guy / Sainte-Catherine -->
+        <stop busStop="6010966040" duration="20" until="375.0"/> <!-- Station Guy-Concordia (Maisonneuve / St-Mathieu) -->
+    </route>
+    <route id="pt_bus_104-O:0" edges="329694558 329694559#0 329694559#1 329694559#2 329694559#3 231387459 453949528 474841418#0" >
+        <stop busStop="2519449677" duration="20" until="34.0"/> <!-- Station Atwater (Tupper / Atwater) -->
+        <stop busStop="6010974370" duration="20" until="97.0"/> <!-- Atwater / Lincoln -->
+    </route>
+    <route id="pt_bus_150-E:0" edges="394910074#0 329694553#1 329694553#2 936656919 37852832#0 37852832#1 37852832#2 37852832#3 329989224#0 329989224#1 329989224#2 453964887#0 453964892#1 455083968#1 455083976#0 41258973#1 41258973#2 41258973#4 455083980#0 455083970#1" >
+        <stop busStop="6010973662@8873279" duration="20" until="40.0"/> <!-- Station Atwater (Ste-Catherine / Lambert-Closse) -->
+        <stop busStop="6010973748" duration="20" until="161.0"/> <!-- René-Lévesque / du Fort -->
+        <stop busStop="6010972047" duration="20" until="214.0"/> <!-- René-Lévesque / Saint-Mathieu -->
+        <stop busStop="6010971108" duration="20" until="270.0"/> <!-- René-Lévesque / Guy -->
+        <stop busStop="6010975333" duration="20" until="332.0"/> <!-- René-Lévesque / Bishop -->
+    </route>
+    <route id="pt_bus_108-O:0" edges="-329694557 575547253#0" >
+        <stop busStop="-6010981242" duration="20" until="40.0"/> <!-- Station Atwater (Tupper / Atwater) -->
+        <stop busStop="6010981721" duration="20" until="94.0"/> <!-- Atwater / Dorchester -->
+    </route>
+    <route id="pt_bus_90-O:0" edges="-329694557 329694558 329694559#0 329694559#1 329694559#2 329694559#3 -92352263#3" >
+        <stop busStop="-6010975601" duration="20" until="45.0"/> <!-- Station Atwater (Tupper / Atwater) -->
+        <stop busStop="-6010980150" duration="20" until="139.0"/> <!-- Place Alexis-Nihon (Ste-Catherine/No 4026) -->
+    </route>
+    <route id="pt_bus_104-E:0" edges="561490751#0 561490751#2 453745797#0 453745797#1 474841415#0 474841415#1 453949527 165217770#0 165217839#0 165217839#2" >
+        <stop busStop="6010981247" duration="20" until="31.0"/> <!-- Sherbrooke / Atwater -->
+        <stop busStop="6010968565" duration="20" until="89.0"/> <!-- Atwater / De Maisonneuve -->
+        <stop busStop="2519449678" duration="20" until="152.0"/> <!-- Saint-Catherine/Awater -->
+    </route>
+    <route id="pt_bus_138-O:0" edges="329694558 329694559#0 329694559#1 329694559#2 329694559#3 231387459 453949528 474841418#0" >
+        <stop busStop="2519449677" duration="20" until="35.0"/> <!-- Station Atwater (Tupper / Atwater) -->
+        <stop busStop="6010974370" duration="20" until="108.0"/> <!-- Atwater / Lincoln -->
+    </route>
+    <route id="pt_bus_166-N:0" edges="-41258974#1 -41258974#0 -143920958#3 -143920958#2 -143920958#1 -143920958#0 4872827" >
+        <stop busStop="-6010971144" duration="20" until="43.0"/> <!-- Côte-des-Neiges / Sherbrooke -->
+        <stop busStop="-1457825329" duration="20" until="91.0"/> <!-- Côte-des-Neiges / Summerhill -->
+        <stop busStop="1457813196" duration="20" until="146.0"/> <!-- Côte-des-Neiges / du Docteur-Penfield -->
+    </route>
+    <route id="pt_bus_138-E:0" edges="561490751#0 561490751#2 453745797#0 453745797#1 474841415#0 474841415#1 453949527 165217770#0 165217839#0 165217839#2" >
+        <stop busStop="6010981247" duration="20" until="31.0"/> <!-- Sherbrooke / Atwater -->
+        <stop busStop="6010968565" duration="20" until="91.0"/> <!-- Atwater / De Maisonneuve -->
+        <stop busStop="2519449678" duration="20" until="156.0"/> <!-- Saint-Catherine/Awater -->
+    </route>
+    <route id="pt_bus_35-O:0" edges="1041940066#4 1041940066#5 1041940066#6 1041940066#7" >
+        <stop busStop="6010965891" duration="20" until="34.0"/> <!-- Notre-Dame / de Versailles -->
+        <stop busStop="6010964698" duration="20" until="95.0"/> <!-- Notre-Dame / Guy -->
+    </route>
+    <route id="pt_bus_35-E:0" edges="-165217829#1 -165217829#0 -1041940066#8 -1041940066#7 -1041940066#6 -1041940066#5 -1041940066#4 -1041940066#3 -1041940066#1" >
+        <stop busStop="-6010972098" duration="20" until="47.0"/> <!-- Notre-Dame / Guy -->
+        <stop busStop="-6010969834" duration="20" until="104.0"/> <!-- Notre-Dame / de Versailles -->
+        <stop busStop="-6010966435" duration="20" until="162.0"/> <!-- Notre-Dame / de la Montagne -->
+    </route>
+    <route id="pt_bus_36-O:0" edges="975251637#1 975251637#2 111771067#1 111771067#2 111771067#3 111771067#4 111771067#5 329988460#1" >
+        <stop busStop="6010969810" duration="20" until="44.0"/> <!-- Saint-Antoine / Lusignan -->
+        <stop busStop="6010965221" duration="20" until="116.0"/> <!-- Guy / Saint-Jacques -->
+        <stop busStop="2264682032" duration="20" until="208.0"/> <!-- Guy / Paxton -->
+    </route>
+    <route id="pt_bus_150-O:0" edges="455083984#2 455083979#1 455083981#1 330153472#0 330153472#1 330153472#2 465653665#1 463825906#1 463825907#1 463825907#2 337432401#0 337432401#1 337432401#3 337432401#4 337432401#5 337432401#6 231387460#0 329694558 329694559#0 329694559#1 329694559#2 329694559#3 165217839#0 165217839#2" >
+        <stop busStop="4030794085" duration="20" until="39.0"/> <!-- René-Lévesque / Bishop -->
+        <stop busStop="6010968827" duration="20" until="168.0"/> <!-- René-Lévesque / Guy -->
+        <stop busStop="6010969566" duration="20" until="247.0"/> <!-- René-Lévesque / Saint-Mathieu -->
+        <stop busStop="445067518" duration="20" until="309.0"/> <!-- René-Lévesque / Seymour -->
+        <stop busStop="6010968427" duration="20" until="360.0"/> <!-- René-Lévesque / du Sussex -->
+        <stop busStop="6010978235" duration="20" until="415.0"/> <!-- René-Lévesque / Atwater -->
+        <stop busStop="6010968869" duration="20" until="499.0"/> <!-- Station Atwater (Atwater / Sainte-Catherine) -->
+        <stop busStop="6010973662" duration="20" until="558.0"/> <!-- Station Atwater (Ste-Catherine / Lambert-Closse) -->
+    </route>
+    <route id="pt_bus_15-O:0" edges="329384217#8 329384217#9 330153470#0 330153470#1 330150736#0 330150736#1 330150435#0 330150435#1 330150435#4 330150435#5 330150435#6 330150435#7 330150435#8 330150435#9 1042466503#0 1042466503#1 1042466503#2 329694553#1 329694553#2 -329694557 329694558 329694559#0 329694559#1 329694559#2 329694559#3 165217839#0 165217839#2" >
+        <stop busStop="6010973621" duration="20" until="42.0"/> <!-- Station Guy-Concordia (De Maisonneuve / Guy) -->
+        <stop busStop="6010969519" duration="20" until="131.0"/> <!-- Station Guy-Concordia (De Maisonneuve/St-Mathieu) -->
+        <stop busStop="6010981014" duration="20" until="196.0"/> <!-- De Maisonneuve / du Fort -->
+        <stop busStop="6010970071" duration="20" until="286.0"/> <!-- De Maisonneuve / Chomedey -->
+        <stop busStop="6010965893" duration="20" until="385.0"/> <!-- Lambert-Closse / Sainte-Catherine -->
+        <stop busStop="6010966061@9320162" duration="20" until="497.0"/> <!-- Station Atwater (Sainte-Catherine / Atwater) -->
+    </route>
+    <route id="pt_bus_36-E:0" edges="-329988460#3 -329988460#1 329988459#1 329988459#2 329988459#3 329988459#4 329988459#7 329988459#8 329988459#9 133806980#1 133806980#3 133806980#4 133806980#5" >
+        <stop busStop="-2264682033" duration="20" until="51.0"/> <!-- Guy / Paxton -->
+        <stop busStop="-6010970163" duration="20" until="155.0"/> <!-- Guy / Saint-Jacques -->
+        <stop busStop="6010975602" duration="20" until="242.0"/> <!-- Saint-Jacques / Lucien-L'Allier -->
+        <stop busStop="6010978137" duration="20" until="297.0"/> <!-- Saint-Jacques / de la Montagne -->
+        <stop busStop="6010975695" duration="20" until="387.0"/> <!-- Saint-Jacques / Peel -->
+    </route>
+    <route id="pt_bus_66-N:0" edges="1051530916#0 41258973#1 41258973#2 41258973#4 -330153471 -455083994#3 -455083994#2 -455083993#3 -455083993#2 -455083993#0 -165217827#4 -165217827#3 -165217827#2 -165217827#1 -41258974#2 -41258974#1 -41258974#0 -143920958#3 -143920958#2 -143920958#1 -143920958#0 4872827" >
+        <stop busStop="6010977887@9320535" duration="20" until="31.0"/> <!-- Saint-Mathieu / René-Lévesque -->
+        <stop busStop="-6010965967" duration="20" until="238.0"/> <!-- Guy / René-Lévesque -->
+        <stop busStop="-4034535844" duration="20" until="306.0"/> <!-- Station Guy-Concordia (Guy / De Maisonneuve) -->
+        <stop busStop="-6010971144" duration="20" until="440.0"/> <!-- Côte-des-Neiges / Sherbrooke -->
+        <stop busStop="-1457825329" duration="20" until="486.0"/> <!-- Côte-des-Neiges / Summerhill -->
+        <stop busStop="1457813196" duration="20" until="549.0"/> <!-- Côte-des-Neiges / du Docteur-Penfield -->
+    </route>
+    <route id="pt_bus_57-O:0" edges="111771071#3 -1042467341#4 -1042467341#1 20112454#1 -165217829#5 -165217829#4 -165217829#1 -165217829#0 -329988460#4 -329988460#3 -329988460#1 -111771067#5 -111771067#4 -111771067#3 -111771067#2 -111771067#1 -465656094#1 -465656094#0 -111771070 -41258976#4 -41258976#3 -41258976#2 -330153471 -455083994#3 -455083994#2 -455083993#3 -455083993#2 -455083993#0 330153470#0 330153470#1 330150736#0" >
+        <stop busStop="6010966206" duration="20" until="46.0"/> <!-- Guy / William -->
+        <stop busStop="-2264682033" duration="20" until="204.0"/> <!-- Guy / Paxton -->
+        <stop busStop="-6010970163" duration="20" until="264.0"/> <!-- Guy / Saint-Jacques -->
+        <stop busStop="-6010974296" duration="20" until="366.0"/> <!-- Guy / Saint-Antoine -->
+        <stop busStop="-6010970018@9320461" duration="20" until="472.0"/> <!-- Guy / René-Lévesque -->
+        <stop busStop="-6010981282" duration="20" until="615.0"/> <!-- Guy / Sainte-Catherine -->
+        <stop busStop="6010974358@9320461" duration="20" until="752.0"/> <!-- Station Guy-Concordia (Maisonneuve / St-Mathieu) -->
+    </route>
+    <route id="pt_bus_66-S:0" edges="48678910#0 48678910#1 143920958#0 143920958#1 143920958#2 143920958#3 165217834#0 165217834#1 165217834#4 165217834#7 165217834#8 165217834#9 330150434#0 330150434#1 330150434#2 330150434#5 330150434#6 330150434#7 330150434#8 1051530916#0 41258973#1 41258973#2 41258973#4 -330153471 -455083994#3 -455083994#2 -455083993#3 -455083993#2" >
+        <stop busStop="1465572617@9320534" duration="20" until="34.0"/> <!-- du Docteur-Penfield / Côte-des-Neiges -->
+        <stop busStop="6010975324" duration="20" until="101.0"/> <!-- Côte-des-Neiges / Summerhill -->
+        <stop busStop="6010970338" duration="20" until="170.0"/> <!-- Saint-Mathieu / Sherbrooke -->
+        <stop busStop="504318024" duration="20" until="258.0"/> <!-- Station Guy-Concordia (St-Mathieu/De Maisonneuve) -->
+        <stop busStop="6010977969" duration="20" until="307.0"/> <!-- Saint-Mathieu / Sainte-Catherine -->
+        <stop busStop="6010974344" duration="20" until="362.0"/> <!-- Saint-Mathieu / Baile -->
+        <stop busStop="6010977887" duration="20" until="406.0"/> <!-- Saint-Mathieu / René-Lévesque -->
+        <stop busStop="-6010965967" duration="20" until="747.0"/> <!-- Guy / René-Lévesque -->
+        <stop busStop="-4034535844" duration="20" until="814.0"/> <!-- Station Guy-Concordia (Guy / De Maisonneuve) -->
+    </route>
+    <route id="pt_bus_165-S:0" edges="453745802 143920958#2 143920958#3 165217834#0 165217834#1 165217834#4 165217834#7 165217834#8 165217834#9 330150434#0 330150434#1 330150434#2 330150434#5 330150434#6 330150434#7 330150434#8 1051530916#0 41258973#1 41258973#2 41258973#4 -330153471 -455083994#3 -455083994#2 -455083993#3 -455083993#2" >
+        <stop busStop="1465572617" duration="20" until="34.0"/> <!-- du Docteur-Penfield / Côte-des-Neiges -->
+        <stop busStop="6010975324" duration="20" until="375.0"/> <!-- Côte-des-Neiges / Summerhill -->
+        <stop busStop="6010970338" duration="20" until="431.0"/> <!-- Saint-Mathieu / Sherbrooke -->
+        <stop busStop="504318024" duration="20" until="506.0"/> <!-- Station Guy-Concordia (St-Mathieu/De Maisonneuve) -->
+        <stop busStop="6010977969" duration="20" until="565.0"/> <!-- Saint-Mathieu / Sainte-Catherine -->
+        <stop busStop="6010977887" duration="20" until="624.0"/> <!-- Saint-Mathieu / René-Lévesque -->
+        <stop busStop="-6010965967" duration="20" until="990.0"/> <!-- Guy / René-Lévesque -->
+        <stop busStop="-504318025@8873299" duration="20" until="1077.0"/> <!-- Station Guy-Concordia (Guy / De Maisonneuve) -->
+    </route>
+    <route id="pt_bus_166-S:0" edges="453745802 143920958#2 143920958#3 165217834#0 165217834#1 165217834#4 165217834#7 165217834#8 165217834#9 330150434#0 330150434#1 330150434#2 330150434#5 330150434#6 330150434#7 330150434#8 1051530916#0 41258973#1 41258973#2 41258973#4 -330153471 -455083994#3 -455083994#2" >
+        <stop busStop="1465572617" duration="20" until="34.0"/> <!-- du Docteur-Penfield / Côte-des-Neiges -->
+        <stop busStop="6010975324" duration="20" until="374.0"/> <!-- Côte-des-Neiges / Summerhill -->
+        <stop busStop="6010970338" duration="20" until="430.0"/> <!-- Saint-Mathieu / Sherbrooke -->
+        <stop busStop="504318024" duration="20" until="494.0"/> <!-- Station Guy-Concordia (St-Mathieu/De Maisonneuve) -->
+        <stop busStop="6010977969" duration="20" until="543.0"/> <!-- Saint-Mathieu / Sainte-Catherine -->
+        <stop busStop="6010974344" duration="20" until="596.0"/> <!-- Saint-Mathieu / Baile -->
+        <stop busStop="6010977887" duration="20" until="639.0"/> <!-- Saint-Mathieu / René-Lévesque -->
+        <stop busStop="-6010965967" duration="20" until="878.0"/> <!-- Guy / René-Lévesque -->
+        <stop busStop="-6010981282" duration="20" until="909.0"/> <!-- Guy / Sainte-Catherine -->
+    </route>
+    <route id="pt_bus_57-E:0" edges="330150435#0 330150435#1 330150435#4 330150435#5 330150435#6 330150435#7 330150435#8 330150435#9 1042466503#0 1042466503#1 1042466503#2 329694554#0 329694554#1 329694554#2 329694554#3 329694554#4 329694554#5 329694554#7 329694554#10 329694554#11 455083994#1 455083994#3 330153471 41258976#1 41258976#3 41258976#4 111771070 465656094#0 465656094#1 111771067#1 -347724804 347724804 -111771067#1 -465656094#1 25367003#0 25367003#1 103896396#8 103974914#1 673699710#4 975251637#0 975251637#1 975251637#2 111771067#1 111771067#2 111771067#3 111771067#4 111771067#5 329988460#1 329988460#3 329988460#4 111771071#1 111771071#2 111771071#3" >
+        <stop busStop="6010974358" duration="20" until="31.0"/> <!-- Station Guy-Concordia (Maisonneuve / St-Mathieu) -->
+        <stop busStop="6010981014" duration="20" until="103.0"/> <!-- De Maisonneuve / du Fort -->
+        <stop busStop="6010970071" duration="20" until="163.0"/> <!-- De Maisonneuve / Chomedey -->
+        <stop busStop="2519454983" duration="20" until="266.0"/> <!-- Station Atwater (Lambert-Closse / Ste-Catherine) -->
+        <stop busStop="6010977514" duration="20" until="328.0"/> <!-- Sainte-Catherine / du Fort -->
+        <stop busStop="6010968682" duration="20" until="401.0"/> <!-- Sainte-Catherine / Saint-Mathieu -->
+        <stop busStop="6010966051" duration="20" until="493.0"/> <!-- Guy / Sainte-Catherine -->
+        <stop busStop="6010981200" duration="20" until="546.0"/> <!-- Guy / René-Lévesque -->
+        <stop busStop="-6010965405" duration="20" until="940.0"/> <!-- Guy / Saint-Antoine -->
+        <stop busStop="6010965221" duration="20" until="1103.0"/> <!-- Guy / Saint-Jacques -->
+        <stop busStop="2264682032" duration="20" until="1166.0"/> <!-- Guy / Paxton -->
+        <stop busStop="6010971347" duration="20" until="1229.0"/> <!-- Guy / William -->
+    </route>
+    <route id="pt_subway_1:0" color="95,140,85" edges="164831271 784099214#0 784099214#1 -784099214#1 -784099214#0 -164831271 164831271 784099214#0 784099214#1 -784099214#1 -784099214#0 -164831271 164831271 784099214#0 784099214#1 -784099214#1 -784099214#0 -164831271 164831271 784099214#0 784099214#1 -784099214#1 -784099214#0 -164831271 164831271 784099214#0 784099214#1" >
+        <stop busStop="246656713" duration="20" until="45.0"/> <!-- Honoré-Beaugrand -->
+        <stop busStop="246656708" duration="20" until="124.0"/> <!-- Radisson -->
+        <stop busStop="246656707" duration="20" until="200.0"/> <!-- Langelier -->
+        <stop busStop="246655684" duration="20" until="274.0"/> <!-- Cadillac -->
+        <stop busStop="246654576" duration="20" until="355.0"/> <!-- Assomption -->
+        <stop busStop="26232890" duration="20" until="438.0"/> <!-- Viau -->
+        <stop busStop="264271702" duration="20" until="517.0"/> <!-- Pie IX -->
+        <stop busStop="218356349" duration="20" until="595.0"/> <!-- Joliette -->
+        <stop busStop="218356337" duration="20" until="665.0"/> <!-- Préfontaine -->
+        <stop busStop="218283857" duration="20" until="755.0"/> <!-- Frontenac -->
+        <stop busStop="213403939" duration="20" until="847.0"/> <!-- Papineau -->
+        <stop busStop="213403941" duration="20" until="917.0"/> <!-- Beaudry -->
+        <stop busStop="5228487326" duration="20" until="987.0"/> <!-- Berri-UQAM -->
+        <stop busStop="208949406" duration="20" until="1054.0"/> <!-- Saint-Laurent -->
+        <stop busStop="208949390" duration="20" until="1117.0"/> <!-- Place-des-Arts -->
+        <stop busStop="208949385" duration="20" until="1183.0"/> <!-- McGill -->
+        <stop busStop="208949381" duration="20" until="1248.0"/> <!-- Peel -->
+        <stop busStop="213329687" duration="20" until="1354.0"/> <!-- Atwater -->
+        <stop busStop="-3676828784" duration="20" until="1385.0"/> <!-- Lionel-Groulx -->
+        <stop busStop="213331953" duration="20" until="1636.0"/> <!-- Charlevoix -->
+        <stop busStop="-311564344" duration="20" until="1667.0"/> <!-- LaSalle -->
+        <stop busStop="311564349" duration="20" until="2076.0"/> <!-- De l'Église -->
+        <stop busStop="-2471652365" duration="20" until="2107.0"/> <!-- Verdun -->
+        <stop busStop="225689808" duration="20" until="2662.0"/> <!-- Jolicoeur -->
+        <stop busStop="-225690774" duration="20" until="2693.0"/> <!-- Monk -->
+        <stop busStop="311564466" duration="20" until="3341.0"/> <!-- Angrignon -->
+    </route>
+    <route id="pt_subway_1:1" color="95,140,85" edges="784099214#1 -784099214#1 -784099214#0 -164831271 164831271 784099214#0 784099214#1 -784099214#1 -784099214#0 -164831271 164831271 784099214#0 784099214#1 -784099214#1 -784099214#0 -164831271 164831271 784099214#0 784099214#1 -784099214#1 -784099214#0 -164831271" >
+        <stop busStop="311564466" duration="20" until="358.0"/> <!-- Angrignon -->
+        <stop busStop="-225690774" duration="20" until="442.0"/> <!-- Monk -->
+        <stop busStop="-225689808" duration="20" until="532.0"/> <!-- Jolicoeur -->
+        <stop busStop="-2471652365" duration="20" until="619.0"/> <!-- Verdun -->
+        <stop busStop="-311564349" duration="20" until="690.0"/> <!-- De l'Église -->
+        <stop busStop="-311564344" duration="20" until="770.0"/> <!-- LaSalle -->
+        <stop busStop="-213331953" duration="20" until="851.0"/> <!-- Charlevoix -->
+        <stop busStop="-5330993593" duration="20" until="941.0"/> <!-- Lionel-Groulx -->
+        <stop busStop="213329687" duration="20" until="1119.0"/> <!-- Atwater -->
+        <stop busStop="-208949374" duration="20" until="1200.0"/> <!-- Guy-Concordia -->
+        <stop busStop="-208949381" duration="20" until="1273.0"/> <!-- Peel -->
+        <stop busStop="-208949385" duration="20" until="1338.0"/> <!-- McGill -->
+        <stop busStop="-208949390" duration="20" until="1404.0"/> <!-- Place-des-Arts -->
+        <stop busStop="-208949406" duration="20" until="1467.0"/> <!-- Saint-Laurent -->
+        <stop busStop="-5228487326" duration="20" until="1534.0"/> <!-- Berri-UQAM -->
+        <stop busStop="-213403941" duration="20" until="1604.0"/> <!-- Beaudry -->
+        <stop busStop="-213403939" duration="20" until="1674.0"/> <!-- Papineau -->
+        <stop busStop="218283857" duration="20" until="1705.0"/> <!-- Frontenac -->
+        <stop busStop="-218356337" duration="20" until="2215.0"/> <!-- Préfontaine -->
+        <stop busStop="-218356349" duration="20" until="2285.0"/> <!-- Joliette -->
+        <stop busStop="-264271702" duration="20" until="2363.0"/> <!-- Pie IX -->
+        <stop busStop="-26232890" duration="20" until="2442.0"/> <!-- Viau -->
+        <stop busStop="246654576" duration="20" until="2473.0"/> <!-- Assomption -->
+        <stop busStop="-246655684" duration="20" until="3320.0"/> <!-- Cadillac -->
+        <stop busStop="-246656707" duration="20" until="3394.0"/> <!-- Langelier -->
+        <stop busStop="-246656708" duration="20" until="3470.0"/> <!-- Radisson -->
+        <stop busStop="-246656713" duration="20" until="3549.0"/> <!-- Honoré-Beaugrand -->
+    </route>
+    <flow id="pt_bus_165-N:0" type="pt_bus" route="pt_bus_165-N:0" begin="17.0" end="86417.0" period="600" line="165-N:0" >
+        <param key="name" value="Bus 165 : Côte-des-Neiges Nord"/>
+        <param key="completeness" value="0.13"/>
+    </flow>
+    <flow id="pt_bus_144-E:0" type="pt_bus" route="pt_bus_144-E:0" begin="132.0" end="86532.0" period="600" line="144-E:0" >
+        <param key="name" value="Bus 144 : Avenue des Pins Est"/>
+        <param key="completeness" value="0.14"/>
+    </flow>
+    <flow id="pt_bus_24-E:0" type="pt_bus" route="pt_bus_24-E:0" begin="93.0" end="86493.0" period="600" line="24-E:0" >
+        <param key="name" value="Bus 24 : Sherbrooke Est"/>
+        <param key="completeness" value="0.11"/>
+    </flow>
+    <flow id="pt_bus_24-O:0" type="pt_bus" route="pt_bus_24-O:0" begin="119.0" end="86519.0" period="600" line="24-O:0" >
+        <param key="name" value="Bus 24 : Sherbrooke"/>
+        <param key="completeness" value="0.11"/>
+    </flow>
+    <flow id="pt_bus_427-E:0" type="pt_bus" route="pt_bus_427-E:0" begin="133.0" end="86533.0" period="600" line="427-E:0" >
+        <param key="name" value="Bus 427 : Express Saint-Joseph Est"/>
+        <param key="completeness" value="0.14"/>
+    </flow>
+    <flow id="pt_bus_15-E:0" type="pt_bus" route="pt_bus_15-E:0" begin="253.0" end="86653.0" period="600" line="15-E:0" >
+        <param key="name" value="Bus 15 : Sainte-Catherine Est"/>
+        <param key="completeness" value="0.22"/>
+    </flow>
+    <flow id="pt_bus_427-O:0" type="pt_bus" route="pt_bus_427-O:0" begin="136.0" end="86536.0" period="600" line="427-O:0" >
+        <param key="name" value="Bus 427 : Express Saint-Joseph Ouest"/>
+        <param key="completeness" value="0.14"/>
+    </flow>
+    <flow id="pt_bus_104-O:0" type="pt_bus" route="pt_bus_104-O:0" begin="418.0" end="86818.0" period="600" line="104-O:0" >
+        <param key="name" value="Bus 104 : Cavendish Ouest"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_bus_150-E:0" type="pt_bus" route="pt_bus_150-E:0" begin="204.0" end="86604.0" period="600" line="150-E:0" >
+        <param key="name" value="Bus 150 : René-Lévesque Est"/>
+        <param key="completeness" value="0.22"/>
+    </flow>
+    <flow id="pt_bus_108-O:0" type="pt_bus" route="pt_bus_108-O:0" begin="441.0" end="86841.0" period="600" line="108-O:0" >
+        <param key="name" value="Bus 108 : Bannantyne Ouest"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_90-O:0" type="pt_bus" route="pt_bus_90-O:0" begin="389.0" end="86789.0" period="600" line="90-O:0" >
+        <param key="name" value="Bus 90 : Saint-Jacques Ouest"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_bus_104-E:0" type="pt_bus" route="pt_bus_104-E:0" begin="422.0" end="86822.0" period="600" line="104-E:0" >
+        <param key="name" value="Bus 104 : Cavendish Est"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_138-O:0" type="pt_bus" route="pt_bus_138-O:0" begin="484.0" end="86884.0" period="600" line="138-O:0" >
+        <param key="name" value="Bus 138 : Notre-Dame-de-Grâce Ouest"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_bus_166-N:0" type="pt_bus" route="pt_bus_166-N:0" begin="485.0" end="86885.0" period="600" line="166-N:0" >
+        <param key="name" value="Bus 166 : Queen-Mary Nord"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_138-E:0" type="pt_bus" route="pt_bus_138-E:0" begin="483.0" end="86883.0" period="600" line="138-E:0" >
+        <param key="name" value="Bus 138 : Notre-Dame-de-Grâce Est"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_35-O:0" type="pt_bus" route="pt_bus_35-O:0" begin="583.0" end="86983.0" period="600" line="35-O:0" >
+        <param key="name" value="Bus 35 : Griffintown Ouest"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_35-E:0" type="pt_bus" route="pt_bus_35-E:0" begin="574.0" end="86974.0" period="600" line="35-E:0" >
+        <param key="name" value="Bus 35 : Griffintown Est"/>
+        <param key="completeness" value="0.11"/>
+    </flow>
+    <flow id="pt_bus_36-O:0" type="pt_bus" route="pt_bus_36-O:0" begin="535.0" end="86935.0" period="600" line="36-O:0" >
+        <param key="name" value="Bus 36 : Monk Ouest"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_150-O:0" type="pt_bus" route="pt_bus_150-O:0" begin="201.0" end="86601.0" period="600" line="150-O:0" >
+        <param key="name" value="Bus 150 : René-Lévesque Ouest"/>
+        <param key="completeness" value="0.29"/>
+    </flow>
+    <flow id="pt_bus_15-O:0" type="pt_bus" route="pt_bus_15-O:0" begin="303.0" end="86703.0" period="600" line="15-O:0" >
+        <param key="name" value="Bus 15 : Sainte-Catherine Ouest"/>
+        <param key="completeness" value="0.23"/>
+    </flow>
+    <flow id="pt_bus_36-E:0" type="pt_bus" route="pt_bus_36-E:0" begin="517.0" end="86917.0" period="600" line="36-E:0" >
+        <param key="name" value="Bus 36 : Monk Est"/>
+        <param key="completeness" value="0.12"/>
+    </flow>
+    <flow id="pt_bus_66-N:0" type="pt_bus" route="pt_bus_66-N:0" begin="362.0" end="86762.0" period="600" line="66-N:0" >
+        <param key="name" value="Bus 66 : Le Boulevard Nord"/>
+        <param key="completeness" value="0.17"/>
+    </flow>
+    <flow id="pt_bus_57-O:0" type="pt_bus" route="pt_bus_57-O:0" begin="326.0" end="86726.0" period="600" line="57-O:0" >
+        <param key="name" value="Bus 57 : Pointe-Saint-Charles Ouest"/>
+        <param key="completeness" value="0.23"/>
+    </flow>
+    <flow id="pt_bus_66-S:0" type="pt_bus" route="pt_bus_66-S:0" begin="353.0" end="86753.0" period="600" line="66-S:0" >
+        <param key="name" value="Bus 66 : Le Boulevard Sud"/>
+        <param key="completeness" value="0.24"/>
+    </flow>
+    <flow id="pt_bus_165-S:0" type="pt_bus" route="pt_bus_165-S:0" begin="227.0" end="86627.0" period="600" line="165-S:0" >
+        <param key="name" value="Bus 165 : Côte-des-Neiges Sud"/>
+        <param key="completeness" value="0.24"/>
+    </flow>
+    <flow id="pt_bus_166-S:0" type="pt_bus" route="pt_bus_166-S:0" begin="567.0" end="86967.0" period="600" line="166-S:0" >
+        <param key="name" value="Bus 166 : Queen-Mary Sud"/>
+        <param key="completeness" value="0.19"/>
+    </flow>
+    <flow id="pt_bus_57-E:0" type="pt_bus" route="pt_bus_57-E:0" begin="321.0" end="86721.0" period="600" line="57-E:0" >
+        <param key="name" value="Bus 57 : Pointe-Saint-Charles Est"/>
+        <param key="completeness" value="0.33"/>
+    </flow>
+    <flow id="pt_subway_1:0" type="pt_subway" route="pt_subway_1:0" begin="52.0" end="86452.0" period="600" line="1:0" >
+        <param key="name" value="Ligne verte vers Angrignon"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="pt_subway_1:1" type="pt_subway" route="pt_subway_1:1" begin="165.0" end="86565.0" period="600" line="1:1" >
+        <param key="name" value="Ligne verte vers Honoré-Beaugrand"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+</routes>

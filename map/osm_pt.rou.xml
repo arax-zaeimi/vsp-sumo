@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-09-13 07:43:12.135784 by $Id: ptlines2flows.py v1_3_1+0313-ccb31df3eb jakob.erdmann@dlr.de 2019-09-02 13:26:32 +0200 $ v1_14_1+0000-f654d7b963e
+  options: 
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="rail_urban"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_minibus" vClass="bus"/>
+    <vType id="pt_share_taxi" vClass="taxi"/>
+    <vType id="pt_aerialway" vClass="bus"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="pt_bus_103-O:0" edges="-48114747#2" >
+        <stop busStop="-4380897325" duration="20" until="31.0"/> <!-- Côte-Saint-Luc / West Hill -->
+    </route>
+    <route id="pt_bus_103-E:0" edges="1078995446#0 1078997574#0 1079005459#1 1078997586#0 1078997583#0 48114747#0 48114747#4" >
+        <stop busStop="6010969539" duration="20" until="31.0"/> <!-- Côte-Saint-Luc / Cavendish -->
+        <stop busStop="4380897324" duration="20" until="90.0"/> <!-- Côte-Saint-Luc / Randall -->
+        <stop busStop="6010965265" duration="20" until="198.0"/> <!-- Côte-Saint-Luc / West Hill -->
+        <stop busStop="4380897964" duration="20" until="248.0"/> <!-- Côte-Saint-Luc / Grand Boulevard -->
+    </route>
+    <route id="pt_bus_51-O:0" edges="464047503#0 47971512#0 1079007963#0 1079091087#0 1079087910#0 -20194995#3 -1082402417#3 -1082402419#1 -1082402420#1 -1082402402#1 -1082402395#2 -1082402393#3 -1082402379#2 -1082402374#2 -986063693#2 -1079644670#3 -980924522#3 -1082077066#2 -1082077072#1 -1082079419#1" >
+        <stop busStop="6010977521" duration="20" until="34.0"/> <!-- Queen-Mary / Macdonald -->
+        <stop busStop="6010981570" duration="20" until="102.0"/> <!-- Queen-Mary / Stratford -->
+        <stop busStop="-3152519190" duration="20" until="185.0"/> <!-- Fielding / Côte-Saint-Luc -->
+        <stop busStop="-3153668832" duration="20" until="236.0"/> <!-- Fielding / Hingston -->
+        <stop busStop="-3152519189" duration="20" until="289.0"/> <!-- Fielding / Grand Boulevard -->
+        <stop busStop="-3152516345" duration="20" until="357.0"/> <!-- Fielding / West Hill -->
+        <stop busStop="-3152516343" duration="20" until="437.0"/> <!-- Fielding / Cavendish -->
+        <stop busStop="-3152516341" duration="20" until="497.0"/> <!-- Fielding / Walkley -->
+    </route>
+    <route id="pt_bus_51-E:0" edges="1082079419#0 729931129#0 1082077066#0 980924522#0 1079644670#0 986063693#0 1082402374#0 1082402379#0 986063695#0 980924523#0 1082402392#0 1082402401#0 1082402422#0 1082402424#0 20194995#0 173966360#0 1079087911#0 1079091089#0 1079091078#0 464047495#0" >
+        <stop busStop="3152516342" duration="20" until="57.0"/> <!-- Fielding / Cavendish -->
+        <stop busStop="3152516344" duration="20" until="144.0"/> <!-- Fielding / West Hill -->
+        <stop busStop="3046699415" duration="20" until="201.0"/> <!-- Fielding / Grand Boulevard -->
+        <stop busStop="3153668833" duration="20" until="264.0"/> <!-- Fielding / Hingston -->
+        <stop busStop="3046699416" duration="20" until="317.0"/> <!-- Fielding / Côte-Saint-Luc -->
+        <stop busStop="6010975728" duration="20" until="369.0"/> <!-- Ellerdale / Queen-Mary -->
+        <stop busStop="6010971380" duration="20" until="417.0"/> <!-- Queen-Mary / Stratford -->
+        <stop busStop="3046699418" duration="20" until="496.0"/> <!-- Queen-Mary / Macdonald -->
+    </route>
+    <route id="pt_bus_17-N:0" edges="933008492#0 1079046971#2 463876576#0 142846055#0 48114762#0" >
+        <stop busStop="6010966271" duration="20" until="71.0"/> <!-- Girouard / de Terrebonne -->
+        <stop busStop="6010973103" duration="20" until="122.0"/> <!-- de Terrebonne / Côte-Saint-Luc -->
+    </route>
+    <route id="pt_bus_104-O:0" edges="1079645871 1079645872 1079644681#0 1079644686 1079644687 1079644671#0 1079644689 1079644688 1079544586#0 1079544585 1079544583 1079544584#0 1078997580#0 1078997572 1079525383#0 1079524306#0 1079525385#0" >
+        <stop busStop="6010968255" duration="20" until="60.0"/> <!-- Cavendish / Somerled -->
+        <stop busStop="6010974548" duration="20" until="121.0"/> <!-- Cavendish / Fielding -->
+        <stop busStop="6010976296" duration="20" until="190.0"/> <!-- Cavendish / Chester -->
+        <stop busStop="6010968447" duration="20" until="252.0"/> <!-- Cavendish / Côte-Saint-Luc -->
+        <stop busStop="6010969317" duration="20" until="334.0"/> <!-- Cavendish / Merton -->
+        <stop busStop="6010973727" duration="20" until="405.0"/> <!-- Cavendish / Fleet -->
+    </route>
+    <route id="pt_bus_161-E:0" edges="1079454115 453278542#0 453295841#0 453295841#2 453295841#3 477683885 475057979#0 165214086#0" >
+        <stop busStop="6010971171" duration="20" until="51.0"/> <!-- Fleet / Randall -->
+        <stop busStop="6010968225" duration="20" until="147.0"/> <!-- Fleet / Pinedale -->
+        <stop busStop="6010966010" duration="20" until="196.0"/> <!-- Fleet / Netherwood -->
+        <stop busStop="6010977293" duration="20" until="270.0"/> <!-- Fleet / Queen-Mary -->
+    </route>
+    <route id="pt_bus_138-E:0" edges="1079525384#0 47919146#0 1079524311#0 1078997581 -1079544584#1 -1079544583 -1079544585 -1079544586#2 -1079644667#2 -1079644689 -1079644668 -1079644669#2 -1079644686 -1079644685 -1079644683#5 -1079645871" >
+        <stop busStop="6010981690" duration="20" until="41.0"/> <!-- Cavendish / Merton -->
+        <stop busStop="6010978726" duration="20" until="98.0"/> <!-- Cavendish / Côte-Saint-Luc -->
+        <stop busStop="-6010979381" duration="20" until="157.0"/> <!-- Cavendish / Chester -->
+        <stop busStop="-6010969809" duration="20" until="239.0"/> <!-- Cavendish / Fielding -->
+        <stop busStop="-6010972893" duration="20" until="309.0"/> <!-- Cavendish / Somerled -->
+        <stop busStop="-6010965976" duration="20" until="377.0"/> <!-- Cavendish / de Terrebonne -->
+    </route>
+    <route id="pt_bus_17-S:0" edges="463878819#0 -142846055#3 -463876576#3 -1079046972#2 -1079046971#1" >
+        <stop busStop="-6010968466" duration="20" until="49.0"/> <!-- de Terrebonne / Earnscliffe -->
+        <stop busStop="-6010978745" duration="20" until="104.0"/> <!-- Girouard / Guillaume-Couture -->
+        <stop busStop="-2484399636" duration="20" until="146.0"/> <!-- Girouard / de Monkland -->
+    </route>
+    <route id="pt_bus_138-O:0" edges="1079644681#0 1079644686 1079644687 1079644671#0 1079644689 1079644688 1079544586#0 1079544585 1079544583 1079544584#0 1078997580#0 1078997572 1079525383#0 1079524306#0 1079525385#0" >
+        <stop busStop="6010968255" duration="20" until="31.0"/> <!-- Cavendish / Somerled -->
+        <stop busStop="6010974548" duration="20" until="93.0"/> <!-- Cavendish / Fielding -->
+        <stop busStop="6010976296" duration="20" until="163.0"/> <!-- Cavendish / Chester -->
+        <stop busStop="6010968447" duration="20" until="227.0"/> <!-- Cavendish / Côte-Saint-Luc -->
+        <stop busStop="6010969317" duration="20" until="305.0"/> <!-- Cavendish / Merton -->
+        <stop busStop="6010973727" duration="20" until="370.0"/> <!-- Cavendish / Fleet -->
+    </route>
+    <route id="pt_bus_104-E:0" edges="1079452463 1079452466 1079525384#0 47919146#0 1079524311#0 1078997581 -1079544584#1 -1079544583 -1079544585 -1079544586#2 -1079644667#2 -1079644689 -1079644668 -1079644669#2 -1079644686 -1079644685 -1079644683#5 -1079645871" >
+        <stop busStop="6010981690" duration="20" until="102.0"/> <!-- Cavendish / Merton -->
+        <stop busStop="6010978726" duration="20" until="160.0"/> <!-- Cavendish / Côte-Saint-Luc -->
+        <stop busStop="-6010979381" duration="20" until="220.0"/> <!-- Cavendish / Chester -->
+        <stop busStop="-6010969809" duration="20" until="300.0"/> <!-- Cavendish / Fielding -->
+        <stop busStop="-6010972893" duration="20" until="384.0"/> <!-- Cavendish / Somerled -->
+        <stop busStop="-6010965976" duration="20" until="451.0"/> <!-- Cavendish / de Terrebonne -->
+    </route>
+    <route id="pt_bus_162-O:0" edges="463864590 463864539 463864541#0 463864541#2 463864075#1 463864074#1 463864074#4 463864074#5 463844971 463844968 463844969#0 463844969#1 463844969#2 463844969#3" >
+        <stop busStop="3324368267" duration="20" until="44.0"/> <!-- de Monkland / Harvard -->
+        <stop busStop="3046699413" duration="20" until="95.0"/> <!-- de Monkland / de Melrose -->
+        <stop busStop="2459801755" duration="20" until="146.0"/> <!-- de Monkland / Royal -->
+        <stop busStop="5536207113" duration="20" until="203.0"/> <!-- de Monkland / Hingston -->
+        <stop busStop="3046699414" duration="20" until="256.0"/> <!-- de Monkland / Grand Boulevard -->
+        <stop busStop="6010965995" duration="20" until="313.0"/> <!-- de Monkland / Madison -->
+    </route>
+    <route id="pt_bus_102-O:0" edges="933008492#0 1079046971#2 463876421#0 -453506593#10 -453506593#6 -453506593#3 453506595#0 165214768#0 165214768#2 165214768#3 165214768#4 165214768#5 165214768#7 165214768#9 165214768#10 165214768#11 165214768#12 159034396#0 1082404464#0 1082404464#2 1082404464#3 1082404464#4 1082404464#5 1079644682#0 1079644682#3" >
+        <stop busStop="6010967509" duration="20" until="76.0"/> <!-- Girouard / Côte-Saint-Luc -->
+        <stop busStop="6010978168" duration="20" until="175.0"/> <!-- Somerled / Oxford -->
+        <stop busStop="6010972601" duration="20" until="239.0"/> <!-- Somerled / Wilson -->
+        <stop busStop="6010971165" duration="20" until="298.0"/> <!-- Somerled / Draper -->
+        <stop busStop="6010973167" duration="20" until="374.0"/> <!-- Somerled / Hingston -->
+        <stop busStop="4367816207" duration="20" until="433.0"/> <!-- Somerled / Grand Boulevard -->
+        <stop busStop="6010980116" duration="20" until="487.0"/> <!-- Somerled / Madison -->
+        <stop busStop="6010971827" duration="20" until="559.0"/> <!-- Somerled / Borden -->
+        <stop busStop="3152550117" duration="20" until="613.0"/> <!-- Somerled / Cavendish -->
+    </route>
+    <route id="pt_bus_66-S:0" edges="165214084#0 1079006201#0 1078995446#0 1078997574#0 1079005459#1 1078997586#0 1078997583#0 48114747#0 48114747#4 1079052738#0 1079052738#4 1079052738#7 1079052721#0 1082079445#0 1079052705#0 1079052705#3 1079052705#7 1079052705#11 1079052705#14 453506594#0 453506593#0 453506593#4 453506593#7 933285596 165215466#0 48114762#0" >
+        <stop busStop="6010980844" duration="20" until="31.0"/> <!-- Walkley / Côte-Saint-Luc -->
+        <stop busStop="6010969539" duration="20" until="84.0"/> <!-- Côte-Saint-Luc / Cavendish -->
+        <stop busStop="4380897324" duration="20" until="140.0"/> <!-- Côte-Saint-Luc / Randall -->
+        <stop busStop="6010965265" duration="20" until="221.0"/> <!-- Côte-Saint-Luc / West Hill -->
+        <stop busStop="4380897964" duration="20" until="271.0"/> <!-- Côte-Saint-Luc / Grand Boulevard -->
+        <stop busStop="6010964892" duration="20" until="332.0"/> <!-- Côte-Saint-Luc / Hingston -->
+        <stop busStop="6010969297" duration="20" until="385.0"/> <!-- Côte-Saint-Luc / Ellerdale -->
+        <stop busStop="6010970153" duration="20" until="441.0"/> <!-- Côte-Saint-Luc / Draper -->
+        <stop busStop="6010965245" duration="20" until="497.0"/> <!-- Côte-Saint-Luc / Wilson -->
+        <stop busStop="6010975587" duration="20" until="559.0"/> <!-- Côte-Saint-Luc / Oxford -->
+        <stop busStop="6010965913" duration="20" until="628.0"/> <!-- Côte-Saint-Luc / Girouard -->
+        <stop busStop="6010977330" duration="20" until="678.0"/> <!-- Côte-Saint-Luc / de Terrebonne -->
+    </route>
+    <route id="pt_bus_162-E:0" edges="-463844969#4 -463844969#2 -463844969#1 -463844969#0 -463844968 -463844971 -463864074#5 -463864074#4 -463864074#2 -463864075#2 -463864075#0 -463864541#1 -463864539 -463864590" >
+        <stop busStop="-6010964901" duration="20" until="71.0"/> <!-- de Monkland / Madison -->
+        <stop busStop="-6010969511" duration="20" until="124.0"/> <!-- de Monkland / Grand Boulevard -->
+        <stop busStop="-4380897966" duration="20" until="178.0"/> <!-- de Monkland / Hingston -->
+        <stop busStop="-5527782063" duration="20" until="230.0"/> <!-- de Monkland / Royal -->
+        <stop busStop="-3324368265" duration="20" until="284.0"/> <!-- de Monkland / de Melrose -->
+        <stop busStop="-3324368266" duration="20" until="359.0"/> <!-- de Monkland / Harvard -->
+    </route>
+    <route id="pt_bus_102-E:0" edges="-1079644682#3 -1079644682#2 -1082404464#9 -1082404464#4 -1082404464#3 -1082404464#2 -1082404464#1 -159034396#1 -165214768#12 -165214768#11 -165214768#10 -165214768#9 -165214768#8 -165214768#6 -165214768#4 -165214768#3 -165214768#2 -165214768#1 -453506595#2 453506593#0 453506593#4 453506593#7 -1079046970#2 -1079046972#2 -1079046971#1" >
+        <stop busStop="-3152550118" duration="20" until="52.0"/> <!-- Somerled / Cavendish -->
+        <stop busStop="-6010966388" duration="20" until="117.0"/> <!-- Somerled / Borden -->
+        <stop busStop="-6010973675" duration="20" until="181.0"/> <!-- Somerled / Madison -->
+        <stop busStop="-4367816203" duration="20" until="232.0"/> <!-- Somerled / Grand Boulevard -->
+        <stop busStop="-6010968656" duration="20" until="315.0"/> <!-- Somerled / Hampton -->
+        <stop busStop="-6010981256" duration="20" until="373.0"/> <!-- Somerled / Draper -->
+        <stop busStop="-6010967463" duration="20" until="438.0"/> <!-- Somerled / Wilson -->
+        <stop busStop="-6010965230" duration="20" until="505.0"/> <!-- Somerled / Côte-Saint-Luc -->
+        <stop busStop="6010965913" duration="20" until="590.0"/> <!-- Côte-Saint-Luc / Girouard -->
+        <stop busStop="-2484399636" duration="20" until="668.0"/> <!-- Girouard / de Monkland -->
+    </route>
+    <route id="pt_bus_66-N:0" edges="463878819#0 463878820#0 -453506593#10 -453506593#6 -453506593#3 -453506594#4 -1079052705#15 -1079052705#13 -1079052705#10 -1079052705#6 -1079052705#2 -1082079445#5 -1079052721#4 -1079052738#10 -1079052738#6 -1079052738#3 -48114747#7 -48114747#2 1079002496#0 1078997582#0 1051531395#0 1051531395#1 1051531395#2 1079544582#0 1079544582#3 1079544582#4 1051531397#0" >
+        <stop busStop="6010976188" duration="20" until="31.0"/> <!-- Côte-Saint-Luc / Earnscliffe -->
+        <stop busStop="-6010972122" duration="20" until="113.0"/> <!-- Côte-Saint-Luc / Clanranald -->
+        <stop busStop="-6010976778" duration="20" until="186.0"/> <!-- Côte-Saint-Luc / Dufferin -->
+        <stop busStop="-6010966239" duration="20" until="241.0"/> <!-- Côte-Saint-Luc / Wilson -->
+        <stop busStop="-6010970287" duration="20" until="304.0"/> <!-- Côte-Saint-Luc / Ellerdale -->
+        <stop busStop="-6010967580" duration="20" until="354.0"/> <!-- Côte-Saint-Luc / Heath -->
+        <stop busStop="-6010972743" duration="20" until="429.0"/> <!-- Côte-Saint-Luc / Grand Boulevard -->
+        <stop busStop="-4380897325" duration="20" until="487.0"/> <!-- Côte-Saint-Luc / West Hill -->
+        <stop busStop="6010971309" duration="20" until="578.0"/> <!-- Randall / Chester -->
+        <stop busStop="6010967408" duration="20" until="662.0"/> <!-- Chester / Cavendish -->
+        <stop busStop="6010973413" duration="20" until="745.0"/> <!-- Chester / Walkley -->
+        <stop busStop="6010980844@9320535" duration="20" until="807.0"/> <!-- Walkley / Côte-Saint-Luc -->
+    </route>
+    <flow id="pt_bus_103-O:0" type="pt_bus" route="pt_bus_103-O:0" begin="165.0" end="86165.0" period="600" line="103-O:0" >
+        <param key="name" value="Bus 103 : Monkland Ouest"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_bus_103-E:0" type="pt_bus" route="pt_bus_103-E:0" begin="141.0" end="86141.0" period="600" line="103-E:0" >
+        <param key="name" value="Bus 103 : Monkland Est"/>
+        <param key="completeness" value="0.20"/>
+    </flow>
+    <flow id="pt_bus_51-O:0" type="pt_bus" route="pt_bus_51-O:0" begin="3.0" end="86003.0" period="600" line="51-O:0" >
+        <param key="name" value="Bus 51 : Édouard-Montpetit Ouest"/>
+        <param key="completeness" value="0.15"/>
+    </flow>
+    <flow id="pt_bus_51-E:0" type="pt_bus" route="pt_bus_51-E:0" begin="15.0" end="86015.0" period="600" line="51-E:0" >
+        <param key="name" value="Bus 51 : Édouard-Montpetit Est"/>
+        <param key="completeness" value="0.16"/>
+    </flow>
+    <flow id="pt_bus_17-N:0" type="pt_bus" route="pt_bus_17-N:0" begin="485.0" end="86485.0" period="600" line="17-N:0" >
+        <param key="name" value="Bus 17 : Décarie Nord"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_bus_104-O:0" type="pt_bus" route="pt_bus_104-O:0" begin="253.0" end="86253.0" period="600" line="104-O:0" >
+        <param key="name" value="Bus 104 : Cavendish Ouest"/>
+        <param key="completeness" value="0.14"/>
+    </flow>
+    <flow id="pt_bus_161-E:0" type="pt_bus" route="pt_bus_161-E:0" begin="383.0" end="86383.0" period="600" line="161-E:0" >
+        <param key="name" value="Bus 161 : Van Horne Est"/>
+        <param key="completeness" value="0.09"/>
+    </flow>
+    <flow id="pt_bus_138-E:0" type="pt_bus" route="pt_bus_138-E:0" begin="326.0" end="86326.0" period="600" line="138-E:0" >
+        <param key="name" value="Bus 138 : Notre-Dame-de-Grâce Est"/>
+        <param key="completeness" value="0.14"/>
+    </flow>
+    <flow id="pt_bus_17-S:0" type="pt_bus" route="pt_bus_17-S:0" begin="535.0" end="86535.0" period="600" line="17-S:0" >
+        <param key="name" value="Bus 17 : Décarie Sud"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_138-O:0" type="pt_bus" route="pt_bus_138-O:0" begin="353.0" end="86353.0" period="600" line="138-O:0" >
+        <param key="name" value="Bus 138 : Notre-Dame-de-Grâce Ouest"/>
+        <param key="completeness" value="0.12"/>
+    </flow>
+    <flow id="pt_bus_104-E:0" type="pt_bus" route="pt_bus_104-E:0" begin="303.0" end="86303.0" period="600" line="104-E:0" >
+        <param key="name" value="Bus 104 : Cavendish Est"/>
+        <param key="completeness" value="0.14"/>
+    </flow>
+    <flow id="pt_bus_162-O:0" type="pt_bus" route="pt_bus_162-O:0" begin="406.0" end="86406.0" period="600" line="162-O:0" >
+        <param key="name" value="Bus 162 : Westminster Ouest"/>
+        <param key="completeness" value="0.15"/>
+    </flow>
+    <flow id="pt_bus_102-O:0" type="pt_bus" route="pt_bus_102-O:0" begin="132.0" end="86132.0" period="600" line="102-O:0" >
+        <param key="name" value="Bus 102 : Somerled Ouest"/>
+        <param key="completeness" value="0.35"/>
+    </flow>
+    <flow id="pt_bus_66-S:0" type="pt_bus" route="pt_bus_66-S:0" begin="52.0" end="86052.0" period="600" line="66-S:0" >
+        <param key="name" value="Bus 66 : Le Boulevard Sud"/>
+        <param key="completeness" value="0.32"/>
+    </flow>
+    <flow id="pt_bus_162-E:0" type="pt_bus" route="pt_bus_162-E:0" begin="441.0" end="86441.0" period="600" line="162-E:0" >
+        <param key="name" value="Bus 162 : Westminster Est"/>
+        <param key="completeness" value="0.18"/>
+    </flow>
+    <flow id="pt_bus_102-E:0" type="pt_bus" route="pt_bus_102-E:0" begin="131.0" end="86131.0" period="600" line="102-E:0" >
+        <param key="name" value="Bus 102 : Somerled Est"/>
+        <param key="completeness" value="0.40"/>
+    </flow>
+    <flow id="pt_bus_66-N:0" type="pt_bus" route="pt_bus_66-N:0" begin="119.0" end="86119.0" period="600" line="66-N:0" >
+        <param key="name" value="Bus 66 : Le Boulevard Nord"/>
+        <param key="completeness" value="0.34"/>
+    </flow>
+</routes>

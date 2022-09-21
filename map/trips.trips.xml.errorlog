@@ -1,0 +1,17 @@
+Warning: At actuated tlLogic 'GS_cluster_1311764315_224589339', actuated phase 2 has no controlling detector.
+Warning: At actuated tlLogic 'GS_cluster_1311764315_224589339', linkIndex 0 has no controlling detector.
+Warning: At actuated tlLogic 'GS_cluster_1311764315_224589339', linkIndex 1 has no controlling detector.
+Warning: At actuated tlLogic 'GS_cluster_220784653_612119184', linkIndex 2 has no controlling detector.
+Warning: At actuated tlLogic 'GS_cluster_220784653_612119184', linkIndex 3 has no controlling detector.
+Warning: At actuated tlLogic 'GS_cluster_220839949_228924405', actuated phase 2 has no controlling detector.
+Warning: At actuated tlLogic 'GS_cluster_220839949_228924405', linkIndex 0 has no controlling detector.
+Warning: At actuated tlLogic 'GS_cluster_224590460_611533000_612121415_9891309835_9891309837_9891776805_9891776806', actuated phase 2 has no controlling detector.
+Warning: busStop '6010977330' on lane '165215466#0_0' is too short for vehicle '4_bus_66-S:0'.
+Warning: busStop '6010967408' on lane '1051531395#2_0' is too short for vehicle '5_bus_66-N:0'.
+Warning: busStop '-6010973675' on lane '-1082404464#2_0' is too short for vehicle '6_bus_102-E:0'.
+Warning: busStop '-6010968656' on lane '-165214768#9_0' is too short for vehicle '6_bus_102-E:0'.
+Warning: busStop '-6010967463' on lane '-165214768#3_0' is too short for vehicle '6_bus_102-E:0'.
+Warning: busStop '6010971827' on lane '1082404464#3_0' is too short for vehicle '7_bus_102-O:0'.
+Warning: busStop '-6010965976' on lane '-1079645871_0' is too short for vehicle '11_bus_104-E:0'.
+Warning: busStop '6010968225' on lane '453295841#2_0' is too short for vehicle '14_bus_161-E:0'.
+Warning: 12 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.

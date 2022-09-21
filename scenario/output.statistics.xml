@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-09-18 21:03:09 by Eclipse SUMO GUI Version 1.14.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Dev\vsp-sumo\scenario\osm.net.xml"/>
+        <route-files value="C:\Dev\vsp-sumo\scenario\osm_activitygen.merged.rou.xml,C:\Dev\vsp-sumo\scenario\osm_pt.rou.xml"/>
+        <additional-files value="C:\Dev\vsp-sumo\scenario\osm_polygons.add.xml,C:\Dev\vsp-sumo\scenario\basic.vType.xml,C:\Dev\vsp-sumo\scenario\osm_stops.add.xml,C:\Dev\vsp-sumo\scenario\osm_complete_parking_areas.add.xml,C:\Dev\vsp-sumo\scenario\osm_parking_rerouters.add.xml,C:\Dev\vsp-sumo\scenario\osm_taxi_stands.add.xml,C:\Dev\vsp-sumo\scenario\osm_taxi_rerouters.add.xml"/>
+    </input>
+
+    <output>
+        <output-prefix value="output."/>
+        <summary-output value="C:\Dev\vsp-sumo\scenario\summary.xml"/>
+        <person-summary-output value="C:\Dev\vsp-sumo\scenario\person.summary.xml"/>
+        <tripinfo-output value="C:\Dev\vsp-sumo\scenario\tripinfo.xml"/>
+        <tripinfo-output.write-unfinished value="false"/>
+        <statistic-output value="C:\Dev\vsp-sumo\scenario\statistics.xml"/>
+    </output>
+
+    <time>
+        <begin value="30000"/>
+        <end value="35000"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0.8"/>
+        <ignore-junction-blocker value="60"/>
+        <ignore-route-errors value="true"/>
+        <collision.action value="teleport"/>
+        <time-to-teleport value="300"/>
+        <max-depart-delay value="900"/>
+        <time-to-impatience value="120"/>
+        <parking.maneuver value="true"/>
+        <pedestrian.model value="striping"/>
+        <pedestrian.striping.stripe-width value="0.55"/>
+        <pedestrian.striping.dawdling value="0.2"/>
+        <pedestrian.striping.jamtime value="60"/>
+        <pedestrian.striping.jamtime.crossing value="10"/>
+        <pedestrian.striping.reserve-oncoming value="0.25"/>
+        <pedestrian.striping.reserve-oncoming.junctions value="0.34"/>
+        <ride.stop-tolerance value="25"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="astar"/>
+        <persontrip.walkfactor value="0.75"/>
+        <persontrip.transfer.car-walk value="parkingAreas,allJunctions"/>
+        <persontrip.transfer.taxi-walk value="parkingAreas,allJunctions"/>
+        <persontrip.transfer.walk-taxi value="parkingAreas,allJunctions"/>
+        <persontrip.taxi.waiting-time value="300"/>
+        <device.rerouting.probability value="1"/>
+        <device.rerouting.period value="300"/>
+        <device.rerouting.pre-period value="300"/>
+        <device.rerouting.bike-speeds value="true"/>
+        <person-device.rerouting.probability value="1"/>
+        <person-device.rerouting.period value="300"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="false"/>
+        <error-log value="errors.txt"/>
+        <duration-log.disable value="false"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="false"/>
+    </report>
+
+    <taxi_device>
+        <device.taxi.dispatch-algorithm value="greedy"/>
+        <device.taxi.dispatch-algorithm.output value="C:\Dev\vsp-sumo\scenario\taxi.dispatch.xml"/>
+        <device.taxi.dispatch-period value="60"/>
+        <device.taxi.idle-algorithm value="stop"/>
+        <device.taxi.idle-algorithm.output value="C:\Dev\vsp-sumo\scenario\taxi.idle.xml"/>
+    </taxi_device>
+
+    <traci_server>
+        <remote-port value="8883"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="42"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="C:\Dev\vsp-sumo\scenario\default-gui.xml"/>
+        <start value="true"/>
+        <delay value="0"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <vehicles loaded="679" inserted="339" running="189" waiting="3"/>
+    <teleports total="25" jam="0" yield="5" wrongLane="11"/>
+    <safety collisions="9" emergencyStops="0"/>
+    <persons loaded="240" running="235" jammed="2"/>
+    <vehicleTripStatistics routeLength="814.67" speed="2.34" duration="376.55" waitingTime="118.15" timeLoss="177.78" departDelay="3.95" departDelayWaiting="-1.00" totalTravelTime="56483.00" totalDepartDelay="593.00"/>
+    <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>

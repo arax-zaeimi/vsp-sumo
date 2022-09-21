@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-09-13 07:43:10 by Eclipse SUMO netconvert Version 1.14.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="C:\Program%20Files%20(x86)\Eclipse\Sumo\data\typemap\osmNetconvert.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <edge_removal>
+        <keep-edges.by-vclass value="passenger,bus,tram,rail_urban,rail"/>
+    </edge_removal>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<ptLines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/ptlines_file.xsd">
+    <ptLine id="2323156" name="Bus 51 : Édouard-Montpetit Ouest" line="51-O" type="bus" vClass="bus" completeness="0.15">
+        <route edges="464047503#0 47971512#0 1079007963#0 1079091087#0 1079087910#0 -20194995#3 -1082402417#3 -1082402419#1 -1082402420#1 -1082402402#1 -1082402395#2 -1082402393#3 -1082402379#2 -1082402374#2 -986063693#2 -1079644670#3 -980924522#3 -1082077066#2 -1082077072#1 -1082079419#1"/>
+        <busStop id="6010977521" name="Queen-Mary / Macdonald"/>
+        <busStop id="6010981570" name="Queen-Mary / Stratford"/>
+        <busStop id="-3152519190" name="Fielding / Côte-Saint-Luc"/>
+        <busStop id="-3153668832" name="Fielding / Hingston"/>
+        <busStop id="-3152519189" name="Fielding / Grand Boulevard"/>
+        <busStop id="-3152516345" name="Fielding / West Hill"/>
+        <busStop id="-3152516343" name="Fielding / Cavendish"/>
+        <busStop id="-3152516341" name="Fielding / Walkley"/>
+    </ptLine>
+    <ptLine id="2323229" name="Bus 51 : Édouard-Montpetit Est" line="51-E" type="bus" vClass="bus" completeness="0.16">
+        <route edges="1082079419#0 729931129#0 1082077066#0 980924522#0 1079644670#0 986063693#0 1082402374#0 1082402379#0 986063695#0 980924523#0 1082402392#0 1082402401#0 1082402422#0 1082402424#0 20194995#0 173966360#0 1079087911#0 1079091089#0 1079091078#0 464047495#0"/>
+        <busStop id="3152516342" name="Fielding / Cavendish"/>
+        <busStop id="3152516344" name="Fielding / West Hill"/>
+        <busStop id="3046699415" name="Fielding / Grand Boulevard"/>
+        <busStop id="3153668833" name="Fielding / Hingston"/>
+        <busStop id="3046699416" name="Fielding / Côte-Saint-Luc"/>
+        <busStop id="6010975728" name="Ellerdale / Queen-Mary"/>
+        <busStop id="6010971380" name="Queen-Mary / Stratford"/>
+        <busStop id="3046699418" name="Queen-Mary / Macdonald"/>
+    </ptLine>
+    <ptLine id="9320526" name="Bus 63 : Girouard Nord" line="63-N" type="bus" vClass="bus" completeness="0.00"/>
+    <ptLine id="9320527" name="Bus 63 : Girouard Sud" line="63-S" type="bus" vClass="bus" completeness="0.00"/>
+    <ptLine id="9320534" name="Bus 66 : Le Boulevard Sud" line="66-S" type="bus" vClass="bus" completeness="0.32">
+        <route edges="165214084#0 1079006201#0 1078995446#0 1078997574#0 1079005459#1 1078997586#0 1078997583#0 48114747#0 48114747#4 1079052738#0 1079052738#4 1079052738#7 1079052721#0 1082079445#0 1079052705#0 1079052705#3 1079052705#7 1079052705#11 1079052705#14 453506594#0 453506593#0 453506593#4 453506593#7 933285596 165215466#0 48114762#0"/>
+        <busStop id="6010980844" name="Walkley / Côte-Saint-Luc"/>
+        <busStop id="6010969539" name="Côte-Saint-Luc / Cavendish"/>
+        <busStop id="4380897324" name="Côte-Saint-Luc / Randall"/>
+        <busStop id="6010965265" name="Côte-Saint-Luc / West Hill"/>
+        <busStop id="4380897964" name="Côte-Saint-Luc / Grand Boulevard"/>
+        <busStop id="6010964892" name="Côte-Saint-Luc / Hingston"/>
+        <busStop id="6010969297" name="Côte-Saint-Luc / Ellerdale"/>
+        <busStop id="6010970153" name="Côte-Saint-Luc / Draper"/>
+        <busStop id="6010965245" name="Côte-Saint-Luc / Wilson"/>
+        <busStop id="6010975587" name="Côte-Saint-Luc / Oxford"/>
+        <busStop id="6010965913" name="Côte-Saint-Luc / Girouard"/>
+        <busStop id="6010977330" name="Côte-Saint-Luc / de Terrebonne"/>
+    </ptLine>
+    <ptLine id="9320535" name="Bus 66 : Le Boulevard Nord" line="66-N" type="bus" vClass="bus" completeness="0.34">
+        <route edges="463878819#0 463878820#0 -453506593#10 -453506593#6 -453506593#3 -453506594#4 -1079052705#15 -1079052705#13 -1079052705#10 -1079052705#6 -1079052705#2 -1082079445#5 -1079052721#4 -1079052738#10 -1079052738#6 -1079052738#3 -48114747#7 -48114747#2 1079002496#0 1078997582#0 1051531395#0 1051531395#1 1051531395#2 1079544582#0 1079544582#3 1079544582#4 1051531397#0"/>
+        <busStop id="6010976188" name="Côte-Saint-Luc / Earnscliffe"/>
+        <busStop id="-6010972122" name="Côte-Saint-Luc / Clanranald"/>
+        <busStop id="-6010976778" name="Côte-Saint-Luc / Dufferin"/>
+        <busStop id="-6010966239" name="Côte-Saint-Luc / Wilson"/>
+        <busStop id="-6010970287" name="Côte-Saint-Luc / Ellerdale"/>
+        <busStop id="-6010967580" name="Côte-Saint-Luc / Heath"/>
+        <busStop id="-6010972743" name="Côte-Saint-Luc / Grand Boulevard"/>
+        <busStop id="-4380897325" name="Côte-Saint-Luc / West Hill"/>
+        <busStop id="6010971309" name="Randall / Chester"/>
+        <busStop id="6010967408" name="Chester / Cavendish"/>
+        <busStop id="6010973413" name="Chester / Walkley"/>
+        <busStop id="6010980844@9320535" name="Walkley / Côte-Saint-Luc"/>
+    </ptLine>
+    <ptLine id="9320654" name="Bus 102 : Somerled Est" line="102-E" type="bus" vClass="bus" completeness="0.40">
+        <route edges="-1079644682#3 -1079644682#2 -1082404464#9 -1082404464#4 -1082404464#3 -1082404464#2 -1082404464#1 -159034396#1 -165214768#12 -165214768#11 -165214768#10 -165214768#9 -165214768#8 -165214768#6 -165214768#4 -165214768#3 -165214768#2 -165214768#1 -453506595#2 453506593#0 453506593#4 453506593#7 -1079046970#2 -1079046972#2 -1079046971#1"/>
+        <busStop id="-3152550118" name="Somerled / Cavendish"/>
+        <busStop id="-6010966388" name="Somerled / Borden"/>
+        <busStop id="-6010973675" name="Somerled / Madison"/>
+        <busStop id="-4367816203" name="Somerled / Grand Boulevard"/>
+        <busStop id="-6010968656" name="Somerled / Hampton"/>
+        <busStop id="-6010981256" name="Somerled / Draper"/>
+        <busStop id="-6010967463" name="Somerled / Wilson"/>
+        <busStop id="-6010965230" name="Somerled / Côte-Saint-Luc"/>
+        <busStop id="6010965913" name="Côte-Saint-Luc / Girouard"/>
+        <busStop id="-2484399636" name="Girouard / de Monkland"/>
+    </ptLine>
+    <ptLine id="9320655" name="Bus 102 : Somerled Ouest" line="102-O" type="bus" vClass="bus" completeness="0.35">
+        <route edges="933008492#0 1079046971#2 463876421#0 -453506593#10 -453506593#6 -453506593#3 453506595#0 165214768#0 165214768#2 165214768#3 165214768#4 165214768#5 165214768#7 165214768#9 165214768#10 165214768#11 165214768#12 159034396#0 1082404464#0 1082404464#2 1082404464#3 1082404464#4 1082404464#5 1079644682#0 1079644682#3"/>
+        <busStop id="6010967509" name="Girouard / Côte-Saint-Luc"/>
+        <busStop id="6010978168" name="Somerled / Oxford"/>
+        <busStop id="6010972601" name="Somerled / Wilson"/>
+        <busStop id="6010971165" name="Somerled / Draper"/>
+        <busStop id="6010973167" name="Somerled / Hingston"/>
+        <busStop id="4367816207" name="Somerled / Grand Boulevard"/>
+        <busStop id="6010980116" name="Somerled / Madison"/>
+        <busStop id="6010971827" name="Somerled / Borden"/>
+        <busStop id="3152550117" name="Somerled / Cavendish"/>
+    </ptLine>
+    <ptLine id="9320658" name="Bus 103 : Monkland Est" line="103-E" type="bus" vClass="bus" completeness="0.20">
+        <busStop id="6010969539" name="Côte-Saint-Luc / Cavendish"/>
+        <busStop id="4380897324" name="Côte-Saint-Luc / Randall"/>
+        <busStop id="6010965265" name="Côte-Saint-Luc / West Hill"/>
+        <busStop id="4380897964" name="Côte-Saint-Luc / Grand Boulevard"/>
+    </ptLine>
+    <ptLine id="9320659" name="Bus 103 : Monkland Ouest" line="103-O" type="bus" vClass="bus" completeness="0.04">
+        <busStop id="-4380897325" name="Côte-Saint-Luc / West Hill"/>
+    </ptLine>
+    <ptLine id="9320689" name="Bus 104 : Cavendish Ouest" line="104-O" type="bus" vClass="bus" completeness="0.14">
+        <route edges="1079645871 1079645872 1079644681#0 1079644686 1079644687 1079644671#0 1079644689 1079644688 1079544586#0 1079544585 1079544583 1079544584#0 1078997580#0 1078997572 1079525383#0 1079524306#0 1079525385#0"/>
+        <busStop id="6010968255" name="Cavendish / Somerled"/>
+        <busStop id="6010974548" name="Cavendish / Fielding"/>
+        <busStop id="6010976296" name="Cavendish / Chester"/>
+        <busStop id="6010968447" name="Cavendish / Côte-Saint-Luc"/>
+        <busStop id="6010969317" name="Cavendish / Merton"/>
+        <busStop id="6010973727" name="Cavendish / Fleet"/>
+    </ptLine>
+    <ptLine id="9320690" name="Bus 104 : Cavendish Est" line="104-E" type="bus" vClass="bus" completeness="0.14">
+        <route edges="1079452463 1079452466 1079525384#0 47919146#0 1079524311#0 1078997581 -1079544584#1 -1079544583 -1079544585 -1079544586#2 -1079644667#2 -1079644689 -1079644668 -1079644669#2 -1079644686 -1079644685 -1079644683#5 -1079645871"/>
+        <busStop id="6010981690" name="Cavendish / Merton"/>
+        <busStop id="6010978726" name="Cavendish / Côte-Saint-Luc"/>
+        <busStop id="-6010979381" name="Cavendish / Chester"/>
+        <busStop id="-6010969809" name="Cavendish / Fielding"/>
+        <busStop id="-6010972893" name="Cavendish / Somerled"/>
+        <busStop id="-6010965976" name="Cavendish / de Terrebonne"/>
+    </ptLine>
+    <ptLine id="9320775" name="Bus 138 : Notre-Dame-de-Grâce Est" line="138-E" type="bus" vClass="bus" completeness="0.14">
+        <busStop id="6010981690" name="Cavendish / Merton"/>
+        <busStop id="6010978726" name="Cavendish / Côte-Saint-Luc"/>
+        <busStop id="-6010979381" name="Cavendish / Chester"/>
+        <busStop id="-6010969809" name="Cavendish / Fielding"/>
+        <busStop id="-6010972893" name="Cavendish / Somerled"/>
+        <busStop id="-6010965976" name="Cavendish / de Terrebonne"/>
+    </ptLine>
+    <ptLine id="9320776" name="Bus 138 : Notre-Dame-de-Grâce Ouest" line="138-O" type="bus" vClass="bus" completeness="0.12">
+        <busStop id="6010968255" name="Cavendish / Somerled"/>
+        <busStop id="6010974548" name="Cavendish / Fielding"/>
+        <busStop id="6010976296" name="Cavendish / Chester"/>
+        <busStop id="6010968447" name="Cavendish / Côte-Saint-Luc"/>
+        <busStop id="6010969317" name="Cavendish / Merton"/>
+        <busStop id="6010973727" name="Cavendish / Fleet"/>
+    </ptLine>
+    <ptLine id="9320787" name="Bus 161 : Van Horne Est" line="161-E" type="bus" vClass="bus" completeness="0.09">
+        <route edges="1079454115 453278542#0 453295841#0 453295841#2 453295841#3 477683885 475057979#0 165214086#0"/>
+        <busStop id="6010971171" name="Fleet / Randall"/>
+        <busStop id="6010968225" name="Fleet / Pinedale"/>
+        <busStop id="6010966010" name="Fleet / Netherwood"/>
+        <busStop id="6010977293" name="Fleet / Queen-Mary"/>
+    </ptLine>
+    <ptLine id="9320788" name="Bus 161 : Van Horne Ouest" line="161-O" type="bus" vClass="bus" completeness="0.00"/>
+    <ptLine id="9320790" name="Bus 162 : Westminster Ouest" line="162-O" type="bus" vClass="bus" completeness="0.15">
+        <route edges="463864590 463864539 463864541#0 463864541#2 463864075#1 463864074#1 463864074#4 463864074#5 463844971 463844968 463844969#0 463844969#1 463844969#2 463844969#3"/>
+        <busStop id="3324368267" name="de Monkland / Harvard"/>
+        <busStop id="3046699413" name="de Monkland / de Melrose"/>
+        <busStop id="2459801755" name="de Monkland / Royal"/>
+        <busStop id="5536207113" name="de Monkland / Hingston"/>
+        <busStop id="3046699414" name="de Monkland / Grand Boulevard"/>
+        <busStop id="6010965995" name="de Monkland / Madison"/>
+    </ptLine>
+    <ptLine id="9320791" name="Bus 162 : Westminster Est" line="162-E" type="bus" vClass="bus" completeness="0.18">
+        <route edges="-463844969#4 -463844969#2 -463844969#1 -463844969#0 -463844968 -463844971 -463864074#5 -463864074#4 -463864074#2 -463864075#2 -463864075#0 -463864541#1 -463864539 -463864590"/>
+        <busStop id="-6010964901" name="de Monkland / Madison"/>
+        <busStop id="-6010969511" name="de Monkland / Grand Boulevard"/>
+        <busStop id="-4380897966" name="de Monkland / Hingston"/>
+        <busStop id="-5527782063" name="de Monkland / Royal"/>
+        <busStop id="-3324368265" name="de Monkland / de Melrose"/>
+        <busStop id="-3324368266" name="de Monkland / Harvard"/>
+    </ptLine>
+    <ptLine id="9320797" name="Bus 166 : Queen-Mary Sud" line="166-S" type="bus" vClass="bus" completeness="0.00"/>
+    <ptLine id="9321006" name="Bus 17 : Décarie Nord" line="17-N" type="bus" vClass="bus" completeness="0.05">
+        <route edges="933008492#0 1079046971#2 463876576#0 142846055#0 48114762#0"/>
+        <busStop id="6010966271" name="Girouard / de Terrebonne"/>
+        <busStop id="6010973103" name="de Terrebonne / Côte-Saint-Luc"/>
+    </ptLine>
+    <ptLine id="9321007" name="Bus 17 : Décarie Sud" line="17-S" type="bus" vClass="bus" completeness="0.08">
+        <route edges="463878819#0 -142846055#3 -463876576#3 -1079046972#2 -1079046971#1"/>
+        <busStop id="-6010968466" name="de Terrebonne / Earnscliffe"/>
+        <busStop id="-6010978745" name="Girouard / Guillaume-Couture"/>
+        <busStop id="-2484399636" name="Girouard / de Monkland"/>
+    </ptLine>
+</ptLines>
