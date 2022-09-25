@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2022-09-14 21:18:43 by Eclipse SUMO netconvert Version 1.14.1
+<!-- generated on 2022-09-25 14:36:44 by Eclipse SUMO netconvert Version 1.14.1
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -106,21 +106,26 @@
 -->
 
 <ptLines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/ptlines_file.xsd">
-    <ptLine id="2695857" name="Bus 747 : YUL Aéroport Montréal-Trudeau / Centre-Ville Est" line="747-E" type="bus" vClass="bus" completeness="0.08">
-        <route edges="1051822951#0 1051822951#2 1051822951#3 1051822951#4 1051822951#5 1051822951#7 1051822951#8 1051822951#9 -111771067#5 -111771067#4 -111771067#3 -111771067#2 -111771067#1 -465656094#1 -465656094#0 -111771070 -41258976#4 -41258976#3 -41258976#2 455083980#0 455083970#1 41258971#1 546047308#0 546047308#1 134811808#1"/>
+    <ptLine id="12659385" name="Bus 747 : YUL Aéroport Montréal-Trudeau / Lionel-Groulx" line="747-E" type="bus" vClass="bus" completeness="0.00">
+        <route edges="792160913#0 792160913#1"/>
+    </ptLine>
+    <ptLine id="2695857" name="Bus 747 : YUL Aéroport Montréal-Trudeau / Centre-Ville Est" line="747-E" type="bus" vClass="bus" completeness="0.15">
+        <route edges="792160913#0 792160913#1 200638843#1 200638843#2 1051822951#0 1051822951#1 1051822951#4 1051822951#5 1051822951#6 1051822951#7 1051822951#8 1051822951#10 1051822951#11 1051822951#12 -111771067#5 -111771067#4 -111771067#3 -111771067#2 -111771067#1 -465656094#1 -465656094#0 -111771070 -41258976#4 -41258976#3 -41258976#2 455083980#0 455083970#1 41258971#1 546047308#0 546047308#1 134811808#1"/>
+        <busStop id="2106085874" name="Station de métro Lionel-Groulx"/>
         <busStop id="-6010970018" name="Guy / René-Lévesque"/>
     </ptLine>
     <ptLine id="2695858" name="Bus 747 : YUL Aéroport Montréal-Trudeau / Centre-Ville Ouest" line="747-O" type="bus" vClass="bus" completeness="0.07">
-        <route edges="465649965#0 546047309#1 546047309#2 455083984#1 455083984#2 455083979#1 455083981#1 330153472#0 330153472#1 330153472#2 465653665#1 463825906#1 463825907#1 463825907#2 337432401#0 337432401#1 337432401#3 337432401#4 337432401#5 337432401#6 200638835#0"/>
+        <route edges="465649965#0 546047309#1 546047309#2 455083984#1 455083984#2 455083979#1 455083981#1 330153472#1 330153472#2 465653665#1 463825906#1 463825907#1 463825907#2 337432401#0 337432401#1 337432401#3 337432401#4 337432401#5 337432401#6 200638835#0 200638835#2 200638835#3 463671314#0 463671314#1 509777718#1"/>
         <busStop id="4030794085" name="René-Lévesque / Bishop"/>
     </ptLine>
     <ptLine id="270251" name="Ligne orange vers Montmorency" line="2" type="subway" vClass="rail_urban" color="208,109,7" completeness="0.00"/>
-    <ptLine id="270263" name="Bus 165 : Côte-des-Neiges Nord" line="165-N" type="bus" vClass="bus" completeness="0.13">
-        <route edges="-165217827#4 -165217827#3 -165217827#2 -165217827#1 -41258974#2 -41258974#1 -41258974#0 -143920958#3 -143920958#2 -143920958#1 -143920958#0 4872827 453745825#0 453745825#1 165217806 727849147"/>
+    <ptLine id="270263" name="Bus 165 : Côte-des-Neiges Nord" line="165-N" type="bus" vClass="bus" completeness="0.16">
+        <route edges="-165217827#4 -165217827#3 -165217827#2 -165217827#1 -41258974#2 -41258974#1 -41258974#0 -143920958#3 -143920958#2 -143920958#1 -143920958#0 4872827 453745825#0 453745825#1 165217806 727849147#0 727849147#1"/>
         <busStop id="-504318025" name="Station Guy-Concordia (Guy / De Maisonneuve)"/>
         <busStop id="-6010971144" name="Côte-des-Neiges / Sherbrooke"/>
         <busStop id="-1457825329" name="Côte-des-Neiges / Summerhill"/>
         <busStop id="1457813196" name="Côte-des-Neiges / du Docteur-Penfield"/>
+        <busStop id="6010966218" name="Hôpital général (des Pins/Côte-des-Neiges)"/>
     </ptLine>
     <ptLine id="3228499" name="Ligne orange vers Côte-Vertu" line="2" type="subway" vClass="rail_urban" color="208,109,7" completeness="0.00"/>
     <ptLine id="3228500" name="Ligne verte vers Angrignon" line="1" type="subway" vClass="rail_urban" color="95,140,85" completeness="1.00">
@@ -153,49 +158,67 @@
         <busStop id="-225690774" name="Monk"/>
         <busStop id="311564466" name="Angrignon"/>
     </ptLine>
-    <ptLine id="3534868" name="Bus 107 : Verdun Nord" line="107-N" type="bus" vClass="bus" completeness="0.02">
-        <route edges="37722302#0 354710422#0 354710422#1 354710422#2"/>
+    <ptLine id="3534868" name="Bus 107 : Verdun Nord" line="107-N" type="bus" vClass="bus" completeness="0.20">
+        <route edges="1042467978#0 1042467978#1 1042470293#0 1042470293#1 1042470293#2 1042470291 263213892 561511406 37722304 41651789#0 41651789#1 129587033 914737889#1 914737889#2 455718964#0 455712869#1 455712867#1 456353760#1 37722302#1 354710422#0 354710422#1"/>
+        <busStop id="2091616663" name="du Centre / de la Sucrerie"/>
+        <busStop id="2687686469" name="du Centre / Wellington"/>
+        <busStop id="2687686489" name="Wellington / Bridge"/>
+        <busStop id="5754358290" name="Wellington / Young"/>
+        <busStop id="5754358294" name="Peel / Wellington"/>
+        <busStop id="427618244" name="Peel / Ottawa"/>
+        <busStop id="427618243" name="Peel / Notre-Dame"/>
         <busStop id="427618242" name="Peel / Saint-Jacques"/>
     </ptLine>
-    <ptLine id="3545688" name="Bus 107 : Verdun Sud" line="107-S" type="bus" vClass="bus" completeness="0.02">
-        <route edges="-354710422#2 -354710422#1 -354710422#0 -37722302#1"/>
+    <ptLine id="3545688" name="Bus 107 : Verdun Sud" line="107-S" type="bus" vClass="bus" completeness="0.19">
+        <route edges="-354710422#1 -354710422#0 -37722302#1 -456353760#1 -455712867#1 -455712869#1 -455718964#0 492899793#0 492899793#1 129587031 -352905266 -41651789#0 -37722304 561511409 -263213892 -1042470291 -1042470293#2 -1042470293#1 -1042470293#0 -1042467978#1 -1042467978#0"/>
         <busStop id="-6010969844" name="Peel / Saint-Jacques"/>
+        <busStop id="-427618245" name="École de technologie supérieure (Peel/Notre-Dame)"/>
+        <busStop id="-5754358296" name="Peel / Ottawa"/>
+        <busStop id="-5754358295" name="Peel / Wellington"/>
+        <busStop id="5754358289" name="Wellington / Murray"/>
+        <busStop id="-2687686486" name="Wellington / Bridge"/>
+        <busStop id="-2701338580" name="du Centre / De Condé"/>
+        <busStop id="-2091616661" name="du Centre / de la Sucrerie"/>
     </ptLine>
     <ptLine id="4588171" name="Bus 24 : Sherbrooke Est" line="24-E" type="bus" vClass="bus" completeness="0.11">
-        <route edges="329067231#0 329067231#2 561490751#0 561490751#2 561490749 561490748#0 561490748#1 465408864#0 465408864#3 465408864#4 465408857#0 465408857#1 465408857#2 465408857#3 465408862#1 465408862#2 465408862#3 465408862#4 465411711#1 165217870#1 165217870#2 465408860#0 465408860#1"/>
+        <route edges="329067231#0 329067231#1 329067231#2 329067231#3 329067231#4 329067231#5 561490751#0 561490751#2 561490749 561490748#0 561490748#1 465408864#0 465408864#3 465408864#4 465408857#0 465408857#1 465408857#2 465408857#3 465408862#1 465408862#2 465408862#3 465408862#4 465411711#1 165217870#1 165217870#2 465408860#0 465408860#1"/>
         <busStop id="6010981247" name="Sherbrooke / Atwater"/>
         <busStop id="6010979145" name="Sherbrooke / Chomedey"/>
         <busStop id="6010971302" name="Sherbrooke / Saint-Marc"/>
         <busStop id="6010965396" name="Sherbrooke / Saint-Mathieu"/>
         <busStop id="6010964910" name="Sherbrooke / Côte-des-Neiges"/>
     </ptLine>
-    <ptLine id="4588172" name="Bus 24 : Sherbrooke" line="24-O" type="bus" vClass="bus" completeness="0.11">
-        <route edges="-465408860#2 -465408860#0 -165217870#2 -165217870#1 -465411712#0 -465408862#4 -465408862#3 -465408862#2 -465408862#1 -465408857#3 -465408857#2 -465408857#1 -465408857#0 -465408864#4 -465408864#3 -465408864#0 561490750#0 561490750#2 561490747 561490746#0 561490746#1 -329067231#2 -329067231#1"/>
+    <ptLine id="4588172" name="Bus 24 : Sherbrooke" line="24-O" type="bus" vClass="bus" completeness="0.13">
+        <route edges="-465408860#2 -465408860#0 -165217870#2 -165217870#1 -465411712#0 -465408862#4 -465408862#3 -465408862#2 -465408862#1 -465408857#3 -465408857#2 -465408857#1 -465408857#0 -465408864#4 -465408864#3 -465408864#0 561490750#0 561490750#2 561490747 561490746#0 561490746#1 -329067231#5 -329067231#4 -329067231#3 -329067231#2 -329067231#1 -329067231#0"/>
         <busStop id="-6010970054" name="Sherbrooke / Côte-des-Neiges"/>
         <busStop id="-6010971829" name="Sherbrooke / Saint-Mathieu"/>
         <busStop id="-6010981492" name="Sherbrooke / Saint-Marc"/>
         <busStop id="-6010981038" name="Sherbrooke / Chomedey"/>
         <busStop id="6010968874" name="Sherbrooke / Atwater"/>
+        <busStop id="-6010980155" name="Collège Dawson (Sherbrooke/No 3040)"/>
     </ptLine>
-    <ptLine id="4616805" name="Bus 144 : Avenue des Pins Ouest" line="144-O" type="bus" vClass="bus" completeness="0.05">
-        <route edges="465159976 465159973 727849147 918602131#1 165264481#2 561490744 453745797#0 453745797#1 474841415#0 474841415#1 453949527 165217770#0 165217839#0 165217839#2"/>
+    <ptLine id="4616805" name="Bus 144 : Avenue des Pins Ouest" line="144-O" type="bus" vClass="bus" completeness="0.10">
+        <route edges="465159976 465159973 727849147#0 727849147#1 48680974#0 329694550 165217772#0 165217772#1 -453745799 -165217769 -453745794#2 -453745794#1 165264481#0 165264481#2 561490744 453745797#0 453745797#1 474841415#0 474841415#1 453949527 165217770#0 165217839#0 165217839#2"/>
         <busStop id="6010980478" name="Hôpital général (des Pins/Côte-des-Neiges)"/>
+        <busStop id="6010967053" name="Atwater / Saint-Sulpice"/>
     </ptLine>
-    <ptLine id="4616808" name="Bus 144 : Avenue des Pins Est" line="144-E" type="bus" vClass="bus" completeness="0.14">
-        <route edges="329694559#0 329694559#1 329694559#2 329694559#3 231387459 453949528 474841418#0 474841418#1 165217771#2 918602130 918602131#0 918602131#1 329693416 453745802 465401966"/>
+    <ptLine id="4616808" name="Bus 144 : Avenue des Pins Est" line="144-E" type="bus" vClass="bus" completeness="0.24">
+        <route edges="329694559#0 329694559#1 329694559#2 329694559#3 231387459 453949528 474841418#0 474841418#1 165217771#2 918602130 918602131#0 918602131#1 453745794#1 453745794#2 165217769 453745799 143920959#0 143920959#1 329693416 453745802 465401966"/>
         <busStop id="6010967076" name="Station Atwater (Atwater / Tupper)"/>
         <busStop id="6010974370" name="Atwater / Lincoln"/>
         <busStop id="6010978061" name="Atwater / Sherbrooke"/>
+        <busStop id="6010970373" name="Atwater / Picquet"/>
+        <busStop id="6010965736" name="Atwater / du Docteur-Penfield"/>
     </ptLine>
     <ptLine id="4626928" name="Bus 427 : Express Saint-Joseph Est" line="427-E" type="bus" vClass="bus" completeness="0.14">
-        <route edges="330150736#0 330150736#1 330150434#0 330150434#1 330150434#2 330150434#5 330150434#6 330150434#7 330150434#8 1051530916#0 41258973#1 41258973#2 41258973#4 455083980#0 455083970#1 41258971#1 546047308#0 546047308#1 134811808#1"/>
+        <route edges="330150736#0 330150736#1 330150434#0 330150434#1 330150434#2 330150434#5 330150434#6 330150434#7 330150434#8 1051530916#0 41258973#1 41258973#2 455083980#0 455083970#1 41258971#1 546047308#0 546047308#1 134811808#1"/>
         <busStop id="6010966040" name="Station Guy-Concordia (Maisonneuve / St-Mathieu)"/>
         <busStop id="6010977969" name="Saint-Mathieu / Sainte-Catherine"/>
         <busStop id="6010971108" name="René-Lévesque / Guy"/>
         <busStop id="6010975333" name="René-Lévesque / Bishop"/>
     </ptLine>
     <ptLine id="4626929" name="Bus 427 : Express Saint-Joseph Ouest" line="427-O" type="bus" vClass="bus" completeness="0.14">
-        <route edges="465649965#0 546047309#1 546047309#2 455083984#1 455083984#2 455083979#1 455083981#1 -455083994#3 -455083994#2 -455083993#3 -455083993#2 -455083993#0 330153470#0 330153470#1 330150736#0 330150736#1"/>
+        <route edges="465649965#0 546047309#1 546047309#2 455083984#1 455083984#2 455083979#1 455083981#1 -455083994#2 -455083993#3 -455083993#2 -455083993#0 330153470#0 330153470#1 330150736#0 330150736#1"/>
         <busStop id="4030794085" name="René-Lévesque / Bishop"/>
         <busStop id="6010968827" name="René-Lévesque / Guy"/>
         <busStop id="-6010981282" name="Guy / Sainte-Catherine"/>
@@ -232,7 +255,7 @@
         <busStop id="-246656713" name="Honoré-Beaugrand"/>
     </ptLine>
     <ptLine id="5926741" name="Bus 150 : René-Lévesque Ouest" line="150-O" type="bus" vClass="bus" completeness="0.29">
-        <route edges="465649965#0 546047309#1 546047309#2 455083984#1 455083984#2 455083979#1 455083981#1 330153472#0 330153472#1 330153472#2 465653665#1 463825906#1 463825907#1 463825907#2 337432401#0 337432401#1 337432401#3 337432401#4 337432401#5 337432401#6 231387460#0 329694558 329694559#0 329694559#1 329694559#2 329694559#3 165217839#0 165217839#2"/>
+        <route edges="465649965#0 546047309#1 546047309#2 455083984#1 455083984#2 455083979#1 455083981#1 330153472#1 330153472#2 465653665#1 463825906#1 463825907#1 463825907#2 337432401#0 337432401#1 337432401#3 337432401#4 337432401#5 337432401#6 231387460#0 329694558 329694559#0 329694559#1 329694559#2 329694559#3 165217839#0 165217839#2"/>
         <busStop id="4030794085" name="René-Lévesque / Bishop"/>
         <busStop id="6010968827" name="René-Lévesque / Guy"/>
         <busStop id="6010969566" name="René-Lévesque / Saint-Mathieu"/>
@@ -243,7 +266,7 @@
         <busStop id="6010973662" name="Station Atwater (Ste-Catherine / Lambert-Closse)"/>
     </ptLine>
     <ptLine id="8873279" name="Bus 150 : René-Lévesque Est" line="150-E" type="bus" vClass="bus" completeness="0.22">
-        <route edges="394910074#0 329694553#1 329694553#2 936656919 37852832#0 37852832#1 37852832#2 37852832#3 329989224#0 329989224#1 329989224#2 453964887#0 453964892#1 455083968#1 455083976#0 41258973#1 41258973#2 41258973#4 455083980#0 455083970#1 41258971#1 546047308#0 546047308#1 134811808#1"/>
+        <route edges="394910074#0 329694553#1 329694553#2 936656919 37852832#0 37852832#1 37852832#2 37852832#3 329989224#0 329989224#1 329989224#2 453964887#0 453964892#1 455083968#1 455083976#0 41258973#1 41258973#2 455083980#0 455083970#1 41258971#1 546047308#0 546047308#1 134811808#1"/>
         <busStop id="6010973662@8873279" name="Station Atwater (Ste-Catherine / Lambert-Closse)"/>
         <busStop id="6010973748" name="René-Lévesque / du Fort"/>
         <busStop id="6010972047" name="René-Lévesque / Saint-Mathieu"/>
@@ -251,7 +274,7 @@
         <busStop id="6010975333" name="René-Lévesque / Bishop"/>
     </ptLine>
     <ptLine id="8873299" name="Bus 165 : Côte-des-Neiges Sud" line="165-S" type="bus" vClass="bus" completeness="0.24">
-        <route edges="329693416 453745802 143920958#0 143920958#1 143920958#2 143920958#3 165217834#0 165217834#1 165217834#4 165217834#7 165217834#8 165217834#9 330150434#0 330150434#1 330150434#2 330150434#5 330150434#6 330150434#7 330150434#8 1051530916#0 41258973#1 41258973#2 41258973#4 -330153471 -455083994#3 -455083994#2 -455083993#3 -455083993#2 -455083993#0"/>
+        <route edges="466899095#0 329694550 329694549 329693416 453745802 143920958#0 143920958#1 143920958#2 143920958#3 165217834#0 165217834#1 165217834#4 165217834#7 165217834#8 165217834#9 330150434#0 330150434#1 330150434#2 330150434#5 330150434#6 330150434#7 330150434#8 1051530916#0 41258973#1 41258973#2 -455083994#2 -455083993#3 -455083993#2 -455083993#0"/>
         <busStop id="1465572617" name="du Docteur-Penfield / Côte-des-Neiges"/>
         <busStop id="6010975324" name="Côte-des-Neiges / Summerhill"/>
         <busStop id="6010970338" name="Saint-Mathieu / Sherbrooke"/>
@@ -277,8 +300,8 @@
         <busStop id="6010965893" name="Lambert-Closse / Sainte-Catherine"/>
         <busStop id="6010966061@9320162" name="Station Atwater (Sainte-Catherine / Atwater)"/>
     </ptLine>
-    <ptLine id="9320460" name="Bus 57 : Pointe-Saint-Charles Est" line="57-E" type="bus" vClass="bus" completeness="0.33">
-        <route edges="330150435#0 330150435#1 330150435#4 330150435#5 330150435#6 330150435#7 330150435#8 330150435#9 1042466503#0 1042466503#1 1042466503#2 329694554#0 329694554#1 329694554#2 329694554#3 329694554#4 329694554#5 329694554#7 329694554#10 329694554#11 455083994#1 455083994#3 330153471 41258976#1 41258976#3 41258976#4 -465656094#1 -465656094#0 -111771070 111771067#1 111771067#2 111771067#3 111771067#4 111771067#5 329988460#1 329988460#3 329988460#4 111771071#1 111771071#2 111771071#3 -1042467341#4 -1042467341#1 -1042467341#0"/>
+    <ptLine id="9320460" name="Bus 57 : Pointe-Saint-Charles Est" line="57-E" type="bus" vClass="bus" completeness="0.44">
+        <route edges="330150435#0 330150435#1 330150435#4 330150435#5 330150435#6 330150435#7 330150435#8 330150435#9 1042466503#0 1042466503#1 1042466503#2 329694554#0 329694554#1 329694554#2 329694554#3 329694554#4 329694554#5 329694554#7 329694554#10 329694554#11 455083994#1 41258976#1 41258976#3 41258976#4 -465656094#1 -465656094#0 -111771070 111771067#1 111771067#2 111771067#3 111771067#4 111771067#5 329988460#1 329988460#3 329988460#4 111771071#1 111771071#2 111771071#3 -1042467341#7 -1042467341#4 -1042467341#1 1042467342#1 1042467342#4 816197807 52135931#2 52135931#3 463595256 20113489#0 20113489#1 20113489#3 20113489#4 199121731#0 199121731#1 975849585"/>
         <busStop id="6010974358" name="Station Guy-Concordia (Maisonneuve / St-Mathieu)"/>
         <busStop id="6010981014" name="De Maisonneuve / du Fort"/>
         <busStop id="6010970071" name="De Maisonneuve / Chomedey"/>
@@ -291,21 +314,37 @@
         <busStop id="6010965221" name="Guy / Saint-Jacques"/>
         <busStop id="2264682032" name="Guy / Paxton"/>
         <busStop id="6010971347" name="Guy / William"/>
+        <busStop id="-6010968609" name="William / des Seigneurs"/>
+        <busStop id="6274677575" name="des Seigneurs / du Canal"/>
+        <busStop id="6010975289" name="Saint-Patrick / Shearer"/>
+        <busStop id="2091616655" name="Shearer / Richardson"/>
     </ptLine>
-    <ptLine id="9320461" name="Bus 57 : Pointe-Saint-Charles Ouest" line="57-O" type="bus" vClass="bus" completeness="0.23">
-        <route edges="111771071#1 111771071#2 111771071#3 -329988460#4 -329988460#3 -329988460#1 -111771067#5 -111771067#4 -111771067#3 -111771067#2 -111771067#1 -465656094#1 -465656094#0 41258976#1 41258976#3 41258976#4 111771070 -330153471 -455083994#3 -455083994#2 -455083993#3 -455083993#2 -455083993#0 330153470#0 330153470#1 330150736#0 330150736#1"/>
-        <busStop id="6010966206" name="Guy / William"/>
-        <busStop id="-2264682033" name="Guy / Paxton"/>
-        <busStop id="-6010970163" name="Guy / Saint-Jacques"/>
-        <busStop id="-6010974296" name="Guy / Saint-Antoine"/>
-        <busStop id="-6010970018@9320461" name="Guy / René-Lévesque"/>
-        <busStop id="-6010981282" name="Guy / Sainte-Catherine"/>
-        <busStop id="6010974358@9320461" name="Station Guy-Concordia (Maisonneuve / St-Mathieu)"/>
+    <ptLine id="9320461" name="Bus 57 : Pointe-Saint-Charles Ouest" line="57-O" type="bus" vClass="bus" completeness="0.07">
+        <route edges="-1042470293#2 -1042470293#1 -1042470293#0 -20113825#1 -20113825#0 -463431368 -20113489#4 -20113489#3 -20113489#1 -20113489#0 -463595256 -52135931#3 -52135931#2 -52135931#0 -1042467342#4 -1042467342#1 1042467341#1 1042467341#4 1042467341#7 111771071#1 111771071#2 111771071#3 -329988460#4 -329988460#3 -329988460#1 -111771067#5 -111771067#4 -111771067#3 -111771067#2 -111771067#1 -465656094#1 -465656094#0 41258976#1 41258976#3 41258976#4 111771070 -455083994#2 -455083993#3 -455083993#2 -455083993#0 330153470#0 330153470#1 330150736#0 330150736#1"/>
+        <busStop id="-2687686456" name="De Condé / du Centre"/>
+        <busStop id="-6010980123" name="de la Sucrerie / Grand Trunk"/>
+    </ptLine>
+    <ptLine id="9320523" name="Bus 61 : Wellington Ouest" line="61-O" type="bus" vClass="bus" completeness="0.20">
+        <route edges="199121731#0 199121731#1 122076249 263213892 37722304 41651789#0 41651789#1 455718964#0 37722301#2 37722301#3 361815166#0 352392846#1 360802894#1"/>
+        <busStop id="6010981007" name="Wellington / Robert-Bourassa"/>
+        <busStop id="5754358293" name="Wellington / Ann"/>
+        <busStop id="5754358292" name="Wellington / Peel"/>
+        <busStop id="5754358289@9320523" name="Wellington / Murray"/>
+        <busStop id="2687686486" name="Wellington / Bridge"/>
+        <busStop id="2687686451" name="Wellington / De Condé"/>
+    </ptLine>
+    <ptLine id="9320524" name="Bus 61 : Wellington Est" line="61-E" type="bus" vClass="bus" completeness="0.16">
+        <route edges="199121731#0 199121731#1 122076249 263213892 561511406 37722304 41651789#0 41651789#1 129587033 914737889#1 914737889#2 455718964#0 37722301#2 37722301#3 361815166#0 352392846#1 360802894#1"/>
+        <busStop id="2687686460" name="Wellington / du Centre"/>
+        <busStop id="2687686489" name="Wellington / Bridge"/>
+        <busStop id="5754358290" name="Wellington / Young"/>
+        <busStop id="5754358291" name="Wellington / Ann"/>
+        <busStop id="6274677573" name="Wellington / Prince"/>
     </ptLine>
     <ptLine id="9320526" name="Bus 63 : Girouard Nord" line="63-N" type="bus" vClass="bus" completeness="0.00"/>
     <ptLine id="9320527" name="Bus 63 : Girouard Sud" line="63-S" type="bus" vClass="bus" completeness="0.00"/>
     <ptLine id="9320534" name="Bus 66 : Le Boulevard Sud" line="66-S" type="bus" vClass="bus" completeness="0.24">
-        <route edges="329693416 48678910#0 48678910#1 143920958#0 143920958#1 143920958#2 143920958#3 165217834#0 165217834#1 165217834#4 165217834#7 165217834#8 165217834#9 330150434#0 330150434#1 330150434#2 330150434#5 330150434#6 330150434#7 330150434#8 1051530916#0 41258973#1 41258973#2 41258973#4 -330153471 -455083994#3 -455083994#2 -455083993#3 -455083993#2 -455083993#0"/>
+        <route edges="466899095#0 329694550 329694549 329693416 48678910#0 48678910#1 143920958#0 143920958#1 143920958#2 143920958#3 165217834#0 165217834#1 165217834#4 165217834#7 165217834#8 165217834#9 330150434#0 330150434#1 330150434#2 330150434#5 330150434#6 330150434#7 330150434#8 1051530916#0 41258973#1 41258973#2 -455083994#2 -455083993#3 -455083993#2 -455083993#0"/>
         <busStop id="1465572617@9320534" name="du Docteur-Penfield / Côte-des-Neiges"/>
         <busStop id="6010975324" name="Côte-des-Neiges / Summerhill"/>
         <busStop id="6010970338" name="Saint-Mathieu / Sherbrooke"/>
@@ -316,63 +355,101 @@
         <busStop id="-6010965967" name="Guy / René-Lévesque"/>
         <busStop id="-4034535844" name="Station Guy-Concordia (Guy / De Maisonneuve)"/>
     </ptLine>
-    <ptLine id="9320535" name="Bus 66 : Le Boulevard Nord" line="66-N" type="bus" vClass="bus" completeness="0.17">
-        <route edges="1051530916#0 41258973#1 41258973#2 41258973#4 -330153471 -455083994#3 -455083994#2 -455083993#3 -455083993#2 -455083993#0 -165217827#4 -165217827#3 -165217827#2 -165217827#1 -41258974#2 -41258974#1 -41258974#0 -143920958#3 -143920958#2 -143920958#1 -143920958#0 4872827 453745825#0 453745825#1 165217806 727849147"/>
+    <ptLine id="9320535" name="Bus 66 : Le Boulevard Nord" line="66-N" type="bus" vClass="bus" completeness="0.20">
+        <route edges="1051530916#0 41258973#1 41258973#2 -455083994#2 -455083993#3 -455083993#2 -455083993#0 -165217827#4 -165217827#3 -165217827#2 -165217827#1 -41258974#2 -41258974#1 -41258974#0 -143920958#3 -143920958#2 -143920958#1 -143920958#0 4872827 453745825#0 453745825#1 165217806 727849147#0 727849147#1"/>
         <busStop id="6010977887@9320535" name="Saint-Mathieu / René-Lévesque"/>
         <busStop id="-6010965967" name="Guy / René-Lévesque"/>
         <busStop id="-4034535844" name="Station Guy-Concordia (Guy / De Maisonneuve)"/>
         <busStop id="-6010971144" name="Côte-des-Neiges / Sherbrooke"/>
         <busStop id="-1457825329" name="Côte-des-Neiges / Summerhill"/>
         <busStop id="1457813196" name="Côte-des-Neiges / du Docteur-Penfield"/>
+        <busStop id="6010966218" name="Hôpital général (des Pins/Côte-des-Neiges)"/>
     </ptLine>
-    <ptLine id="9320604" name="Bus 74 : Bridge Nord" line="74-N" type="bus" vClass="bus" completeness="0.08">
+    <ptLine id="9320544" name="Bus 71 : Du Centre Nord" line="71-N" type="bus" vClass="bus" completeness="0.04">
+        <route edges="199121731#0 199121731#1 975849585 20113824 -1042470293#2 -1042470293#1 -1042470293#0 -1042467978#1 -1042467978#0 -1051821886#1 -1051821886#0 -453957749#1"/>
+        <busStop id="-2091616661" name="du Centre / de la Sucrerie"/>
+    </ptLine>
+    <ptLine id="9320545" name="Bus 71 : Du Centre Sud" line="71-S" type="bus" vClass="bus" completeness="0.04">
+        <route edges="509777703#0 200638843#1 200638843#2 463673045 -1051822952 145140490#0 1051821886#0 1051821886#1 1042467978#0 1042467978#1 1042470293#0 1042470293#1 1042470293#2 -20113824 -975849585 -199121731#1 -199121731#0"/>
+        <busStop id="2091616663" name="du Centre / de la Sucrerie"/>
+    </ptLine>
+    <ptLine id="9320603" name="Bus 74 : Bridge Sud" line="74-S" type="bus" vClass="bus" completeness="0.08">
+        <busStop id="-5754358296" name="Peel / Ottawa"/>
+    </ptLine>
+    <ptLine id="9320604" name="Bus 74 : Bridge Nord" line="74-N" type="bus" vClass="bus" completeness="0.46">
+        <busStop id="2687686489" name="Wellington / Bridge"/>
+        <busStop id="5754358290" name="Wellington / Young"/>
+        <busStop id="5754358294" name="Peel / Wellington"/>
+        <busStop id="427618244" name="Peel / Ottawa"/>
+        <busStop id="427618243" name="Peel / Notre-Dame"/>
         <busStop id="427618242" name="Peel / Saint-Jacques"/>
     </ptLine>
-    <ptLine id="9320606" name="Bus 75 : De la Commune Nord" line="75-N" type="bus" vClass="bus" completeness="0.09">
-        <route edges="37722302#0 354710422#0 354710422#1 354710422#2"/>
+    <ptLine id="9320606" name="Bus 75 : De la Commune Nord" line="75-N" type="bus" vClass="bus" completeness="0.18">
+        <route edges="-991016331#1 -991016331#0 -165325650#1 455712869#1 455712867#1 456353760#1 37722302#1 354710422#0 354710422#1"/>
+        <busStop id="427618243" name="Peel / Notre-Dame"/>
         <busStop id="427618242" name="Peel / Saint-Jacques"/>
     </ptLine>
-    <ptLine id="9320622" name="Bus 90 : Saint-Jacques Ouest" line="90-O" type="bus" vClass="bus" completeness="0.04">
-        <route edges="-329694557 329694558 329694559#0 329694559#1 329694559#2 329694559#3 -92352263#3 -92352263#1 -92352263#0"/>
+    <ptLine id="9320612" name="Bus 77 : Station Lionel-Groulx / CUSM Ouest" line="77-O" type="bus" vClass="bus" completeness="0.00"/>
+    <ptLine id="9320613" name="Bus 77 : Station Lionel-Groulx / CUSM Est" line="77-E" type="bus" vClass="bus" completeness="0.00"/>
+    <ptLine id="9320615" name="Bus 78 : Laurendeau Ouest" line="78-O" type="bus" vClass="bus" completeness="0.03">
+        <route edges="-678887672#8 -678887672#7 -678887672#5 -678887672#3 -678887672#2 -678887672#1 -678887672#0 -792160913#1 -792160913#0"/>
+        <busStop id="-869524307" name="Saint-Antoine / Greene"/>
+    </ptLine>
+    <ptLine id="9320622" name="Bus 90 : Saint-Jacques Ouest" line="90-O" type="bus" vClass="bus" completeness="0.08">
+        <route edges="-329694557 329694558 329694559#0 329694559#1 329694559#2 329694559#3 -92352263#3 -92352263#1 -92352263#0 -92352264 -92352265 -165217874 475308632"/>
         <busStop id="-6010975601" name="Station Atwater (Tupper / Atwater)"/>
         <busStop id="-6010980150" name="Place Alexis-Nihon (Ste-Catherine/No 4026)"/>
+        <busStop id="-6010973708" name="Sainte-Catherine / Wood"/>
+        <busStop id="-6010972616" name="Sainte-Catherine / Greene"/>
     </ptLine>
-    <ptLine id="9320623" name="Bus 90 : Saint-Jacques Est" line="90-E" type="bus" vClass="bus" completeness="0.00">
-        <route edges="92352263#0 92352263#1 92352263#2"/>
+    <ptLine id="9320623" name="Bus 90 : Saint-Jacques Est" line="90-E" type="bus" vClass="bus" completeness="0.07">
+        <route edges="-475308632 165217874 92352265 92352264 92352263#0 92352263#1 92352263#2"/>
+        <busStop id="6010969833" name="Sainte-Catherine / Dorchester"/>
+        <busStop id="6010970824" name="Sainte-Catherine / Greene"/>
+        <busStop id="6010965782" name="Sainte-Catherine / Gladstone"/>
+        <busStop id="6010967477" name="Sainte-Catherine / Atwater"/>
     </ptLine>
-    <ptLine id="9320689" name="Bus 104 : Cavendish Ouest" line="104-O" type="bus" vClass="bus" completeness="0.05">
-        <route edges="329694558 329694559#0 329694559#1 329694559#2 329694559#3 231387459 453949528 474841418#0 474841418#1 165217771#2 918602130 561490747 561490746#0 561490746#1 -329067231#2 -329067231#1"/>
+    <ptLine id="9320689" name="Bus 104 : Cavendish Ouest" line="104-O" type="bus" vClass="bus" completeness="0.07">
+        <route edges="329694558 329694559#0 329694559#1 329694559#2 329694559#3 231387459 453949528 474841418#0 474841418#1 165217771#2 918602130 561490747 561490746#0 561490746#1 -329067231#5 -329067231#4 -329067231#3 -329067231#2 -329067231#1 -329067231#0"/>
         <busStop id="2519449677" name="Station Atwater (Tupper / Atwater)"/>
         <busStop id="6010974370" name="Atwater / Lincoln"/>
+        <busStop id="-6010980155" name="Collège Dawson (Sherbrooke/No 3040)"/>
     </ptLine>
     <ptLine id="9320690" name="Bus 104 : Cavendish Est" line="104-E" type="bus" vClass="bus" completeness="0.07">
-        <route edges="329067231#0 329067231#2 561490751#0 561490751#2 453745797#0 453745797#1 474841415#0 474841415#1 453949527 165217770#0 165217839#0 165217839#2"/>
+        <route edges="329067231#0 329067231#1 329067231#2 329067231#3 329067231#4 329067231#5 561490751#0 561490751#2 453745797#0 453745797#1 474841415#0 474841415#1 453949527 165217770#0 165217839#0 165217839#2"/>
         <busStop id="6010981247" name="Sherbrooke / Atwater"/>
         <busStop id="6010968565" name="Atwater / De Maisonneuve"/>
         <busStop id="2519449678" name="Saint-Catherine/Awater"/>
     </ptLine>
-    <ptLine id="9320701" name="Bus 108 : Bannantyne Est" line="108-E" type="bus" vClass="bus" completeness="0.04">
-        <route edges="231387458#0 231387458#1 231387458#2 231387460#0 329694558 329694559#0 329694559#1 329694559#2 329694559#3"/>
+    <ptLine id="9320701" name="Bus 108 : Bannantyne Est" line="108-E" type="bus" vClass="bus" completeness="0.15">
+        <route edges="509777703#0 463671313#1 463671313#2 463671313#3 231387458#0 231387458#1 231387458#2 231387458#3 231387460#0 329694558 329694559#0 329694559#1 329694559#2 329694559#3"/>
+        <busStop id="6010965695" name="Atwater / Saint-Jacques"/>
+        <busStop id="913940068" name="Atwater / Saint-Antoine"/>
+        <busStop id="443938658" name="Atwater / du Souvenir"/>
         <busStop id="6010968869" name="Station Atwater (Atwater / Sainte-Catherine)"/>
     </ptLine>
-    <ptLine id="9320702" name="Bus 108 : Bannantyne Ouest" line="108-O" type="bus" vClass="bus" completeness="0.07">
-        <route edges="-329694557 575547253#0 200638835#0"/>
+    <ptLine id="9320702" name="Bus 108 : Bannantyne Ouest" line="108-O" type="bus" vClass="bus" completeness="0.15">
+        <route edges="-329694557 575547253#0 200638835#0 200638835#2 200638835#3 463671314#0 463671314#1 509777718#1"/>
         <busStop id="-6010981242" name="Station Atwater (Tupper / Atwater)"/>
         <busStop id="6010981721" name="Atwater / Dorchester"/>
+        <busStop id="6010970060" name="Atwater / Saint-Antoine"/>
+        <busStop id="6010970078" name="Atwater / Saint-Jacques"/>
     </ptLine>
     <ptLine id="9320775" name="Bus 138 : Notre-Dame-de-Grâce Est" line="138-E" type="bus" vClass="bus" completeness="0.07">
         <busStop id="6010981247" name="Sherbrooke / Atwater"/>
         <busStop id="6010968565" name="Atwater / De Maisonneuve"/>
         <busStop id="2519449678" name="Saint-Catherine/Awater"/>
     </ptLine>
-    <ptLine id="9320776" name="Bus 138 : Notre-Dame-de-Grâce Ouest" line="138-O" type="bus" vClass="bus" completeness="0.04">
+    <ptLine id="9320776" name="Bus 138 : Notre-Dame-de-Grâce Ouest" line="138-O" type="bus" vClass="bus" completeness="0.06">
         <busStop id="2519449677" name="Station Atwater (Tupper / Atwater)"/>
         <busStop id="6010974370" name="Atwater / Lincoln"/>
+        <busStop id="-6010980155" name="Collège Dawson (Sherbrooke/No 3040)"/>
     </ptLine>
-    <ptLine id="9320796" name="Bus 166 : Queen-Mary Nord" line="166-N" type="bus" vClass="bus" completeness="0.07">
+    <ptLine id="9320796" name="Bus 166 : Queen-Mary Nord" line="166-N" type="bus" vClass="bus" completeness="0.09">
         <busStop id="-6010971144" name="Côte-des-Neiges / Sherbrooke"/>
         <busStop id="-1457825329" name="Côte-des-Neiges / Summerhill"/>
         <busStop id="1457813196" name="Côte-des-Neiges / du Docteur-Penfield"/>
+        <busStop id="6010966218" name="Hôpital général (des Pins/Côte-des-Neiges)"/>
     </ptLine>
     <ptLine id="9320797" name="Bus 166 : Queen-Mary Sud" line="166-S" type="bus" vClass="bus" completeness="0.19">
         <busStop id="1465572617" name="du Docteur-Penfield / Côte-des-Neiges"/>
@@ -385,30 +462,75 @@
         <busStop id="-6010965967" name="Guy / René-Lévesque"/>
         <busStop id="-6010981282" name="Guy / Sainte-Catherine"/>
     </ptLine>
+    <ptLine id="9320800" name="Bus 168 : Cité-du-Havre Nord" line="168-N" type="bus" vClass="bus" completeness="0.00"/>
+    <ptLine id="9320801" name="Bus 168 : Cité-du-Havre Sud" line="168-S" type="bus" vClass="bus" completeness="0.00"/>
+    <ptLine id="9320881" name="Bus 178 : Pointe-Nord / Île-des-Soeurs Nord" line="178-N" type="bus" vClass="bus" completeness="0.00"/>
     <ptLine id="9320882" name="Bus 178 : Pointe-Nord / Île-des-Soeurs Sud" line="178-S" type="bus" vClass="bus" completeness="0.00"/>
-    <ptLine id="9321004" name="Bus 36 : Monk Est" line="36-E" type="bus" vClass="bus" completeness="0.12">
-        <route edges="-165217829#8 -165217829#6 -165217829#5 -165217829#4 -165217829#1 -165217829#0 -329988460#4 -329988460#3 -329988460#1 329988459#1 329988459#2 329988459#3 329988459#4 329988459#7 329988459#8 329988459#9 133806980#1 133806980#3 133806980#4 133806980#5 354710423#1 354710423#2"/>
+    <ptLine id="9321004" name="Bus 36 : Monk Est" line="36-E" type="bus" vClass="bus" completeness="0.20">
+        <route edges="-463671429 -463671427 -545490137#2 -545490137#1 -165217829#11 -165217829#10 -165217829#9 -165217829#6 -165217829#5 -165217829#4 -165217829#1 -165217829#0 -329988460#4 -329988460#3 -329988460#1 329988459#1 329988459#2 329988459#3 329988459#4 329988459#7 329988459#8 329988459#9 133806980#1 133806980#3 133806980#4 133806980#5 354710423#1"/>
+        <busStop id="-2687914648" name="Notre-Dame / Dominion"/>
+        <busStop id="-2687914652" name="Notre-Dame / Georges-Vanier"/>
+        <busStop id="-6274677571" name="Notre-Dame / des Seigneurs"/>
         <busStop id="-2264682033" name="Guy / Paxton"/>
         <busStop id="-6010970163" name="Guy / Saint-Jacques"/>
         <busStop id="6010975602" name="Saint-Jacques / Lucien-L&apos;Allier"/>
         <busStop id="6010978137" name="Saint-Jacques / de la Montagne"/>
         <busStop id="6010975695" name="Saint-Jacques / Peel"/>
     </ptLine>
-    <ptLine id="9321005" name="Bus 36 : Monk Ouest" line="36-O" type="bus" vClass="bus" completeness="0.07">
-        <route edges="450956616#0 450956616#1 450956616#2 39442470#0 673699710#1 673699710#2 673699710#4 975251637#0 975251637#1 975251637#2 111771067#1 111771067#2 111771067#3 111771067#4 111771067#5 329988460#1 329988460#3 329988460#4 165217829#0 165217829#1 165217829#4 165217829#5 165217829#6 165217829#8"/>
+    <ptLine id="9321005" name="Bus 36 : Monk Ouest" line="36-O" type="bus" vClass="bus" completeness="0.15">
+        <route edges="450956616#1 39442470#0 673699710#1 673699710#2 673699710#4 975251637#0 975251637#1 975251637#2 111771067#1 111771067#2 111771067#3 111771067#4 111771067#5 329988460#1 329988460#3 329988460#4 165217829#0 165217829#1 165217829#4 165217829#5 165217829#6 165217829#9 165217829#10 165217829#11 545490137#1 545490137#2 463671427 463671429"/>
         <busStop id="6010969810" name="Saint-Antoine / Lusignan"/>
         <busStop id="6010965221" name="Guy / Saint-Jacques"/>
         <busStop id="2264682032" name="Guy / Paxton"/>
+        <busStop id="2687914658" name="Notre-Dame / des Seigneurs"/>
+        <busStop id="2687914654" name="Notre-Dame / Georges-Vanier"/>
+        <busStop id="2687914649" name="Notre-Dame / Dominion"/>
     </ptLine>
-    <ptLine id="9321814" name="Bus 35 : Griffintown Est" line="35-E" type="bus" vClass="bus" completeness="0.11">
-        <route edges="-165217829#8 -165217829#6 -165217829#5 -165217829#4 -165217829#1 -165217829#0 -1041940066#8 -1041940066#7 -1041940066#6 -1041940066#5 -1041940066#4 -1041940066#3 -1041940066#1 573448690#1 573448691#0 573448691#1"/>
+    <ptLine id="9321814" name="Bus 35 : Griffintown Est" line="35-E" type="bus" vClass="bus" completeness="0.43">
+        <route edges="-463671429 -463671427 -545490137#2 -545490137#1 -165217829#11 -165217829#10 -165217829#9 -165217829#6 -165217829#5 -165217829#4 -165217829#1 -165217829#0 -1041940066#8 -1041940066#7 -1041940066#6 -1041940066#5 -1041940066#4 -1041940066#3 -1041940066#1 573448690#1 573448691#0 573448691#1 573448691#2 573448691#3 455722367#1 455722372#0 455722372#1 455713130#1 455713130#2 914737889#1 914737889#2 455718964#0 37722301#2 37722301#3 361815166#0 352392846#1 360802894#1"/>
+        <busStop id="-2687914648" name="Notre-Dame / Dominion"/>
+        <busStop id="-2687914652" name="Notre-Dame / Georges-Vanier"/>
+        <busStop id="-6274677571" name="Notre-Dame / des Seigneurs"/>
         <busStop id="-6010972098" name="Notre-Dame / Guy"/>
         <busStop id="-6010969834" name="Notre-Dame / de Versailles"/>
         <busStop id="-6010966435" name="Notre-Dame / de la Montagne"/>
+        <busStop id="6010970597" name="de la Montagne / William"/>
+        <busStop id="6010967058" name="de la Montagne / Ottawa"/>
+        <busStop id="6010974583" name="de la Montagne / du Square-Gallery"/>
+        <busStop id="5754358290" name="Wellington / Young"/>
+        <busStop id="5754358291" name="Wellington / Ann"/>
+        <busStop id="6274677573" name="Wellington / Prince"/>
     </ptLine>
-    <ptLine id="9321815" name="Bus 35 : Griffintown Ouest" line="35-O" type="bus" vClass="bus" completeness="0.07">
-        <route edges="-573448691#1 -573448691#0 -573448690#1 1041940066#1 1041940066#3 1041940066#4 1041940066#5 1041940066#6 1041940066#7 1041940066#8 165217829#0 165217829#1 165217829#4 165217829#5 165217829#6 165217829#8"/>
+    <ptLine id="9321815" name="Bus 35 : Griffintown Ouest" line="35-O" type="bus" vClass="bus" completeness="0.43">
+        <route edges="-360802894#1 -352392846#1 -361815166#0 -37722301#3 -37722301#2 -455718964#0 492899793#0 492899793#1 -455713130#2 -455713130#1 -455722372#1 -455722372#0 -455722367#1 -455722369#0 -573448691#2 -573448691#1 -573448691#0 -573448690#1 1041940066#1 1041940066#3 1041940066#4 1041940066#5 1041940066#6 1041940066#7 1041940066#8 165217829#0 165217829#1 165217829#4 165217829#5 165217829#6 165217829#9 165217829#10 165217829#11 545490137#1 545490137#2 463671427 463671429"/>
+        <busStop id="-6010981007" name="Wellington / Robert-Bourassa"/>
+        <busStop id="-5754358293" name="Wellington / Ann"/>
+        <busStop id="-5754358292" name="Wellington / Peel"/>
+        <busStop id="5754358289" name="Wellington / Murray"/>
+        <busStop id="-6010969842" name="de la Montagne / Wellington"/>
+        <busStop id="-6010968651" name="de la Montagne / Ottawa"/>
+        <busStop id="-6010981124" name="de la Montagne / William"/>
+        <busStop id="-6010970833" name="de la Montagne / Barré"/>
         <busStop id="6010965891" name="Notre-Dame / de Versailles"/>
         <busStop id="6010964698" name="Notre-Dame / Guy"/>
+        <busStop id="2687914658" name="Notre-Dame / des Seigneurs"/>
+        <busStop id="2687914654" name="Notre-Dame / Georges-Vanier"/>
+        <busStop id="2687914649" name="Notre-Dame / Dominion"/>
+    </ptLine>
+    <ptLine id="9512860" name="Bus 124 : Direction La Prairie" line="124 S" type="bus" vClass="bus" completeness="0.05">
+        <route edges="664696778#0 664696778#1 664696778#3 428978765#1"/>
+        <busStop id="6133322816" name="rue de Nazareth / rue Ottawa"/>
+    </ptLine>
+    <ptLine id="9513089" name="Bus 321 : Direction La Prairie" line="321 S" type="bus" vClass="bus" completeness="0.25">
+        <route edges="664696778#0 664696778#1 664696778#3 428978765#1"/>
+        <busStop id="6133322816" name="rue de Nazareth / rue Ottawa"/>
+    </ptLine>
+    <ptLine id="9513132" name="Bus 323 : Direction Candiac" line="323 S" type="bus" vClass="bus" completeness="0.25">
+        <route edges="664696778#0 664696778#1 664696778#3 428978765#1"/>
+        <busStop id="6133322816" name="rue de Nazareth / rue Ottawa"/>
+    </ptLine>
+    <ptLine id="9527265" name="Bus 401 : Direction Chambly" line="401 S" type="bus" vClass="bus" completeness="0.25">
+        <route edges="664696778#0 664696778#1 664696778#3 428978765#1"/>
+        <busStop id="6132968614" name="rue de Nazareth / rue Ottawa"/>
     </ptLine>
 </ptLines>
