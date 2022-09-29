@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Generated with generateParkingAreasFromOSM.py [https://github.com/lcodeca/SUMOActivityGen] -->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd"> 
+    <parkingArea id="426002996" lane="-607184015#5_1" startPos="10.0" endPos="20.0" roadsideCapacity="10" friendlyPos="true"/>
+    <parkingArea id="9735380719" lane="561738770_1" startPos="12.649999999999999" endPos="22.65" roadsideCapacity="2" friendlyPos="true"/>
+    <parkingArea id="9735380720" lane="453949527_1" startPos="10.0" endPos="20.0" roadsideCapacity="5" friendlyPos="true"/>
+    <parkingArea id="9735380784" lane="330153472#2_2" startPos="62.93000000000001" endPos="72.93" roadsideCapacity="2" friendlyPos="true"/>
+    <parkingArea id="9735380798" lane="333292597_1" startPos="10.0" endPos="20.0" roadsideCapacity="2" friendlyPos="true"/>
+    <parkingArea id="9735380806" lane="-41258976#3_2" startPos="37.55" endPos="47.55" roadsideCapacity="3" friendlyPos="true"/>
+    <parkingArea id="9735380810" lane="329694554#1_1" startPos="10.0" endPos="20.0" roadsideCapacity="5" friendlyPos="true"/>
+    <parkingArea id="9735380811" lane="48680979#1_1" startPos="96.8" endPos="106.8" roadsideCapacity="4" friendlyPos="true"/>
+    <parkingArea id="9735403626" lane="144041909_1" startPos="13.04" endPos="23.04" roadsideCapacity="2" friendlyPos="true"/>
+    <parkingArea id="9735403630" lane="103896396#1_1" startPos="10.0" endPos="20.0" roadsideCapacity="3" friendlyPos="true"/>
+    <parkingArea id="9735403631" lane="330150434#2_1" startPos="87.07" endPos="97.07" roadsideCapacity="6" friendlyPos="true"/>
+    <parkingArea id="9735403655" lane="103896396#1_1" startPos="56.293362897510676" endPos="66.29336289751068" roadsideCapacity="2" friendlyPos="true"/>
+    <parkingArea id="9735403659" lane="103896396#1_1" startPos="62.6591338987475" endPos="72.6591338987475" roadsideCapacity="2" friendlyPos="true"/>
+    <parkingArea id="9735403773" lane="-20113489#3_1" startPos="14.670000000000002" endPos="24.67" roadsideCapacity="3" friendlyPos="true"/>
+    <parkingArea id="9735403774" lane="-607184015#5_1" startPos="21.9363701801009" endPos="31.9363701801009" roadsideCapacity="4" friendlyPos="true"/>
+    <parkingArea id="9735403780" lane="463677565#0_1" startPos="47.0" endPos="57.0" roadsideCapacity="6" friendlyPos="true"/>
+    <parkingArea id="9735403783" lane="-165325650#1_1" startPos="51.150000000000006" endPos="61.150000000000006" roadsideCapacity="6" friendlyPos="true"/>
+</additional>
+    

@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-09-13 07:43:10 by Eclipse SUMO netconvert Version 1.14.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="C:\Program%20Files%20(x86)\Eclipse\Sumo\data\typemap\osmNetconvert.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <edge_removal>
+        <keep-edges.by-vclass value="passenger,bus,tram,rail_urban,rail"/>
+    </edge_removal>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-2484399636" name="Girouard / de Monkland" lane="-1079046971#1_0" startPos="0.00" endPos="8.67" friendlyPos="true" lines="102-E 17-S">
+        <access lane="1080985101#1_0" pos="10.96" length="453.73" friendlyPos="1"/>
+        <access lane="1080985105#0_0" pos="413.78" length="222.20" friendlyPos="1"/>
+        <access lane="165214761#2_0" pos="272.03" length="105.08" friendlyPos="1"/>
+        <access lane="20569525#4_0" pos="272.35" length="339.55" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-3152516341" name="Fielding / Walkley" lane="-1082077072#1_0" startPos="0.00" endPos="8.15" friendlyPos="true" lines="51-O">
+        <access lane="1078995440#2_0" pos="309.48" length="156.82" friendlyPos="1"/>
+        <access lane="1079006200#2_0" pos="310.55" length="101.70" friendlyPos="1"/>
+        <access lane="1082077067#0_0" pos="0.00" length="104.05" friendlyPos="1"/>
+        <access lane="165214306#0_0" pos="578.39" length="32.42" friendlyPos="1"/>
+        <access lane="729931128#0_0" pos="0.00" length="24.28" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-3152516343" name="Fielding / Cavendish" lane="-1079644670#3_0" startPos="0.00" endPos="7.70" friendlyPos="true" lines="51-O">
+        <access lane="1079005458#2_0" pos="311.69" length="88.59" friendlyPos="1"/>
+        <access lane="1079005458#4_0" pos="0.00" length="90.72" friendlyPos="1"/>
+        <access lane="1082077061#0_0" pos="0.00" length="133.33" friendlyPos="1"/>
+        <access lane="1082402373#0_0" pos="0.00" length="201.45" friendlyPos="1"/>
+        <access lane="20572232#1_0" pos="311.46" length="134.76" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-3152516345" name="Fielding / West Hill" lane="-1082402393#3_0" startPos="0.00" endPos="9.92" friendlyPos="true" lines="51-O">
+        <access lane="1051531398#0_0" pos="305.07" length="142.39" friendlyPos="1"/>
+        <access lane="1082402373#0_0" pos="6.38" length="256.56" friendlyPos="1"/>
+        <access lane="159499581#0_0" pos="358.64" length="323.19" friendlyPos="1"/>
+        <access lane="641987161#0_0" pos="0.00" length="146.11" friendlyPos="1"/>
+        <access lane="986063694#1_0" pos="27.83" length="274.93" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-3152519189" name="Fielding / Grand Boulevard" lane="-1082402402#1_0" startPos="0.00" endPos="9.35" friendlyPos="true" lines="51-O">
+        <access lane="-159499581#2_0" pos="0.00" length="27.00" friendlyPos="1"/>
+        <access lane="-225186821#5_0" pos="254.13" length="18.35" friendlyPos="1"/>
+        <access lane="159499581#0_0" pos="404.09" length="30.40" friendlyPos="1"/>
+        <access lane="20570494#0_0" pos="231.11" length="110.56" friendlyPos="1"/>
+        <access lane="225186821#0_0" pos="0.00" length="23.12" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-3152519190" name="Fielding / Côte-Saint-Luc" lane="-1082402417#3_0" startPos="0.00" endPos="7.70" friendlyPos="true" lines="51-O">
+        <access lane="1082402421#0_0" pos="0.00" length="259.08" friendlyPos="1"/>
+        <access lane="1082402423#0_0" pos="0.00" length="140.26" friendlyPos="1"/>
+        <access lane="20570488#0_0" pos="172.04" length="138.86" friendlyPos="1"/>
+        <access lane="20570494#0_0" pos="231.11" length="382.93" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-3152550118" name="Somerled / Cavendish" lane="-1079644682#2_0" startPos="41.52" endPos="56.52" friendlyPos="true" lines="102-E"/>
+    <busStop id="-3153668832" name="Fielding / Hingston" lane="-1082402419#1_0" startPos="0.00" endPos="8.86" friendlyPos="true" lines="51-O">
+        <access lane="1080985107#5_0" pos="396.33" length="42.01" friendlyPos="1"/>
+        <access lane="1082402421#0_0" pos="7.23" length="26.65" friendlyPos="1"/>
+        <access lane="1082402423#0_0" pos="0.00" length="98.88" friendlyPos="1"/>
+        <access lane="20570488#0_0" pos="165.32" length="93.59" friendlyPos="1"/>
+        <access lane="20570494#0_0" pos="223.85" length="150.48" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-3324368265" name="de Monkland / de Melrose" lane="-463864075#0_0" startPos="0.00" endPos="12.12" friendlyPos="true" lines="162-E"/>
+    <busStop id="-3324368266" name="de Monkland / Harvard" lane="-463864539_0" startPos="60.24" endPos="75.24" friendlyPos="true" lines="162-E"/>
+    <busStop id="-4367816203" name="Somerled / Grand Boulevard" lane="-159034396#1_0" startPos="0.00" endPos="8.30" friendlyPos="true" lines="102-E"/>
+    <busStop id="-4380897325" name="Côte-Saint-Luc / West Hill" lane="-48114747#2_0" startPos="0.00" endPos="11.12" friendlyPos="true" lines="66-N">
+        <access lane="-1079002495#2_0" pos="245.11" length="27.86" friendlyPos="1"/>
+        <access lane="-20904860_0" pos="49.70" length="131.64" friendlyPos="1"/>
+        <access lane="1079002495#0_0" pos="0.00" length="32.66" friendlyPos="1"/>
+        <access lane="20904860_0" pos="183.78" length="136.51" friendlyPos="1"/>
+        <access lane="23630060#0_0" pos="43.90" length="154.17" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4380897966" name="de Monkland / Hingston" lane="-463864074#5_0" startPos="60.86" endPos="75.86" friendlyPos="true" lines="162-E"/>
+    <busStop id="-5527782063" name="de Monkland / Royal" lane="-463864074#2_0" startPos="17.55" endPos="32.55" friendlyPos="true" lines="162-E"/>
+    <busStop id="-6010964901" name="de Monkland / Madison" lane="-463844969#1_0" startPos="59.91" endPos="74.91" friendlyPos="true" lines="162-E"/>
+    <busStop id="-6010965230" name="Somerled / Côte-Saint-Luc" lane="-453506595#2_0" startPos="57.65" endPos="65.15" friendlyPos="true" lines="102-E"/>
+    <busStop id="-6010965976" name="Cavendish / de Terrebonne" lane="-1079645871_0" startPos="50.57" endPos="58.05" friendlyPos="true" lines="104-E">
+        <access lane="-1079644751#1_0" pos="64.47" length="27.49" friendlyPos="1"/>
+        <access lane="1079005458#7_0" pos="90.73" length="119.08" friendlyPos="1"/>
+        <access lane="1079644751#0_0" pos="0.00" length="23.62" friendlyPos="1"/>
+        <access lane="1079644751#2_0" pos="0.00" length="128.74" friendlyPos="1"/>
+        <access lane="20572232#0_0" pos="12.36" length="96.37" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6010966239" name="Côte-Saint-Luc / Wilson" lane="-1079052705#10_0" startPos="0.00" endPos="11.44" friendlyPos="true" lines="66-N">
+        <access lane="1079087914#0_0" pos="36.83" length="110.14" friendlyPos="1"/>
+        <access lane="1080985097#4_0" pos="207.97" length="171.52" friendlyPos="1"/>
+        <access lane="1080985101#4_0" pos="132.15" length="138.57" friendlyPos="1"/>
+        <access lane="20569530#0_0" pos="95.56" length="280.50" friendlyPos="1"/>
+        <access lane="29364998#0_0" pos="0.00" length="36.89" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6010966388" name="Somerled / Borden" lane="-1082404464#4_0" startPos="54.31" endPos="69.31" friendlyPos="true" lines="102-E"/>
+    <busStop id="-6010967463" name="Somerled / Wilson" lane="-165214768#3_0" startPos="70.18" endPos="85.18" friendlyPos="true" lines="102-E"/>
+    <busStop id="-6010967580" name="Côte-Saint-Luc / Heath" lane="-1079052721#4_0" startPos="0.00" endPos="9.05" friendlyPos="true" lines="66-N">
+        <access lane="-20904861#3_0" pos="12.17" length="186.92" friendlyPos="1"/>
+        <access lane="-29365272#2_0" pos="110.34" length="62.28" friendlyPos="1"/>
+        <access lane="1082402421#0_0" pos="162.80" length="175.83" friendlyPos="1"/>
+        <access lane="20570488#0_0" pos="0.00" length="51.89" friendlyPos="1"/>
+        <access lane="29365272#0_0" pos="0.00" length="66.13" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6010968466" name="de Terrebonne / Earnscliffe" lane="-142846055#3_0" startPos="0.00" endPos="7.70" friendlyPos="true" lines="17-S">
+        <access lane="165214761#0_0" pos="163.12" length="227.72" friendlyPos="1"/>
+        <access lane="165214761#2_0" pos="0.00" length="231.20" friendlyPos="1"/>
+        <access lane="262078426#1_0" pos="330.79" length="71.13" friendlyPos="1"/>
+        <access lane="262150010#0_0" pos="66.09" length="123.34" friendlyPos="1"/>
+        <access lane="453303348#0_0" pos="3.29" length="181.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6010968656" name="Somerled / Hampton" lane="-165214768#9_0" startPos="0.00" endPos="13.02" friendlyPos="true" lines="102-E"/>
+    <busStop id="-6010969511" name="de Monkland / Grand Boulevard" lane="-463844968_0" startPos="64.93" endPos="79.93" friendlyPos="true" lines="162-E"/>
+    <busStop id="-6010969809" name="Cavendish / Fielding" lane="-1079644668_0" startPos="16.78" endPos="31.78" friendlyPos="true" lines="104-E">
+        <access lane="1079005458#2_0" pos="306.23" length="125.53" friendlyPos="1"/>
+        <access lane="1079005458#4_0" pos="0.00" length="128.78" friendlyPos="1"/>
+        <access lane="1079006200#2_0" pos="304.85" length="204.79" friendlyPos="1"/>
+        <access lane="1082077061#0_0" pos="4.99" length="96.50" friendlyPos="1"/>
+        <access lane="20572232#1_0" pos="311.46" length="100.85" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6010970287" name="Côte-Saint-Luc / Ellerdale" lane="-1082079445#5_0" startPos="0.00" endPos="10.42" friendlyPos="true" lines="66-N">
+        <access lane="1082402421#0_0" pos="0.00" length="352.21" friendlyPos="1"/>
+        <access lane="1082402423#0_0" pos="0.00" length="232.35" friendlyPos="1"/>
+        <access lane="20569530#0_0" pos="0.00" length="185.96" friendlyPos="1"/>
+        <access lane="20570488#0_0" pos="172.04" length="232.03" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6010972122" name="Côte-Saint-Luc / Clanranald" lane="-453506593#10_0" startPos="0.00" endPos="11.80" friendlyPos="true" lines="66-N">
+        <access lane="1080985105#2_0" pos="142.30" length="222.73" friendlyPos="1"/>
+        <access lane="165214761#0_0" pos="32.87" length="105.89" friendlyPos="1"/>
+        <access lane="222707881#6_0" pos="66.81" length="248.35" friendlyPos="1"/>
+        <access lane="262078426#1_0" pos="231.62" length="173.28" friendlyPos="1"/>
+        <access lane="262150010#0_0" pos="66.09" length="221.83" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6010972743" name="Côte-Saint-Luc / Grand Boulevard" lane="-1079052738#3_0" startPos="0.00" endPos="9.54" friendlyPos="true" lines="66-N">
+        <access lane="-20904842#8_0" pos="0.00" length="27.50" friendlyPos="1"/>
+        <access lane="-225186821#5_0" pos="0.00" length="35.72" friendlyPos="1"/>
+        <access lane="20570494#0_0" pos="0.00" length="122.88" friendlyPos="1"/>
+        <access lane="20904842#5_0" pos="132.02" length="22.78" friendlyPos="1"/>
+        <access lane="225186821#0_0" pos="254.52" length="38.92" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6010972893" name="Cavendish / Somerled" lane="-1079644685_0" startPos="10.89" endPos="25.89" friendlyPos="true" lines="104-E">
+        <access lane="-1079644682#2_0" pos="53.65" length="21.17" friendlyPos="1"/>
+        <access lane="-1082404464#9_0" pos="0.00" length="39.75" friendlyPos="1"/>
+        <access lane="1079644682#0_0" pos="0.00" length="25.79" friendlyPos="1"/>
+        <access lane="1082404464#5_0" pos="55.57" length="42.41" friendlyPos="1"/>
+        <access lane="20572232#1_0" pos="6.72" length="95.48" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6010973675" name="Somerled / Madison" lane="-1082404464#2_0" startPos="82.63" endPos="97.63" friendlyPos="true" lines="102-E"/>
+    <busStop id="-6010976778" name="Côte-Saint-Luc / Dufferin" lane="-453506594#4_0" startPos="2.16" endPos="17.16" friendlyPos="true" lines="66-N">
+        <access lane="-165214768#1_0" pos="66.45" length="117.56" friendlyPos="1"/>
+        <access lane="-453506595#2_0" pos="55.63" length="61.05" friendlyPos="1"/>
+        <access lane="1080985105#2_0" pos="246.91" length="79.10" friendlyPos="1"/>
+        <access lane="20569525#0_0" pos="26.06" length="92.20" friendlyPos="1"/>
+        <access lane="453506595#0_0" pos="12.47" length="65.85" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6010978745" name="Girouard / Guillaume-Couture" lane="-1079046972#2_0" startPos="0.00" endPos="8.98" friendlyPos="true" lines="17-S">
+        <access lane="-222707881#6_0" pos="0.00" length="126.92" friendlyPos="1"/>
+        <access lane="165214761#0_0" pos="174.13" length="125.67" friendlyPos="1"/>
+        <access lane="165214761#2_0" pos="30.63" length="106.30" friendlyPos="1"/>
+        <access lane="222707881#6_0" pos="66.81" length="129.07" friendlyPos="1"/>
+        <access lane="262150010#0_0" pos="65.02" length="57.23" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6010979381" name="Cavendish / Chester" lane="-1079544586#2_0" startPos="55.14" endPos="64.44" friendlyPos="true" lines="104-E">
+        <access lane="-1051531395#4_0" pos="0.00" length="36.69" friendlyPos="1"/>
+        <access lane="-1079544582#2_0" pos="56.56" length="16.82" friendlyPos="1"/>
+        <access lane="1051531395#2_0" pos="55.64" length="38.91" friendlyPos="1"/>
+        <access lane="1079544582#0_0" pos="0.00" length="21.26" friendlyPos="1"/>
+        <access lane="1082077061#2_0" pos="7.36" length="99.97" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6010981256" name="Somerled / Draper" lane="-165214768#6_0" startPos="27.07" endPos="42.07" friendlyPos="true" lines="102-E"/>
+    <busStop id="2459801755" name="de Monkland / Royal" lane="463864075#1_0" startPos="0.00" endPos="9.67" friendlyPos="true" lines="162-O"/>
+    <busStop id="2682145767" name="Clanranald / Côte-Saint-Luc" lane="1079002507#0_0" startPos="0.00" endPos="9.15" friendlyPos="true">
+        <access lane="-453506595#2_0" pos="66.93" length="249.60" friendlyPos="1"/>
+        <access lane="1080985105#2_0" pos="174.24" length="206.35" friendlyPos="1"/>
+        <access lane="165214761#0_0" pos="0.00" length="85.27" friendlyPos="1"/>
+        <access lane="262078426#1_0" pos="199.53" length="188.94" friendlyPos="1"/>
+        <access lane="453506595#0_0" pos="0.00" length="245.90" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2682145771" name="Clanranald / Snowdon" lane="474592294#0_0" startPos="5.78" endPos="19.88" friendlyPos="true">
+        <access lane="-464055753#1_0" pos="0.00" length="193.65" friendlyPos="1"/>
+        <access lane="262078426#0_0" pos="192.69" length="182.99" friendlyPos="1"/>
+        <access lane="262078426#1_0" pos="0.00" length="184.85" friendlyPos="1"/>
+        <access lane="464055753#1_0" pos="78.28" length="192.92" friendlyPos="1"/>
+        <access lane="474592293#0_0" pos="109.78" length="26.35" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2682145780" name="Côte-Saint-Luc / Clanranald" lane="453506593#7_0" startPos="1.90" endPos="16.90" friendlyPos="true">
+        <access lane="1080985105#2_0" pos="124.69" length="226.11" friendlyPos="1"/>
+        <access lane="165214761#0_0" pos="50.49" length="109.19" friendlyPos="1"/>
+        <access lane="222707881#6_0" pos="66.81" length="226.94" friendlyPos="1"/>
+        <access lane="262078426#1_0" pos="249.26" length="170.30" friendlyPos="1"/>
+        <access lane="262150010#0_0" pos="66.09" length="195.41" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3046699413" name="de Monkland / de Melrose" lane="463864541#0_0" startPos="27.58" endPos="42.58" friendlyPos="true" lines="162-O"/>
+    <busStop id="3046699414" name="de Monkland / Grand Boulevard" lane="463844971_0" startPos="57.53" endPos="72.53" friendlyPos="true" lines="162-O"/>
+    <busStop id="3046699415" name="Fielding / Grand Boulevard" lane="980924523#0_0" startPos="0.00" endPos="8.41" friendlyPos="true" lines="51-E">
+        <access lane="-159499581#2_0" pos="0.00" length="31.65" friendlyPos="1"/>
+        <access lane="-225186821#5_0" pos="254.13" length="37.74" friendlyPos="1"/>
+        <access lane="1082402400#0_0" pos="0.00" length="160.20" friendlyPos="1"/>
+        <access lane="159499581#0_0" pos="404.09" length="26.85" friendlyPos="1"/>
+        <access lane="225186821#0_0" pos="0.00" length="33.78" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3046699416" name="Fielding / Côte-Saint-Luc" lane="1082402424#0_0" startPos="0.00" endPos="8.84" friendlyPos="true" lines="51-E">
+        <access lane="1080985107#5_0" pos="396.33" length="245.38" friendlyPos="1"/>
+        <access lane="1082402421#0_0" pos="0.00" length="246.19" friendlyPos="1"/>
+        <access lane="1082402423#0_0" pos="0.00" length="125.11" friendlyPos="1"/>
+        <access lane="20569530#0_0" pos="0.00" length="254.30" friendlyPos="1"/>
+        <access lane="20570488#0_0" pos="172.04" length="126.85" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3046699418" name="Queen-Mary / Macdonald" lane="1079091078#0_0" startPos="0.00" endPos="9.81" friendlyPos="true" lines="51-E">
+        <access lane="262078426#0_0" pos="6.71" length="352.73" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3152516342" name="Fielding / Cavendish" lane="980924522#0_0" startPos="0.00" endPos="8.89" friendlyPos="true" lines="51-E">
+        <access lane="1079005458#2_0" pos="311.69" length="138.03" friendlyPos="1"/>
+        <access lane="1079005458#4_0" pos="0.00" length="136.31" friendlyPos="1"/>
+        <access lane="1082077061#0_0" pos="0.00" length="87.85" friendlyPos="1"/>
+        <access lane="1082077067#0_0" pos="0.00" length="193.99" friendlyPos="1"/>
+        <access lane="20572232#1_0" pos="311.46" length="85.30" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3152516344" name="Fielding / West Hill" lane="986063695#0_0" startPos="0.00" endPos="10.27" friendlyPos="true" lines="51-E">
+        <access lane="1051531398#0_0" pos="310.53" length="176.45" friendlyPos="1"/>
+        <access lane="1082402373#0_0" pos="0.90" length="290.62" friendlyPos="1"/>
+        <access lane="159499581#0_0" pos="354.38" length="288.74" friendlyPos="1"/>
+        <access lane="641987161#0_0" pos="0.00" length="178.18" friendlyPos="1"/>
+        <access lane="986063694#1_0" pos="27.83" length="275.39" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3152550117" name="Somerled / Cavendish" lane="1082404464#5_0" startPos="26.06" endPos="41.06" friendlyPos="true" lines="102-O"/>
+    <busStop id="3153668833" name="Fielding / Hingston" lane="1082402401#0_0" startPos="0.00" endPos="9.70" friendlyPos="true" lines="51-E">
+        <access lane="1080985107#5_0" pos="396.33" length="24.41" friendlyPos="1"/>
+        <access lane="1082402400#0_0" pos="0.00" length="99.56" friendlyPos="1"/>
+        <access lane="1082402421#0_0" pos="0.00" length="31.40" friendlyPos="1"/>
+        <access lane="1082402423#0_0" pos="0.00" length="144.62" friendlyPos="1"/>
+        <access lane="20570494#0_0" pos="231.11" length="101.51" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3324368267" name="de Monkland / Harvard" lane="463864590_0" startPos="54.75" endPos="69.75" friendlyPos="true" lines="162-O"/>
+    <busStop id="4367816207" name="Somerled / Grand Boulevard" lane="165214768#12_0" startPos="58.98" endPos="73.98" friendlyPos="true" lines="102-O"/>
+    <busStop id="4380897324" name="Côte-Saint-Luc / Randall" lane="1079005459#1_0" startPos="0.00" endPos="8.65" friendlyPos="true" lines="66-S">
+        <access lane="-199258626#4_0" pos="0.00" length="38.61" friendlyPos="1"/>
+        <access lane="1078997582#0_0" pos="0.00" length="105.57" friendlyPos="1"/>
+        <access lane="1079002495#0_0" pos="188.66" length="199.26" friendlyPos="1"/>
+        <access lane="1079005458#0_0" pos="18.08" length="131.90" friendlyPos="1"/>
+        <access lane="199258626#3_0" pos="256.50" length="42.49" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4380897964" name="Côte-Saint-Luc / Grand Boulevard" lane="48114747#4_0" startPos="0.00" endPos="10.18" friendlyPos="true" lines="66-S">
+        <access lane="-20904842#8_0" pos="0.00" length="38.08" friendlyPos="1"/>
+        <access lane="-225186821#5_0" pos="0.00" length="33.31" friendlyPos="1"/>
+        <access lane="-23630060#1_0" pos="85.65" length="137.41" friendlyPos="1"/>
+        <access lane="20904842#5_0" pos="132.02" length="41.65" friendlyPos="1"/>
+        <access lane="225186821#0_0" pos="254.52" length="28.65" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5536207113" name="de Monkland / Hingston" lane="463864074#4_0" startPos="58.01" endPos="73.01" friendlyPos="true" lines="162-O"/>
+    <busStop id="6010964892" name="Côte-Saint-Luc / Hingston" lane="1079052738#4_0" startPos="0.00" endPos="8.73" friendlyPos="true" lines="66-S">
+        <access lane="-29365272#2_0" pos="58.88" length="147.81" friendlyPos="1"/>
+        <access lane="1082402421#0_0" pos="208.95" length="19.38" friendlyPos="1"/>
+        <access lane="20570488#0_0" pos="0.00" length="156.35" friendlyPos="1"/>
+        <access lane="20570494#0_0" pos="17.17" length="105.92" friendlyPos="1"/>
+        <access lane="29365272#0_0" pos="49.54" length="143.01" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010965245" name="Côte-Saint-Luc / Wilson" lane="1079052705#3_0" startPos="0.00" endPos="10.33" friendlyPos="true" lines="66-S">
+        <access lane="1079087914#0_0" pos="36.64" length="165.97" friendlyPos="1"/>
+        <access lane="1080985097#4_0" pos="208.58" length="115.70" friendlyPos="1"/>
+        <access lane="1080985101#4_0" pos="132.15" length="177.11" friendlyPos="1"/>
+        <access lane="20569530#0_0" pos="95.28" length="224.68" friendlyPos="1"/>
+        <access lane="29364998#0_0" pos="0.00" length="24.94" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010965265" name="Côte-Saint-Luc / West Hill" lane="48114747#0_0" startPos="4.75" endPos="19.75" friendlyPos="true" lines="66-S">
+        <access lane="-1079002495#2_0" pos="245.11" length="113.39" friendlyPos="1"/>
+        <access lane="-20572211#1_0" pos="77.36" length="150.62" friendlyPos="1"/>
+        <access lane="-23630060#1_0" pos="84.43" length="96.68" friendlyPos="1"/>
+        <access lane="1079002495#0_0" pos="0.00" length="118.12" friendlyPos="1"/>
+        <access lane="23630060#0_0" pos="0.54" length="91.88" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010965913" name="Côte-Saint-Luc / Girouard" lane="453506593#7_0" startPos="1.90" endPos="16.90" friendlyPos="true" lines="66-S 102-E">
+        <access lane="-222707881#6_0" pos="0.00" length="214.64" friendlyPos="1"/>
+        <access lane="165214761#0_0" pos="59.26" length="99.23" friendlyPos="1"/>
+        <access lane="222707881#6_0" pos="66.81" length="210.53" friendlyPos="1"/>
+        <access lane="262078426#1_0" pos="257.95" length="180.43" friendlyPos="1"/>
+        <access lane="262150010#0_0" pos="61.61" length="182.30" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010965995" name="de Monkland / Madison" lane="463844969#0_0" startPos="61.88" endPos="76.88" friendlyPos="true" lines="162-O"/>
+    <busStop id="6010966010" name="Fleet / Netherwood" lane="453295841#3_0" startPos="61.29" endPos="76.29" friendlyPos="true" lines="161-E"/>
+    <busStop id="6010966271" name="Girouard / de Terrebonne" lane="1079046971#2_0" startPos="0.00" endPos="8.58" friendlyPos="true" lines="17-N">
+        <access lane="-222707881#6_0" pos="0.00" length="142.30" friendlyPos="1"/>
+        <access lane="165214761#0_0" pos="174.13" length="137.12" friendlyPos="1"/>
+        <access lane="165214761#2_0" pos="12.92" length="131.15" friendlyPos="1"/>
+        <access lane="222707881#6_0" pos="66.81" length="143.34" friendlyPos="1"/>
+        <access lane="262150010#0_0" pos="66.09" length="38.67" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010967408" name="Chester / Cavendish" lane="1051531395#2_0" startPos="52.81" endPos="61.71" friendlyPos="true" lines="66-N"/>
+    <busStop id="6010967509" name="Girouard / Côte-Saint-Luc" lane="463876421#0_0" startPos="0.00" endPos="8.23" friendlyPos="true" lines="102-O">
+        <access lane="165214761#0_0" pos="95.04" length="131.70" friendlyPos="1"/>
+        <access lane="165214761#2_0" pos="0.00" length="192.55" friendlyPos="1"/>
+        <access lane="222707881#6_0" pos="66.81" length="189.41" friendlyPos="1"/>
+        <access lane="262078426#1_0" pos="293.98" length="148.63" friendlyPos="1"/>
+        <access lane="262150010#0_0" pos="66.09" length="130.88" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010968225" name="Fleet / Pinedale" lane="453295841#2_0" startPos="41.12" endPos="56.12" friendlyPos="true" lines="161-E"/>
+    <busStop id="6010968255" name="Cavendish / Somerled" lane="1079644681#0_0" startPos="0.00" endPos="10.12" friendlyPos="true" lines="104-O">
+        <access lane="-1079644682#2_0" pos="53.65" length="56.28" friendlyPos="1"/>
+        <access lane="-1082404464#9_0" pos="0.00" length="45.50" friendlyPos="1"/>
+        <access lane="1079005458#4_0" pos="287.86" length="98.90" friendlyPos="1"/>
+        <access lane="1079644682#0_0" pos="0.00" length="60.20" friendlyPos="1"/>
+        <access lane="1082404464#5_0" pos="55.57" length="50.26" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010968447" name="Cavendish / Côte-Saint-Luc" lane="1079544584#0_0" startPos="19.09" endPos="30.92" friendlyPos="true" lines="104-O">
+        <access lane="-20904888#2_0" pos="0.00" length="215.50" friendlyPos="1"/>
+        <access lane="1079005458#0_0" pos="1.82" length="98.79" friendlyPos="1"/>
+        <access lane="1079006200#0_0" pos="46.76" length="230.59" friendlyPos="1"/>
+        <access lane="1082077061#2_0" pos="176.90" length="122.33" friendlyPos="1"/>
+        <access lane="20904888#1_0" pos="53.60" length="219.80" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010969297" name="Côte-Saint-Luc / Ellerdale" lane="1079052721#0_0" startPos="9.41" endPos="24.41" friendlyPos="true" lines="66-S">
+        <access lane="1082402421#0_0" pos="10.06" length="303.30" friendlyPos="1"/>
+        <access lane="1082402423#0_0" pos="0.00" length="186.54" friendlyPos="1"/>
+        <access lane="20569530#0_0" pos="0.00" length="233.03" friendlyPos="1"/>
+        <access lane="20570488#0_0" pos="162.27" length="183.05" friendlyPos="1"/>
+        <access lane="20570494#0_0" pos="220.68" length="427.12" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010969317" name="Cavendish / Merton" lane="1079525383#0_0" startPos="31.86" endPos="40.60" friendlyPos="true" lines="104-O">
+        <access lane="-1079530981#1_0" pos="79.15" length="120.75" friendlyPos="1"/>
+        <access lane="-20904874#5_0" pos="0.00" length="117.80" friendlyPos="1"/>
+        <access lane="1079530981#0_0" pos="0.00" length="121.29" friendlyPos="1"/>
+        <access lane="20904874#4_0" pos="55.83" length="118.44" friendlyPos="1"/>
+        <access lane="20904887#0_0" pos="1.04" length="208.97" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010969539" name="Côte-Saint-Luc / Cavendish" lane="1078995446#0_0" startPos="0.00" endPos="11.66" friendlyPos="true" lines="66-S">
+        <access lane="-20904888#2_0" pos="0.00" length="162.19" friendlyPos="1"/>
+        <access lane="1079005458#0_0" pos="0.00" length="164.02" friendlyPos="1"/>
+        <access lane="1079006200#0_0" pos="21.74" length="170.92" friendlyPos="1"/>
+        <access lane="1082077061#2_0" pos="201.39" length="62.17" friendlyPos="1"/>
+        <access lane="20904888#1_0" pos="53.60" length="166.89" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010970153" name="Côte-Saint-Luc / Draper" lane="1082079445#0_0" startPos="0.00" endPos="8.27" friendlyPos="true" lines="66-S">
+        <access lane="1080985097#4_0" pos="254.10" length="156.05" friendlyPos="1"/>
+        <access lane="1082402423#0_0" pos="83.83" length="320.47" friendlyPos="1"/>
+        <access lane="20569530#0_0" pos="0.00" length="21.87" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010971165" name="Somerled / Draper" lane="165214768#4_0" startPos="53.51" endPos="68.51" friendlyPos="true" lines="102-O"/>
+    <busStop id="6010971171" name="Fleet / Randall" lane="453278542#0_0" startPos="75.27" endPos="84.70" friendlyPos="true" lines="161-E">
+        <access lane="-199258626#2_0" pos="310.15" length="14.75" friendlyPos="1"/>
+        <access lane="199258626#0_0" pos="0.00" length="19.38" friendlyPos="1"/>
+        <access lane="20904836#0_0" pos="229.75" length="34.26" friendlyPos="1"/>
+        <access lane="453295841#0_0" pos="0.00" length="27.98" friendlyPos="1"/>
+        <access lane="605184601#0_0" pos="63.39" length="33.45" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010971309" name="Randall / Chester" lane="1078997582#0_0" startPos="0.00" endPos="7.70" friendlyPos="true" lines="66-N"/>
+    <busStop id="6010971380" name="Queen-Mary / Stratford" lane="173966360#0_0" startPos="0.00" endPos="7.70" friendlyPos="true" lines="51-E">
+        <access lane="1079087914#0_0" pos="0.00" length="193.45" friendlyPos="1"/>
+        <access lane="1080985097#4_0" pos="254.10" length="166.22" friendlyPos="1"/>
+        <access lane="20569530#0_0" pos="0.00" length="241.55" friendlyPos="1"/>
+        <access lane="29364998#0_0" pos="0.00" length="185.08" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010971827" name="Somerled / Borden" lane="1082404464#3_0" startPos="82.05" endPos="97.05" friendlyPos="true" lines="102-O"/>
+    <busStop id="6010972601" name="Somerled / Wilson" lane="165214768#2_0" startPos="57.64" endPos="72.64" friendlyPos="true" lines="102-O"/>
+    <busStop id="6010973103" name="de Terrebonne / Côte-Saint-Luc" lane="142846055#0_0" startPos="0.00" endPos="7.78" friendlyPos="true" lines="17-N">
+        <access lane="1080985105#2_0" pos="8.16" length="377.06" friendlyPos="1"/>
+        <access lane="165214761#0_0" pos="167.30" length="259.67" friendlyPos="1"/>
+        <access lane="262078426#1_0" pos="330.79" length="58.57" friendlyPos="1"/>
+        <access lane="262150010#0_0" pos="66.09" length="153.75" friendlyPos="1"/>
+        <access lane="453303348#0_0" pos="2.31" length="149.37" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010973167" name="Somerled / Hingston" lane="165214768#10_0" startPos="56.46" endPos="71.46" friendlyPos="true" lines="102-O"/>
+    <busStop id="6010973413" name="Chester / Walkley" lane="1079544582#4_0" startPos="59.71" endPos="74.71" friendlyPos="true" lines="66-N"/>
+    <busStop id="6010973727" name="Cavendish / Fleet" lane="1079525385#0_0" startPos="35.12" endPos="45.71" friendlyPos="true" lines="104-O">
+        <access lane="-199258626#2_0" pos="309.40" length="245.05" friendlyPos="1"/>
+        <access lane="-20904877#1_0" pos="115.39" length="145.91" friendlyPos="1"/>
+        <access lane="-20904878#1_0" pos="112.40" length="230.07" friendlyPos="1"/>
+        <access lane="20904877#0_0" pos="0.00" length="148.86" friendlyPos="1"/>
+        <access lane="20904878#0_0" pos="0.00" length="234.28" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010974548" name="Cavendish / Fielding" lane="1079644687_0" startPos="11.90" endPos="26.90" friendlyPos="true" lines="104-O">
+        <access lane="1079005458#2_0" pos="311.69" length="102.51" friendlyPos="1"/>
+        <access lane="1079005458#4_0" pos="4.86" length="98.11" friendlyPos="1"/>
+        <access lane="1082077061#0_0" pos="0.00" length="127.01" friendlyPos="1"/>
+        <access lane="20572232#1_0" pos="306.30" length="123.50" friendlyPos="1"/>
+        <access lane="24884938#0_0" pos="308.07" length="211.06" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010975587" name="Côte-Saint-Luc / Oxford" lane="1079052705#11_0" startPos="0.00" endPos="12.56" friendlyPos="true" lines="66-S">
+        <access lane="-165214768#1_0" pos="62.43" length="115.47" friendlyPos="1"/>
+        <access lane="-453506595#2_0" pos="0.00" length="117.88" friendlyPos="1"/>
+        <access lane="1080985101#4_0" pos="72.51" length="100.09" friendlyPos="1"/>
+        <access lane="165214768#0_0" pos="4.02" length="120.27" friendlyPos="1"/>
+        <access lane="20569525#0_0" pos="0.00" length="25.17" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010975728" name="Ellerdale / Queen-Mary" lane="20194995#0_0" startPos="0.00" endPos="7.70" friendlyPos="true" lines="51-E">
+        <access lane="-1079007429#2_0" pos="213.81" length="203.61" friendlyPos="1"/>
+        <access lane="1079007429#0_0" pos="0.00" length="198.83" friendlyPos="1"/>
+        <access lane="1082402421#0_0" pos="28.95" length="398.63" friendlyPos="1"/>
+        <access lane="20569530#0_0" pos="0.00" length="210.83" friendlyPos="1"/>
+        <access lane="20570488#0_0" pos="143.30" length="278.35" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010975758" name="King-Edward / Côte-Saint-Luc" lane="1078912373#0_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010975765" name="Côte-Saint-Luc / Cumberland" lane="1078995443#0_0" startPos="0.00" endPos="6.13" friendlyPos="true">
+        <access lane="-20904888#0_0" pos="0.00" length="152.30" friendlyPos="1"/>
+        <access lane="-20904888#2_0" pos="5.79" length="118.16" friendlyPos="1"/>
+        <access lane="1079006200#0_0" pos="0.00" length="109.64" friendlyPos="1"/>
+        <access lane="1082077061#2_0" pos="205.80" length="39.51" friendlyPos="1"/>
+        <access lane="20904888#1_0" pos="48.34" length="122.96" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010976188" name="Côte-Saint-Luc / Earnscliffe" lane="463878819#0_0" startPos="0.00" endPos="10.02" friendlyPos="true" lines="66-N">
+        <access lane="1080985105#2_0" pos="34.27" length="415.86" friendlyPos="1"/>
+        <access lane="165214761#0_0" pos="141.26" length="298.58" friendlyPos="1"/>
+        <access lane="262078426#1_0" pos="330.79" length="25.04" friendlyPos="1"/>
+        <access lane="262150010#0_0" pos="66.09" length="200.29" friendlyPos="1"/>
+        <access lane="453303348#0_0" pos="21.68" length="110.34" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010976296" name="Cavendish / Chester" lane="1079644688_0" startPos="12.62" endPos="27.62" friendlyPos="true" lines="104-O">
+        <access lane="-1051531395#4_0" pos="0.00" length="22.26" friendlyPos="1"/>
+        <access lane="-1079544582#2_0" pos="56.56" length="40.21" friendlyPos="1"/>
+        <access lane="1051531395#2_0" pos="55.64" length="17.71" friendlyPos="1"/>
+        <access lane="1079005458#2_0" pos="6.01" length="98.07" friendlyPos="1"/>
+        <access lane="1079544582#0_0" pos="0.00" length="37.86" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010977293" name="Fleet / Queen-Mary" lane="475057979#0_0" startPos="69.58" endPos="84.58" friendlyPos="true" lines="161-E"/>
+    <busStop id="6010977330" name="Côte-Saint-Luc / de Terrebonne" lane="165215466#0_0" startPos="24.58" endPos="32.92" friendlyPos="true" lines="66-S">
+        <access lane="1080985105#2_0" pos="27.82" length="360.82" friendlyPos="1"/>
+        <access lane="165214761#0_0" pos="147.61" length="243.51" friendlyPos="1"/>
+        <access lane="262078426#1_0" pos="330.79" length="44.09" friendlyPos="1"/>
+        <access lane="262150010#0_0" pos="66.09" length="145.05" friendlyPos="1"/>
+        <access lane="453303348#0_0" pos="15.01" length="165.32" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010977521" name="Queen-Mary / Macdonald" lane="464047503#0_0" startPos="0.00" endPos="13.61" friendlyPos="true" lines="51-O">
+        <access lane="262078426#0_0" pos="0.00" length="298.04" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010978168" name="Somerled / Oxford" lane="453506595#0_0" startPos="0.00" endPos="13.17" friendlyPos="true" lines="102-O"/>
+    <busStop id="6010978726" name="Cavendish / Côte-Saint-Luc" lane="1079524311#0_0" startPos="24.55" endPos="39.55" friendlyPos="true" lines="104-E">
+        <access lane="-20904888#2_0" pos="0.00" length="134.15" friendlyPos="1"/>
+        <access lane="1079005458#0_0" pos="0.00" length="147.65" friendlyPos="1"/>
+        <access lane="1079006200#0_0" pos="0.00" length="207.93" friendlyPos="1"/>
+        <access lane="1082077061#2_0" pos="205.80" length="104.67" friendlyPos="1"/>
+        <access lane="20904888#1_0" pos="53.60" length="138.27" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010980116" name="Somerled / Madison" lane="1082404464#0_0" startPos="0.00" endPos="7.99" friendlyPos="true" lines="102-O"/>
+    <busStop id="6010980844" name="Walkley / Côte-Saint-Luc" lane="165214084#0_0" startPos="0.00" endPos="7.50" friendlyPos="true" lines="66-S">
+        <access lane="-23872735#1_0" pos="0.00" length="131.60" friendlyPos="1"/>
+        <access lane="1051531397#0_0" pos="162.07" length="10.75" friendlyPos="1"/>
+        <access lane="1078995440#0_0" pos="42.89" length="144.85" friendlyPos="1"/>
+        <access lane="1079006200#0_0" pos="58.69" length="116.81" friendlyPos="1"/>
+        <access lane="23872735#0_0" pos="123.43" length="129.54" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010980844@9320535" name="Walkley / Côte-Saint-Luc" lane="1051531397#0_0" startPos="161.91" endPos="176.91" friendlyPos="true" lines="66-N"/>
+    <busStop id="6010981570" name="Queen-Mary / Stratford" lane="1079091087#0_0" startPos="0.00" endPos="7.85" friendlyPos="true" lines="51-O">
+        <access lane="1079087914#0_0" pos="0.00" length="183.79" friendlyPos="1"/>
+        <access lane="1080985097#4_0" pos="254.10" length="215.90" friendlyPos="1"/>
+        <access lane="29364998#0_0" pos="0.00" length="215.73" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6010981690" name="Cavendish / Merton" lane="1079525384#0_0" startPos="30.06" endPos="41.65" friendlyPos="true" lines="104-E">
+        <access lane="-1079530981#1_0" pos="79.15" length="156.92" friendlyPos="1"/>
+        <access lane="-20904874#5_0" pos="0.00" length="85.89" friendlyPos="1"/>
+        <access lane="1079530981#0_0" pos="0.00" length="156.28" friendlyPos="1"/>
+        <access lane="20904874#4_0" pos="55.83" length="84.78" friendlyPos="1"/>
+        <access lane="20904887#0_0" pos="0.00" length="178.02" friendlyPos="1"/>
+    </busStop>
+</additional>
