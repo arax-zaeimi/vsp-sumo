@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2022-09-25 14:50:44 by Eclipse SUMO GUI Version 1.14.1
+<!-- generated on 2022-10-02 18:44:02 by Eclipse SUMO GUI Version 1.14.1
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -20,7 +20,7 @@
 
     <time>
         <begin value="30000"/>
-        <end value="40000"/>
+        <end value="42000"/>
         <step-length value="1"/>
     </time>
 
@@ -90,7 +90,3 @@
     </gui_only>
 
 </configuration>
--->
-
-<DispatchInfo>
-</DispatchInfo>

@@ -1,147 +1,23 @@
-Warning: At actuated tlLogic '7545880544', actuated phase 2 has no controlling detector.
 Warning: At actuated tlLogic 'GS_29794274', actuated phase 2 has no controlling detector.
 Warning: At actuated tlLogic 'GS_cluster_443451105_443451108_443451109_615101609', linkIndex 13 has no controlling detector.
 Warning: At actuated tlLogic 'GS_cluster_443451105_443451108_443451109_615101609', linkIndex 14 has no controlling detector.
 Warning: At actuated tlLogic 'cluster_1290876525_4685162782', actuated phase 3 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_208735453_3196462148_7545880544_7545908491_7546075918_7546075919_9929939611_9929939612_9929939613_9930024754_9930024755', actuated phase 9 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_208735453_3196462148_7545880544_7545908491_7546075918_7546075919_9929939611_9929939612_9929939613_9930024754_9930024755', linkIndex 3 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_208735453_3196462148_7545880544_7545908491_7546075918_7546075919_9929939611_9929939612_9929939613_9930024754_9930024755', linkIndex 4 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_208735453_3196462148_7545880544_7545908491_7546075918_7546075919_9929939611_9929939612_9929939613_9930024754_9930024755', linkIndex 5 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_208735453_3196462148_7545880544_7545908491_7546075918_7546075919_9929939611_9929939612_9929939613_9930024754_9930024755', linkIndex 19 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_208735453_3196462148_7545880544_7545908491_7546075918_7546075919_9929939611_9929939612_9929939613_9930024754_9930024755', linkIndex 20 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_208735453_3196462148_7545880544_7545908491_7546075918_7546075919_9929939611_9929939612_9929939613_9930024754_9930024755', linkIndex 21 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_208813020_7545880579_7545908490_7546022984_7546023011_7546023013_7546023015_7546023017_7546023018_9929811467_9929811468_9929811469_9929843597_9929843606_9929843607', actuated phase 3 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_208813020_7545880579_7545908490_7546022984_7546023011_7546023013_7546023015_7546023017_7546023018_9929811467_9929811468_9929811469_9929843597_9929843606_9929843607', actuated phase 6 has no controlling detector.
 Warning: At actuated tlLogic 'cluster_26233224_8010882236_8010882237', actuated phase 3 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_32124566_6188334672_9935660303', actuated phase 6 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_32124569_7546023001', linkIndex 0 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_32124569_7546023001', linkIndex 1 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_32124569_7546023001', linkIndex 2 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_32124569_7546023001', linkIndex 3 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_32124753_7545880546_7545908493_9917568797_9986604276_9986604278', actuated phase 3 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_32124753_7545880546_7545908493_9917568797_9986604276_9986604278', actuated phase 6 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_32124753_7545880546_7545908493_9917568797_9986604276_9986604278', linkIndex 2 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_32124753_7545880546_7545908493_9917568797_9986604276_9986604278', linkIndex 13 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_32124753_7545880546_7545908493_9917568797_9986604276_9986604278', linkIndex 14 has no controlling detector.
-Warning: At actuated tlLogic 'joinedS_3', linkIndex 13 has no controlling detector.
-Warning: At actuated tlLogic 'joinedS_4', actuated phase 3 has no controlling detector.
-Warning: At actuated tlLogic 'joinedS_4', actuated phase 6 has no controlling detector.
-Warning: At actuated tlLogic 'joinedS_4', linkIndex 6 has no controlling detector.
-Warning: At actuated tlLogic 'joinedS_4', linkIndex 7 has no controlling detector.
-Warning: At actuated tlLogic 'joinedS_4', linkIndex 8 has no controlling detector.
-Warning: ParkingArea '9735403626' is targeted by rerouter '9735403659' but doesn't have it's own rerouter. This may cause parking search to abort.
-Warning: No connection between edge '330150435#4' and edge '1051822951#2' found.
-Warning: Vehicle '9948739_9937184_11_tr' has no valid route from edge '330150435#4' to stop edge '1051822951#2'.
-Warning: busStop '-504318025' on lane '-165217827#4_1' is too short for vehicle 'pt_bus_165-N:0.0'.
-Warning: busStop '-1457825329' on lane '-143920958#3_1' is too short for vehicle 'pt_bus_165-N:0.0'.
-Warning: busStop '6010981247' on lane '561490751#0_1' is too short for vehicle 'pt_bus_24-E:0.0'.
-Warning: busStop '6010979145' on lane '465408864#3_1' is too short for vehicle 'pt_bus_24-E:0.0'.
-Warning: busStop '6010971302' on lane '465408862#3_1' is too short for vehicle 'pt_bus_24-E:0.0'.
-Warning: busStop '6010964910' on lane '165217870#1_1' is too short for vehicle 'pt_bus_24-E:0.0'.
-Warning: No connection between edge '48678911#1' and edge '1051822951#4' found.
-Warning: No route for vehicle 'sv_1#1' found.
-Warning: busStop '-6010970054' on lane '-465408860#0_1' is too short for vehicle 'pt_bus_24-O:0.0'.
-Warning: busStop '-6010971829' on lane '-165217870#1_1' is too short for vehicle 'pt_bus_24-O:0.0'.
-Warning: busStop '-6010981038' on lane '-465408857#1_1' is too short for vehicle 'pt_bus_24-O:0.0'.
-Warning: busStop '6010971108' on lane '41258973#2_1' is too short for vehicle 'pt_bus_427-E:0.0'.
-Warning: busStop '6010968427' on lane '337432401#1_1' is too short for vehicle 'pt_bus_150-O:0.0'.
-Warning: busStop '6010973662' on lane '165217839#2_1' is too short for vehicle 'pt_bus_150-O:0.0'.
-Warning: busStop '6010970338' on lane '165217834#1_1' is too short for vehicle 'pt_bus_165-S:0.0'.
-Warning: busStop '-504318025@8873299' on lane '-455083993#2_1' is too short for vehicle 'pt_bus_165-S:0.0'.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_165-S:0.0' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: busStop '6010973621' on lane '329384217#8_1' is too short for vehicle 'pt_bus_15-O:0.0'.
-Warning: busStop '6010970071' on lane '330150435#8_1' is too short for vehicle 'pt_bus_15-O:0.0'.
-Warning: busStop '6010966061@9320162' on lane '165217839#2_1' is too short for vehicle 'pt_bus_15-O:0.0'.
-Warning: busStop '6010974358' on lane '330150435#0_1' is too short for vehicle 'pt_bus_57-E:0.0'.
-Warning: busStop '6010965221' on lane '111771067#5_2' is too short for vehicle 'pt_bus_57-E:0.0'.
-Warning: busStop '-2264682033' on lane '-329988460#3_2' is too short for vehicle 'pt_bus_57-O:0.0'.
-Warning: busStop '-6010974296' on lane '-111771067#1_2' is too short for vehicle 'pt_bus_57-O:0.0'.
-Warning: No connection between edge '48678911#1' and edge '1051822951#4' found.
-Warning: No route for vehicle 'sv_1#1' found.
-Warning: Teleporting vehicle 'sv_1#1'; waited too long (wrong lane), lane='48678911#1_1', time=30415.00.
-Warning: Vehicle 'sv_1#1' ends teleporting on edge '1051822951#4', time=30415.00.
-Warning: busStop '6010968565' on lane '474841415#1_1' is too short for vehicle 'pt_bus_104-E:0.0'.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_165-S:0.0' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_165-S:0.0'; waited too long (wrong lane), lane='453745802_1', time=30567.00.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_166-S:0.0' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_165-S:0.0' ends teleporting on edge '143920958#2', time=30567.00.
-Warning: busStop '6010964698' on lane '1041940066#7_1' is too short for vehicle 'pt_bus_35-O:0.0'.
-Warning: Teleporting vehicle '9937244_1634158_20_tr'; junction collision with vehicle '9937244_1572820_9_tr', lane=':4710700868_0_2', gap=-6.97', latGap=-1.80, time=30735.00 stage=move.
-Warning: Vehicle '9937244_1634158_20_tr' ends teleporting on edge '330153472#1', time=30735.00.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_166-S:0.0' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_57-O:0.0'; junction collision with vehicle 'pt_bus_427-O:0.1', lane=':3445236723_0_1', gap=-14.41', latGap=-2.50, time=30903.00 stage=move.
-Warning: Vehicle 'pt_bus_57-O:0.0' ends teleporting on edge '-455083994#2', time=30903.00.
-Warning: Teleporting vehicle 'pt_bus_166-S:0.0'; waited too long (wrong lane), lane='453745802_1', time=30906.00.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_165-S:0.1' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_166-S:0.0' ends teleporting on edge '143920958#2', time=30906.00.
-Warning: Teleporting vehicle '9937244_197561_3_tr'; waited too long (yield), lane='-41258976#2_1', time=31173.00.
-Warning: Vehicle '9937244_197561_3_tr' ends teleporting on edge '330153472#0', time=31175.00.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_165-S:0.1' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_165-S:0.1'; waited too long (wrong lane), lane='453745802_1', time=31233.00.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_166-S:0.1' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_165-S:0.1' ends teleporting on edge '143920958#2', time=31233.00.
-Warning: Teleporting vehicle '9948739_9937137_13_tr'; junction collision with vehicle 'pt_bus_66-N:0.1', lane=':29796371_5_1', gap=-1.04', latGap=-0.30, time=31280.00 stage=move.
-Warning: Vehicle '9948739_9937137_13_tr' ends teleporting on edge '-455083994#3', time=31280.00.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_166-S:0.1' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_166-S:0.1'; waited too long (wrong lane), lane='453745802_1', time=31561.00.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_165-S:0.2' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_166-S:0.1' ends teleporting on edge '143920958#2', time=31561.00.
-Warning: Teleporting vehicle 'pt_bus_165-S:0.1'; junction collision with vehicle 'pt_bus_427-O:0.2', lane=':3445236723_0_1', gap=-14.05', latGap=-2.50, time=31771.00 stage=move.
-Warning: Vehicle 'pt_bus_165-S:0.1' ends teleporting on edge '-455083994#2', time=31771.00.
-Warning: Teleporting vehicle '8805747_9937184_1_tr'; waited too long (yield), lane='-41258976#2_1', time=31811.00.
-Warning: Vehicle '8805747_9937184_1_tr' ends teleporting on edge '330153472#0', time=31814.00.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_165-S:0.2' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_165-S:0.2'; waited too long (wrong lane), lane='453745802_1', time=31890.00.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_166-S:0.2' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_165-S:0.2' ends teleporting on edge '143920958#2', time=31890.00.
-Warning: Teleporting vehicle 'pt_bus_66-N:0.2'; waited too long (yield), lane='41258973#2_3', time=31927.00.
-Warning: Vehicle 'pt_bus_66-N:0.2' ends teleporting on edge '41258973#4', time=31927.00.
-Warning: Vehicle '9937137_9937244_24_tr' performs emergency braking on lane '133806980#1_1' with decel=9.00, wished=4.50, severity=1.00, time=32029.00.
-Warning: Person '1572820_1634158_13' is jammed on edge ':cluster_443451105_443451108_443451109_615101609_w4', time=32127.00.
-Warning: Teleporting vehicle 'pt_bus_166-S:0.1'; collision with vehicle 'pt_bus_427-O:0.3', lane='-455083994#3_2', gap=-13.68', latGap=-2.50, time=32173.00 stage=move.
-Warning: Vehicle 'pt_bus_166-S:0.1' ends teleporting on edge '-455083994#2', time=32175.00.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_166-S:0.2' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_166-S:0.2'; waited too long (wrong lane), lane='453745802_1', time=32218.00.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_165-S:0.3' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_166-S:0.2' ends teleporting on edge '143920958#2', time=32218.00.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_165-S:0.3' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_165-S:0.3'; waited too long (wrong lane), lane='453745802_1', time=32546.00.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_166-S:0.3' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_165-S:0.3' ends teleporting on edge '143920958#2', time=32546.00.
-Warning: Teleporting vehicle 'pt_bus_166-S:0.1'; junction collision with vehicle 'pt_bus_57-O:0.2', lane=':3445236723_0_1', gap=-14.46', latGap=-2.50, time=32589.00 stage=move.
-Warning: Vehicle 'pt_bus_166-S:0.1' ends teleporting on edge '-455083994#2', time=32591.00.
-Warning: Teleporting vehicle '9948739_1634158_13_tr'; waited too long (yield), lane='-41258976#2_2', time=32705.00.
-Warning: Vehicle '9948739_1634158_13_tr' ends teleporting on edge '330153472#0', time=32708.00.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_166-S:0.3' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_166-S:0.3'; waited too long (wrong lane), lane='453745802_1', time=32874.00.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_165-S:0.4' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_166-S:0.3' ends teleporting on edge '143920958#2', time=32874.00.
-Warning: Teleporting vehicle 'pt_subway_1:0.0'; collision with vehicle 'pt_subway_1:0.2', lane='-784099214#1_0', gap=-39.94', latGap=-3.00, time=32902.00 stage=move.
-Warning: Teleporting vehicle 'pt_subway_1:0.1'; collision with vehicle 'pt_subway_1:1.1', lane='-784099214#0_0', gap=-39.82', latGap=-3.00, time=32976.00 stage=move.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_165-S:0.4' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_165-S:0.4'; waited too long (wrong lane), lane='453745802_1', time=33201.00.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_166-S:0.4' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_165-S:0.4' ends teleporting on edge '143920958#2', time=33201.00.
-Warning: Vehicle 'pt_subway_1:0.0' ends teleporting on edge '164831271', time=33461.00.
-Warning: Teleporting vehicle 'pt_bus_66-S:0.4'; waited too long (yield), lane='41258973#2_3', time=33496.00.
-Warning: Vehicle 'pt_bus_66-S:0.4' ends teleporting on edge '41258973#4', time=33496.00.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_166-S:0.4' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_166-S:0.4'; waited too long (wrong lane), lane='453745802_1', time=33530.00.
-Warning: Teleporting vehicle 'pt_subway_1:0.2'; collision with vehicle 'pt_subway_1:1.3', lane='-784099214#1_0', gap=-65.10', latGap=-3.00, time=33530.00 stage=move.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_165-S:0.5' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle 'pt_bus_165-S:0.5' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_166-S:0.4' ends teleporting on edge '143920958#2', time=33530.00.
-Warning: Person '1572820_8805747_3' is jammed on edge ':cluster_443451105_443451108_443451109_615101609_w4', time=33676.00.
+Warning: At actuated tlLogic 'cluster_31703077_31703543_32124739_7164229662_7164229663_7164229664_7164229665_7164229666_7164229667_7405829839', actuated phase 9 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_31703077_31703543_32124739_7164229662_7164229663_7164229664_7164229665_7164229666_7164229667_7405829839', linkIndex 8 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_31703077_31703543_32124739_7164229662_7164229663_7164229664_7164229665_7164229666_7164229667_7405829839', linkIndex 9 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_31703077_31703543_32124739_7164229662_7164229663_7164229664_7164229665_7164229666_7164229667_7405829839', linkIndex 10 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_31703077_31703543_32124739_7164229662_7164229663_7164229664_7164229665_7164229666_7164229667_7405829839', linkIndex 14 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_31703077_31703543_32124739_7164229662_7164229663_7164229664_7164229665_7164229666_7164229667_7405829839', linkIndex 15 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_31703077_31703543_32124739_7164229662_7164229663_7164229664_7164229665_7164229666_7164229667_7405829839', linkIndex 16 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_31703077_31703543_32124739_7164229662_7164229663_7164229664_7164229665_7164229666_7164229667_7405829839', linkIndex 24 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_31703077_31703543_32124739_7164229662_7164229663_7164229664_7164229665_7164229666_716422

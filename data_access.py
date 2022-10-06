@@ -146,10 +146,10 @@ def delete_segment(vehicle_id, destination):
     s.flush()
 
 
-def get_segments(simulation_id):
+def get_segments(simulation_id, simulation_step):
     with Session() as s:
         segments = s.query(Segment).filter(
-            Segment.simulation_id == simulation_id).all()
+            Segment.simulation_id == simulation_id, Segment.begin_time == simulation_step).all()
         return segments
 
 

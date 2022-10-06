@@ -8,6 +8,7 @@ import traci
 import components.constants as const
 import json
 
+from pandas import DataFrame
 from distutils import util
 from distutils.log import error
 from sumolib.net import Net
@@ -169,6 +170,30 @@ def insertVehicle(vehicle_id, departure_address, destination_address, simulation
         print("Could not add vehicle!")
 
 
+def validateSegments(segments, simulation_begin, simulation_end):
+    if not segments:
+        return
+
+    segments = pd.DataFrame(list(segments), columns=[
+        'vehicle_id', 'sequence_number', 'begin_time', 'departure', 'destination', 'simulation_id', 'virtual_vehicle_id'])
+
+    groups = segments.groupby('vehicle_id')
+    for vehicle_id, group in groups:
+        group.sort_values(by='sequence_number',
+                          ascending=True, inplace=True)
+        sorted_segments = pd.DataFrame(group)
+
+        for index in sorted_segments.index:
+            if (sorted_segments.at[index, 'begin_time'] < simulation_begin or sorted_segments.at[index, 'begin_time'] >= simulation_end):
+                raise Exception(
+                    'segments begin time must be between simulation begin and end times.')
+
+            if (index > 0 and len(sorted_segments.index) > 1):
+                if sorted_segments.at[index, 'departure'] != sorted_segments.at[(index - 1), 'destination']:
+                    raise Exception(
+                        'segments departure and destinations should follow a chained address. Each departure must be the destination of previous segment.')
+
+
 def store_segments(segments, simulation_id, simulation_begin, simulation_end):
 
     if not segments:
@@ -205,7 +230,7 @@ def store_segments(segments, simulation_id, simulation_begin, simulation_end):
 
 
 def process_segments(simulation_id, simulation_step):
-    segments = data_access.get_segments(simulation_id)
+    segments = data_access.get_segments(simulation_id, simulation_step)
     if not segments:
         return
 
@@ -249,7 +274,7 @@ def execute_simulation_steps(end, simulation_id):
 
 
 def log_trajectories(simulation_id: int, time: int, net: Net):
-    segments = data_access.get_segments(simulation_id)
+    segments = data_access.get_segments(simulation_id, time)
     try:
         if segments:
             vehicles = traci.vehicle.getIDList()
