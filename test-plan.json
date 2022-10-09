@@ -1,0 +1,128 @@
+[
+    {
+        "vehicle_id": 1,
+        "sequence_number": 1,
+        "departure": "1905 Bassins, Montreal",
+        "destination": "1201 rue Guy, montreal ",
+        "begin_time": 30100
+    },
+    {
+        "vehicle_id": "2",
+        "sequence_number": 1,
+        "departure": "2351 Rue Delisle, montreal ",
+        "destination": "301 Peel, montreal ",
+        "begin_time": 30200
+    },
+    {
+        "vehicle_id": "3",
+        "sequence_number": 1,
+        "departure": "1280 Rue Saint-Jacques, montreal ",
+        "destination": "2206 Rue Quesnel, montreal",
+        "begin_time": 30300
+    },
+    {
+        "vehicle_id": "4",
+        "sequence_number": 1,
+        "departure": "1944 Av. Lionel-Groulx, montreal",
+        "destination": "2150 Tupper, montreal",
+        "begin_time": 30400
+    },
+    {
+        "vehicle_id": "5",
+        "sequence_number": 1,
+        "departure": "3019 Sherbrooke W, montreal",
+        "destination": "1402 René-Lévesque Ouest, montreal",
+        "begin_time": 30500
+    },
+    {
+        "vehicle_id": "6",
+        "sequence_number": 1,
+        "departure": "2530 Rue Saint-Antoine Ouest, montreal",
+        "destination": "151 Rue du Séminaire, montreal",
+        "begin_time": 30600
+    },
+    {
+        "vehicle_id": "7",
+        "sequence_number": 1,
+        "departure": "1658 Sherbrooke Ouest, montreal",
+        "destination": "4075 Saint-Catherine Ouest, montreal",
+        "begin_time": 30700
+    },
+    {
+        "vehicle_id": "8",
+        "sequence_number": 1,
+        "departure": "346 Elm, montreal",
+        "destination": "2060 Tupper, montreal",
+        "begin_time": 40000
+    },
+    {
+        "vehicle_id": "9",
+        "sequence_number": 1,
+        "departure": "1487 Argyle, montreal",
+        "destination": "282 Rue de la Montagne, montreal",
+        "begin_time": 40100
+    },
+    {
+        "vehicle_id": "10",
+        "sequence_number": 1,
+        "departure": "1905 Bassins, Montreal",
+        "destination": "282 Rue de la Montagne, montreal",
+        "begin_time": 40200
+    },
+    {
+        "vehicle_id": "11",
+        "sequence_number": 1,
+        "departure": "2351 Rue Delisle, montreal ",
+        "destination": "2060 Tupper, montreal",
+        "begin_time": 40300
+    },
+    {
+        "vehicle_id": "12",
+        "sequence_number": 1,
+        "departure": "1280 Rue Saint-Jacques, montreal ",
+        "destination": "4075 Saint-Catherine Ouest, montreal",
+        "begin_time": 40400
+    },
+    {
+        "vehicle_id": "13",
+        "sequence_number": 1,
+        "departure": "1944 Av. Lionel-Groulx, montreal",
+        "destination": "151 Rue du Séminaire, montreal",
+        "begin_time": 40500
+    },
+    {
+        "vehicle_id": "14",
+        "sequence_number": 1,
+        "departure": "1201 rue Guy, montreal ",
+        "destination": "151 Rue du Séminaire, montreal",
+        "begin_time": 40600
+    },
+    {
+        "vehicle_id": "15",
+        "sequence_number": 1,
+        "departure": "301 Peel, montreal ",
+        "destination": "4075 Saint-Catherine Ouest, montreal",
+        "begin_time": 40700
+    },
+    {
+        "vehicle_id": "16",
+        "sequence_number": 1,
+        "departure": "2206 Rue Quesnel, montreal",
+        "destination": "2060 Tupper, montreal",
+        "begin_time": 40800
+    },
+    {
+        "vehicle_id": "17",
+        "sequence_number": 1,
+        "departure": "2150 Tupper, montreal",
+        "destination": "4075 Saint-Catherine Ouest, montreal",
+        "begin_time": 40900
+    },
+    {
+        "vehicle_id": "18",
+        "sequence_number": 1,
+        "departure": "1402 René-Lévesque Ouest, montreal",
+        "destination": "151 Rue du Séminaire, montreal",
+        "begin_time": 41000
+    }
+]

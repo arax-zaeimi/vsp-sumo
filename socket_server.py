@@ -3,9 +3,7 @@ from __future__ import print_function
 
 from argparse import ArgumentParser
 from dashboard.SimpleWebSocketServer import SimpleWebSocketServer, WebSocket
-from joblib import Parallel, delayed
 
-import multiprocessing
 import os
 import traceback
 import webbrowser
@@ -73,11 +71,21 @@ class OSMImporterWebSocket(WebSocket):
         if data_type == 'set_map':
             thread = threading.Thread(target=self.build, args=(data_body,))
             thread.start()
+
         elif data_type == 'set_traffic':
             thread = threading.Thread(
                 target=self.setTraffic, args=(data_body,))
             thread.start()
+
         elif data_type == 'start_simulation':
+
+            try:
+                sumo_agant.validateSegments(data_body['segments'],
+                                            int(data_body["begin"]),
+                                            int(data_body["end"]))
+            except Exception as e:
+                self.report(e.Message)
+
             self.steps = 1
             self.sendMessage(u"steps %s" % self.steps)
 
@@ -85,14 +93,17 @@ class OSMImporterWebSocket(WebSocket):
                 name="thread", target=sumo_agant.start_server(data_body))
             t.setDaemon(True)
             t.start()
+
         elif data_type == 'add_segment':
             thread = threading.Thread(
                 target=self.addSegment, args=(data_body,))
             thread.start()
+
         elif data_type == 'remove_segment':
             thread = threading.Thread(
                 target=self.removeSegment, args=(data_body,))
             thread.start()
+
         elif data_type == 'change_destination':
             thread = threading.Thread(
                 target=self.changeDestination, args=(data_body,))
@@ -112,15 +123,6 @@ class OSMImporterWebSocket(WebSocket):
                             "--population", str(data['population']),
                             "--density", str(data['density'])
                             ])
-
-    def startSimulation(self, data):
-        self.steps = 13
-        self.sendMessage(u"steps %s" % self.steps)
-
-        t = threading.Thread(
-            name="thread", target=sumo_agant.start_server(self.params))
-        t.setDaemon(True)
-        t.start()
 
     def build(self, data):
         if self.outputDir is not None:
@@ -156,6 +158,7 @@ class OSMImporterWebSocket(WebSocket):
 
 parser = ArgumentParser(
     description="VSP Socket Server")
+
 parser.add_argument("--address", default="", help="Address for the Websocket.")
 parser.add_argument("--port", type=int, default=8010,
                     help="Port for the Websocket. Please edit script.js when using an other port than 8010.")
@@ -166,11 +169,5 @@ if __name__ == "__main__":
         os.path.abspath(__file__)), "dashboard", "index.html"))
     server = SimpleWebSocketServer(
         args.address, args.port, OSMImporterWebSocket)
-
-    # p1 = multiprocessing.Process(target=server.serveforever)
-    # p2 = multiprocessing.Process(target=api.start_api)
-    # p2.start()
-    # p1.start()
-    # api.start_api()
 
     server.serveforever()

@@ -1,9 +1,26 @@
-Warning: At actuated tlLogic '7545880544', actuated phase 2 has no controlling detector.
 Warning: At actuated tlLogic 'GS_29794274', actuated phase 2 has no controlling detector.
 Warning: At actuated tlLogic 'GS_cluster_443451105_443451108_443451109_615101609', linkIndex 13 has no controlling detector.
 Warning: At actuated tlLogic 'GS_cluster_443451105_443451108_443451109_615101609', linkIndex 14 has no controlling detector.
 Warning: At actuated tlLogic 'cluster_1290876525_4685162782', actuated phase 3 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_208735453_3196462148_7545880544_7545908491_7546075918_7546075919_9929939611_9929939612_9929939613_9930024754_9930024755', actuated phase 9 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_208735453_3196462148_7545880544_7545908491_7546075918_7546075919_9929939611_9929939612_9929939613_9930024754_9930024755', linkIndex 3 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_208735453_3196462148_7545880544_7545908491_7546075918_7546075919_9929939611_9929939612_9929939613_9930024754_9930024755', linkIndex 4 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_208735453_3196462148_7545880544_7545908491_7546075918_7546075919_9929939611_9929939612_9929939613_9930024754_9930024755', linkIndex 5 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_208735453_3196462148_7545880544_7545908491_7546075918_7546075919_9929939611_9929939612_9929939613_9930024754_9930024755', linkIndex 19 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_208735453_3196462148_7545880544_7545908491_7546075918_7546075919_9929939611_9929939612_9929939613_9930024754_9930024755', linkIndex 20 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_208735453_3196462148_7545880544_7545908491_7546075918_7546075919_9929939611_9929939612_9929939613_9930024754_9930024755', linkIndex 21 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_208813020_7545880579_7545908490_7546022984_7546023011_7546023013_7546023015_7546023017_7546023018_9929811467_9929811468_9929811469_9929843597_9929843606_9929843607', actuated phase 3 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_208813020_7545880579_7545908490_7546022984_7546023011_7546023013_7546023015_7546023017_7546023018_9929811467_9929811468_9929811469_9929843597_9929843606_9929843607', actuated phase 6 has no controlling detector.
 Warning: At actuated tlLogic 'cluster_26233224_8010882236_8010882237', actuated phase 3 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_31703077_31703543_32124739_7164229662_7164229663_7164229664_7164229665_7164229666_7164229667_7405829839', actuated phase 9 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_31703077_31703543_32124739_7164229662_7164229663_7164229664_7164229665_7164229666_7164229667_7405829839', linkIndex 8 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_31703077_31703543_32124739_7164229662_7164229663_7164229664_7164229665_7164229666_7164229667_7405829839', linkIndex 9 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_31703077_31703543_32124739_7164229662_7164229663_7164229664_7164229665_7164229666_7164229667_7405829839', linkIndex 10 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_31703077_31703543_32124739_7164229662_7164229663_7164229664_7164229665_7164229666_7164229667_7405829839', linkIndex 14 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_31703077_31703543_32124739_7164229662_7164229663_7164229664_7164229665_7164229666_7164229667_7405829839', linkIndex 15 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_31703077_31703543_32124739_7164229662_7164229663_7164229664_7164229665_7164229666_7164229667_7405829839', linkIndex 16 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_31703077_31703543_32124739_7164229662_7164229663_7164229664_7164229665_7164229666_7164229667_7405829839', linkIndex 24 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_31703077_31703543_32124739_7164229662_7164229663_7164229664_7164229665_7164229666_7164229667_7405829839', linkIndex 25 has no controlling detector.
 Warning: At actuated tlLogic 'cluster_32124566_6188334672_9935660303', actuated phase 6 has no controlling detector.
 Warning: At actuated tlLogic 'cluster_32124569_7546023001', linkIndex 0 has no controlling detector.
 Warning: At actuated tlLogic 'cluster_32124569_7546023001', linkIndex 1 has no controlling detector.
@@ -14,26 +31,26 @@ Warning: At actuated tlLogic 'cluster_32124753_7545880546_7545908493_9917568797_
 Warning: At actuated tlLogic 'cluster_32124753_7545880546_7545908493_9917568797_9986604276_9986604278', linkIndex 2 has no controlling detector.
 Warning: At actuated tlLogic 'cluster_32124753_7545880546_7545908493_9917568797_9986604276_9986604278', linkIndex 13 has no controlling detector.
 Warning: At actuated tlLogic 'cluster_32124753_7545880546_7545908493_9917568797_9986604276_9986604278', linkIndex 14 has no controlling detector.
-Warning: At actuated tlLogic 'joinedS_3', linkIndex 13 has no controlling detector.
-Warning: At actuated tlLogic 'joinedS_4', actuated phase 3 has no controlling detector.
-Warning: At actuated tlLogic 'joinedS_4', actuated phase 6 has no controlling detector.
-Warning: At actuated tlLogic 'joinedS_4', linkIndex 6 has no controlling detector.
-Warning: At actuated tlLogic 'joinedS_4', linkIndex 7 has no controlling detector.
-Warning: At actuated tlLogic 'joinedS_4', linkIndex 8 has no controlling detector.
-Warning: ParkingArea '9735403626' is targeted by rerouter '9735403659' but doesn't have it's own rerouter. This may cause parking search to abort.
-Warning: No connection between edge '330150435#4' and edge '1051822951#2' found.
-Warning: Vehicle '9948739_9937184_11_tr' has no valid route from edge '330150435#4' to stop edge '1051822951#2'.
+Warning: At actuated tlLogic 'cluster_32661320_6612150463_7545880532_7545880537_7545908488_7546075922_7546075923_7546075924_7546075925_7546075926_7546075927', linkIndex 3 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_32661320_6612150463_7545880532_7545880537_7545908488_7546075922_7546075923_7546075924_7546075925_7546075926_7546075927', linkIndex 4 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_32661320_6612150463_7545880532_7545880537_7545908488_7546075922_7546075923_7546075924_7546075925_7546075926_7546075927', linkIndex 5 has no controlling detector.
+Warning: At actuated tlLogic 'joinedS_2', linkIndex 13 has no controlling detector.
 Warning: busStop '-504318025' on lane '-165217827#4_1' is too short for vehicle 'pt_bus_165-N:0.0'.
 Warning: busStop '-1457825329' on lane '-143920958#3_1' is too short for vehicle 'pt_bus_165-N:0.0'.
+Warning: busStop '427618243' on lane '456353760#1_1' is too short for vehicle 'pt_bus_107-N:0.0'.
+Warning: busStop '-6010969844' on lane '-354710422#0_1' is too short for vehicle 'pt_bus_107-S:0.0'.
+Warning: busStop '-5754358296' on lane '-455712867#1_1' is too short for vehicle 'pt_bus_107-S:0.0'.
+Warning: busStop '-2687686486' on lane '-37722304_1' is too short for vehicle 'pt_bus_107-S:0.0'.
+Warning: busStop '-2701338580' on lane '-1042470291_1' is too short for vehicle 'pt_bus_107-S:0.0'.
+Warning: busStop '-2091616661' on lane '-1042470293#0_1' is too short for vehicle 'pt_bus_107-S:0.0'.
 Warning: busStop '6010981247' on lane '561490751#0_1' is too short for vehicle 'pt_bus_24-E:0.0'.
 Warning: busStop '6010979145' on lane '465408864#3_1' is too short for vehicle 'pt_bus_24-E:0.0'.
 Warning: busStop '6010971302' on lane '465408862#3_1' is too short for vehicle 'pt_bus_24-E:0.0'.
 Warning: busStop '6010964910' on lane '165217870#1_1' is too short for vehicle 'pt_bus_24-E:0.0'.
-Warning: No connection between edge '48678911#1' and edge '1051822951#4' found.
-Warning: No route for vehicle 'sv_1#1' found.
 Warning: busStop '-6010970054' on lane '-465408860#0_1' is too short for vehicle 'pt_bus_24-O:0.0'.
 Warning: busStop '-6010971829' on lane '-165217870#1_1' is too short for vehicle 'pt_bus_24-O:0.0'.
 Warning: busStop '-6010981038' on lane '-465408857#1_1' is too short for vehicle 'pt_bus_24-O:0.0'.
+Warning: busStop '6010980478' on lane '465159973_1' is too short for vehicle 'pt_bus_144-O:0.0'.
 Warning: busStop '6010971108' on lane '41258973#2_1' is too short for vehicle 'pt_bus_427-E:0.0'.
 Warning: busStop '6010968427' on lane '337432401#1_1' is too short for vehicle 'pt_bus_150-O:0.0'.
 Warning: busStop '6010973662' on lane '165217839#2_1' is too short for vehicle 'pt_bus_150-O:0.0'.
@@ -46,102 +63,588 @@ Warning: busStop '6010970071' on lane '330150435#8_1' is too short for vehicle '
 Warning: busStop '6010966061@9320162' on lane '165217839#2_1' is too short for vehicle 'pt_bus_15-O:0.0'.
 Warning: busStop '6010974358' on lane '330150435#0_1' is too short for vehicle 'pt_bus_57-E:0.0'.
 Warning: busStop '6010965221' on lane '111771067#5_2' is too short for vehicle 'pt_bus_57-E:0.0'.
-Warning: busStop '-2264682033' on lane '-329988460#3_2' is too short for vehicle 'pt_bus_57-O:0.0'.
-Warning: busStop '-6010974296' on lane '-111771067#1_2' is too short for vehicle 'pt_bus_57-O:0.0'.
-Warning: No connection between edge '48678911#1' and edge '1051822951#4' found.
-Warning: No route for vehicle 'sv_1#1' found.
-Warning: Teleporting vehicle 'sv_1#1'; waited too long (wrong lane), lane='48678911#1_1', time=30415.00.
-Warning: Vehicle 'sv_1#1' ends teleporting on edge '1051822951#4', time=30415.00.
+Warning: busStop '2091616655' on lane '20113489#1_1' is too short for vehicle 'pt_bus_57-E:0.0'.
+Warning: busStop '-6010980123' on lane '-20113825#0_1' is too short for vehicle 'pt_bus_57-O:0.0'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.0' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.0' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
 Warning: busStop '6010968565' on lane '474841415#1_1' is too short for vehicle 'pt_bus_104-E:0.0'.
+Warning: busStop '6010965695' on lane '509777703#0_1' is too short for vehicle 'pt_bus_108-E:0.0'.
+Warning: busStop '913940068' on lane '463671313#3_1' is too short for vehicle 'pt_bus_108-E:0.0'.
+Warning: busStop '6010970060' on lane '200638835#3_1' is too short for vehicle 'pt_bus_108-O:0.0'.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_165-S:0.0' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_165-S:0.0'; waited too long (wrong lane), lane='453745802_1', time=30567.00.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.0' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.0' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_165-S:0.0'; waited too long (wrong lane), lane='453745802_1', time=30476.00.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_166-S:0.0' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_165-S:0.0' ends teleporting on edge '143920958#2', time=30567.00.
+Warning: Vehicle 'pt_bus_165-S:0.0' ends teleporting on edge '143920958#2', time=30476.00.
+Warning: busStop '-2687914652' on lane '-545490137#1_1' is too short for vehicle 'pt_bus_36-E:0.0'.
+Warning: busStop '-2264682033' on lane '-329988460#3_2' is too short for vehicle 'pt_bus_36-E:0.0'.
+Warning: busStop '2687914654' on lane '165217829#11_1' is too short for vehicle 'pt_bus_36-O:0.0'.
+Warning: busStop '6010967058' on lane '455722372#0_1' is too short for vehicle 'pt_bus_35-E:0.0'.
+Warning: busStop '-5754358292' on lane '-37722301#2_1' is too short for vehicle 'pt_bus_35-O:0.0'.
+Warning: busStop '-6010968651' on lane '-455713130#1_1' is too short for vehicle 'pt_bus_35-O:0.0'.
 Warning: busStop '6010964698' on lane '1041940066#7_1' is too short for vehicle 'pt_bus_35-O:0.0'.
-Warning: Teleporting vehicle '9937244_1634158_20_tr'; junction collision with vehicle '9937244_1572820_9_tr', lane=':4710700868_0_2', gap=-6.97', latGap=-1.80, time=30735.00 stage=move.
-Warning: Vehicle '9937244_1634158_20_tr' ends teleporting on edge '330153472#1', time=30735.00.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.0'; waited too long (wrong lane), lane='360802894#1_1', time=30519.00.
+Warning: Vehicle 'pt_bus_61-O:0.0' ends teleporting on edge '361815166#0', time=30519.00.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.0' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.1' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.1' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_166-S:0.0' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_57-O:0.0'; junction collision with vehicle 'pt_bus_427-O:0.1', lane=':3445236723_0_1', gap=-14.41', latGap=-2.50, time=30903.00 stage=move.
-Warning: Vehicle 'pt_bus_57-O:0.0' ends teleporting on edge '-455083994#2', time=30903.00.
-Warning: Teleporting vehicle 'pt_bus_166-S:0.0'; waited too long (wrong lane), lane='453745802_1', time=30906.00.
+Warning: Teleporting vehicle 'pt_bus_166-S:0.0'; waited too long (wrong lane), lane='453745802_1', time=30814.00.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_165-S:0.1' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_166-S:0.0' ends teleporting on edge '143920958#2', time=30906.00.
-Warning: Teleporting vehicle '9937244_197561_3_tr'; waited too long (yield), lane='-41258976#2_1', time=31173.00.
-Warning: Vehicle '9937244_197561_3_tr' ends teleporting on edge '330153472#0', time=31175.00.
+Warning: Vehicle 'pt_bus_166-S:0.0' ends teleporting on edge '143920958#2', time=30814.00.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.0'; waited too long (wrong lane), lane='361815166#0_1', time=30872.00.
+Warning: Vehicle 'pt_bus_61-O:0.0' ends teleporting on edge '37722301#2', time=30872.00.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.1' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.1' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_165-S:0.1' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_165-S:0.1'; waited too long (wrong lane), lane='453745802_1', time=31233.00.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.1'; waited too long (wrong lane), lane='360802894#1_1', time=31120.00.
+Warning: Vehicle 'pt_bus_61-O:0.1' ends teleporting on edge '361815166#0', time=31120.00.
+Warning: Teleporting vehicle 'pt_bus_165-S:0.1'; waited too long (wrong lane), lane='453745802_1', time=31143.00.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_166-S:0.1' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_165-S:0.1' ends teleporting on edge '143920958#2', time=31233.00.
-Warning: Teleporting vehicle '9948739_9937137_13_tr'; junction collision with vehicle 'pt_bus_66-N:0.1', lane=':29796371_5_1', gap=-1.04', latGap=-0.30, time=31280.00 stage=move.
-Warning: Vehicle '9948739_9937137_13_tr' ends teleporting on edge '-455083994#3', time=31280.00.
+Warning: Vehicle 'pt_bus_165-S:0.1' ends teleporting on edge '143920958#2', time=31143.00.
+Warning: Vehicle 'pt_bus_166-S:0.0' performs emergency braking on lane ':cluster_26233203_29796371_3445236722_3445236723_3445236725_4710700868_10_1' with decel=7.00, wished=4.00, severity=1.00, time=31173.00.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.1' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.2' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.2' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_166-S:0.1' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_166-S:0.1'; waited too long (wrong lane), lane='453745802_1', time=31561.00.
+Warning: Teleporting vehicle 'pt_bus_166-S:0.1'; waited too long (wrong lane), lane='453745802_1', time=31470.00.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_165-S:0.2' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_166-S:0.1' ends teleporting on edge '143920958#2', time=31561.00.
-Warning: Teleporting vehicle 'pt_bus_165-S:0.1'; junction collision with vehicle 'pt_bus_427-O:0.2', lane=':3445236723_0_1', gap=-14.05', latGap=-2.50, time=31771.00 stage=move.
-Warning: Vehicle 'pt_bus_165-S:0.1' ends teleporting on edge '-455083994#2', time=31771.00.
-Warning: Teleporting vehicle '8805747_9937184_1_tr'; waited too long (yield), lane='-41258976#2_1', time=31811.00.
-Warning: Vehicle '8805747_9937184_1_tr' ends teleporting on edge '330153472#0', time=31814.00.
+Warning: Vehicle 'pt_bus_166-S:0.1' ends teleporting on edge '143920958#2', time=31470.00.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.1'; waited too long (wrong lane), lane='361815166#0_1', time=31471.00.
+Warning: Vehicle 'pt_bus_61-O:0.1' ends teleporting on edge '37722301#2', time=31471.00.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.2' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.2' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.2'; waited too long (wrong lane), lane='360802894#1_1', time=31720.00.
+Warning: Vehicle 'pt_bus_61-O:0.2' ends teleporting on edge '361815166#0', time=31720.00.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_165-S:0.2' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_165-S:0.2'; waited too long (wrong lane), lane='453745802_1', time=31890.00.
+Warning: Teleporting vehicle 'pt_bus_165-S:0.2'; waited too long (wrong lane), lane='453745802_1', time=31798.00.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_166-S:0.2' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_165-S:0.2' ends teleporting on edge '143920958#2', time=31890.00.
-Warning: Teleporting vehicle 'pt_bus_66-N:0.2'; waited too long (yield), lane='41258973#2_3', time=31927.00.
-Warning: Vehicle 'pt_bus_66-N:0.2' ends teleporting on edge '41258973#4', time=31927.00.
-Warning: Vehicle '9937137_9937244_24_tr' performs emergency braking on lane '133806980#1_1' with decel=9.00, wished=4.50, severity=1.00, time=32029.00.
-Warning: Person '1572820_1634158_13' is jammed on edge ':cluster_443451105_443451108_443451109_615101609_w4', time=32127.00.
-Warning: Teleporting vehicle 'pt_bus_166-S:0.1'; collision with vehicle 'pt_bus_427-O:0.3', lane='-455083994#3_2', gap=-13.68', latGap=-2.50, time=32173.00 stage=move.
-Warning: Vehicle 'pt_bus_166-S:0.1' ends teleporting on edge '-455083994#2', time=32175.00.
+Warning: Vehicle 'pt_bus_165-S:0.2' ends teleporting on edge '143920958#2', time=31798.00.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.2' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.3' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.3' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_subway_1:0.1'; collision with vehicle 'pt_subway_1:1.0', lane='-784099214#0_0', gap=-39.82', latGap=-3.00, time=32061.00 stage=move.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.2'; waited too long (wrong lane), lane='361815166#0_1', time=32070.00.
+Warning: Vehicle 'pt_bus_61-O:0.2' ends teleporting on edge '37722301#2', time=32070.00.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_166-S:0.2' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_166-S:0.2'; waited too long (wrong lane), lane='453745802_1', time=32218.00.
+Warning: Teleporting vehicle 'pt_bus_166-S:0.2'; waited too long (wrong lane), lane='453745802_1', time=32126.00.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_165-S:0.3' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_166-S:0.2' ends teleporting on edge '143920958#2', time=32218.00.
+Warning: Vehicle 'pt_bus_166-S:0.2' skips stop on lane '143920958#2_1' time=32129.00.
+Warning: Vehicle 'pt_bus_166-S:0.2' ends teleporting on edge '143920958#3', time=32130.00.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.3' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.3' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.3'; waited too long (wrong lane), lane='360802894#1_1', time=32321.00.
+Warning: Vehicle 'pt_bus_61-O:0.3' ends teleporting on edge '361815166#0', time=32321.00.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_165-S:0.3' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_165-S:0.3'; waited too long (wrong lane), lane='453745802_1', time=32546.00.
+Warning: Teleporting vehicle 'pt_bus_165-S:0.3'; waited too long (wrong lane), lane='453745802_1', time=32456.00.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_166-S:0.3' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_165-S:0.3' ends teleporting on edge '143920958#2', time=32546.00.
-Warning: Teleporting vehicle 'pt_bus_166-S:0.1'; junction collision with vehicle 'pt_bus_57-O:0.2', lane=':3445236723_0_1', gap=-14.46', latGap=-2.50, time=32589.00 stage=move.
-Warning: Vehicle 'pt_bus_166-S:0.1' ends teleporting on edge '-455083994#2', time=32591.00.
-Warning: Teleporting vehicle '9948739_1634158_13_tr'; waited too long (yield), lane='-41258976#2_2', time=32705.00.
-Warning: Vehicle '9948739_1634158_13_tr' ends teleporting on edge '330153472#0', time=32708.00.
+Warning: Vehicle 'pt_bus_165-S:0.3' ends teleporting on edge '143920958#2', time=32456.00.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.3' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.4' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.4' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Person '9937184_1572820_12' is jammed on edge ':7721357044_c2', time=32671.00.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.3'; waited too long (wrong lane), lane='361815166#0_1', time=32673.00.
+Warning: Vehicle 'pt_bus_61-O:0.3' ends teleporting on edge '37722301#2', time=32673.00.
+Warning: Teleporting vehicle 'pt_subway_1:1.1'; collision with vehicle 'pt_subway_1:0.3', lane='164831271_0', gap=-23.00', latGap=-3.00, time=32697.00 stage=move.
+Warning: Vehicle 'pt_subway_1:1.1' skips stop on lane '164831271_0' time=32697.00.
+Warning: Vehicle 'pt_subway_1:1.1' ends teleporting on edge '784099214#0', time=32713.00.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_166-S:0.3' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_166-S:0.3'; waited too long (wrong lane), lane='453745802_1', time=32874.00.
+Warning: Teleporting vehicle 'pt_bus_166-S:0.3'; waited too long (wrong lane), lane='453745802_1', time=32784.00.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_165-S:0.4' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_166-S:0.3' ends teleporting on edge '143920958#2', time=32874.00.
-Warning: Teleporting vehicle 'pt_subway_1:0.0'; collision with vehicle 'pt_subway_1:0.2', lane='-784099214#1_0', gap=-39.94', latGap=-3.00, time=32902.00 stage=move.
-Warning: Teleporting vehicle 'pt_subway_1:0.1'; collision with vehicle 'pt_subway_1:1.1', lane='-784099214#0_0', gap=-39.82', latGap=-3.00, time=32976.00 stage=move.
+Warning: Vehicle 'pt_bus_166-S:0.3' ends teleporting on edge '143920958#2', time=32784.00.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.4' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.4' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.4'; waited too long (wrong lane), lane='360802894#1_1', time=32921.00.
+Warning: Vehicle 'pt_bus_61-O:0.4' ends teleporting on edge '361815166#0', time=32921.00.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_165-S:0.4' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_165-S:0.4'; waited too long (wrong lane), lane='453745802_1', time=33201.00.
+Warning: Teleporting vehicle 'pt_bus_165-S:0.4'; waited too long (wrong lane), lane='453745802_1', time=33113.00.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_166-S:0.4' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_165-S:0.4' ends teleporting on edge '143920958#2', time=33201.00.
-Warning: Vehicle 'pt_subway_1:0.0' ends teleporting on edge '164831271', time=33461.00.
-Warning: Teleporting vehicle 'pt_bus_66-S:0.4'; waited too long (yield), lane='41258973#2_3', time=33496.00.
-Warning: Vehicle 'pt_bus_66-S:0.4' ends teleporting on edge '41258973#4', time=33496.00.
+Warning: Vehicle 'pt_bus_165-S:0.4' ends teleporting on edge '143920958#2', time=33113.00.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.4' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.5' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.5' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.4'; waited too long (wrong lane), lane='361815166#0_1', time=33271.00.
+Warning: Vehicle 'pt_bus_61-O:0.4' ends teleporting on edge '37722301#2', time=33271.00.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_166-S:0.4' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Teleporting vehicle 'pt_bus_166-S:0.4'; waited too long (wrong lane), lane='453745802_1', time=33530.00.
-Warning: Teleporting vehicle 'pt_subway_1:0.2'; collision with vehicle 'pt_subway_1:1.3', lane='-784099214#1_0', gap=-65.10', latGap=-3.00, time=33530.00 stage=move.
+Warning: Teleporting vehicle 'pt_bus_166-S:0.4'; waited too long (wrong lane), lane='453745802_1', time=33441.00.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_165-S:0.5' has no valid route from edge '453745802' to stop edge '143920958#2'.
 Warning: No connection between edge '453745802' and edge '143920958#2' found.
 Warning: Vehicle 'pt_bus_165-S:0.5' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: Vehicle 'pt_bus_166-S:0.4' ends teleporting on edge '143920958#2', time=33530.00.
-Warning: Person '1572820_8805747_3' is jammed on edge ':cluster_443451105_443451108_443451109_615101609_w4', time=33676.00.
+Warning: Vehicle 'pt_bus_166-S:0.4' ends teleporting on edge '143920958#2', time=33441.00.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.5' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.5' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.5'; waited too long (wrong lane), lane='360802894#1_1', time=33520.00.
+Warning: Vehicle 'pt_bus_61-O:0.5' ends teleporting on edge '361815166#0', time=33520.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.5' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_165-S:0.5'; waited too long (wrong lane), lane='453745802_1', time=33769.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.5' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.6' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_165-S:0.5' ends teleporting on edge '143920958#2', time=33769.00.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.5' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.6' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.6' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.5'; waited too long (wrong lane), lane='361815166#0_1', time=33871.00.
+Warning: Vehicle 'pt_bus_61-O:0.5' ends teleporting on edge '37722301#2', time=33871.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.5' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.6' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.6' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_166-S:0.5'; waited too long (wrong lane), lane='453745802_1', time=34097.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.6' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.6' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_166-S:0.5' ends teleporting on edge '143920958#2', time=34097.00.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.6'; waited too long (wrong lane), lane='360802894#1_1', time=34120.00.
+Warning: Vehicle 'pt_bus_61-O:0.6' ends teleporting on edge '361815166#0', time=34120.00.
+Warning: Teleporting vehicle 'pt_subway_1:0.3'; collision with vehicle 'pt_subway_1:1.3', lane='-784099214#0_0', gap=-39.82', latGap=-3.00, time=34176.00 stage=move.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.6' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.7' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.7' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.6' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_165-S:0.6'; waited too long (wrong lane), lane='453745802_1', time=34426.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.7' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.6' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_165-S:0.6' ends teleporting on edge '143920958#2', time=34426.00.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.6'; waited too long (wrong lane), lane='361815166#0_1', time=34472.00.
+Warning: Vehicle 'pt_bus_61-O:0.6' ends teleporting on edge '37722301#2', time=34472.00.
+Warning: Vehicle 'pt_subway_1:0.3' ends teleporting on edge '164831271', time=34659.00.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.7' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.7' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.7'; waited too long (wrong lane), lane='360802894#1_1', time=34720.00.
+Warning: Vehicle 'pt_bus_61-O:0.7' ends teleporting on edge '361815166#0', time=34720.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.6' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_166-S:0.6'; waited too long (wrong lane), lane='453745802_1', time=34754.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.7' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.7' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_166-S:0.6' ends teleporting on edge '143920958#2', time=34754.00.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.7' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.8' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.8' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.7' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.7'; waited too long (wrong lane), lane='361815166#0_1', time=35071.00.
+Warning: Vehicle 'pt_bus_61-O:0.7' ends teleporting on edge '37722301#2', time=35071.00.
+Warning: Teleporting vehicle 'pt_bus_165-S:0.7'; waited too long (wrong lane), lane='453745802_1', time=35084.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.8' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.7' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_165-S:0.7' ends teleporting on edge '143920958#2', time=35084.00.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.8' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.8' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.8'; waited too long (wrong lane), lane='360802894#1_1', time=35320.00.
+Warning: Vehicle 'pt_bus_61-O:0.8' ends teleporting on edge '361815166#0', time=35320.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.7' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_166-S:0.7'; waited too long (wrong lane), lane='453745802_1', time=35413.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.8' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.8' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_166-S:0.7' ends teleporting on edge '143920958#2', time=35413.00.
+Warning: Person '197561_9948740_7' is jammed on edge ':cluster_443451105_443451108_443451109_615101609_w7', time=35518.00.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.8' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.9' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.9' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.8'; waited too long (wrong lane), lane='361815166#0_1', time=35672.00.
+Warning: Vehicle 'pt_bus_61-O:0.8' ends teleporting on edge '37722301#2', time=35672.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.8' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_165-S:0.8'; waited too long (wrong lane), lane='453745802_1', time=35742.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.9' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.8' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_165-S:0.8' ends teleporting on edge '143920958#2', time=35742.00.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.9' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.9' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.9'; waited too long (wrong lane), lane='360802894#1_1', time=35919.00.
+Warning: Vehicle 'pt_bus_61-O:0.9' ends teleporting on edge '361815166#0', time=35919.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.8' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_166-S:0.8'; waited too long (wrong lane), lane='453745802_1', time=36071.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.9' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.9' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_166-S:0.8' ends teleporting on edge '143920958#2', time=36071.00.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.9' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.10' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.10' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.9'; waited too long (wrong lane), lane='361815166#0_1', time=36271.00.
+Warning: Vehicle 'pt_bus_61-O:0.9' ends teleporting on edge '37722301#2', time=36271.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.9' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_165-S:0.9'; waited too long (wrong lane), lane='453745802_1', time=36400.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.10' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.9' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_165-S:0.9' ends teleporting on edge '143920958#2', time=36400.00.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.10' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.10' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.10'; waited too long (wrong lane), lane='360802894#1_1', time=36520.00.
+Warning: Vehicle 'pt_bus_61-O:0.10' ends teleporting on edge '361815166#0', time=36520.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.9' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_166-S:0.9'; waited too long (wrong lane), lane='453745802_1', time=36728.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.10' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.10' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_166-S:0.9' ends teleporting on edge '143920958#2', time=36728.00.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.10' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.11' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.11' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.10'; waited too long (wrong lane), lane='361815166#0_1', time=36872.00.
+Warning: Vehicle 'pt_bus_61-O:0.10' ends teleporting on edge '37722301#2', time=36872.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.10' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_165-S:0.10'; waited too long (wrong lane), lane='453745802_1', time=37056.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.11' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.10' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_165-S:0.10' ends teleporting on edge '143920958#2', time=37056.00.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.11' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.11' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.11'; waited too long (wrong lane), lane='360802894#1_1', time=37119.00.
+Warning: Vehicle 'pt_bus_61-O:0.11' ends teleporting on edge '361815166#0', time=37119.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.10' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.11' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.12' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.12' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_166-S:0.10'; waited too long (wrong lane), lane='453745802_1', time=37385.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.11' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.12' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.11' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_166-S:0.10' ends teleporting on edge '143920958#2', time=37385.00.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.11'; waited too long (wrong lane), lane='361815166#0_1', time=37471.00.
+Warning: Vehicle 'pt_bus_61-O:0.11' ends teleporting on edge '37722301#2', time=37471.00.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.12' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.12' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.11' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_165-S:0.11'; waited too long (wrong lane), lane='453745802_1', time=37713.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.12' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.11' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_165-S:0.11' ends teleporting on edge '143920958#2', time=37713.00.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.12'; waited too long (wrong lane), lane='360802894#1_1', time=37720.00.
+Warning: Vehicle 'pt_bus_61-O:0.12' ends teleporting on edge '361815166#0', time=37720.00.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.12' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.13' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.13' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.11' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_166-S:0.11'; waited too long (wrong lane), lane='453745802_1', time=38042.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.13' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.12' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_166-S:0.11' ends teleporting on edge '143920958#2', time=38042.00.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.12'; waited too long (wrong lane), lane='361815166#0_1', time=38071.00.
+Warning: Vehicle 'pt_bus_61-O:0.12' ends teleporting on edge '37722301#2', time=38071.00.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.13' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.13' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_subway_1:0.9'; collision with vehicle 'pt_subway_1:0.11', lane='-784099214#1_0', gap=-39.94', latGap=-3.00, time=38317.00 stage=move.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.13'; waited too long (wrong lane), lane='360802894#1_1', time=38319.00.
+Warning: Vehicle 'pt_bus_61-O:0.13' ends teleporting on edge '361815166#0', time=38319.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.12' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_165-S:0.12'; waited too long (wrong lane), lane='453745802_1', time=38369.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.13' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.12' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_165-S:0.12' ends teleporting on edge '143920958#2', time=38369.00.
+Warning: Vehicle 'pt_subway_1:0.9' ends teleporting on edge '164831271', time=38494.00.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.13' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.14' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.14' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.12' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.13'; waited too long (wrong lane), lane='361815166#0_1', time=38670.00.
+Warning: Vehicle 'pt_bus_61-O:0.13' ends teleporting on edge '37722301#2', time=38670.00.
+Warning: Teleporting vehicle 'pt_bus_166-S:0.12'; waited too long (wrong lane), lane='453745802_1', time=38697.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.14' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.13' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_166-S:0.12' skips stop on lane '143920958#2_1' time=38701.00.
+Warning: Vehicle 'pt_bus_166-S:0.12' ends teleporting on edge '143920958#3', time=38702.00.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.14' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.14' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.14'; waited too long (wrong lane), lane='360802894#1_1', time=38919.00.
+Warning: Vehicle 'pt_bus_61-O:0.14' ends teleporting on edge '361815166#0', time=38919.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.13' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_165-S:0.13'; waited too long (wrong lane), lane='453745802_1', time=39027.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.14' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.13' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_165-S:0.13' ends teleporting on edge '143920958#2', time=39027.00.
+Warning: Teleporting vehicle 'pt_subway_1:0.10'; collision with vehicle 'pt_subway_1:0.12', lane='784099214#0_0', gap=-51.27', latGap=-3.00, time=39065.00 stage=move.
+Warning: Vehicle 'pt_subway_1:0.10' ends teleporting on edge '784099214#1', time=39065.00.
+Warning: Teleporting vehicle 'pt_subway_1:1.9'; collision with vehicle 'pt_subway_1:1.12', lane='164831271_0', gap=-90.51', latGap=-3.00, time=39086.00 stage=move.
+Warning: Teleporting vehicle 'pt_subway_1:1.12'; collision with vehicle 'pt_subway_1:0.13', lane='164831271_0', gap=-23.99', latGap=-3.00, time=39086.00 stage=move.
+Warning: Vehicle 'pt_subway_1:1.9' ends teleporting on edge '784099214#0', time=39086.00.
+Warning: Vehicle 'pt_subway_1:1.12' ends teleporting on edge '784099214#0', time=39091.00.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.14' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.15' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.15' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.14'; waited too long (wrong lane), lane='361815166#0_1', time=39272.00.
+Warning: Vehicle 'pt_bus_61-O:0.14' ends teleporting on edge '37722301#2', time=39272.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.13' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_166-S:0.13'; waited too long (wrong lane), lane='453745802_1', time=39357.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.15' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.14' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_166-S:0.13' ends teleporting on edge '143920958#2', time=39357.00.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.15' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.15' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.15'; waited too long (wrong lane), lane='360802894#1_1', time=39520.00.
+Warning: Vehicle 'pt_bus_61-O:0.15' ends teleporting on edge '361815166#0', time=39520.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.14' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_165-S:0.14'; waited too long (wrong lane), lane='453745802_1', time=39684.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.15' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.14' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_165-S:0.14' ends teleporting on edge '143920958#2', time=39684.00.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.15' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.16' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.16' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.15'; waited too long (wrong lane), lane='361815166#0_1', time=39870.00.
+Warning: Vehicle 'pt_bus_61-O:0.15' ends teleporting on edge '37722301#2', time=39870.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.14' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_166-S:0.14'; waited too long (wrong lane), lane='453745802_1', time=40013.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.16' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.15' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_166-S:0.14' ends teleporting on edge '143920958#2', time=40013.00.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.16' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.16' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.16'; waited too long (wrong lane), lane='360802894#1_1', time=40120.00.
+Warning: Vehicle 'pt_bus_61-O:0.16' ends teleporting on edge '361815166#0', time=40120.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.15' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_165-S:0.15'; waited too long (wrong lane), lane='453745802_1', time=40343.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.16' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.17' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.15' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_165-S:0.15' ends teleporting on edge '143920958#2', time=40343.00.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.16' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.17' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.17' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.16'; waited too long (wrong lane), lane='361815166#0_1', time=40471.00.
+Warning: Vehicle 'pt_bus_61-O:0.16' ends teleporting on edge '37722301#2', time=40471.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.15' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_166-S:0.15'; waited too long (wrong lane), lane='453745802_1', time=40672.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.16' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_166-S:0.15' ends teleporting on edge '143920958#2', time=40672.00.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.17' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.17' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.17'; waited too long (wrong lane), lane='360802894#1_1', time=40719.00.
+Warning: Vehicle 'pt_bus_61-O:0.17' ends teleporting on edge '361815166#0', time=40719.00.
+Warning: Vehicle 'pt_subway_1:0.15' performs emergency braking on lane '164831271_0' with decel=7.00, wished=3.00, severity=1.00, time=40774.00.
+Warning: Teleporting vehicle 'pt_subway_1:0.15'; collision with vehicle 'pt_subway_1:0.14', lane='164831271_0', gap=-5.95', latGap=-3.00, time=40775.00 stage=move.
+Warning: Vehicle 'pt_subway_1:0.15' ends teleporting on edge '784099214#0', time=40775.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.16' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.17' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.18' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.18' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_165-S:0.16'; waited too long (wrong lane), lane='453745802_1', time=41001.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.18' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.17' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.16' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_165-S:0.16' ends teleporting on edge '143920958#2', time=41001.00.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.17'; waited too long (wrong lane), lane='361815166#0_1', time=41071.00.
+Warning: Vehicle 'pt_bus_61-O:0.17' ends teleporting on edge '37722301#2', time=41071.00.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.18' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.18' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.16' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.18'; waited too long (wrong lane), lane='360802894#1_1', time=41320.00.
+Warning: Vehicle 'pt_bus_61-O:0.18' ends teleporting on edge '361815166#0', time=41320.00.
+Warning: Teleporting vehicle 'pt_bus_166-S:0.16'; waited too long (wrong lane), lane='453745802_1', time=41330.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.18' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.17' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_166-S:0.16' ends teleporting on edge '143920958#2', time=41330.00.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.18' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.19' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.19' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.17' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_165-S:0.17'; waited too long (wrong lane), lane='453745802_1', time=41659.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.19' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.17' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_165-S:0.17' ends teleporting on edge '143920958#2', time=41659.00.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.18'; waited too long (wrong lane), lane='361815166#0_1', time=41671.00.
+Warning: Vehicle 'pt_bus_61-O:0.18' ends teleporting on edge '37722301#2', time=41671.00.
+Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
+Warning: Vehicle 'pt_bus_61-O:0.19' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
+Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
+Warning: Vehicle 'pt_bus_61-O:0.19' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
+Warning: Teleporting vehicle 'pt_bus_61-O:0.19'; waited too long (wrong lane), lane='360802894#1_1', time=41920.00.
+Warning: Vehicle 'pt_bus_61-O:0.19' ends teleporting on edge '361815166#0', time=41920.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.17' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Teleporting vehicle 'pt_bus_166-S:0.17'; waited too long (wrong lane), lane='453745802_1', time=41987.00.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_166-S:0.19' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: No connection between edge '453745802' and edge '143920958#2' found.
+Warning: Vehicle 'pt_bus_165-S:0.18' has no valid route from edge '453745802' to stop edge '143920958#2'.
+Warning: Vehicle 'pt_bus_166-S:0.17' ends teleporting on edge '143920958#2', time=41987.00.

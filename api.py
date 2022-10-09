@@ -1,5 +1,6 @@
+from http.client import OK
 import os
-from flask import Flask
+from flask import Flask, request, jsonify
 from flask_restful import Resource, Api, reqparse
 import data_access as data
 import json
@@ -89,6 +90,15 @@ class Segment(Resource):
         return 'OK'
 
 
+class Status(Resource):
+    def get(self):
+        args = request.args
+
+        # data.add_command('new_segment', jsonData)
+        segments = data.get_vehicle_segments(args['vehicle_id'])
+        return segments
+
+
 class Plan(Resource):
     def post(self):
 
@@ -160,6 +170,7 @@ api.add_resource(Destination, '/destination')
 api.add_resource(Segment, '/segments')
 api.add_resource(Simulation, '/simulation_start')
 api.add_resource(SimulationResult, '/results')
+api.add_resource(Status, '/status')
 
 
 def start_api():
