@@ -43,7 +43,18 @@ class Segment(Base):
     begin_time = Column(Integer)
     sequence_number = Column(Integer)
     status = Column(Integer)  # 0: unprocessed, 1: processed, 2: passed
+    departure_edge_id = Column(String)
+    destination_edge_id = Column(String)
     simulation = relationship("Simulation", back_populates="segments")
+
+    def obj_to_dict(self):  # for build json format
+        return {
+            "vehicle_id": self.vehicle_id,
+            "virtual_vehicle_id": self.virtual_vehicle_id,
+            "status": self.status,
+            "departure_address": self.departure_address,
+            "destination_address": self.destination_address
+        }
 
 
 class Trajectory(Base):

@@ -15,7 +15,7 @@ SIMULATION_STEP_LENGTH = "0.001"
 # ALLOWED_VEHICLES = ('public_emergency', 'public_authority', 'public_army', 'public_transport', 'transport', 'private', 'emergency', 'authority',
 #                     'army', 'vip', 'passenger', 'hov', 'taxi', 'bus', 'coach', 'delivery', 'truck', 'trailer', 'motorcycle', 'moped', 'bicycle', 'evehicle')
 ALLOWED_VEHICLES = ('passenger', 'evehicle')
-MAX_SEARCH_RADIUS = 20
+MAX_SEARCH_RADIUS = 30
 
 # this is the id of vType that is defined in route files.
 SERVICE_VEHICLE_TYPE = 'passenger1'

@@ -1,0 +1,24 @@
+New Service Vehicle Added. Vehicle_id: sv_1#1 - from: 1905 Bassins, Montreal -> to: 1201 rue Guy, montreal 
+There is no eligible edge near the provided geocordinates. No edge supports passing vehicles.
+Could not add vehicle!
+New Service Vehicle Added. Vehicle_id: sv_3#1 - from: 1280 Rue Saint-Jacques, montreal  -> to: 2206 Rue Quesnel, montreal
+New Service Vehicle Added. Vehicle_id: sv_4#1 - from: 1944 Av. Lionel-Groulx, montreal -> to: 2150 Tupper, montreal
+New Service Vehicle Added. Vehicle_id: sv_5#1 - from: 3019 Sherbrooke W, montreal -> to: 1402 René-Lévesque Ouest, montreal
+New Service Vehicle Added. Vehicle_id: sv_6#1 - from: 2530 Rue Saint-Antoine Ouest, montreal -> to: 151 Rue du Séminaire, montreal
+There is no eligible edge near the provided geocordinates. No edge supports passing vehicles.
+Could not add vehicle!
+New Service Vehicle Added. Vehicle_id: sv_8#1 - from: 346 Elm, montreal -> to: 2060 Tupper, montreal
+New Service Vehicle Added. Vehicle_id: sv_9#1 - from: 1487 Argyle, montreal -> to: 282 Rue de la Montagne, montreal
+New Service Vehicle Added. Vehicle_id: sv_10#1 - from: 1905 Bassins, Montreal -> to: 282 Rue de la Montagne, montreal
+There is no eligible edge near the provided geocordinates. No edge supports passing vehicles.
+Could not add vehicle!
+There is no eligible edge near the provided geocordinates. No edge supports passing vehicles.
+Could not add vehicle!
+New Service Vehicle Added. Vehicle_id: sv_13#1 - from: 1944 Av. Lionel-Groulx, montreal -> to: 151 Rue du Séminaire, montreal
+New Service Vehicle Added. Vehicle_id: sv_14#1 - from: 1201 rue Guy, montreal  -> to: 151 Rue du Séminaire, montreal
+There is no eligible edge near the provided geocordinates. No edge supports passing vehicles.
+Could not add vehicle!
+New Service Vehicle Added. Vehicle_id: sv_16#1 - from: 2206 Rue Quesnel, montreal -> to: 2060 Tupper, montreal
+There is no eligible edge near the provided geocordinates. No edge supports passing vehicles.
+Could not add vehicle!
+New Service Vehicle Added. Vehicle_id: sv_18#1 - from: 1402 René-Lévesque Ouest, montreal -> to: 151 Rue du Séminaire, montreal

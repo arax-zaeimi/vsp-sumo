@@ -87,7 +87,26 @@ def add_simulation(begin, end, gui):
         s.flush()
         return simulation.id
 
-#########ُSEGMENTS###############
+
+def toJson(objlist):
+    result2 = [item.obj_to_dict() for item in objlist]
+    return result2
+
+##############SEGMENTS###############
+
+
+def get_vehicle_segments(vehicle_id):
+    with session_scope() as s:
+        simulation_id = s.query(func.max(Simulation.id)).first()
+        segments = s.query(Segment).filter(
+            Segment.simulation_id == simulation_id[0], Segment.vehicle_id == vehicle_id).order_by(desc(Segment.sequence_number)).all()
+
+        if segments:
+            try:
+                jsonSegments = toJson(segments)
+                return jsonSegments
+            except Exception as e:
+                return e.args[0]
 
 
 def add_segments(simulation_id, segments: DataFrame):
@@ -133,6 +152,18 @@ def add_segment(vehicle_id, begin, departure, destination):
     s.flush()
 
 
+def update_segment_edge_identifier(virtual_vehicle_id, departure_edge_id, destination_edge_id):
+    with Session() as s:
+        simulation_id = s.query(func.max(Simulation.id)).first()
+        segment = s.query(Segment).filter(
+            Segment.simulation_id == simulation_id[0] and Segment.virtual_vehicle_id == virtual_vehicle_id).order_by(desc(Segment.sequence_number)).limit(1).first()
+        if segment:
+            segment.departure_edge_id = departure_edge_id
+            segment.destination_edge_id = destination_edge_id
+            s.commit()
+        s.flush()
+
+
 def delete_segment(vehicle_id, destination):
     with Session() as s:
         simulation_id = s.query(func.max(Simulation.id)).first()
@@ -150,6 +181,14 @@ def get_segments(simulation_id, simulation_step):
     with Session() as s:
         segments = s.query(Segment).filter(
             Segment.simulation_id == simulation_id, Segment.begin_time == simulation_step).all()
+
+        return segments
+
+
+def get_all_segments(simulation_id):
+    with Session() as s:
+        segments = s.query(Segment).filter(
+            Segment.simulation_id == simulation_id).all()
         return segments
 
 
@@ -158,6 +197,7 @@ def update_segment(id, status):
         segment = s.query(Segment).get(id)
         segment.status = status
         s.commit()
+        s.flush()
 
 
 def import_segments(segments):

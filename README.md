@@ -180,6 +180,27 @@ curl --location --request POST 'http://127.0.0.1:5000/destination' \
 }'
 ```
 
+### Get Vehicle Status
+
+```bash
+curl --location --request GET 'http://127.0.0.1:5000/status?vehicle_id=1' \
+--header 'Content-Type: application/json'
+```
+
+The response contains vehicle status and determine whether the vehicle has reach its destination:
+
+```json
+[
+  {
+    "vehicle_id": "1",
+    "virtual_vehicle_id": "sv_1#1",
+    "status": 3,
+    "departure_address": "1905 Bassins, Montreal",
+    "destination_address": "1201 rue Guy, montreal "
+  }
+]
+```
+
 ## **Simulation Environment**
 
 Once the simulation is configured using the dashboard or API, the user can start the simulation. The VSP will open the SUMO-GUI which is pre-configured with the input parameters that user already defined in previous steps. While the simulation is running and processing the objects, it collects GPS tracking information of the vehicles that are defined by the user. It allows the user to study the points that each vehicle passes to reach its destination.

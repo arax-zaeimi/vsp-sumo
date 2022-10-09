@@ -91,6 +91,8 @@ def start_server(params):
         params["end"],
         params["ui_enabled"])
 
+    store_segments(params['segments'], simulation_id)
+
     options = get_options()
 
     # check binary
@@ -110,9 +112,6 @@ def start_server(params):
                  ],
                 port=const.PORT)
     traci.setOrder(1)
-
-    store_segments(params['segments'], simulation_id,
-                   int(params["begin"]), int(params["end"]))
 
     execute_simulation_steps(int(params["end"]), simulation_id)
 
@@ -140,24 +139,27 @@ def find_nearest_edge_to_geocordinates(lon, lat, net: Net):
     raise Exception('Edge not found within the valid radius.')
 
 
+def find_nearest_edge_to_address(address, simulation_network: Net):
+    lat, lon, display_name = geocode(address)
+
+    edge_id = find_nearest_edge_to_geocordinates(
+        lon, lat, simulation_network)
+
+    return edge_id
+
+
 def insertVehicle(vehicle_id, departure_address, destination_address, simulation_network: Net):
 
     try:
-        departure_lat, departure_lon, departure_display_name = geocode(
-            departure_address)
 
-        from_edge = find_nearest_edge_to_geocordinates(
-            departure_lon,
-            departure_lat,
-            simulation_network)
+        from_edge = find_nearest_edge_to_address(
+            departure_address, simulation_network)
 
-        destination_lat, destination_lon, destination_display_name = geocode(
-            destination_address)
+        to_edge = find_nearest_edge_to_address(
+            destination_address, simulation_network)
 
-        to_edge = find_nearest_edge_to_geocordinates(
-            destination_lon,
-            destination_lat,
-            simulation_network)
+        data_access.update_segment_edge_identifier(
+            vehicle_id, from_edge, to_edge)
 
         trip_id = f"{from_edge}_{to_edge}"
 
@@ -194,7 +196,7 @@ def validateSegments(segments, simulation_begin, simulation_end):
                         'segments departure and destinations should follow a chained address. Each departure must be the destination of previous segment.')
 
 
-def store_segments(segments, simulation_id, simulation_begin, simulation_end):
+def store_segments(segments, simulation_id):
 
     if not segments:
         return
@@ -203,27 +205,14 @@ def store_segments(segments, simulation_id, simulation_begin, simulation_end):
         segments = pd.DataFrame(list(segments), columns=[
             'vehicle_id', 'sequence_number', 'begin_time', 'departure', 'destination', 'simulation_id', 'virtual_vehicle_id'])
 
-        groups = segments.groupby('vehicle_id')
-        for vehicle_id, group in groups:
-            group.sort_values(by='sequence_number',
-                              ascending=True, inplace=True)
-            sorted_segments = pd.DataFrame(group)
+        for index in segments.index:
+            vehicle_id = segments.at[index, 'vehicle_id']
 
-            for index in sorted_segments.index:
-                if (sorted_segments.at[index, 'begin_time'] < simulation_begin or sorted_segments.at[index, 'begin_time'] >= simulation_end):
-                    raise Exception(
-                        'segments begin time must be between simulation begin and end times.')
+            segments.at[index, 'simulation_id'] = simulation_id
+            segments.at[index,
+                        'virtual_vehicle_id'] = f"sv_{vehicle_id}#{segments['sequence_number'][index]}"
 
-                if (index > 0):
-                    if sorted_segments.at[index, 'departure'] != sorted_segments.at[(index - 1), 'destination']:
-                        raise Exception(
-                            'segments departure and destinations should follow a chained address. Each departure must be the destination of previous segment.')
-
-                sorted_segments.at[index, 'simulation_id'] = simulation_id
-                sorted_segments.at[index,
-                                   'virtual_vehicle_id'] = f"sv_{vehicle_id}#{sorted_segments['sequence_number'][index]}"
-
-            data_access.add_segments(simulation_id, sorted_segments)
+        data_access.add_segments(simulation_id, segments)
     except Exception as e:
         print(e)
         return
@@ -274,14 +263,22 @@ def execute_simulation_steps(end, simulation_id):
 
 
 def log_trajectories(simulation_id: int, time: int, net: Net):
-    segments = data_access.get_segments(simulation_id, time)
+    segments = data_access.get_all_segments(simulation_id)
     try:
         if segments:
             vehicles = traci.vehicle.getIDList()
             for segment in segments:
                 if segment.virtual_vehicle_id in vehicles:
+
                     position = traci.vehicle.getPosition(
                         segment.virtual_vehicle_id)
+
+                    lane_id = traci.vehicle.getLaneID(
+                        segment.virtual_vehicle_id)
+
+                    if segment.destination_edge_id and segment.destination_edge_id in lane_id:
+                        data_access.update_segment(segment.id, 3)
+
                     lon, lat = net.convertXY2LonLat(
                         position[0], position[1])
                     data_access.add_trajectory(
@@ -304,8 +301,12 @@ def process_commands():
                         action_params['vehicle_id'],
                         action_params['destination'])
                 case const.COMMAND_NEW_VEHICLE:
-                    insertNewVehicle(action_params['vehicle_id'],
-                                     action_params['departure'], action_params['destination'])
+                    net = load_simulation_network()
+                    insertVehicle(
+                        action_params['vehicle_id'],
+                        action_params['departure'],
+                        action_params['destination'], net)
+
                 case const.COMMAND_ADD_SEGMENT:
                     addSegment(
                         action_params['vehicle_id'], action_params['departure'], action_params['destination'], action_params['stop'])
@@ -331,11 +332,6 @@ def setNewDestination(vehicle_id, address):
     traci.vehicle.setColor(vehicle_id, (255, 0, 0))
     print(
         f"Rerouted Vehicle: {vehicle_id} to Edge: {edgeId}, address: {address}")
-
-
-def insertNewVehicle(vehicle_id, departure, destination):
-    net = load_simulation_network()
-    insertVehicle(vehicle_id, departure, destination, net)
 
 
 def addSegment(vehicle_id, begin, departure, destinaiton):
