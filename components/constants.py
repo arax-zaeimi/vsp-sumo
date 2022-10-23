@@ -5,6 +5,7 @@ import sys
 
 MAPS_PATH = "\\map"
 TRAFFIC_PATH = "\\scenario"
+TRIPS_OUTPUT_PATH = os.getcwd() + TRAFFIC_PATH + '\\output.tripinfo.xml'
 DEFAULT_SUMO_CONFIG_PATH = os.getcwd() + TRAFFIC_PATH + '\\osm.sumocfg'
 DEFAULT_NET_PATH = os.getcwd() + TRAFFIC_PATH + '\\osm.net.xml'
 PREFIX = "demo"
