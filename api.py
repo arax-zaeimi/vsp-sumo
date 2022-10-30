@@ -112,7 +112,9 @@ class Plan(Resource):
 
 class SimulationResult(Resource):
     def get(self):
-        return 'OK'
+        results = data.get_trip_results()
+
+        return jsonify(results)
 
 
 class Boundaries(Resource):

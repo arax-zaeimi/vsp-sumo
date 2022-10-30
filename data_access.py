@@ -9,7 +9,9 @@ from contextlib import contextmanager
 from distutils import util
 from pandas import DataFrame
 
+import components.constants as const
 import pandas as pd
+import json
 
 engine = create_engine(DATABASE_URI)
 
@@ -27,6 +29,26 @@ def session_scope():
         raise
     finally:
         session.close()
+
+
+def get_trip_results():
+    df = pd.read_xml(const.TRIPS_OUTPUT_PATH)
+    df = df[df["id"].str.contains("sv_")]
+
+    if len(df) == 0:
+        return
+
+    df = df.sort_values(['id'], ascending=False, axis=0)[
+        ['id', 'depart', 'departLane', 'arrival', 'arrivalLane', 'duration', 'routeLength', 'rerouteNo', 'waitingTime']]
+
+    # result = df.to_json(orient="records")
+
+    result = df.to_dict(orient="records")
+
+    # parsed = json.loads(result)
+    # parsed_json = json.dumps(parsed).replace("u\'", "\'")
+
+    return result
 
 
 def recreate_database():
