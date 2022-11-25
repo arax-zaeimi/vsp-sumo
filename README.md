@@ -57,14 +57,24 @@ In the VSP the user imports vehicles plan and the VSP processes the plan to crea
 
 ## **Installation:**
 
-- Install SUMO simulation engine by following their official instructions. (https://sumo.dlr.de/docs/Installing/index.html)
+### **1. Database**
 
-- Clone the VSP repository and navigate to the VSP root directory
+- Install **PostgreSQL**. Follow PostgreSQL installation guid: (https://www.postgresql.org/download/)
+- After installation of PostgreSQL, use **_PgAdmin_** application to create a new database. Create a new database with this name: **_vspsumodb_**
+- Navigate to the root directory of the project and run this script: `python data_access.py` [data_access.py](./data_access.py)
+
+### **2. Install SUMO**
+
+- Download and install SUMO simulation engine. Following SUMO official instructions: (https://sumo.dlr.de/docs/Downloads.php)
+- You need to verify sumo installation by running the following command on your command terminal: `sumo --version`. If you cannot see the sumo version and description, you need to follow the SUMO instructions to make sure you can run sumo without any issues.
+
+### **3. Setup Simulation Platform**
+
+- Clone the VSP repository and navigate to the root directory
 - Create a new python environment: `python -m venv env`
 - Activate the python environment: `env/scripts/activate`
 - Install python libraries: `pip install -r requirements.txt`
-- Install PostgreSQL
-- Set database connection string in the db config file: [DbConfigFile](./config.py)
+- [Optional] If you need to change the database connection string, you can update this file: [DbConfigFile](./config.py)
 
 ## **How to Use:**
 
@@ -75,9 +85,9 @@ The VSP offers two means of usability:
 
 ### **Dashboard:**
 
-Execute the following command to run the dashboard:
+We use dashboard to explore the map, download an area of the map to set it for simulation, and set simulation parameters. Execute the following command to run the dashboard:
 
-`python socket_server.py`
+`python dashboard.py`
 
 The dashboard GUI is designed to allow users explore the map, set their desired area, followed by other available parameters, and start the simulation.
 ![Dahboard GUI](./docs/images/vsp-dashboard.jpg)
@@ -94,7 +104,56 @@ Dashboard features are as follows:
   - `Remove Segment`
   - `Change Destination`
 
+**IMPORTANT:** This code respository, already contains a simulation scenario. The scenario is configured for Montreal, Hampstead and Westmount areas. So, you can skip steps 1 and 2 and only go to step 3 to start the simulation. But, if you would like to configure the platform for a new area on the map, you need to follow steps 1 to 3.
+
+### **1. Set Map**
+
+Explore the map, zoom or zoom out, then use _Simulation Boundary_ section on the dashboard panel to check the **_Select Area_** option. Once you check this option, you can select an area and press the **Set Map** button. It is recommended to select smaller areas on the map. Because the larger the area is, the more it takes to download and convert the map and generate background traffic.
+
+### **2. Set Traffic**
+
+Use **_Background Traffic_** section on the panel, to set traffic density. The more the values, the more it takes to generate traffic. This step might need more time to process. But, you do not need to do it every time to run a simulation. The first time you set traffic, it generates and stores the traffic scenario and for next simulations, you can ignore this step and just start the simulation.
+
+### **3. Simulation**
+
+Using this section of panel, you can set a plan. A plan is an array of segments and each segment consists of [vehicle_id, departure, destination, sequence_number, begin_time]. The format of the plan is as follow:
+
+```json
+[
+  {
+    "vehicle_id": "1",
+    "sequence_number": 1,
+    "departure": "53 Harrow Rd, Montreal",
+    "destination": "804 Lexington Ave, Montreal",
+    "begin_time": 38000
+  },
+  {
+    "vehicle_id": "2",
+    "sequence_number": 1,
+    "departure": "592 Lansdowne Ave, Montreal",
+    "destination": "4342 Hampton Ave, Montreal",
+    "begin_time": 38200
+  }
+]
+```
+
+| Propoerty       | Type    | Description                                                       |
+| --------------- | ------- | ----------------------------------------------------------------- |
+| vehicle_id      | String  | unique identifier of vehicle                                      |
+| sequence_number | Integer | order of the segment. Simulation processes segments sequentially. |
+| begin_time      | Integer | The start time for this segment (Seconds)                         |
+| departure       | String  | Departure Address                                                 |
+| destination     | String  | Destination Address                                               |
+
+**IMPORTANT:** In the _Simulation_ section of panel, you need to set begin and end of simulation. These two values should be set according to your imported plan. The begin time should be less than the _begin_time_ of your first vehicle and the _end_ must be more than the _begin_time_ of your last vehicle.
+
 The final step is to run the simulation. Once the simulation starts, the `sumo-gui` gets activated and the user can see the vehicles moving on the map. During the simulation, the GPS location of the vehicles that are specified in the plan, will be logged into database and can be accessed anytime.
+
+## **Simulation Environment**
+
+Once the simulation is configured using the dashboard or API, the user can start the simulation. The VSP will open the SUMO-GUI which is pre-configured with the input parameters that user already defined in previous steps. While the simulation is running and processing the objects, it collects GPS tracking information of the vehicles that are defined by the user. It allows the user to study the points that each vehicle passes to reach its destination.
+
+![SUMO-GUI](./docs/images/sumo-gui-scenario.jpg)
 
 ### **API**
 
@@ -201,8 +260,37 @@ The response contains vehicle status and determine whether the vehicle has reach
 ]
 ```
 
-## **Simulation Environment**
+### Get Simulation Results
 
-Once the simulation is configured using the dashboard or API, the user can start the simulation. The VSP will open the SUMO-GUI which is pre-configured with the input parameters that user already defined in previous steps. While the simulation is running and processing the objects, it collects GPS tracking information of the vehicles that are defined by the user. It allows the user to study the points that each vehicle passes to reach its destination.
+```bash
+curl --location --request GET 'http://127.0.0.1:5000/results'
+```
 
-![SUMO-GUI](./docs/images/sumo-gui-scenario.jpg)
+Response example:
+
+```json
+[
+  {
+    "arrival": 39568,
+    "arrivalLane": "344887670#2_1",
+    "depart": 39200,
+    "departLane": "477567817#1_1",
+    "duration": 368,
+    "id": "sv_10#1",
+    "rerouteNo": 1,
+    "routeLength": 3070.74,
+    "waitingTime": 67
+  },
+  {
+    "arrival": 38402,
+    "arrivalLane": "20187003_1",
+    "depart": 38000,
+    "departLane": "29366375_1",
+    "duration": 402,
+    "id": "sv_1#1",
+    "rerouteNo": 2,
+    "routeLength": 3993.71,
+    "waitingTime": 43
+  }
+]
+```

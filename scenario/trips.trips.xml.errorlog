@@ -1,75 +1,431 @@
-Warning: At actuated tlLogic 'GS_29794274', actuated phase 2 has no controlling detector.
-Warning: At actuated tlLogic 'GS_cluster_443451105_443451108_443451109_615101609', linkIndex 13 has no controlling detector.
-Warning: At actuated tlLogic 'GS_cluster_443451105_443451108_443451109_615101609', linkIndex 14 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1290876525_4685162782', actuated phase 3 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_208735453_3196462148_7545880544_7545908491_7546075918_7546075919_9929939611_9929939612_9929939613_9930024754_9930024755', actuated phase 9 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_208735453_3196462148_7545880544_7545908491_7546075918_7546075919_9929939611_9929939612_9929939613_9930024754_9930024755', linkIndex 3 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_208735453_3196462148_7545880544_7545908491_7546075918_7546075919_9929939611_9929939612_9929939613_9930024754_9930024755', linkIndex 4 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_208735453_3196462148_7545880544_7545908491_7546075918_7546075919_9929939611_9929939612_9929939613_9930024754_9930024755', linkIndex 5 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_208813020_7545880579_7545908490_7546022984_7546023011_7546023013_7546023015_7546023017_7546023018_9929811467_9929811468_9929811469_9929843597_9929843606_9929843607', actuated phase 3 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_208813020_7545880579_7545908490_7546022984_7546023011_7546023013_7546023015_7546023017_7546023018_9929811467_9929811468_9929811469_9929843597_9929843606_9929843607', actuated phase 6 has no controlling detector.
-Warning: busStop '-504318025' on lane '-165217827#4_1' is too short for vehicle '4_bus_165-N:0'.
-Warning: busStop '-1457825329' on lane '-143920958#3_1' is too short for vehicle '4_bus_165-N:0'.
-Warning: busStop '427618243' on lane '456353760#1_1' is too short for vehicle '7_bus_107-N:0'.
-Warning: busStop '-6010969844' on lane '-354710422#0_1' is too short for vehicle '8_bus_107-S:0'.
-Warning: busStop '-5754358296' on lane '-455712867#1_1' is too short for vehicle '8_bus_107-S:0'.
-Warning: busStop '-2687686486' on lane '-37722304_1' is too short for vehicle '8_bus_107-S:0'.
-Warning: busStop '-2701338580' on lane '-1042470291_1' is too short for vehicle '8_bus_107-S:0'.
-Warning: busStop '-2091616661' on lane '-1042470293#0_1' is too short for vehicle '8_bus_107-S:0'.
-Warning: busStop '6010981247' on lane '561490751#0_1' is too short for vehicle '9_bus_24-E:0'.
-Warning: busStop '6010979145' on lane '465408864#3_1' is too short for vehicle '9_bus_24-E:0'.
-Warning: busStop '6010971302' on lane '465408862#3_1' is too short for vehicle '9_bus_24-E:0'.
-Warning: busStop '6010964910' on lane '165217870#1_1' is too short for vehicle '9_bus_24-E:0'.
-Warning: busStop '-6010970054' on lane '-465408860#0_1' is too short for vehicle '10_bus_24-O:0'.
-Warning: busStop '-6010971829' on lane '-165217870#1_1' is too short for vehicle '10_bus_24-O:0'.
-Warning: busStop '-6010981038' on lane '-465408857#1_1' is too short for vehicle '10_bus_24-O:0'.
-Warning: busStop '6010980478' on lane '465159973_1' is too short for vehicle '11_bus_144-O:0'.
-Warning: busStop '6010971108' on lane '41258973#2_1' is too short for vehicle '13_bus_427-E:0'.
-Warning: busStop '6010968427' on lane '337432401#1_1' is too short for vehicle '16_bus_150-O:0'.
-Warning: busStop '6010973662' on lane '165217839#2_1' is too short for vehicle '16_bus_150-O:0'.
-Warning: busStop '6010970338' on lane '165217834#1_1' is too short for vehicle '18_bus_165-S:0'.
-Warning: busStop '-504318025@8873299' on lane '-455083993#2_1' is too short for vehicle '18_bus_165-S:0'.
-Warning: busStop '6010973621' on lane '329384217#8_1' is too short for vehicle '20_bus_15-O:0'.
-Warning: busStop '6010970071' on lane '330150435#8_1' is too short for vehicle '20_bus_15-O:0'.
-Warning: busStop '6010966061@9320162' on lane '165217839#2_1' is too short for vehicle '20_bus_15-O:0'.
-Warning: busStop '6010974358' on lane '330150435#0_1' is too short for vehicle '21_bus_57-E:0'.
-Warning: busStop '6010965221' on lane '111771067#5_2' is too short for vehicle '21_bus_57-E:0'.
-Warning: busStop '2091616655' on lane '20113489#1_1' is too short for vehicle '21_bus_57-E:0'.
-Warning: busStop '-6010980123' on lane '-20113825#0_1' is too short for vehicle '22_bus_57-O:0'.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle '18_bus_165-S:0' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: No connection between edge '360802894#1' and edge '361815166#0' found.
-Warning: Vehicle '23_bus_61-O:0' has no valid route from edge '360802894#1' to stop edge '361815166#0'.
-Warning: No connection between edge '361815166#0' and edge '37722301#2' found.
-Warning: Vehicle '23_bus_61-O:0' has no valid route from edge '361815166#0' to stop edge '37722301#2'.
-Warning: busStop '6010968565' on lane '474841415#1_1' is too short for vehicle '40_bus_104-E:0'.
-Warning: busStop '6010965695' on lane '509777703#0_1' is too short for vehicle '41_bus_108-E:0'.
-Warning: busStop '913940068' on lane '463671313#3_1' is too short for vehicle '41_bus_108-E:0'.
-Warning: busStop '6010970060' on lane '200638835#3_1' is too short for vehicle '42_bus_108-O:0'.
-Warning: No connection between edge '453745802' and edge '143920958#2' found.
-Warning: Vehicle '46_bus_166-S:0' has no valid route from edge '453745802' to stop edge '143920958#2'.
-Warning: busStop '-2687914652' on lane '-545490137#1_1' is too short for vehicle '51_bus_36-E:0'.
-Warning: busStop '-2264682033' on lane '-329988460#3_2' is too short for vehicle '51_bus_36-E:0'.
-Warning: busStop '2687914654' on lane '165217829#11_1' is too short for vehicle '52_bus_36-O:0'.
-Warning: busStop '6010967058' on lane '455722372#0_1' is too short for vehicle '53_bus_35-E:0'.
-Warning: busStop '-5754358292' on lane '-37722301#2_1' is too short for vehicle '54_bus_35-O:0'.
-Warning: busStop '-6010968651' on lane '-455713130#1_1' is too short for vehicle '54_bus_35-O:0'.
-Warning: busStop '6010964698' on lane '1041940066#7_1' is too short for vehicle '54_bus_35-O:0'.
-Warning: Teleporting vehicle '18_bus_165-S:0'; waited too long (wrong lane), lane='453745802_1', time=474.00.
-Warning: Vehicle '18_bus_165-S:0' ends teleporting on edge '143920958#2', time=474.00.
-Warning: Teleporting vehicle '23_bus_61-O:0'; waited too long (wrong lane), lane='360802894#1_1', time=520.00.
-Warning: Vehicle '23_bus_61-O:0' ends teleporting on edge '361815166#0', time=520.00.
-Warning: Teleporting vehicle '46_bus_166-S:0'; waited too long (wrong lane), lane='453745802_1', time=812.00.
-Warning: Vehicle '46_bus_166-S:0' ends teleporting on edge '143920958#2', time=812.00.
-Warning: Teleporting vehicle '23_bus_61-O:0'; waited too long (wrong lane), lane='361815166#0_1', time=872.00.
-Warning: Vehicle '23_bus_61-O:0' ends teleporting on edge '37722301#2', time=872.00.
-Warning: Teleporting vehicle '15_subway_1:1'; collision with vehicle '6_subway_1:0', lane='164831271_0', gap=-1249.01, time=1220.00 stage=move.
-Warning: Vehicle '15_subway_1:1' ends teleporting on edge '784099214#0', time=1220.00.
-Warning: Teleporting vehicle '6_subway_1:0'; frontal collision with vehicle '15_subway_1:1', lane='164831271_0', gap=-1.00, time=1331.00 stage=move.
-Warning: Vehicle '6_subway_1:0' skips stop on lane '164831271_0' time=1331.00.
-Warning: Teleporting vehicle '6_subway_1:0'; collision with vehicle '15_subway_1:1', lane='164831271_0', gap=-3520.70, time=1897.00 stage=move.
-Warning: Teleporting vehicle '6_subway_1:0'; frontal collision with vehicle '15_subway_1:1', lane='-784099214#1_0', gap=-1.00, time=2986.00 stage=move.
-Warning: Teleporting vehicle '6_subway_1:0'; frontal collision with vehicle '15_subway_1:1', lane='784099214#0_0', gap=-1.00, time=3044.00 stage=move.
-Warning: 10 total messages of type: At actuated tlLogic '%', actuated phase % has no controlling detector.
-Warning: 27 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.
-Warning: 9 total messages of type: Vehicle '%' ends teleporting on edge '%', time=%.
+Warning: At actuated tlLogic '213461415', linkIndex 9 has no controlling detector.
+Warning: At actuated tlLogic '213461415', linkIndex 10 has no controlling detector.
+Warning: At actuated tlLogic 'GS_cluster_1767750220_8647683909_8647683914_8647693205_8647693206', linkIndex 5 has no controlling detector.
+Warning: At actuated tlLogic 'GS_cluster_1767750220_8647683909_8647683914_8647693205_8647693206', linkIndex 6 has no controlling detector.
+Warning: At actuated tlLogic 'GS_cluster_32124365_8636183374_9913352067_9913352070_9913352076', linkIndex 2 has no controlling detector.
+Warning: At actuated tlLogic 'GS_cluster_3446935215_8633697270_8633703434', actuated phase 3 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_220784701_220805800_3165899531_9891349753_9891421435_9891776658_9891776664_9919941969', actuated phase 3 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_4672297995_4672298019_5351302365_5351302366_5506566245_8645207018_8645247527_8645247576_8645247577_8645247581_8645247582', actuated phase 5 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_8635393374_8644043262_8644043347_8644043348_8644043351_8644043360_8644043361', actuated phase 9 has no controlling detector.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '933328168#2_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '933328165_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '933293644_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '47971510#1_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '1079091063_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '1079091061_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '1079091053_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '1082402344_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '1082402352_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '1082402356#1_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '1082402364_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '1082077068_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed on destination edge '1082077068'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '933328168#2_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '933328165_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '933293644_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '47971510#1_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '1079091063_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '1079091061_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '1079091053_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '1082402344_0'.
+Warning: busStop '-3153668832' for vehicle '1_bus_51-O:0' on lane '-1082402419#0_2' is not downstream the current route.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '1082402352_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '1082402356#1_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '1082402364_0'.
+Warning: Vehicle '1_bus_51-O:0' is not allowed to stop on lane '1082077068_0'.
+Warning: Vehicle '2_bus_51-E:0' is not allowed to stop on lane '1082077050_0'.
+Warning: Vehicle '2_bus_51-E:0' is not allowed to stop on lane '1082077056_0'.
+Warning: Vehicle '2_bus_51-E:0' is not allowed to stop on lane '1082402384#1_0'.
+Warning: Vehicle '2_bus_51-E:0' is not allowed to stop on lane '1082402388_0'.
+Warning: Vehicle '2_bus_51-E:0' is not allowed to stop on lane '1082402403_0'.
+Warning: Vehicle '2_bus_51-E:0' is not allowed to stop on lane '1082402412#1_0'.
+Warning: Vehicle '2_bus_51-E:0' is not allowed to stop on lane '1079094214_0'.
+Warning: Vehicle '2_bus_51-E:0' is not allowed to stop on lane '1079091094_0'.
+Warning: Vehicle '2_bus_51-E:0' is not allowed to stop on lane '1079091072_0'.
+Warning: Vehicle '2_bus_51-E:0' is not allowed to stop on lane '1079091064_0'.
+Warning: Vehicle '2_bus_51-E:0' is not allowed to stop on lane '933326595_0'.
+Warning: Vehicle '2_bus_51-E:0' is not allowed to stop on lane '933293641#3_0'.
+Warning: Vehicle '2_bus_51-E:0' is not allowed to stop on lane '933293639_0'.
+Warning: Vehicle '2_bus_51-E:0' is not allowed to stop on lane '933328172#1_0'.
+Warning: busStop '-6010976759' on lane '-933360238#9_1' is too short for vehicle '5_bus_129-N:0'.
+Warning: Vehicle '5_bus_129-N:0' is not allowed to stop on lane '933360261_0'.
+Warning: Vehicle '5_bus_129-N:0' is not allowed to stop on lane '933360276#1_0'.
+Warning: Vehicle '5_bus_129-N:0' is not allowed to stop on lane '543740774_0'.
+Warning: Vehicle '5_bus_129-N:0' is not allowed to stop on lane '933370508#1_0'.
+Warning: Vehicle '10_bus_24-E:0' is not allowed to stop on lane '933032905#4_0'.
+Warning: Vehicle '10_bus_24-E:0' is not allowed to stop on lane '996640412_0'.
+Warning: Vehicle '10_bus_24-E:0' is not allowed to stop on lane '1081625526_0'.
+Warning: Vehicle '10_bus_24-E:0' is not allowed to stop on lane '1081625540#1_0'.
+Warning: busStop '1071760806' on lane '453727318_1' is too short for vehicle '10_bus_24-E:0'.
+Warning: busStop '6010967048' on lane '474838161#0_1' is too short for vehicle '10_bus_24-E:0'.
+Warning: busStop '-6010970596' on lane '-1010236636#3_1' is too short for vehicle '11_bus_24-O:0'.
+Warning: busStop '-6010963032' on lane '-453727319#5_1' is too short for vehicle '11_bus_24-O:0'.
+Warning: busStop '-6010965197' on lane '-463622074#0_1' is too short for vehicle '11_bus_24-O:0'.
+Warning: busStop '-6010981074' on lane '-454309327#2_1' is too short for vehicle '11_bus_24-O:0'.
+Warning: Vehicle '11_bus_24-O:0' is not allowed to stop on lane '1081625542_0'.
+Warning: Vehicle '11_bus_24-O:0' is not allowed to stop on lane '1081625547_0'.
+Warning: Vehicle '11_bus_24-O:0' is not allowed to stop on lane '933032905#4_0'.
+Warning: Vehicle '12_bus_105-E:0' is not allowed to stop on lane '1081022988_0'.
+Warning: Vehicle '12_bus_105-E:0' is not allowed to stop on lane '1081022966#1_0'.
+Warning: Vehicle '12_bus_105-E:0' is not allowed to stop on lane '1081024190_0'.
+Warning: Vehicle '12_bus_105-E:0' is not allowed to stop on lane '1080986803_0'.
+Warning: Vehicle '12_bus_105-E:0' is not allowed to stop on lane '1079046968_0'.
+Warning: Vehicle '12_bus_105-E:0' is not allowed to stop on lane '1081624252_0'.
+Warning: Vehicle '13_bus_105-O:0' is not allowed to stop on lane '931538637_0'.
+Warning: Vehicle '13_bus_105-O:0' is not allowed to stop on lane '932899016_0'.
+Warning: Vehicle '13_bus_105-O:0' is not allowed to stop on lane '1080986796_0'.
+Warning: Vehicle '13_bus_105-O:0' is not allowed to stop on lane '1081022907_0'.
+Warning: Vehicle '13_bus_105-O:0' is not allowed to stop on lane '1081022964#0_0'.
+Warning: Vehicle '13_bus_105-O:0' is not allowed to stop on lane '1081022982_0'.
+Warning: Vehicle '13_bus_105-O:0' is not allowed to stop on lane '1081022995_0'.
+Warning: Vehicle '14_bus_129-S:0' is not allowed to stop on lane '933370508#1_0'.
+Warning: Vehicle '14_bus_129-S:0' is not allowed to stop on lane '933360257_0'.
+Warning: Vehicle '17_bus_63-N:0' is not allowed to stop on lane '932899016_0'.
+Warning: Vehicle '17_bus_63-N:0' is not allowed to stop on lane '933008471_0'.
+Warning: Vehicle '17_bus_63-N:0' is not allowed to stop on lane '933008479#1_0'.
+Warning: Vehicle '17_bus_63-N:0' is not allowed to stop on lane '933008459_0'.
+Warning: Vehicle '17_bus_63-N:0' is not allowed to stop on lane '933008463#1_0'.
+Warning: Vehicle '17_bus_63-N:0' is not allowed to stop on lane '933083888_0'.
+Warning: Vehicle '17_bus_63-N:0' is not allowed to stop on lane '1079098167#1_0'.
+Warning: Vehicle '17_bus_63-N:0' is not allowed to stop on lane '1079098155#0_0'.
+Warning: Vehicle '17_bus_63-N:0' is not allowed to stop on lane '1079098580_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '543740774_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '1079091063_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '933282420_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '933083932#1_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '996726681_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '932921731#4_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '933008455_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '933008487_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '933008483#1_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '1079046968_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '1081624252_0'.
+Warning: busStop '6010980844' on lane '165214084#0_1' is too short for vehicle '19_bus_66-S:0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '1079052770_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '1079052757#2_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '1079052743#1_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '1079002502_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '1079052724_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '1079052712_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '1079052703_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '1079052695_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '1079046943#0_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '933282421_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '933076478_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '933076485#1_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '933076430#1_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '933076431#1_0'.
+Warning: busStop '6010981522' on lane '825948056#0_1' is too short for vehicle '19_bus_66-S:0'.
+Warning: busStop '-6010980487' on lane '-453998154#2_1' is too short for vehicle '20_bus_66-N:0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '933076435_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '933076493_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '933076467#1_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '933083916_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '933083914_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '995651084_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '1079009489#1_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '1079009474_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '1079009450_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '1079009444#1_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '1079009432_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '1079009424_0'.
+Warning: busStop '6010967408' on lane '1051531395#4_1' is too short for vehicle '20_bus_66-N:0'.
+Warning: Vehicle '21_bus_77-O:0' is not allowed to stop on lane '932667757_0'.
+Warning: Vehicle '21_bus_77-O:0' is not allowed to stop on lane '1082794887#6_0'.
+Warning: Vehicle '22_bus_77-E:0' is not allowed to stop on lane '1082794887#6_0'.
+Warning: Vehicle '22_bus_77-E:0' is not allowed to stop on lane '931538595#1_0'.
+Warning: Vehicle '22_bus_77-E:0' is not allowed to stop on lane '932667769#0_0'.
+Warning: Vehicle '25_bus_90-O:0' is not allowed to stop on lane '931219465_0'.
+Warning: Vehicle '25_bus_90-O:0' is not allowed to stop on lane '1081520994#1_0'.
+Warning: Vehicle '25_bus_90-O:0' is not allowed to stop on lane '1081525644_0'.
+Warning: Vehicle '25_bus_90-O:0' is not allowed to stop on lane '1081520886_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '1079052770_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '1079052757#2_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '1079052743#1_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '1079002502_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '1079052724_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '1079052712_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '1079052703_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '1079052695_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '1079046943#0_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '933282421_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '933076478_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '933076485#1_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '933076430#1_0'.
+Warning: Vehicle '19_bus_66-S:0' is not allowed to stop on lane '933076431#1_0'.
+Warning: Vehicle '25_bus_90-O:0' is not allowed on destination edge '1081520886'.
+Warning: busStop '6010968413' for vehicle '25_bus_90-O:0' on lane '1052143868#1_0' is not downstream the current route.
+Warning: Vehicle '25_bus_90-O:0' is not allowed to stop on lane '931219465_0'.
+Warning: Vehicle '25_bus_90-O:0' is not allowed to stop on lane '1081520994#1_0'.
+Warning: Vehicle '25_bus_90-O:0' is not allowed to stop on lane '1081525644_0'.
+Warning: Vehicle '25_bus_90-O:0' is not allowed to stop on lane '1081520886_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '543740774_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '1079091063_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '933282420_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '933083932#1_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '996726681_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '932921731#4_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '933008455_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '933008487_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '933008483#1_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '1079046968_0'.
+Warning: Vehicle '18_bus_63-S:0' is not allowed to stop on lane '1081624252_0'.
+Warning: Vehicle '17_bus_63-N:0' is not allowed on destination edge '1079098580'.
+Warning: busStop '-6010981074' for vehicle '17_bus_63-N:0' on lane '-454309327#2_1' is not downstream the current route.
+Warning: Vehicle '17_bus_63-N:0' is not allowed to stop on lane '932899016_0'.
+Warning: Vehicle '17_bus_63-N:0' is not allowed to stop on lane '933008471_0'.
+Warning: Vehicle '17_bus_63-N:0' is not allowed to stop on lane '933008479#1_0'.
+Warning: Vehicle '17_bus_63-N:0' is not allowed to stop on lane '933008459_0'.
+Warning: Vehicle '17_bus_63-N:0' is not allowed to stop on lane '933008463#1_0'.
+Warning: Vehicle '17_bus_63-N:0' is not allowed to stop on lane '933083888_0'.
+Warning: Vehicle '17_bus_63-N:0' is not allowed to stop on lane '1079098167#1_0'.
+Warning: Vehicle '17_bus_63-N:0' is not allowed to stop on lane '1079098155#0_0'.
+Warning: Vehicle '17_bus_63-N:0' is not allowed to stop on lane '1079098580_0'.
+Warning: Vehicle '14_bus_129-S:0' is not allowed to stop on lane '933370508#1_0'.
+Warning: Vehicle '14_bus_129-S:0' is not allowed to stop on lane '933360257_0'.
+Warning: Vehicle '5_bus_129-N:0' is not allowed on destination edge '933370508#1'.
+Warning: Vehicle '5_bus_129-N:0' is not allowed to stop on lane '933360261_0'.
+Warning: Vehicle '5_bus_129-N:0' is not allowed to stop on lane '933360276#1_0'.
+Warning: Vehicle '5_bus_129-N:0' is not allowed to stop on lane '543740774_0'.
+Warning: busStop '6010971381' for vehicle '5_bus_129-N:0' on lane '29365980#2_1' is not downstream the current route.
+Warning: Vehicle '5_bus_129-N:0' is not allowed to stop on lane '933370508#1_0'.
+Warning: Vehicle '13_bus_105-O:0' is not allowed on destination edge '1081022995'.
+Warning: No route for vehicle '13_bus_105-O:0' found.
+Warning: Vehicle '11_bus_24-O:0' is not allowed on destination edge '933032905#4'.
+Warning: busStop '-6010981074' for vehicle '11_bus_24-O:0' on lane '-454309327#2_1' is not downstream the current route.
+Warning: Vehicle '11_bus_24-O:0' is not allowed to stop on lane '1081625542_0'.
+Warning: Vehicle '11_bus_24-O:0' is not allowed to stop on lane '1081625547_0'.
+Warning: Vehicle '11_bus_24-O:0' is not allowed to stop on lane '933032905#4_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '933076435_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '933076493_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '933076467#1_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '933083916_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '933083914_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '995651084_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '1079009489#1_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '1079009474_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '1079009450_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '1079009444#1_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '1079009432_0'.
+Warning: Vehicle '20_bus_66-N:0' is not allowed to stop on lane '1079009424_0'.
+Warning: Vehicle '2_bus_51-E:0' is not allowed to depart on any lane of edge '1082077050'.
+Warning: Vehicle '10_bus_24-E:0' is not allowed to depart on any lane of edge '933032905#4'.
+Warning: Vehicle '12_bus_105-E:0' is not allowed to depart on any lane of edge '1081022988'.
+Warning: Vehicle '21_bus_77-O:0' is not allowed to depart on any lane of edge '932667757'.
+Warning: Vehicle '22_bus_77-E:0' is not allowed to depart on any lane of edge '1082794887#6'.
+Warning: Vehicle '26_bus_90-E:0' is not allowed to stop on lane '1081520883#1_0'.
+Warning: Vehicle '26_bus_90-E:0' is not allowed to stop on lane '1081525653_0'.
+Warning: Vehicle '26_bus_90-E:0' is not allowed to stop on lane '1081520901#0_0'.
+Warning: busStop '-6010970831' on lane '-199124593#2_1' is too short for vehicle '26_bus_90-E:0'.
+Warning: busStop '6010980987' on lane '132217962#0_1' is too short for vehicle '26_bus_90-E:0'.
+Warning: busStop '-6010967463' on lane '-165214768#3_1' is too short for vehicle '27_bus_102-E:0'.
+Warning: busStop '-6010965230' on lane '-453506595#2_1' is too short for vehicle '27_bus_102-E:0'.
+Warning: Vehicle '27_bus_102-E:0' is not allowed to stop on lane '1079046943#0_0'.
+Warning: Vehicle '27_bus_102-E:0' is not allowed to stop on lane '996726681_0'.
+Warning: Vehicle '27_bus_102-E:0' is not allowed to stop on lane '932921731#4_0'.
+Warning: Vehicle '27_bus_102-E:0' is not allowed to stop on lane '933008455_0'.
+Warning: Vehicle '27_bus_102-E:0' is not allowed to stop on lane '996640412_0'.
+Warning: Vehicle '27_bus_102-E:0' is not allowed to stop on lane '1081625526_0'.
+Warning: Vehicle '27_bus_102-E:0' is not allowed to stop on lane '1081625540#1_0'.
+Warning: busStop '-5106483237@9320654' on lane '-455042507#0_1' is too short for vehicle '27_bus_102-E:0'.
+Warning: Vehicle '28_bus_102-O:0' is not allowed to stop on lane '931538637_0'.
+Warning: Vehicle '28_bus_102-O:0' is not allowed to stop on lane '1081625548_0'.
+Warning: Vehicle '28_bus_102-O:0' is not allowed to stop on lane '932914981_0'.
+Warning: Vehicle '28_bus_102-O:0' is not allowed to stop on lane '933008475_0'.
+Warning: Vehicle '28_bus_102-O:0' is not allowed to stop on lane '933008479#1_0'.
+Warning: Vehicle '28_bus_102-O:0' is not allowed to stop on lane '933008459_0'.
+Warning: Vehicle '28_bus_102-O:0' is not allowed to stop on lane '933008463#1_0'.
+Warning: Vehicle '28_bus_102-O:0' is not allowed to stop on lane '933282408_0'.
+Warning: busStop '6010971827' on lane '1082404464#3_1' is too short for vehicle '28_bus_102-O:0'.
+Warning: busStop '3152550117' on lane '1082404464#7_1' is too short for vehicle '28_bus_102-O:0'.
+Warning: Vehicle '29_bus_103-E:0' is not allowed to stop on lane '1078912362#2_0'.
+Warning: Vehicle '29_bus_103-E:0' is not allowed to stop on lane '1079052786#0_0'.
+Warning: Vehicle '29_bus_103-E:0' is not allowed to stop on lane '1079052770_0'.
+Warning: Vehicle '29_bus_103-E:0' is not allowed to stop on lane '1079052757#2_0'.
+Warning: Vehicle '29_bus_103-E:0' is not allowed to stop on lane '1079052743#1_0'.
+Warning: Vehicle '29_bus_103-E:0' is not allowed to stop on lane '1079002502_0'.
+Warning: Vehicle '30_bus_103-O:0' is not allowed to stop on lane '933032908#1_0'.
+Warning: Vehicle '30_bus_103-O:0' is not allowed to stop on lane '933008463#1_0'.
+Warning: Vehicle '30_bus_103-O:0' is not allowed to stop on lane '1079009428#1_0'.
+Warning: Vehicle '30_bus_103-O:0' is not allowed to stop on lane '1079009424_0'.
+Warning: Vehicle '30_bus_103-O:0' is not allowed to stop on lane '1079009416_0'.
+Warning: Vehicle '30_bus_103-O:0' is not allowed to stop on lane '1079009410_0'.
+Warning: Vehicle '30_bus_103-O:0' is not allowed to stop on lane '1079009398#1_0'.
+Warning: Vehicle '30_bus_103-O:0' is not allowed to stop on lane '1078995435_0'.
+Warning: Vehicle '30_bus_103-O:0' is not allowed to stop on lane '1078912336_0'.
+Warning: Vehicle '31_bus_104-O:0' is not allowed to stop on lane '931219465_0'.
+Warning: Vehicle '31_bus_104-O:0' is not allowed to stop on lane '1081520994#1_0'.
+Warning: Vehicle '31_bus_104-O:0' is not allowed to stop on lane '1081525644_0'.
+Warning: Vehicle '31_bus_104-O:0' is not allowed to stop on lane '1081520886_0'.
+Warning: Vehicle '32_bus_104-E:0' is not allowed to stop on lane '1079524171#1_0'.
+Warning: Vehicle '32_bus_104-E:0' is not allowed to stop on lane '1079524268#1_0'.
+Warning: Vehicle '32_bus_104-E:0' is not allowed to stop on lane '1079524302_0'.
+Warning: Vehicle '32_bus_104-E:0' is not allowed to stop on lane '1079524310_0'.
+Warning: Vehicle '32_bus_104-E:0' is not allowed to stop on lane '1079544573_0'.
+Warning: Vehicle '32_bus_104-E:0' is not allowed to stop on lane '1079644661_0'.
+Warning: Vehicle '32_bus_104-E:0' is not allowed to stop on lane '1079644680_0'.
+Warning: Vehicle '32_bus_104-E:0' is not allowed to stop on lane '1079644744#1_0'.
+Warning: Vehicle '35_bus_138-E:0' is not allowed to stop on lane '1079524171#1_0'.
+Warning: Vehicle '35_bus_138-E:0' is not allowed to stop on lane '1079524268#1_0'.
+Warning: Vehicle '35_bus_138-E:0' is not allowed to stop on lane '1079524302_0'.
+Warning: Vehicle '35_bus_138-E:0' is not allowed to stop on lane '1079524310_0'.
+Warning: Vehicle '35_bus_138-E:0' is not allowed to stop on lane '1079544573_0'.
+Warning: Vehicle '35_bus_138-E:0' is not allowed to stop on lane '1079644661_0'.
+Warning: Vehicle '35_bus_138-E:0' is not allowed to stop on lane '1079644680_0'.
+Warning: Vehicle '35_bus_138-E:0' is not allowed to stop on lane '1079644744#1_0'.
+Warning: Vehicle '36_bus_138-O:0' is not allowed to stop on lane '932914981_0'.
+Warning: Vehicle '36_bus_138-O:0' is not allowed to stop on lane '933008475_0'.
+Warning: Vehicle '36_bus_138-O:0' is not allowed to stop on lane '1080920819#0_0'.
+Warning: Vehicle '36_bus_138-O:0' is not allowed to stop on lane '1081022919_0'.
+Warning: Vehicle '36_bus_138-O:0' is not allowed to stop on lane '1081022957_0'.
+Warning: Vehicle '36_bus_138-O:0' is not allowed to stop on lane '1081022982_0'.
+Warning: Vehicle '36_bus_138-O:0' is not allowed to stop on lane '1081022995_0'.
+Warning: Vehicle '37_bus_160-O:0' is not allowed to stop on lane '933376029#0_0'.
+Warning: Vehicle '38_bus_160-E:0' is not allowed to stop on lane '933376033_0'.
+Warning: Vehicle '39_bus_161-E:0' is not allowed to stop on lane '1079524171#1_0'.
+Warning: Vehicle '39_bus_161-E:0' is not allowed to stop on lane '1079525387_0'.
+Warning: busStop '6010968225' on lane '453295841#2_1' is too short for vehicle '39_bus_161-E:0'.
+Warning: Vehicle '39_bus_161-E:0' is not allowed to stop on lane '933370544_0'.
+Warning: Vehicle '40_bus_161-O:0' is not allowed to stop on lane '933370550#1_0'.
+Warning: Vehicle '41_bus_162-O:0' is not allowed to stop on lane '933032908#1_0'.
+Warning: Vehicle '41_bus_162-O:0' is not allowed to stop on lane '933008463#1_0'.
+Warning: Vehicle '41_bus_162-O:0' is not allowed to stop on lane '1105314624_0'.
+Warning: Vehicle '27_bus_102-E:0' is not allowed to stop on lane '1079046943#0_0'.
+Warning: Vehicle '27_bus_102-E:0' is not allowed to stop on lane '996726681_0'.
+Warning: Vehicle '27_bus_102-E:0' is not allowed to stop on lane '932921731#4_0'.
+Warning: Vehicle '27_bus_102-E:0' is not allowed to stop on lane '933008455_0'.
+Warning: Vehicle '27_bus_102-E:0' is not allowed to stop on lane '996640412_0'.
+Warning: Vehicle '27_bus_102-E:0' is not allowed to stop on lane '1081625526_0'.
+Warning: Vehicle '27_bus_102-E:0' is not allowed to stop on lane '1081625540#1_0'.
+Warning: Vehicle '28_bus_102-O:0' is not allowed to stop on lane '931538637_0'.
+Warning: Vehicle '28_bus_102-O:0' is not allowed to stop on lane '1081625548_0'.
+Warning: Vehicle '28_bus_102-O:0' is not allowed to stop on lane '932914981_0'.
+Warning: Vehicle '28_bus_102-O:0' is not allowed to stop on lane '933008475_0'.
+Warning: Vehicle '28_bus_102-O:0' is not allowed to stop on lane '933008479#1_0'.
+Warning: Vehicle '28_bus_102-O:0' is not allowed to stop on lane '933008459_0'.
+Warning: Vehicle '28_bus_102-O:0' is not allowed to stop on lane '933008463#1_0'.
+Warning: Vehicle '28_bus_102-O:0' is not allowed to stop on lane '933282408_0'.
+Warning: Vehicle '36_bus_138-O:0' is not allowed on destination edge '1081022995'.
+Warning: busStop '-6010978265' for vehicle '36_bus_138-O:0' on lane '-453725261_1' is not downstream the current route.
+Warning: Vehicle '36_bus_138-O:0' is not allowed to stop on lane '932914981_0'.
+Warning: Vehicle '36_bus_138-O:0' is not allowed to stop on lane '933008475_0'.
+Warning: Vehicle '36_bus_138-O:0' is not allowed to stop on lane '1080920819#0_0'.
+Warning: Vehicle '36_bus_138-O:0' is not allowed to stop on lane '1081022919_0'.
+Warning: Vehicle '36_bus_138-O:0' is not allowed to stop on lane '1081022957_0'.
+Warning: Vehicle '36_bus_138-O:0' is not allowed to stop on lane '1081022982_0'.
+Warning: Vehicle '36_bus_138-O:0' is not allowed to stop on lane '1081022995_0'.
+Warning: Vehicle '31_bus_104-O:0' is not allowed on destination edge '1081520886'.
+Warning: busStop '6010965561' for vehicle '31_bus_104-O:0' on lane '608430715#2_2' is not downstream the current route.
+Warning: Vehicle '31_bus_104-O:0' is not allowed to stop on lane '931219465_0'.
+Warning: Vehicle '31_bus_104-O:0' is not allowed to stop on lane '1081520994#1_0'.
+Warning: Vehicle '31_bus_104-O:0' is not allowed to stop on lane '1081525644_0'.
+Warning: Vehicle '31_bus_104-O:0' is not allowed to stop on lane '1081520886_0'.
+Warning: Vehicle '40_bus_161-O:0' is not allowed to stop on lane '933370550#1_0'.
+Warning: Vehicle '38_bus_160-E:0' is not allowed on destination edge '933376033'.
+Warning: busStop '6010981046' for vehicle '38_bus_160-E:0' on lane '464094283#2_1' is not downstream the current route.
+Warning: Vehicle '38_bus_160-E:0' is not allowed to stop on lane '933376033_0'.
+Warning: Vehicle '26_bus_90-E:0' is not allowed to depart on any lane of edge '1081520883#1'.
+Warning: Vehicle '29_bus_103-E:0' is not allowed to depart on any lane of edge '1078912362#2'.
+Warning: Vehicle '30_bus_103-O:0' is not allowed to depart on any lane of edge '933032908#1'.
+Warning: Vehicle '32_bus_104-E:0' is not allowed to depart on any lane of edge '1079524171#1'.
+Warning: Vehicle '35_bus_138-E:0' is not allowed to depart on any lane of edge '1079524171#1'.
+Warning: Vehicle '37_bus_160-O:0' is not allowed to depart on any lane of edge '933376029#0'.
+Warning: Vehicle '39_bus_161-E:0' is not allowed to depart on any lane of edge '1079524171#1'.
+Warning: Vehicle '41_bus_162-O:0' is not allowed to depart on any lane of edge '933032908#1'.
+Warning: Vehicle '43_bus_166-N:0' is not allowed to stop on lane '933328168#2_0'.
+Warning: Vehicle '43_bus_166-N:0' is not allowed to stop on lane '933328165_0'.
+Warning: Vehicle '43_bus_166-N:0' is not allowed to stop on lane '933293644_0'.
+Warning: Vehicle '43_bus_166-N:0' is not allowed to stop on lane '47971510#1_0'.
+Warning: Vehicle '43_bus_166-N:0' is not allowed to stop on lane '1079091063_0'.
+Warning: Vehicle '43_bus_166-N:0' is not allowed to stop on lane '1082415027_0'.
+Warning: Vehicle '44_bus_166-S:0' is not allowed to stop on lane '1082415039_0'.
+Warning: Vehicle '44_bus_166-S:0' is not allowed to stop on lane '1079091064_0'.
+Warning: Vehicle '44_bus_166-S:0' is not allowed to stop on lane '933326595_0'.
+Warning: Vehicle '44_bus_166-S:0' is not allowed to stop on lane '933293641#3_0'.
+Warning: Vehicle '44_bus_166-S:0' is not allowed to stop on lane '933293639_0'.
+Warning: Vehicle '44_bus_166-S:0' is not allowed to stop on lane '933328172#1_0'.
+Warning: Vehicle '45_bus_191-E:0' is not allowed to stop on lane '932489397#1_0'.
+Warning: Vehicle '45_bus_191-E:0' is not allowed to stop on lane '932489402#1_0'.
+Warning: busStop '6010968201' on lane '409382666#1_1' is too short for vehicle '46_bus_191-O:0'.
+Warning: Vehicle '46_bus_191-O:0' is not allowed to stop on lane '932489404#1_0'.
+Warning: Vehicle '46_bus_191-O:0' is not allowed to stop on lane '932489408#1_0'.
+Warning: Vehicle '47_bus_37-S:0' is not allowed to stop on lane '932667770_0'.
+Warning: Vehicle '48_bus_37-N:0' is not allowed to stop on lane '932489400#1_0'.
+Warning: Vehicle '48_bus_37-N:0' is not allowed to stop on lane '932489402#1_0'.
+Warning: Vehicle '49_bus_36-E:0' is not allowed to stop on lane '932489400#1_0'.
+Warning: Vehicle '49_bus_36-E:0' is not allowed to stop on lane '932489402#1_0'.
+Warning: busStop '-6010975976' on lane '-450117494#5_1' is too short for vehicle '50_bus_36-O:0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '932667757_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '931538637_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '931538637_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '932899016_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '933008471_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '933008479#1_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '933008459_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '933008463#1_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '933083888_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '933083897#3_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '933076525_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '933080017_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '933080025#1_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '933326513_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '933326550#2_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '933360258_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '933370516_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '933370519#1_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '933376026_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed to stop on lane '933381115_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '933381131_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '933381134#1_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '933376005_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '933370537#1_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '933370508#1_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '933360276#1_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '933360278#1_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '933326569_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '933326585#1_0'.
+Warning: busStop '6010973612' on lane '933080052#0_1' is too short for vehicle '52_bus_17-S:0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '933083881#1_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '933282420_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '933083932#1_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '996726681_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '932921731#4_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '933008455_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '933008487_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '933008483#1_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '931219472_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '931219475#1_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '931219438_0'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to stop on lane '932667769#0_0'.
+Warning: Vehicle '43_bus_166-N:0' is not allowed to stop on lane '933328168#2_0'.
+Warning: Vehicle '43_bus_166-N:0' is not allowed to stop on lane '933328165_0'.
+Warning: Vehicle '43_bus_166-N:0' is not allowed to stop on lane '933293644_0'.
+Warning: Vehicle '43_bus_166-N:0' is not allowed to stop on lane '47971510#1_0'.
+Warning: Vehicle '43_bus_166-N:0' is not allowed to stop on lane '1079091063_0'.
+Warning: Vehicle '43_bus_166-N:0' is not allowed to stop on lane '1082415027_0'.
+Warning: Vehicle '51_bus_17-N:0' is not allowed on destination edge '933381115'.
+Warning: No route for vehicle '51_bus_17-N:0' found.
+Warning: Vehicle '46_bus_191-O:0' is not allowed on destination edge '932489408#1'.
+Warning: No route for vehicle '46_bus_191-O:0' found.
+Warning: Vehicle '47_bus_37-S:0' is not allowed on destination edge '932667770'.
+Warning: No route for vehicle '47_bus_37-S:0' found.
+Warning: Vehicle '44_bus_166-S:0' is not allowed to depart on any lane of edge '1082415039'.
+Warning: Teleporting vehicle '13_bus_105-O:0'; waited too long (wrong lane), lane='1052143868#1_0', time=484.00.
+Warning: Vehicle '45_bus_191-E:0' is not allowed to depart on any lane of edge '932489397#1'.
+Warning: Vehicle '13_bus_105-O:0' ends teleporting on edge '1052143868#1', time=484.00.
+Warning: Vehicle '48_bus_37-N:0' is not allowed to depart on any lane of edge '932489400#1'.
+Warning: Vehicle '49_bus_36-E:0' is not allowed to depart on any lane of edge '932489400#1'.
+Warning: Vehicle '52_bus_17-S:0' is not allowed to depart on any lane of edge '933381131'.
+Warning: Teleporting vehicle '13_bus_105-O:0'; waited too long (wrong lane), lane='1052143868#1_0', time=805.00.
+Warning: Teleporting vehicle '46_bus_191-O:0'; waited too long (wrong lane), lane='409382666#1_1', time=827.00.
+Warning: Vehicle '46_bus_191-O:0' ends teleporting on edge '409382666#1', time=827.00.
+Warning: Teleporting vehicle '47_bus_37-S:0'; waited too long (wrong lane), lane='1052143868#0_0', time=834.00.
+Warning: Vehicle '47_bus_37-S:0' ends teleporting on edge '1052143868#0', time=839.00.
+Warning: Teleporting vehicle '51_bus_17-N:0'; waited too long (wrong lane), lane='932669866#0_1', time=910.00.
+Warning: Vehicle '51_bus_17-N:0' ends teleporting on edge '932669866#0', time=910.00.
+Warning: Vehicle '13_bus_105-O:0' teleports beyond arrival edge '1081022995', time=1112.00.
+Warning: Vehicle '47_bus_37-S:0' teleports beyond arrival edge '932667770', time=1204.00.
+Warning: Vehicle '46_bus_191-O:0' teleports beyond arrival edge '932489408#1', time=1239.00.
+Warning: Vehicle '51_bus_17-N:0' teleports beyond arrival edge '933381115', time=2062.00.
+Warning: 20 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.
+Warning: 8 total messages of type: Teleporting vehicle '%'; waited too long (wrong lane), lane='%', time=%.

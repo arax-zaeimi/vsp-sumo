@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2022-09-25 14:36:44 by Eclipse SUMO netconvert Version 1.14.1
+<!-- generated on 2022-11-18 19:19:35 by Eclipse SUMO netconvert Version 1.14.1
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -106,407 +106,551 @@
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-    <busStop id="-1281757675" name="Lucien-L&apos;Allier" lane="-112850607_0" startPos="0.00" endPos="100.00" friendlyPos="true">
-        <access lane="-103935602#0_0" pos="26.54" length="35.01" friendlyPos="1"/>
-        <access lane="103935601_0" pos="40.59" length="20.10" friendlyPos="1"/>
-        <access lane="103935602#0_0" pos="0.40" length="20.91" friendlyPos="1"/>
-        <access lane="481492220#2_0" pos="114.08" length="13.73" friendlyPos="1"/>
-        <access lane="673699710#1_0" pos="10.27" length="34.41" friendlyPos="1"/>
+    <busStop id="-1071760807" name="Sherbrooke / Metcalfe" lane="-453741481_1" startPos="44.15" endPos="59.15" friendlyPos="true" lines="24-O 104-O"/>
+    <busStop id="-213481727" name="Côte-des-Neiges" lane="-66092957_0" startPos="8405.95" endPos="8605.95" friendlyPos="true">
+        <access lane="463878770#1_0" pos="789.11" length="265.07" friendlyPos="1"/>
     </busStop>
-    <busStop id="-1281757722" name="Lucien-L&apos;Allier" lane="-112850598_0" startPos="217.25" endPos="317.25" friendlyPos="true">
-        <access lane="-103935601_0" pos="7.39" length="36.96" friendlyPos="1"/>
-        <access lane="103935601_0" pos="33.21" length="19.86" friendlyPos="1"/>
-        <access lane="103935602#0_0" pos="0.00" length="26.48" friendlyPos="1"/>
-        <access lane="481492220#2_0" pos="103.17" length="14.52" friendlyPos="1"/>
-        <access lane="481492995#1_0" pos="39.01" length="38.63" friendlyPos="1"/>
+    <busStop id="-213613384" name="Snowdon" lane="-66092957_0" startPos="9623.88" endPos="9723.88" friendlyPos="true">
+        <access lane="-933328174#4_0" pos="87.76" length="109.62" friendlyPos="1"/>
+        <access lane="20194967_0" pos="101.29" length="23.31" friendlyPos="1"/>
+        <access lane="933328165_0" pos="94.67" length="81.02" friendlyPos="1"/>
+        <access lane="933328172#1_0" pos="117.10" length="113.05" friendlyPos="1"/>
+        <access lane="933328174#2_0" pos="115.86" length="85.92" friendlyPos="1"/>
     </busStop>
-    <busStop id="-1281757735" name="Lucien-L&apos;Allier" lane="-766379893_0" startPos="354.87" endPos="454.87" friendlyPos="true">
-        <access lane="-103935601_0" pos="11.05" length="4.42" friendlyPos="1"/>
-        <access lane="-103935602#0_0" pos="26.94" length="21.23" friendlyPos="1"/>
-        <access lane="103935601_0" pos="29.54" length="12.68" friendlyPos="1"/>
-        <access lane="481492220#2_0" pos="99.09" length="17.90" friendlyPos="1"/>
-        <access lane="481492995#1_0" pos="42.27" length="5.99" friendlyPos="1"/>
+    <busStop id="-213656965" name="Édouard-Montpetit" lane="-66092957_0" startPos="6677.00" endPos="6877.00" friendlyPos="true"/>
+    <busStop id="-214042695" name="Acadie" lane="-66092957_0" startPos="4724.84" endPos="4924.84" friendlyPos="true"/>
+    <busStop id="-214052252" name="Parc" lane="-66092957_0" startPos="3803.11" endPos="4003.11" friendlyPos="true"/>
+    <busStop id="-214052255" name="De Castelnau" lane="-66092957_0" startPos="3158.36" endPos="3358.36" friendlyPos="true"/>
+    <busStop id="-214052275" name="Fabre" lane="-66092957_0" startPos="1537.31" endPos="1737.31" friendlyPos="true"/>
+    <busStop id="-214052280" name="D’Iberville" lane="-66092957_0" startPos="705.23" endPos="905.23" friendlyPos="true"/>
+    <busStop id="-218271645" name="Saint-Michel" lane="-66092957_0" startPos="0.00" endPos="100.00" friendlyPos="true"/>
+    <busStop id="-2484400447" name="de Monkland / Girouard" lane="-933008493#2_1" startPos="49.71" endPos="58.40" friendlyPos="true" lines="162-E"/>
+    <busStop id="-29482323" name="Université-de-Montréal" lane="-66092957_0" startPos="7518.68" endPos="7718.68" friendlyPos="true"/>
+    <busStop id="-3152550118" name="Somerled / Cavendish" lane="-1079644682#2_1" startPos="41.52" endPos="56.52" friendlyPos="true" lines="102-E"/>
+    <busStop id="-3153668832" name="Fielding / Hingston" lane="-1082402419#0_2" startPos="25.89" endPos="40.89" friendlyPos="true" lines="51-O"/>
+    <busStop id="-3169830806" name="Queen-Mary / Victoria" lane="-463870724#1_1" startPos="0.00" endPos="14.24" friendlyPos="true" lines="51-E"/>
+    <busStop id="-3184087237" name="Queen-Mary / Roslyn" lane="-20188675#8_1" startPos="54.54" endPos="69.54" friendlyPos="true" lines="51-E"/>
+    <busStop id="-3184087238" name="Institut de Gériatrie (Queen-Mary/Cedar Crescent)" lane="-20188675#2_1" startPos="35.44" endPos="50.44" friendlyPos="true" lines="51-E"/>
+    <busStop id="-3324368265" name="de Monkland / de Melrose" lane="-463864541#2_1" startPos="17.55" endPos="32.55" friendlyPos="true" lines="162-E"/>
+    <busStop id="-3324368266" name="de Monkland / Harvard" lane="-463864539_1" startPos="60.24" endPos="75.24" friendlyPos="true" lines="162-E"/>
+    <busStop id="-4051678441" name="de Monkland / Marcil" lane="-463864591_1" startPos="53.31" endPos="68.31" friendlyPos="true" lines="162-E"/>
+    <busStop id="-4367816203" name="Somerled / Grand Boulevard" lane="-159034396#0_1" startPos="47.60" endPos="62.60" friendlyPos="true" lines="102-E"/>
+    <busStop id="-437811772" name="Côte-Sainte-Catherine" lane="-1082752884#0_0" startPos="1229.17" endPos="1329.17" friendlyPos="true">
+        <access lane="-480342542_0" pos="8.92" length="17.16" friendlyPos="1"/>
+        <access lane="479688352_0" pos="83.05" length="28.06" friendlyPos="1"/>
+        <access lane="480342542_0" pos="82.68" length="3.06" friendlyPos="1"/>
+        <access lane="997242869#0_0" pos="10.81" length="4.27" friendlyPos="1"/>
+        <access lane="997242870_0" pos="8.05" length="21.01" friendlyPos="1"/>
     </busStop>
-    <busStop id="-1281757755" name="Lucien-L&apos;Allier" lane="-112850605_0" startPos="149.93" endPos="249.93" friendlyPos="true">
-        <access lane="-103935601_0" pos="26.77" length="5.37" friendlyPos="1"/>
-        <access lane="-134811810#6_0" pos="0.00" length="25.53" friendlyPos="1"/>
-        <access lane="103935601_0" pos="13.82" length="11.73" friendlyPos="1"/>
-        <access lane="481492220#2_0" pos="83.39" length="16.50" friendlyPos="1"/>
-        <access lane="481492995#1_0" pos="57.99" length="6.49" friendlyPos="1"/>
+    <busStop id="-437811806" name="Villa-Maria" lane="-1082752886_0" startPos="2920.85" endPos="3120.85" friendlyPos="true">
+        <access lane="933071115#0_0" pos="0.00" length="25.15" friendlyPos="1"/>
+        <access lane="933071117#2_0" pos="19.19" length="17.06" friendlyPos="1"/>
+        <access lane="933071117#3_0" pos="0.00" length="17.98" friendlyPos="1"/>
+        <access lane="933071121_0" pos="0.00" length="9.17" friendlyPos="1"/>
+        <access lane="993362118_0" pos="4.21" length="18.07" friendlyPos="1"/>
     </busStop>
-    <busStop id="-1281757769" name="Lucien-L&apos;Allier" lane="-112850606_0" startPos="149.25" endPos="249.25" friendlyPos="true">
-        <access lane="-103935601_0" pos="34.48" length="5.07" friendlyPos="1"/>
-        <access lane="-134811810#6_0" pos="0.00" length="14.12" friendlyPos="1"/>
-        <access lane="103935601_0" pos="6.11" length="12.03" friendlyPos="1"/>
-        <access lane="481492220#2_0" pos="75.67" length="16.58" friendlyPos="1"/>
-        <access lane="481492995#1_0" pos="65.70" length="5.96" friendlyPos="1"/>
+    <busStop id="-437811839" name="Vendôme" lane="-1082752886_0" startPos="1479.70" endPos="1679.70" friendlyPos="true">
+        <access lane="960611536_0" pos="4.90" length="5.95" friendlyPos="1"/>
+        <access lane="960611537_0" pos="0.00" length="2.41" friendlyPos="1"/>
+        <access lane="960611538_0" pos="0.00" length="6.32" friendlyPos="1"/>
+        <access lane="960611544_0" pos="0.00" length="4.99" friendlyPos="1"/>
+        <access lane="960611545_0" pos="0.00" length="2.79" friendlyPos="1"/>
     </busStop>
-    <busStop id="-1281757787" name="Lucien-L&apos;Allier" lane="-112850602_0" startPos="193.62" endPos="293.62" friendlyPos="true">
-        <access lane="-103935601_0" pos="22.27" length="4.87" friendlyPos="1"/>
-        <access lane="-134811810#6_0" pos="0.00" length="32.17" friendlyPos="1"/>
-        <access lane="103935601_0" pos="18.33" length="12.23" friendlyPos="1"/>
-        <access lane="481492220#2_0" pos="87.88" length="17.13" friendlyPos="1"/>
-        <access lane="481492995#1_0" pos="53.48" length="6.12" friendlyPos="1"/>
+    <busStop id="-437811884" name="Place Saint-Henri" lane="-1082752886_0" startPos="0.00" endPos="100.00" friendlyPos="true"/>
+    <busStop id="-4380897966" name="de Monkland / Hingston" lane="-463864074#5_1" startPos="60.86" endPos="75.86" friendlyPos="true" lines="162-E"/>
+    <busStop id="-5106483237" name="Station Vendôme" lane="-608430715#2_1" startPos="13.54" endPos="28.54" friendlyPos="true" lines="105-E"/>
+    <busStop id="-5106483237@9320654" name="Station Vendôme" lane="-455042507#0_1" startPos="0.00" endPos="6.06" friendlyPos="true" lines="102-E"/>
+    <busStop id="-5228487329" name="Jean-Talon" lane="-66092957_0" startPos="2451.80" endPos="2651.80" friendlyPos="true"/>
+    <busStop id="-5527782063" name="de Monkland / Royal" lane="-463864074#1_1" startPos="37.48" endPos="52.48" friendlyPos="true" lines="162-E"/>
+    <busStop id="-6010963032" name="Sherbrooke / Strathcona" lane="-453727319#5_1" startPos="78.68" endPos="90.61" friendlyPos="true" lines="24-O 104-O"/>
+    <busStop id="-6010964199" name="Kildare / Merrimac" lane="-1079474386#0_1" startPos="83.11" endPos="98.11" friendlyPos="true"/>
+    <busStop id="-6010964261" name="Sherbrooke / Kitchener" lane="-474838162_1" startPos="0.00" endPos="8.50" friendlyPos="true" lines="24-O 104-O"/>
+    <busStop id="-6010964556" name="Côte-Sainte-Catherine / de Westbury" lane="-933360238#6_1" startPos="160.27" endPos="170.55" friendlyPos="true" lines="129-N"/>
+    <busStop id="-6010964901" name="de Monkland / Madison" lane="-463844969#1_1" startPos="54.05" endPos="69.05" friendlyPos="true" lines="162-E"/>
+    <busStop id="-6010965197" name="Sherbrooke / Claremont" lane="-463622074#0_1" startPos="117.40" endPos="132.40" friendlyPos="true" lines="24-O"/>
+    <busStop id="-6010965230" name="Somerled / Côte-Saint-Luc" lane="-453506595#2_1" startPos="57.65" endPos="65.15" friendlyPos="true" lines="102-E"/>
+    <busStop id="-6010965554" name="Sainte-Catherine / Irvine" lane="-422633541#0_1" startPos="19.69" endPos="34.69" friendlyPos="true" lines="90-E"/>
+    <busStop id="-6010966191" name="The Boulevard / Westmount" lane="-825948056#3_1" startPos="61.59" endPos="76.59" friendlyPos="true" lines="66-N"/>
+    <busStop id="-6010966388" name="Somerled / Borden" lane="-1082404464#4_1" startPos="54.31" endPos="69.31" friendlyPos="true" lines="102-E"/>
+    <busStop id="-6010967463" name="Somerled / Wilson" lane="-165214768#3_1" startPos="70.18" endPos="85.18" friendlyPos="true" lines="102-E"/>
+    <busStop id="-6010968386" name="Sherbrooke / Lansdowne" lane="-453727319#2_1" startPos="71.89" endPos="86.89" friendlyPos="true" lines="24-O 104-O"/>
+    <busStop id="-6010968515" name="Sainte-Catherine / Béthune" lane="-422633541#9_1" startPos="0.00" endPos="7.70" friendlyPos="true" lines="90-E"/>
+    <busStop id="-6010968656" name="Somerled / Hampton" lane="-165214768#9_1" startPos="0.00" endPos="13.02" friendlyPos="true" lines="102-E"/>
+    <busStop id="-6010969149" name="Le Boulevard / Edgehill" lane="-825948056#1_1" startPos="90.54" endPos="105.54" friendlyPos="true" lines="66-N"/>
+    <busStop id="-6010969511" name="de Monkland / Grand Boulevard" lane="-463844968_1" startPos="64.93" endPos="79.93" friendlyPos="true" lines="162-E"/>
+    <busStop id="-6010970368" name="Le Boulevard / Clarke" lane="-453749090_1" startPos="77.24" endPos="92.24" friendlyPos="true" lines="66-N"/>
+    <busStop id="-6010970596" name="Sherbrooke / Redfern" lane="-1010236636#3_1" startPos="24.06" endPos="39.06" friendlyPos="true" lines="24-O 104-O"/>
+    <busStop id="-6010970831" name="De Maisonneuve / Bulmer" lane="-199124593#2_1" startPos="24.73" endPos="37.18" friendlyPos="true" lines="90-E"/>
+    <busStop id="-6010971103" name="Le Boulevard / Renfrew" lane="-20184585#8_1" startPos="61.37" endPos="76.37" friendlyPos="true" lines="66-N"/>
+    <busStop id="-6010972753" name="Le Boulevard / Grosvenor" lane="-20184585#0_1" startPos="43.22" endPos="58.22" friendlyPos="true" lines="66-N"/>
+    <busStop id="-6010973675" name="Somerled / Madison" lane="-1082404464#2_1" startPos="82.63" endPos="97.63" friendlyPos="true" lines="102-E"/>
+    <busStop id="-6010973946" name="Le Boulevard / Lansdowne" lane="-20184585#2_1" startPos="28.61" endPos="43.61" friendlyPos="true" lines="66-N"/>
+    <busStop id="-6010975612" name="Côte-Saint-Paul / Saint-Ambroise" lane="-450117494#1_1" startPos="13.15" endPos="28.15" friendlyPos="true" lines="36-O"/>
+    <busStop id="-6010975976" name="Côte-Saint-Paul / Sainte-Marie" lane="-450117494#5_1" startPos="70.85" endPos="85.85" friendlyPos="true" lines="36-O"/>
+    <busStop id="-6010976711" name="Station Vendôme" lane="-608430715#1_1" startPos="7.49" endPos="22.49" friendlyPos="true" lines="90-E"/>
+    <busStop id="-6010976759" name="Côte-Sainte-Catherine / Lemieux" lane="-933360238#9_1" startPos="101.05" endPos="111.24" friendlyPos="true" lines="129-N"/>
+    <busStop id="-6010978009" name="Le Boulevard / Belmont" lane="-20184585#5_1" startPos="66.88" endPos="81.88" friendlyPos="true" lines="66-N"/>
+    <busStop id="-6010978075" name="Heywood / Sabin" lane="-1079524206#2_1" startPos="188.09" endPos="196.51" friendlyPos="true"/>
+    <busStop id="-6010978143" name="Sherbrooke / de Vendôme" lane="-453725263#2_1" startPos="61.32" endPos="76.32" friendlyPos="true" lines="24-O"/>
+    <busStop id="-6010978265" name="Sherbrooke / Victoria" lane="-453725261_1" startPos="67.80" endPos="82.80" friendlyPos="true" lines="24-O 104-O"/>
+    <busStop id="-6010979094" name="Le Boulevard / Mount-Pleasant" lane="-453749091#1_1" startPos="28.39" endPos="38.71" friendlyPos="true" lines="66-N"/>
+    <busStop id="-6010980487" name="Le Boulevard / Victoria" lane="-453998154#2_1" startPos="71.55" endPos="81.03" friendlyPos="true" lines="66-N"/>
+    <busStop id="-6010981074" name="Sherbrooke / Décarie" lane="-454309327#2_1" startPos="46.17" endPos="57.74" friendlyPos="true" lines="24-O"/>
+    <busStop id="-6010981256" name="Somerled / Draper" lane="-165214768#5_1" startPos="35.77" endPos="50.77" friendlyPos="true" lines="102-E"/>
+    <busStop id="-6615974727" name="Snowdon" lane="-1082752884#0_0" startPos="339.08" endPos="539.08" friendlyPos="true">
+        <access lane="-933328174#4_0" pos="98.25" length="75.23" friendlyPos="1"/>
+        <access lane="20194967_0" pos="111.76" length="57.71" friendlyPos="1"/>
+        <access lane="933328165_0" pos="104.95" length="46.49" friendlyPos="1"/>
+        <access lane="933328172#1_0" pos="106.72" length="78.59" friendlyPos="1"/>
+        <access lane="933328174#2_0" pos="105.37" length="51.53" friendlyPos="1"/>
     </busStop>
-    <busStop id="-1281757801" name="Lucien-L&apos;Allier" lane="-112850610_0" startPos="129.46" endPos="229.46" friendlyPos="true">
-        <access lane="-103935601_0" pos="3.17" length="36.56" friendlyPos="1"/>
-        <access lane="-103935602#0_0" pos="26.94" length="36.27" friendlyPos="1"/>
-        <access lane="103935601_0" pos="37.42" length="19.46" friendlyPos="1"/>
-        <access lane="103935602#0_0" pos="0.00" length="22.95" friendlyPos="1"/>
-        <access lane="481492220#2_0" pos="107.38" length="14.00" friendlyPos="1"/>
+    <busStop id="-6975099127" name="Outremont" lane="-66092957_0" startPos="5500.25" endPos="5700.25" friendlyPos="true"/>
+    <busStop id="-7159795395" name="Vendôme" lane="-35359869#0_0" startPos="0.00" endPos="118.91" friendlyPos="true">
+        <access lane="-1082936909_0" pos="16.51" length="9.22" friendlyPos="1"/>
+        <access lane="1082936909_0" pos="0.00" length="13.76" friendlyPos="1"/>
+        <access lane="1082936910_0" pos="0.20" length="10.83" friendlyPos="1"/>
+        <access lane="1082936911#10_0" pos="20.53" length="6.03" friendlyPos="1"/>
+        <access lane="653439886#3_0" pos="108.18" length="11.20" friendlyPos="1"/>
     </busStop>
-    <busStop id="-1457825329" name="Côte-des-Neiges / Summerhill" lane="-143920958#3_1" startPos="0.00" endPos="12.45" friendlyPos="true" lines="165-N 66-N"/>
-    <busStop id="-208949374" name="Guy-Concordia" lane="-164831271_0" startPos="0.00" endPos="193.79" friendlyPos="true">
-        <access lane="-330153470#1_0" pos="10.53" length="16.33" friendlyPos="1"/>
-        <access lane="330153470#1_0" pos="41.41" length="7.03" friendlyPos="1"/>
-        <access lane="391085483#1_0" pos="39.80" length="8.56" friendlyPos="1"/>
-        <access lane="398547483#0_0" pos="8.58" length="23.68" friendlyPos="1"/>
-        <access lane="399816159#0_0" pos="92.33" length="4.85" friendlyPos="1"/>
+    <busStop id="-9862694906" name="Villa-Maria" lane="-1075387555#2_0" startPos="0.00" endPos="100.00" friendlyPos="true">
+        <access lane="933071115#0_0" pos="0.00" length="21.25" friendlyPos="1"/>
+        <access lane="933071117#2_0" pos="19.19" length="20.97" friendlyPos="1"/>
+        <access lane="933071117#3_0" pos="0.00" length="21.74" friendlyPos="1"/>
+        <access lane="933071121_0" pos="0.00" length="13.04" friendlyPos="1"/>
+        <access lane="993362118_0" pos="4.21" length="18.01" friendlyPos="1"/>
     </busStop>
-    <busStop id="-208949381" name="Peel" lane="-164831271_0" startPos="683.74" endPos="883.74" friendlyPos="true"/>
-    <busStop id="-208949385" name="McGill" lane="-164831271_0" startPos="1159.15" endPos="1359.15" friendlyPos="true"/>
-    <busStop id="-208949390" name="Place-des-Arts" lane="-164831271_0" startPos="1666.98" endPos="1866.98" friendlyPos="true"/>
-    <busStop id="-208949406" name="Saint-Laurent" lane="-164831271_0" startPos="2099.41" endPos="2299.41" friendlyPos="true"/>
-    <busStop id="-2091616661" name="du Centre / de la Sucrerie" lane="-1042470293#0_1" startPos="88.61" endPos="103.61" friendlyPos="true" lines="107-S 71-N"/>
-    <busStop id="-213329687" name="Atwater" lane="-784099214#1_0" startPos="8431.82" endPos="8631.82" friendlyPos="true">
-        <access lane="-107696154#0_0" pos="136.68" length="8.07" friendlyPos="1"/>
-        <access lane="107696154#0_0" pos="45.40" length="6.78" friendlyPos="1"/>
-        <access lane="453949527_0" pos="0.00" length="74.28" friendlyPos="1"/>
-        <access lane="474841415#1_0" pos="86.36" length="75.87" friendlyPos="1"/>
-        <access lane="924892081#3_0" pos="76.14" length="89.42" friendlyPos="1"/>
+    <busStop id="-98949380" name="Vendôme" lane="-35359869#0_0" startPos="214.08" endPos="414.08" friendlyPos="true">
+        <access lane="-931545032#0_0" pos="23.88" length="35.20" friendlyPos="1"/>
+        <access lane="653439886#0_0" pos="0.55" length="12.96" friendlyPos="1"/>
+        <access lane="653439887_0" pos="0.38" length="5.14" friendlyPos="1"/>
+        <access lane="931538627#0_0" pos="24.28" length="31.22" friendlyPos="1"/>
+        <access lane="931545005_0" pos="51.24" length="31.49" friendlyPos="1"/>
     </busStop>
-    <busStop id="-213331953" name="Charlevoix" lane="-784099214#1_0" startPos="5598.16" endPos="5798.16" friendlyPos="true">
-        <access lane="-121905758#0_0" pos="265.16" length="565.37" friendlyPos="1"/>
-        <access lane="121905758#0_0" pos="238.73" length="563.87" friendlyPos="1"/>
+    <busStop id="1071760806" name="Sherbrooke / Metcalfe" lane="453727318_1" startPos="99.46" endPos="114.46" friendlyPos="true" lines="24-E"/>
+    <busStop id="213481727" name="Côte-des-Neiges" lane="1075356857_0" startPos="0.00" endPos="163.60" friendlyPos="true" lines="5">
+        <access lane="463878770#1_0" pos="789.11" length="265.07" friendlyPos="1"/>
     </busStop>
-    <busStop id="-213403939" name="Papineau" lane="-164831271_0" startPos="3828.45" endPos="4028.45" friendlyPos="true"/>
-    <busStop id="-213403941" name="Beaudry" lane="-164831271_0" startPos="3228.21" endPos="3428.21" friendlyPos="true"/>
-    <busStop id="-218283857" name="Frontenac" lane="-164831271_0" startPos="5051.02" endPos="5251.02" friendlyPos="true"/>
-    <busStop id="-218356337" name="Préfontaine" lane="-164831271_0" startPos="6215.50" endPos="6415.50" friendlyPos="true"/>
-    <busStop id="-218356349" name="Joliette" lane="-164831271_0" startPos="6839.04" endPos="7039.04" friendlyPos="true"/>
-    <busStop id="-225689808" name="Jolicoeur" lane="-784099214#1_0" startPos="2062.26" endPos="2262.26" friendlyPos="true"/>
-    <busStop id="-225690774" name="Monk" lane="-784099214#1_0" startPos="882.64" endPos="1082.64" friendlyPos="true"/>
-    <busStop id="-2264682033" name="Guy / Paxton" lane="-329988460#3_2" startPos="29.82" endPos="40.43" friendlyPos="true" lines="36-E"/>
-    <busStop id="-246654576" name="Assomption" lane="-164831271_0" startPos="9501.38" endPos="9701.38" friendlyPos="true"/>
-    <busStop id="-246655684" name="Cadillac" lane="-164831271_0" startPos="10429.29" endPos="10629.29" friendlyPos="true"/>
-    <busStop id="-246656707" name="Langelier" lane="-164831271_0" startPos="11141.75" endPos="11341.75" friendlyPos="true"/>
-    <busStop id="-246656708" name="Radisson" lane="-164831271_0" startPos="11911.74" endPos="12111.74" friendlyPos="true"/>
-    <busStop id="-246656713" name="Honoré-Beaugrand" lane="-164831271_0" startPos="12778.13" endPos="12967.30" friendlyPos="true"/>
-    <busStop id="-2471652365" name="Verdun" lane="-784099214#1_0" startPos="3139.45" endPos="3339.45" friendlyPos="true"/>
-    <busStop id="-26232890" name="Viau" lane="-164831271_0" startPos="8527.17" endPos="8727.17" friendlyPos="true"/>
-    <busStop id="-264271702" name="Pie IX" lane="-164831271_0" startPos="7678.49" endPos="7878.49" friendlyPos="true"/>
-    <busStop id="-2687686456" name="De Condé / du Centre" lane="-1042470293#2_1" startPos="0.00" endPos="7.50" friendlyPos="true" lines="57-O"/>
-    <busStop id="-2687686486" name="Wellington / Bridge" lane="-37722304_1" startPos="60.05" endPos="75.05" friendlyPos="true" lines="107-S"/>
-    <busStop id="-2687914648" name="Notre-Dame / Dominion" lane="-545490137#1_1" startPos="24.78" endPos="39.78" friendlyPos="true" lines="36-E 35-E"/>
-    <busStop id="-2687914652" name="Notre-Dame / Georges-Vanier" lane="-545490137#1_1" startPos="120.25" endPos="132.97" friendlyPos="true" lines="36-E 35-E"/>
-    <busStop id="-2701338580" name="du Centre / De Condé" lane="-1042470291_1" startPos="53.73" endPos="68.73" friendlyPos="true" lines="107-S"/>
-    <busStop id="-311564344" name="LaSalle" lane="-784099214#1_0" startPos="4676.90" endPos="4876.90" friendlyPos="true"/>
-    <busStop id="-311564349" name="De l&apos;Église" lane="-784099214#1_0" startPos="3782.20" endPos="3982.20" friendlyPos="true"/>
-    <busStop id="-311564466" name="Angrignon" lane="-784099214#1_0" startPos="0.00" endPos="100.00" friendlyPos="true"/>
-    <busStop id="-3676828784" name="Lionel-Groulx" lane="-784099214#1_0" startPos="6747.36" endPos="6947.36" friendlyPos="true">
-        <access lane="792160910#2_0" pos="58.30" length="94.86" friendlyPos="1"/>
-        <access lane="792160913#0_0" pos="18.76" length="84.79" friendlyPos="1"/>
-        <access lane="792160913#1_0" pos="0.00" length="91.86" friendlyPos="1"/>
-        <access lane="792160914_0" pos="39.49" length="96.90" friendlyPos="1"/>
-        <access lane="961683175_0" pos="0.00" length="99.56" friendlyPos="1"/>
+    <busStop id="213613384" name="Snowdon" lane="1075356857_0" startPos="0.00" endPos="63.75" friendlyPos="true" lines="5">
+        <access lane="-933328174#4_0" pos="87.76" length="109.62" friendlyPos="1"/>
+        <access lane="20194967_0" pos="101.29" length="23.31" friendlyPos="1"/>
+        <access lane="933328165_0" pos="94.67" length="81.02" friendlyPos="1"/>
+        <access lane="933328172#1_0" pos="117.10" length="113.05" friendlyPos="1"/>
+        <access lane="933328174#2_0" pos="115.86" length="85.92" friendlyPos="1"/>
     </busStop>
-    <busStop id="-4034535844" name="Station Guy-Concordia (Guy / De Maisonneuve)" lane="-455083993#2_1" startPos="3.99" endPos="18.99" friendlyPos="true" lines="66-S 66-N"/>
-    <busStop id="-427618245" name="École de technologie supérieure (Peel/Notre-Dame)" lane="-37722302#1_1" startPos="167.84" endPos="182.84" friendlyPos="true" lines="107-S"/>
-    <busStop id="-4744256621" name="de la Montagne / René-Lévesque" lane="-134811810#3_1" startPos="97.31" endPos="109.37" friendlyPos="true"/>
-    <busStop id="-504318025" name="Station Guy-Concordia (Guy / De Maisonneuve)" lane="-165217827#4_1" startPos="0.00" endPos="7.50" friendlyPos="true" lines="165-N"/>
-    <busStop id="-504318025@8873299" name="Station Guy-Concordia (Guy / De Maisonneuve)" lane="-455083993#2_1" startPos="65.04" endPos="79.43" friendlyPos="true" lines="165-S"/>
-    <busStop id="-5228487326" name="Berri-UQAM" lane="-164831271_0" startPos="2622.82" endPos="2822.82" friendlyPos="true"/>
-    <busStop id="-5330993593" name="Lionel-Groulx" lane="-784099214#1_0" startPos="6751.15" endPos="6951.15" friendlyPos="true">
-        <access lane="792160910#2_0" pos="62.09" length="95.07" friendlyPos="1"/>
-        <access lane="792160913#0_0" pos="15.02" length="85.04" friendlyPos="1"/>
-        <access lane="792160913#1_0" pos="0.00" length="94.26" friendlyPos="1"/>
-        <access lane="792160914_0" pos="39.49" length="102.37" friendlyPos="1"/>
-        <access lane="961683175_0" pos="0.00" length="105.14" friendlyPos="1"/>
+    <busStop id="213656965" name="Édouard-Montpetit" lane="1075356857_0" startPos="0.00" endPos="163.60" friendlyPos="true" lines="5"/>
+    <busStop id="214042695" name="Acadie" lane="1075356857_0" startPos="0.00" endPos="163.60" friendlyPos="true" lines="5"/>
+    <busStop id="214052252" name="Parc" lane="1075356857_0" startPos="0.00" endPos="163.60" friendlyPos="true" lines="5"/>
+    <busStop id="214052255" name="De Castelnau" lane="1075356857_0" startPos="0.00" endPos="163.60" friendlyPos="true" lines="5"/>
+    <busStop id="214052275" name="Fabre" lane="1075356857_0" startPos="0.00" endPos="163.60" friendlyPos="true" lines="5"/>
+    <busStop id="214052280" name="D’Iberville" lane="1075356857_0" startPos="0.00" endPos="163.60" friendlyPos="true" lines="5"/>
+    <busStop id="218271645" name="Saint-Michel" lane="1075356857_0" startPos="0.00" endPos="163.60" friendlyPos="true" lines="5"/>
+    <busStop id="2459801755" name="de Monkland / Royal" lane="463864075#2_1" startPos="57.27" endPos="72.27" friendlyPos="true" lines="162-O"/>
+    <busStop id="2484399635" name="Girouard / de Monkland" lane="933008463#1_0" startPos="12.53" endPos="27.31" friendlyPos="true"/>
+    <busStop id="2484399636" name="Girouard / de Monkland" lane="996726681_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="2682145767" name="Clanranald / Côte-Saint-Luc" lane="1079002507#1_2" startPos="11.80" endPos="24.06" friendlyPos="true"/>
+    <busStop id="2682145771" name="Clanranald / Snowdon" lane="474592294#0_2" startPos="5.78" endPos="19.88" friendlyPos="true"/>
+    <busStop id="2682145780" name="Côte-Saint-Luc / Clanranald" lane="453506593#8_1" startPos="9.66" endPos="19.85" friendlyPos="true"/>
+    <busStop id="29482323" name="Université-de-Montréal" lane="1075356857_0" startPos="0.00" endPos="163.60" friendlyPos="true" lines="5"/>
+    <busStop id="3046699413" name="de Monkland / de Melrose" lane="463864541#1_1" startPos="22.46" endPos="37.46" friendlyPos="true" lines="162-O"/>
+    <busStop id="3046699414" name="de Monkland / Grand Boulevard" lane="463844971_1" startPos="57.53" endPos="72.53" friendlyPos="true" lines="162-O"/>
+    <busStop id="3046699415" name="Fielding / Grand Boulevard" lane="1082402388_0" startPos="52.84" endPos="67.84" friendlyPos="true"/>
+    <busStop id="3046699416" name="Fielding / Côte-Saint-Luc" lane="1082402412#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="3046699418" name="Queen-Mary / Macdonald" lane="1079091072_0" startPos="10.52" endPos="25.52" friendlyPos="true"/>
+    <busStop id="3046699419" name="Queen-Mary / Earnscliffe" lane="1079091064_0" startPos="2.21" endPos="17.21" friendlyPos="true"/>
+    <busStop id="3046699420" name="Earnscliffe / Queen-Mary" lane="1079091063_0" startPos="78.72" endPos="93.72" friendlyPos="true"/>
+    <busStop id="3046699422" name="Décarie / Queen-Mary" lane="933080025#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="3152516340" name="Fielding / Walkley" lane="1082077050_0" startPos="40.68" endPos="55.68" friendlyPos="true"/>
+    <busStop id="3152516341" name="Fielding / Walkley" lane="1082077068_0" startPos="54.44" endPos="68.49" friendlyPos="true"/>
+    <busStop id="3152516342" name="Fielding / Cavendish" lane="1082077056_0" startPos="42.63" endPos="56.87" friendlyPos="true"/>
+    <busStop id="3152516343" name="Fielding / Cavendish" lane="1082402364_0" startPos="46.53" endPos="59.64" friendlyPos="true"/>
+    <busStop id="3152516344" name="Fielding / West Hill" lane="1082402384#1_0" startPos="1.94" endPos="16.94" friendlyPos="true"/>
+    <busStop id="3152516345" name="Fielding / West Hill" lane="1082402356#1_0" startPos="5.07" endPos="20.07" friendlyPos="true"/>
+    <busStop id="3152519189" name="Fielding / Grand Boulevard" lane="1082402352_0" startPos="59.68" endPos="72.55" friendlyPos="true"/>
+    <busStop id="3152519190" name="Fielding / Côte-Saint-Luc" lane="1082402344_0" startPos="26.73" endPos="41.73" friendlyPos="true"/>
+    <busStop id="3152550117" name="Somerled / Cavendish" lane="1082404464#7_1" startPos="0.00" endPos="9.48" friendlyPos="true" lines="102-O"/>
+    <busStop id="3153668833" name="Fielding / Hingston" lane="1082402403_0" startPos="51.60" endPos="66.60" friendlyPos="true"/>
+    <busStop id="3167888764" name="Queen-Mary / Lemieux" lane="933328172#1_0" startPos="0.00" endPos="12.73" friendlyPos="true"/>
+    <busStop id="3167905179" name="Station Snowdon (Queen-Mary / de Westbury)" lane="933328165_0" startPos="36.23" endPos="51.23" friendlyPos="true"/>
+    <busStop id="3171687453" name="Queen-Mary / Victoria" lane="463870725_1" startPos="58.33" endPos="73.33" friendlyPos="true" lines="51-O"/>
+    <busStop id="3171689585" name="Queen-Mary / Ponsard" lane="933328168#2_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="3324368267" name="de Monkland / Harvard" lane="463864590_1" startPos="54.75" endPos="69.75" friendlyPos="true" lines="162-O"/>
+    <busStop id="3833334542" name="Vendôme" lane="1079753097_0" startPos="1520.66" endPos="1720.66" friendlyPos="true" lines="exo1 exo4">
+        <access lane="-1082936909_0" pos="16.51" length="11.86" friendlyPos="1"/>
+        <access lane="1082936909_0" pos="0.00" length="7.36" friendlyPos="1"/>
+        <access lane="1082936910_0" pos="0.00" length="9.05" friendlyPos="1"/>
+        <access lane="1082936911#10_0" pos="21.48" length="13.02" friendlyPos="1"/>
+        <access lane="1082936911#11_0" pos="0.36" length="5.73" friendlyPos="1"/>
     </busStop>
-    <busStop id="-5754358292" name="Wellington / Peel" lane="-37722301#2_1" startPos="54.93" endPos="66.26" friendlyPos="true" lines="35-O"/>
-    <busStop id="-5754358293" name="Wellington / Ann" lane="-361815166#0_1" startPos="119.94" endPos="134.94" friendlyPos="true" lines="35-O"/>
-    <busStop id="-5754358295" name="Peel / Wellington" lane="-455712869#1_1" startPos="141.40" endPos="156.40" friendlyPos="true" lines="107-S"/>
-    <busStop id="-5754358296" name="Peel / Ottawa" lane="-455712867#1_1" startPos="151.49" endPos="162.25" friendlyPos="true" lines="107-S"/>
-    <busStop id="-6010965405" name="Guy / Saint-Antoine" lane="-465656094#1_2" startPos="8.56" endPos="23.56" friendlyPos="true" lines="57-E"/>
-    <busStop id="-6010965967" name="Guy / René-Lévesque" lane="-455083994#2_2" startPos="0.00" endPos="10.37" friendlyPos="true" lines="165-S 66-S 66-N"/>
-    <busStop id="-6010966435" name="Notre-Dame / de la Montagne" lane="-1041940066#1_1" startPos="62.69" endPos="77.69" friendlyPos="true" lines="35-E"/>
-    <busStop id="-6010968609" name="William / des Seigneurs" lane="-1042467341#1_1" startPos="29.98" endPos="44.98" friendlyPos="true" lines="57-E"/>
-    <busStop id="-6010968651" name="de la Montagne / Ottawa" lane="-455713130#1_1" startPos="0.00" endPos="9.81" friendlyPos="true" lines="35-O"/>
-    <busStop id="-6010969801" name="des Seigneurs / Basin" lane="-1042467342#1_1" startPos="16.52" endPos="31.52" friendlyPos="true"/>
-    <busStop id="-6010969834" name="Notre-Dame / de Versailles" lane="-1041940066#5_1" startPos="45.56" endPos="60.56" friendlyPos="true" lines="35-E"/>
-    <busStop id="-6010969842" name="de la Montagne / Wellington" lane="-455713130#2_1" startPos="33.89" endPos="48.89" friendlyPos="true" lines="35-O"/>
-    <busStop id="-6010969844" name="Peel / Saint-Jacques" lane="-354710422#0_1" startPos="36.55" endPos="51.55" friendlyPos="true" lines="107-S"/>
-    <busStop id="-6010970018" name="Guy / René-Lévesque" lane="-41258976#2_2" startPos="39.85" endPos="51.66" friendlyPos="true" lines="747-E"/>
-    <busStop id="-6010970054" name="Sherbrooke / Côte-des-Neiges" lane="-465408860#0_1" startPos="0.00" endPos="7.51" friendlyPos="true" lines="24-O"/>
-    <busStop id="-6010970163" name="Guy / Saint-Jacques" lane="-329988460#1_2" startPos="179.90" endPos="194.90" friendlyPos="true" lines="36-E"/>
-    <busStop id="-6010970833" name="de la Montagne / Barré" lane="-573448691#0_1" startPos="14.90" endPos="29.90" friendlyPos="true" lines="35-O"/>
-    <busStop id="-6010971144" name="Côte-des-Neiges / Sherbrooke" lane="-41258974#1_1" startPos="47.43" endPos="62.43" friendlyPos="true" lines="165-N 66-N"/>
-    <busStop id="-6010971829" name="Sherbrooke / Saint-Mathieu" lane="-165217870#1_1" startPos="70.05" endPos="85.05" friendlyPos="true" lines="24-O"/>
-    <busStop id="-6010972098" name="Notre-Dame / Guy" lane="-165217829#1_1" startPos="83.48" endPos="98.00" friendlyPos="true" lines="35-E"/>
-    <busStop id="-6010972616" name="Sainte-Catherine / Greene" lane="-92352264_1" startPos="120.83" endPos="135.83" friendlyPos="true" lines="90-O"/>
-    <busStop id="-6010973708" name="Sainte-Catherine / Wood" lane="-92352263#1_1" startPos="53.34" endPos="68.34" friendlyPos="true" lines="90-O"/>
-    <busStop id="-6010975601" name="Station Atwater (Tupper / Atwater)" lane="-329694557_1" startPos="63.26" endPos="78.26" friendlyPos="true" lines="90-O"/>
-    <busStop id="-6010976380" name="Shearer / Saint-Patrick" lane="-20113489#0_1" startPos="72.70" endPos="87.70" friendlyPos="true"/>
-    <busStop id="-6010980123" name="de la Sucrerie / Grand Trunk" lane="-20113825#0_1" startPos="14.81" endPos="29.81" friendlyPos="true" lines="57-O"/>
-    <busStop id="-6010980150" name="Place Alexis-Nihon (Ste-Catherine/No 4026)" lane="-92352263#3_1" startPos="0.00" endPos="8.31" friendlyPos="true" lines="90-O"/>
-    <busStop id="-6010980155" name="Collège Dawson (Sherbrooke/No 3040)" lane="-329067231#5_1" startPos="42.40" endPos="57.40" friendlyPos="true" lines="24-O 104-O"/>
-    <busStop id="-6010981007" name="Wellington / Robert-Bourassa" lane="-360802894#1_1" startPos="53.84" endPos="68.84" friendlyPos="true" lines="35-O"/>
-    <busStop id="-6010981038" name="Sherbrooke / Chomedey" lane="-465408857#1_1" startPos="69.87" endPos="82.71" friendlyPos="true" lines="24-O"/>
-    <busStop id="-6010981124" name="de la Montagne / William" lane="-455722367#1_1" startPos="20.45" endPos="34.12" friendlyPos="true" lines="35-O"/>
-    <busStop id="-6010981242" name="Station Atwater (Tupper / Atwater)" lane="-329694557_1" startPos="28.61" endPos="43.61" friendlyPos="true" lines="108-O"/>
-    <busStop id="-6010981282" name="Guy / Sainte-Catherine" lane="-455083994#2_2" startPos="0.00" endPos="10.37" friendlyPos="true" lines="427-O"/>
-    <busStop id="-6010981492" name="Sherbrooke / Saint-Marc" lane="-465411712#0_1" startPos="20.15" endPos="35.15" friendlyPos="true" lines="24-O"/>
-    <busStop id="-6274677571" name="Notre-Dame / des Seigneurs" lane="-165217829#9_1" startPos="72.37" endPos="87.37" friendlyPos="true" lines="36-E 35-E"/>
-    <busStop id="-8583333166" name="Berri-UQAM" lane="-164831271_0" startPos="2653.53" endPos="2853.53" friendlyPos="true"/>
-    <busStop id="-869524307" name="Saint-Antoine / Greene" lane="-678887672#3_1" startPos="0.00" endPos="13.47" friendlyPos="true" lines="78-O"/>
-    <busStop id="-98943391" name="Lucien-L&apos;Allier" lane="-103974916_0" startPos="0.00" endPos="100.00" friendlyPos="true">
-        <access lane="-103935601_0" pos="15.17" length="4.55" friendlyPos="1"/>
-        <access lane="-103935602#0_0" pos="26.94" length="27.37" friendlyPos="1"/>
-        <access lane="103935601_0" pos="25.43" length="12.55" friendlyPos="1"/>
-        <access lane="481492220#2_0" pos="94.98" length="17.65" friendlyPos="1"/>
-        <access lane="481492995#1_0" pos="46.38" length="6.00" friendlyPos="1"/>
+    <busStop id="4051678439" name="de Monkland / Marcil" lane="463864756_1" startPos="58.52" endPos="73.52" friendlyPos="true" lines="162-O"/>
+    <busStop id="4051678440" name="Station Villa-Maria" lane="933071120_0" startPos="3.73" endPos="18.73" friendlyPos="true"/>
+    <busStop id="4367816207" name="Somerled / Grand Boulevard" lane="165214768#12_1" startPos="58.98" endPos="73.98" friendlyPos="true" lines="102-O"/>
+    <busStop id="437811772" name="Côte-Sainte-Catherine" lane="1082752881_0" startPos="0.00" endPos="100.00" friendlyPos="true" lines="2">
+        <access lane="-480342542_0" pos="8.92" length="17.16" friendlyPos="1"/>
+        <access lane="479688352_0" pos="83.05" length="28.06" friendlyPos="1"/>
+        <access lane="480342542_0" pos="82.68" length="3.06" friendlyPos="1"/>
+        <access lane="997242869#0_0" pos="10.81" length="4.27" friendlyPos="1"/>
+        <access lane="997242870_0" pos="8.05" length="21.01" friendlyPos="1"/>
     </busStop>
-    <busStop id="1281757675" name="Lucien-L&apos;Allier" lane="112850607_0" startPos="170.52" endPos="270.52" friendlyPos="true">
-        <access lane="-103935602#0_0" pos="26.54" length="35.01" friendlyPos="1"/>
-        <access lane="103935601_0" pos="40.59" length="20.10" friendlyPos="1"/>
-        <access lane="103935602#0_0" pos="0.40" length="20.91" friendlyPos="1"/>
-        <access lane="481492220#2_0" pos="114.08" length="13.73" friendlyPos="1"/>
-        <access lane="673699710#1_0" pos="10.27" length="34.41" friendlyPos="1"/>
+    <busStop id="437811806" name="Villa-Maria" lane="1082752884#1_0" startPos="516.20" endPos="616.20" friendlyPos="true" lines="2">
+        <access lane="933071115#0_0" pos="0.00" length="25.15" friendlyPos="1"/>
+        <access lane="933071117#2_0" pos="19.19" length="17.06" friendlyPos="1"/>
+        <access lane="933071117#3_0" pos="0.00" length="17.98" friendlyPos="1"/>
+        <access lane="933071121_0" pos="0.00" length="9.17" friendlyPos="1"/>
+        <access lane="993362118_0" pos="4.21" length="18.07" friendlyPos="1"/>
     </busStop>
-    <busStop id="1281757722" name="Lucien-L&apos;Allier" lane="112850598_0" startPos="0.00" endPos="100.00" friendlyPos="true">
-        <access lane="-103935601_0" pos="7.39" length="36.96" friendlyPos="1"/>
-        <access lane="103935601_0" pos="33.21" length="19.86" friendlyPos="1"/>
-        <access lane="103935602#0_0" pos="0.00" length="26.48" friendlyPos="1"/>
-        <access lane="481492220#2_0" pos="103.17" length="14.52" friendlyPos="1"/>
-        <access lane="481492995#1_0" pos="39.01" length="38.63" friendlyPos="1"/>
+    <busStop id="437811839" name="Vendôme" lane="1082752884#1_0" startPos="496.58" endPos="696.58" friendlyPos="true" lines="2">
+        <access lane="960611536_0" pos="4.90" length="5.95" friendlyPos="1"/>
+        <access lane="960611537_0" pos="0.00" length="2.41" friendlyPos="1"/>
+        <access lane="960611538_0" pos="0.00" length="6.32" friendlyPos="1"/>
+        <access lane="960611544_0" pos="0.00" length="4.99" friendlyPos="1"/>
+        <access lane="960611545_0" pos="0.00" length="2.79" friendlyPos="1"/>
     </busStop>
-    <busStop id="1281757735" name="Lucien-L&apos;Allier" lane="112850603_0" startPos="0.00" endPos="100.00" friendlyPos="true">
-        <access lane="-103935601_0" pos="11.05" length="4.42" friendlyPos="1"/>
-        <access lane="-103935602#0_0" pos="26.94" length="21.23" friendlyPos="1"/>
-        <access lane="103935601_0" pos="29.54" length="12.68" friendlyPos="1"/>
-        <access lane="481492220#2_0" pos="99.09" length="17.90" friendlyPos="1"/>
-        <access lane="481492995#1_0" pos="42.27" length="5.99" friendlyPos="1"/>
+    <busStop id="437811884" name="Place Saint-Henri" lane="1082752884#1_0" startPos="496.58" endPos="696.58" friendlyPos="true" lines="2"/>
+    <busStop id="4380897324" name="Côte-Saint-Luc / Randall" lane="1079052757#2_0" startPos="6.45" endPos="21.45" friendlyPos="true"/>
+    <busStop id="4380897325" name="Côte-Saint-Luc / West Hill" lane="1079009424_0" startPos="0.68" endPos="11.95" friendlyPos="true"/>
+    <busStop id="4380897351" name="Station Villa-Maria" lane="933071117#3_0" startPos="25.84" endPos="34.19" friendlyPos="true"/>
+    <busStop id="4380897962" name="Côte-Saint-Luc / Randall" lane="1079009416_0" startPos="0.00" endPos="7.64" friendlyPos="true"/>
+    <busStop id="4380897963" name="Côte-Saint-Luc / Kensington" lane="1079009428#1_0" startPos="11.71" endPos="26.71" friendlyPos="true"/>
+    <busStop id="4380897964" name="Côte-Saint-Luc / Grand Boulevard" lane="1079002502_0" startPos="10.83" endPos="18.33" friendlyPos="true"/>
+    <busStop id="4380897968" name="Queen-Mary / Trans Island" lane="933293644_0" startPos="0.00" endPos="13.64" friendlyPos="true"/>
+    <busStop id="4380897969" name="Station Villa-Maria (Décarie / de Monkland)" lane="933071114#1_0" startPos="0.00" endPos="14.58" friendlyPos="true"/>
+    <busStop id="4478289734" name="Institut de Gériatrie (Queen-Mary/Cedar Crescent)" lane="20188675#2_1" startPos="31.29" endPos="46.29" friendlyPos="true" lines="51-O"/>
+    <busStop id="4705344019" name="Clanranald / Dupuis" lane="222780033#2_2" startPos="115.65" endPos="130.65" friendlyPos="true" lines="129-N 129-S"/>
+    <busStop id="5106483231" name="Sherbrooke / Hingston" lane="1081022988_0" startPos="0.80" endPos="15.80" friendlyPos="true"/>
+    <busStop id="5106483232" name="Sherbrooke / de Clifton" lane="1081022966#1_0" startPos="32.78" endPos="46.74" friendlyPos="true"/>
+    <busStop id="5106483233" name="Sherbrooke / Wilson" lane="1081024190_0" startPos="0.62" endPos="15.62" friendlyPos="true"/>
+    <busStop id="5106483234" name="Sherbrooke / Oxford" lane="1080986803_0" startPos="0.96" endPos="15.96" friendlyPos="true"/>
+    <busStop id="5106483235" name="Sherbrooke / Girouard" lane="1080735808_0" startPos="0.00" endPos="13.58" friendlyPos="true"/>
+    <busStop id="5106483236" name="Sherbrooke / Décarie" lane="1081624252_0" startPos="20.41" endPos="35.41" friendlyPos="true"/>
+    <busStop id="5228487329" name="Jean-Talon" lane="1075356857_0" startPos="0.00" endPos="163.60" friendlyPos="true" lines="5"/>
+    <busStop id="5376469322" name="Côte-Saint-Luc / Silverson" lane="1078912336_0" startPos="0.00" endPos="13.93" friendlyPos="true"/>
+    <busStop id="5376502421" name="Côte-Saint-Luc / Rosedale" lane="1078995435_0" startPos="3.89" endPos="18.89" friendlyPos="true"/>
+    <busStop id="5401070736" name="Côte-Saint-Luc / Walkley" lane="1079009398#1_0" startPos="0.00" endPos="14.04" friendlyPos="true"/>
+    <busStop id="5527781387" name="Girouard / Notre-Dame-de-Grâce" lane="933008479#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="5527781388" name="Girouard / Notre-Dame-de-Grâce" lane="933008455_0" startPos="9.07" endPos="24.07" friendlyPos="true"/>
+    <busStop id="5527782680" name="Station Villa-Maria" lane="933071117#2_0" startPos="12.47" endPos="23.47" friendlyPos="true"/>
+    <busStop id="5536207113" name="de Monkland / Hingston" lane="463864074#4_1" startPos="58.01" endPos="73.01" friendlyPos="true" lines="162-O"/>
+    <busStop id="5764418467" name="Sherbrooke / Grand Boulevard" lane="1081022995_0" startPos="4.64" endPos="19.64" friendlyPos="true"/>
+    <busStop id="5764418468" name="Sherbrooke / Hingston" lane="1081022982_0" startPos="62.24" endPos="74.00" friendlyPos="true"/>
+    <busStop id="5764418469" name="Sherbrooke / Royal" lane="1081022964#0_0" startPos="0.00" endPos="12.87" friendlyPos="true"/>
+    <busStop id="5764418470" name="Sherbrooke / Wilson" lane="1081022907_0" startPos="51.48" endPos="66.48" friendlyPos="true"/>
+    <busStop id="5764418471" name="Sherbrooke / Oxford" lane="1080986796_0" startPos="0.00" endPos="14.01" friendlyPos="true"/>
+    <busStop id="5764418472" name="Sherbrooke / Girouard" lane="932899016_0" startPos="48.98" endPos="63.98" friendlyPos="true"/>
+    <busStop id="5764418473" name="Décarie / Sherbrooke" lane="931538637_0" startPos="218.25" endPos="233.25" friendlyPos="true"/>
+    <busStop id="5764418474" name="Station Vendôme" lane="1052143868#1_0" startPos="0.00" endPos="9.95" friendlyPos="true" lines="105-O">
+        <access lane="766089295#0_0" pos="0.00" length="21.95" friendlyPos="1"/>
+        <access lane="766089296#0_0" pos="10.05" length="2.31" friendlyPos="1"/>
+        <access lane="861089480#0_0" pos="0.28" length="19.29" friendlyPos="1"/>
+        <access lane="861089480#1_0" pos="0.00" length="22.66" friendlyPos="1"/>
+        <access lane="960611541_0" pos="29.85" length="18.95" friendlyPos="1"/>
     </busStop>
-    <busStop id="1281757755" name="Lucien-L&apos;Allier" lane="112850605_0" startPos="0.00" endPos="100.00" friendlyPos="true">
-        <access lane="-103935601_0" pos="26.77" length="5.37" friendlyPos="1"/>
-        <access lane="-134811810#6_0" pos="0.00" length="25.53" friendlyPos="1"/>
-        <access lane="103935601_0" pos="13.82" length="11.73" friendlyPos="1"/>
-        <access lane="481492220#2_0" pos="83.39" length="16.50" friendlyPos="1"/>
-        <access lane="481492995#1_0" pos="57.99" length="6.49" friendlyPos="1"/>
+    <busStop id="6010963055" name="Décarie / Jacques-Grenier" lane="933076525_0" startPos="0.00" endPos="12.70" friendlyPos="true"/>
+    <busStop id="6010964193" name="McLynn / Plamondon" lane="20904782#1_1" startPos="168.34" endPos="183.34" friendlyPos="true" lines="160-E"/>
+    <busStop id="6010964201" name="Côte-Saint-Antoine / Wilson" lane="1081022919_0" startPos="52.84" endPos="67.80" friendlyPos="true"/>
+    <busStop id="6010964212" name="Queen-Mary / Roslyn" lane="20188675#7_1" startPos="2.43" endPos="17.43" friendlyPos="true" lines="51-O"/>
+    <busStop id="6010964268" name="Girouard / Saint-Jacques" lane="931219475#1_0" startPos="0.00" endPos="10.84" friendlyPos="true"/>
+    <busStop id="6010964529" name="Côte-Saint-Luc / Bonavista" lane="933076435_0" startPos="23.91" endPos="38.91" friendlyPos="true"/>
+    <busStop id="6010964565" name="Van Horne / Décarie" lane="933370544_0" startPos="17.57" endPos="32.57" friendlyPos="true"/>
+    <busStop id="6010964703" name="Décarie / Isabella" lane="933326513_0" startPos="264.77" endPos="278.19" friendlyPos="true"/>
+    <busStop id="6010964756" name="Décarie / Notre-Dame-de-Grâce" lane="933008522#1_0" startPos="24.32" endPos="37.99" friendlyPos="true"/>
+    <busStop id="6010964776" name="Upper-Lachine / Girouard" lane="1081520901#0_0" startPos="0.00" endPos="13.80" friendlyPos="true"/>
+    <busStop id="6010964892" name="Côte-Saint-Luc / Hingston" lane="1079052724_0" startPos="0.00" endPos="13.47" friendlyPos="true"/>
+    <busStop id="6010964975" name="Van Horne / Clanranald" lane="453293298_1" startPos="68.79" endPos="83.79" friendlyPos="true" lines="161-E"/>
+    <busStop id="6010964984" name="Le Boulevard / Victoria" lane="933076431#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010965211" name="Clanranald / Isabella" lane="1082415027_0" startPos="22.74" endPos="37.74" friendlyPos="true"/>
+    <busStop id="6010965245" name="Côte-Saint-Luc / Wilson" lane="1079052695_0" startPos="0.00" endPos="14.38" friendlyPos="true"/>
+    <busStop id="6010965265" name="Côte-Saint-Luc / West Hill" lane="1079052743#1_0" startPos="42.99" endPos="57.99" friendlyPos="true"/>
+    <busStop id="6010965426" name="Le Boulevard / Clarke" lane="453749090_1" startPos="19.89" endPos="34.89" friendlyPos="true" lines="66-S"/>
+    <busStop id="6010965449" name="Côte-Saint-Luc / Décarie" lane="933076478_0" startPos="15.22" endPos="30.22" friendlyPos="true"/>
+    <busStop id="6010965492" name="Kildare / Merrimac" lane="165214092#2_1" startPos="5.68" endPos="19.10" friendlyPos="true"/>
+    <busStop id="6010965495" name="Décarie / Duquette" lane="996726724_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010965561" name="Station Vendôme (De Maisonneuve / Marlowe)" lane="608430715#2_2" startPos="21.32" endPos="33.46" friendlyPos="true" lines="104-O"/>
+    <busStop id="6010965900" name="Notre-Dame / Gadbois" lane="932489400#1_0" startPos="0.00" endPos="11.20" friendlyPos="true"/>
+    <busStop id="6010965913" name="Côte-Saint-Luc / Girouard" lane="1079046943#0_0" startPos="0.00" endPos="14.40" friendlyPos="true"/>
+    <busStop id="6010965976" name="Cavendish / de Terrebonne" lane="1079644744#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010965995" name="de Monkland / Madison" lane="463844969#0_1" startPos="61.88" endPos="76.88" friendlyPos="true" lines="162-O"/>
+    <busStop id="6010966005" name="École James-Lyng (Notre-Dame / de Carillon)" lane="932489402#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010966010" name="Fleet / Netherwood" lane="478018381_1" startPos="46.96" endPos="61.96" friendlyPos="true" lines="161-E"/>
+    <busStop id="6010966047" name="Station Snowdon (Queen-Mary / de Westbury)" lane="933328165_0" startPos="0.00" endPos="13.00" friendlyPos="true"/>
+    <busStop id="6010966078" name="Côte-Saint-Antoine / Botrel" lane="932914981_0" startPos="0.00" endPos="9.42" friendlyPos="true"/>
+    <busStop id="6010966198" name="Décarie / De Maisonneuve" lane="931538637_0" startPos="36.90" endPos="51.90" friendlyPos="true"/>
+    <busStop id="6010966239" name="Côte-Saint-Luc / Wilson" lane="1079009474_0" startPos="2.91" endPos="17.91" friendlyPos="true"/>
+    <busStop id="6010966251" name="Côte-Saint-Luc / Cavendish" lane="1079009410_0" startPos="0.00" endPos="12.98" friendlyPos="true"/>
+    <busStop id="6010966271" name="Girouard / de Terrebonne" lane="933083888_0" startPos="2.94" endPos="17.94" friendlyPos="true"/>
+    <busStop id="6010966420" name="Le Boulevard / Mount-Pleasant" lane="453749091#1_1" startPos="19.78" endPos="34.78" friendlyPos="true" lines="66-S"/>
+    <busStop id="6010967048" name="Sherbrooke / Clarke" lane="474838161#0_1" startPos="71.16" endPos="86.16" friendlyPos="true" lines="24-E"/>
+    <busStop id="6010967049" name="Décarie / Cochrane" lane="933370537#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010967408" name="Chester / Cavendish" lane="1051531395#4_1" startPos="52.81" endPos="61.71" friendlyPos="true" lines="66-N"/>
+    <busStop id="6010967431" name="Vézina / Coolbrook" lane="48168928#3_1" startPos="0.00" endPos="6.70" friendlyPos="true" lines="160-O"/>
+    <busStop id="6010967431@9320785" name="Vézina / Coolbrook" lane="48168928#3_1" startPos="0.00" endPos="9.82" friendlyPos="true" lines="160-E"/>
+    <busStop id="6010967452" name="Van Horne / de Westbury" lane="933376047#1_1" startPos="63.54" endPos="78.54" friendlyPos="true" lines="161-E"/>
+    <busStop id="6010967499" name="Notre-Dame-de-Grâce / de Melrose" lane="1081024157#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010967509" name="Girouard / Côte-Saint-Luc" lane="933282408_0" startPos="14.47" endPos="29.47" friendlyPos="true"/>
+    <busStop id="6010967580" name="Côte-Saint-Luc / Heath" lane="1079009444#1_0" startPos="0.00" endPos="13.38" friendlyPos="true"/>
+    <busStop id="6010968201" name="Notre-Dame / de Carillon" lane="409382666#1_1" startPos="49.28" endPos="59.55" friendlyPos="true" lines="191-O"/>
+    <busStop id="6010968223" name="Station Snowdon (Queen-Mary / Circle)" lane="933328172#1_0" startPos="176.68" endPos="191.68" friendlyPos="true"/>
+    <busStop id="6010968225" name="Fleet / Pinedale" lane="453295841#2_1" startPos="41.12" endPos="56.12" friendlyPos="true" lines="161-E"/>
+    <busStop id="6010968228" name="Côte-Saint-Antoine / Royal" lane="1081022957_0" startPos="0.00" endPos="11.86" friendlyPos="true"/>
+    <busStop id="6010968248" name="Upper-Lachine / de Melrose" lane="1081520883#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010968255" name="Cavendish / Somerled" lane="1079644672_0" startPos="245.61" endPos="260.61" friendlyPos="true"/>
+    <busStop id="6010968413" name="Station Vendôme" lane="1052143868#1_0" startPos="0.00" endPos="9.95" friendlyPos="true" lines="90-O">
+        <access lane="766089296#0_0" pos="42.22" length="12.05" friendlyPos="1"/>
+        <access lane="766089296#1_0" pos="2.41" length="4.42" friendlyPos="1"/>
+        <access lane="860869386#2_0" pos="16.12" length="20.70" friendlyPos="1"/>
+        <access lane="860869388_0" pos="0.00" length="20.70" friendlyPos="1"/>
+        <access lane="960611540#1_0" pos="36.20" length="10.97" friendlyPos="1"/>
     </busStop>
-    <busStop id="1281757769" name="Lucien-L&apos;Allier" lane="112850606_0" startPos="0.00" endPos="100.00" friendlyPos="true">
-        <access lane="-103935601_0" pos="34.48" length="5.07" friendlyPos="1"/>
-        <access lane="-134811810#6_0" pos="0.00" length="14.12" friendlyPos="1"/>
-        <access lane="103935601_0" pos="6.11" length="12.03" friendlyPos="1"/>
-        <access lane="481492220#2_0" pos="75.67" length="16.58" friendlyPos="1"/>
-        <access lane="481492995#1_0" pos="65.70" length="5.96" friendlyPos="1"/>
+    <busStop id="6010968447" name="Cavendish / Côte-Saint-Luc" lane="1079544580_0" startPos="166.28" endPos="181.28" friendlyPos="true"/>
+    <busStop id="6010968453" name="Kildare / Kildare" lane="47919159#1_1" startPos="17.70" endPos="32.70" friendlyPos="true"/>
+    <busStop id="6010968466" name="de Terrebonne / Earnscliffe" lane="933282420_0" startPos="0.00" endPos="12.34" friendlyPos="true"/>
+    <busStop id="6010968572" name="Plamondon / Décarie" lane="933376029#0_0" startPos="7.32" endPos="14.82" friendlyPos="true"/>
+    <busStop id="6010968840" name="Centre universitaire de santé McGill (CUSM)" lane="1082794887#6_0" startPos="16.52" endPos="25.72" friendlyPos="true"/>
+    <busStop id="6010968845" name="Van Horne / de Westbury" lane="933370543#0_1" startPos="2.69" endPos="17.69" friendlyPos="true" lines="161-O"/>
+    <busStop id="6010968854" name="Queen-Mary / Coolbrook" lane="47971510#1_1" startPos="76.23" endPos="88.52" friendlyPos="true"/>
+    <busStop id="6010968882" name="Queen-Mary / Clanranald" lane="1079091063_0" startPos="0.00" endPos="12.98" friendlyPos="true"/>
+    <busStop id="6010969088" name="Cavendish / Fleet" lane="1079524268#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010969091" name="Girouard / Duquette" lane="933008459_0" startPos="52.50" endPos="64.73" friendlyPos="true"/>
+    <busStop id="6010969115" name="Côte-Saint-Luc / No 5105" lane="933076485#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010969297" name="Côte-Saint-Luc / Ellerdale" lane="1079052712_0" startPos="0.00" endPos="14.25" friendlyPos="true"/>
+    <busStop id="6010969307" name="Le Boulevard / Lansdowne" lane="20184585#2_1" startPos="14.90" endPos="29.90" friendlyPos="true" lines="66-S"/>
+    <busStop id="6010969311" name="Décarie / Vézina" lane="933381115_0" startPos="0.00" endPos="14.05" friendlyPos="true"/>
+    <busStop id="6010969317" name="Cavendish / Merton" lane="1079524307_0" startPos="0.00" endPos="11.50" friendlyPos="true"/>
+    <busStop id="6010969505" name="Station Vendôme" lane="1052143868#0_0" startPos="0.00" endPos="7.50" friendlyPos="true" lines="37-S">
+        <access lane="367318239#2_0" pos="9.73" length="16.64" friendlyPos="1"/>
+        <access lane="367476163#1_0" pos="0.20" length="8.89" friendlyPos="1"/>
+        <access lane="766089296#2_0" pos="17.62" length="13.59" friendlyPos="1"/>
+        <access lane="766089296#4_0" pos="0.00" length="12.88" friendlyPos="1"/>
+        <access lane="960611546_0" pos="8.10" length="13.99" friendlyPos="1"/>
     </busStop>
-    <busStop id="1281757787" name="Lucien-L&apos;Allier" lane="112850602_0" startPos="0.00" endPos="100.00" friendlyPos="true">
-        <access lane="-103935601_0" pos="22.27" length="4.87" friendlyPos="1"/>
-        <access lane="-134811810#6_0" pos="0.00" length="32.17" friendlyPos="1"/>
-        <access lane="103935601_0" pos="18.33" length="12.23" friendlyPos="1"/>
-        <access lane="481492220#2_0" pos="87.88" length="17.13" friendlyPos="1"/>
-        <access lane="481492995#1_0" pos="53.48" length="6.12" friendlyPos="1"/>
+    <busStop id="6010969539" name="Côte-Saint-Luc / Cavendish" lane="1079052770_0" startPos="0.00" endPos="11.75" friendlyPos="true"/>
+    <busStop id="6010969575" name="Côte-Sainte-Catherine / Décarie" lane="933360261_0" startPos="40.57" endPos="53.11" friendlyPos="true"/>
+    <busStop id="6010969607" name="Sherbrooke / Redfern" lane="474838163#1_1" startPos="26.58" endPos="38.43" friendlyPos="true" lines="24-E"/>
+    <busStop id="6010969665" name="Décarie / Plamondon" lane="933376026_0" startPos="0.00" endPos="13.17" friendlyPos="true"/>
+    <busStop id="6010969672" name="Côte-Saint-Luc / Bonavista" lane="933076430#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010969809" name="Cavendish / Fielding" lane="1079644661_0" startPos="297.76" endPos="310.80" friendlyPos="true"/>
+    <busStop id="6010970000" name="Côte-Saint-Antoine / Girouard" lane="933008475_0" startPos="46.96" endPos="61.96" friendlyPos="true"/>
+    <busStop id="6010970013" name="Le Boulevard / Renfrew" lane="20184585#6_1" startPos="88.80" endPos="103.80" friendlyPos="true" lines="66-S"/>
+    <busStop id="6010970031" name="Centre univ. de santé McGill (Décarie/CUSM)" lane="931538595#1_0" startPos="0.00" endPos="7.77" friendlyPos="true"/>
+    <busStop id="6010970074" name="Clanranald / Queen-Mary" lane="1079098580_0" startPos="13.26" endPos="28.26" friendlyPos="true"/>
+    <busStop id="6010970126" name="Notre-Dame-de-Grâce / Marlowe" lane="996640413#2_2" startPos="52.89" endPos="67.89" friendlyPos="true"/>
+    <busStop id="6010970139" name="Claremont / Winchester" lane="165217773#1_1" startPos="9.41" endPos="24.41" friendlyPos="true" lines="104-O"/>
+    <busStop id="6010970153" name="Côte-Saint-Luc / Draper" lane="1079052703_0" startPos="0.00" endPos="12.56" friendlyPos="true"/>
+    <busStop id="6010970171" name="Clanranald / Snowdon" lane="1079098155#0_0" startPos="3.48" endPos="18.48" friendlyPos="true"/>
+    <busStop id="6010970287" name="Côte-Saint-Luc / Ellerdale" lane="1079009450_0" startPos="0.00" endPos="14.17" friendlyPos="true"/>
+    <busStop id="6010970314" name="Décarie / Kenmore" lane="933381134#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010970355" name="Décarie / Côte-Saint-Antoine" lane="1081625542_0" startPos="0.00" endPos="12.66" friendlyPos="true"/>
+    <busStop id="6010970382" name="Earnscliffe / Isabella" lane="543740774_0" startPos="0.00" endPos="14.22" friendlyPos="true"/>
+    <busStop id="6010970490" name="Décarie / Côte-Saint-Luc" lane="933083881#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010970537" name="Décarie / Duquette" lane="933032905#0_0" startPos="195.28" endPos="210.28" friendlyPos="true"/>
+    <busStop id="6010970557" name="Upper-Lachine / Oxford" lane="1081525653_0" startPos="53.71" endPos="65.97" friendlyPos="true"/>
+    <busStop id="6010970655" name="Plamondon / Trans Island" lane="933376033_0" startPos="0.00" endPos="13.14" friendlyPos="true"/>
+    <busStop id="6010971165" name="Somerled / Draper" lane="165214768#4_1" startPos="53.51" endPos="68.51" friendlyPos="true" lines="102-O"/>
+    <busStop id="6010971171" name="Fleet / Randall" lane="1079525387_0" startPos="71.92" endPos="83.99" friendlyPos="true"/>
+    <busStop id="6010971174" name="Côte-Saint-Luc / No 5105" lane="933076493_0" startPos="12.91" endPos="27.91" friendlyPos="true"/>
+    <busStop id="6010971309" name="Randall / Chester" lane="1078997582#1_1" startPos="120.11" endPos="135.11" friendlyPos="true" lines="66-N"/>
+    <busStop id="6010971332" name="Sherbrooke / Grosvenor" lane="453725261_1" startPos="72.92" endPos="87.92" friendlyPos="true" lines="24-E"/>
+    <busStop id="6010971380" name="Queen-Mary / Stratford" lane="1079091094_0" startPos="0.00" endPos="13.37" friendlyPos="true"/>
+    <busStop id="6010971381" name="Bourret / Coolbrook" lane="29365980#2_1" startPos="23.08" endPos="38.08" friendlyPos="true" lines="129-N 129-S"/>
+    <busStop id="6010971799" name="Heywood / No 5690" lane="1079524194_0" startPos="27.42" endPos="42.42" friendlyPos="true"/>
+    <busStop id="6010971827" name="Somerled / Borden" lane="1082404464#3_1" startPos="82.05" endPos="97.05" friendlyPos="true" lines="102-O"/>
+    <busStop id="6010971846" name="Côte-Saint-Antoine / Prud&apos;homme" lane="1081625548_0" startPos="12.65" endPos="27.65" friendlyPos="true"/>
+    <busStop id="6010971878" name="Upper-Lachine / Oxford" lane="1081520994#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010971883" name="Côte-Saint-Luc / Décarie" lane="933076467#1_0" startPos="14.13" endPos="29.13" friendlyPos="true"/>
+    <busStop id="6010972029" name="Notre-Dame-de-Grâce / Girouard" lane="1081025459_0" startPos="49.48" endPos="64.48" friendlyPos="true"/>
+    <busStop id="6010972088" name="Sainte-Catherine / Park" lane="422633541#0_1" startPos="18.16" endPos="33.16" friendlyPos="true" lines="90-O"/>
+    <busStop id="6010972122" name="Côte-Saint-Luc / Clanranald" lane="995651084_0" startPos="9.59" endPos="20.83" friendlyPos="true"/>
+    <busStop id="6010972169" name="Le Boulevard / Belmont" lane="20184585#5_1" startPos="28.82" endPos="43.82" friendlyPos="true" lines="66-S"/>
+    <busStop id="6010972182" name="Côte-Sainte-Catherine / de Westbury" lane="933360238#1_1" startPos="58.71" endPos="68.75" friendlyPos="true" lines="129-S"/>
+    <busStop id="6010972601" name="Somerled / Wilson" lane="165214768#2_1" startPos="57.64" endPos="72.64" friendlyPos="true" lines="102-O"/>
+    <busStop id="6010972651" name="Décarie / Sherbrooke" lane="1081625540#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010972682" name="Girouard / Côte-Saint-Antoine" lane="933008471_0" startPos="21.15" endPos="36.15" friendlyPos="true"/>
+    <busStop id="6010972702" name="Sherbrooke / de Vendôme" lane="453725263#1_1" startPos="59.74" endPos="74.74" friendlyPos="true" lines="24-E"/>
+    <busStop id="6010972743" name="Côte-Saint-Luc / Grand Boulevard" lane="1079009432_0" startPos="0.05" endPos="15.05" friendlyPos="true"/>
+    <busStop id="6010972886" name="Upper-Lachine / de Melrose" lane="1081520886_0" startPos="0.00" endPos="12.36" friendlyPos="true"/>
+    <busStop id="6010972893" name="Cavendish / Somerled" lane="1079644680_0" startPos="0.00" endPos="13.12" friendlyPos="true"/>
+    <busStop id="6010972931" name="Upper-Lachine / Girouard" lane="931219465_0" startPos="0.00" endPos="12.09" friendlyPos="true"/>
+    <busStop id="6010972968" name="De Courcelle / Saint-Jacques" lane="1077998335_0" startPos="0.56" endPos="15.56" friendlyPos="true"/>
+    <busStop id="6010973085" name="Décarie / Vézina" lane="933381131_0" startPos="20.98" endPos="35.98" friendlyPos="true"/>
+    <busStop id="6010973103" name="de Terrebonne / Côte-Saint-Luc" lane="933083897#3_0" startPos="15.07" endPos="30.07" friendlyPos="true"/>
+    <busStop id="6010973129" name="Décarie / Van Horne" lane="933376005_0" startPos="0.00" endPos="11.43" friendlyPos="true"/>
+    <busStop id="6010973167" name="Somerled / Hingston" lane="165214768#10_1" startPos="56.46" endPos="71.46" friendlyPos="true" lines="102-O"/>
+    <busStop id="6010973176" name="Notre-Dame-de-Grâce / Hampton" lane="1081023023_0" startPos="59.69" endPos="70.71" friendlyPos="true"/>
+    <busStop id="6010973413" name="Chester / Walkley" lane="1079544582#4_1" startPos="59.71" endPos="74.71" friendlyPos="true" lines="66-N"/>
+    <busStop id="6010973431" name="Côte-Saint-Luc / de l&apos;Orphelinat" lane="933083916_0" startPos="0.00" endPos="13.43" friendlyPos="true"/>
+    <busStop id="6010973603" name="de Monkland / Girouard" lane="996726691_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010973607" name="Station Vendôme" lane="1052143868#1_0" startPos="0.00" endPos="9.95" friendlyPos="true" lines="102-O">
+        <access lane="367476164#0_0" pos="0.20" length="10.39" friendlyPos="1"/>
+        <access lane="367476164#1_0" pos="0.00" length="12.01" friendlyPos="1"/>
+        <access lane="766089296#1_0" pos="37.97" length="4.51" friendlyPos="1"/>
+        <access lane="766089296#2_0" pos="0.00" length="14.55" friendlyPos="1"/>
+        <access lane="960611540#0_0" pos="0.00" length="11.04" friendlyPos="1"/>
     </busStop>
-    <busStop id="1281757801" name="Lucien-L&apos;Allier" lane="112850610_0" startPos="0.00" endPos="100.00" friendlyPos="true">
-        <access lane="-103935601_0" pos="3.17" length="36.56" friendlyPos="1"/>
-        <access lane="-103935602#0_0" pos="26.94" length="36.27" friendlyPos="1"/>
-        <access lane="103935601_0" pos="37.42" length="19.46" friendlyPos="1"/>
-        <access lane="103935602#0_0" pos="0.00" length="22.95" friendlyPos="1"/>
-        <access lane="481492220#2_0" pos="107.38" length="14.00" friendlyPos="1"/>
+    <busStop id="6010973612" name="Décarie / Snowdon" lane="933080052#0_1" startPos="87.96" endPos="95.68" friendlyPos="true" lines="17-S"/>
+    <busStop id="6010973638" name="Fleet / Macdonald" lane="199260849_1" startPos="67.81" endPos="82.81" friendlyPos="true" lines="161-E"/>
+    <busStop id="6010973648" name="Décarie / Notre-Dame-de-Grâce" lane="1081625547_0" startPos="152.44" endPos="167.44" friendlyPos="true"/>
+    <busStop id="6010973727" name="Cavendish / Fleet" lane="1079524274_0" startPos="300.27" endPos="313.44" friendlyPos="true"/>
+    <busStop id="6010973766" name="Van Horne / Clanranald" lane="454014494_1" startPos="5.85" endPos="20.85" friendlyPos="true" lines="161-O"/>
+    <busStop id="6010973920" name="Queen-Mary / Décarie" lane="933326595_0" startPos="75.22" endPos="89.23" friendlyPos="true"/>
+    <busStop id="6010973936" name="Fleet / Finchley" lane="453295846_1" startPos="66.35" endPos="81.35" friendlyPos="true" lines="161-E"/>
+    <busStop id="6010974317" name="The Boulevard / Westmount" lane="825948056#3_1" startPos="52.81" endPos="67.81" friendlyPos="true" lines="66-S"/>
+    <busStop id="6010974413" name="Côte-Sainte-Catherine / Trans Island" lane="933360257_0" startPos="0.00" endPos="11.25" friendlyPos="true"/>
+    <busStop id="6010974422" name="Van Horne / Décarie" lane="933370550#1_0" startPos="0.00" endPos="10.27" friendlyPos="true"/>
+    <busStop id="6010974533" name="Décarie / Sherbrooke" lane="1081625540#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010974548" name="Cavendish / Fielding" lane="1079644672_0" startPos="0.00" endPos="12.11" friendlyPos="true"/>
+    <busStop id="6010975306" name="Décarie / Snowdon" lane="933080017_0" startPos="43.97" endPos="58.18" friendlyPos="true"/>
+    <busStop id="6010975367" name="Côte-Sainte-Catherine / Lemieux" lane="933360238#5_1" startPos="0.00" endPos="7.70" friendlyPos="true" lines="129-S"/>
+    <busStop id="6010975587" name="Côte-Saint-Luc / Oxford" lane="1079052705#12_1" startPos="69.81" endPos="79.55" friendlyPos="true"/>
+    <busStop id="6010975620" name="Cavendish / Heywood" lane="1079524171#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010975642" name="Sherbrooke / Girouard" lane="1079046968_0" startPos="31.34" endPos="46.34" friendlyPos="true"/>
+    <busStop id="6010975713" name="Décarie / Queen-Mary" lane="933326585#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010975728" name="Ellerdale / Queen-Mary" lane="1079094214_0" startPos="36.91" endPos="51.91" friendlyPos="true"/>
+    <busStop id="6010975738" name="Claremont / Westmount" lane="165215457#0_1" startPos="37.50" endPos="52.18" friendlyPos="true"/>
+    <busStop id="6010975748" name="Macdonald / Queen-Mary" lane="1082415039_0" startPos="5.57" endPos="20.57" friendlyPos="true"/>
+    <busStop id="6010975758" name="King-Edward / Côte-Saint-Luc" lane="1078912373#1_1" startPos="23.63" endPos="38.63" friendlyPos="true"/>
+    <busStop id="6010975765" name="Côte-Saint-Luc / Cumberland" lane="1079009403#1_0" startPos="0.00" endPos="10.80" friendlyPos="true"/>
+    <busStop id="6010975775" name="Notre-Dame / Monk" lane="932489408#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010975909" name="Sherbrooke / Strathcona" lane="453727319#3_1" startPos="69.23" endPos="84.23" friendlyPos="true" lines="24-E"/>
+    <busStop id="6010975927" name="Upper-Lachine / Harvard" lane="1081525644_0" startPos="55.37" endPos="65.11" friendlyPos="true"/>
+    <busStop id="6010976188" name="Côte-Saint-Luc / Earnscliffe" lane="933083914_0" startPos="1.36" endPos="16.36" friendlyPos="true"/>
+    <busStop id="6010976237" name="Sainte-Catherine / Lansdowne" lane="422633541#8_1" startPos="63.10" endPos="78.10" friendlyPos="true" lines="90-O"/>
+    <busStop id="6010976296" name="Cavendish / Chester" lane="1079644666_0" startPos="298.18" endPos="311.21" friendlyPos="true"/>
+    <busStop id="6010976305" name="Côte-Saint-Antoine / Oxford" lane="1080920819#0_0" startPos="0.00" endPos="12.68" friendlyPos="true"/>
+    <busStop id="6010976732" name="Notre-Dame-de-Grâce / Décarie" lane="996640412_0" startPos="24.90" endPos="39.90" friendlyPos="true"/>
+    <busStop id="6010976752" name="Girouard / Upper-Lachine" lane="931219472_0" startPos="23.06" endPos="33.06" friendlyPos="true"/>
+    <busStop id="6010976778" name="Côte-Saint-Luc / Dufferin" lane="1079009489#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010977293" name="Fleet / Queen-Mary" lane="475057979#1_1" startPos="165.71" endPos="174.75" friendlyPos="true" lines="161-E"/>
+    <busStop id="6010977300" name="Saint-Jacques / Décarie" lane="931219438_0" startPos="112.06" endPos="127.06" friendlyPos="true"/>
+    <busStop id="6010977316" name="Girouard / Duquette" lane="932921731#4_0" startPos="3.72" endPos="18.72" friendlyPos="true"/>
+    <busStop id="6010977330" name="Côte-Saint-Luc / de Terrebonne" lane="933282421_0" startPos="0.00" endPos="12.50" friendlyPos="true"/>
+    <busStop id="6010977374" name="Sherbrooke / Claremont" lane="463622073_1" startPos="91.17" endPos="106.17" friendlyPos="true" lines="24-E"/>
+    <busStop id="6010977375" name="Notre-Dame-de-Grâce / Grand Boulevard" lane="1080732143_0" startPos="43.43" endPos="54.48" friendlyPos="true"/>
+    <busStop id="6010977497" name="Décarie / Bourret" lane="933370516_0" startPos="0.00" endPos="13.07" friendlyPos="true"/>
+    <busStop id="6010977521" name="Queen-Mary / Macdonald" lane="1079091061_0" startPos="3.47" endPos="18.47" friendlyPos="true"/>
+    <busStop id="6010977587" name="Notre-Dame-de-Grâce / Grey" lane="996640413#4_2" startPos="75.12" endPos="90.12" friendlyPos="true"/>
+    <busStop id="6010977597" name="Complexe récréatif Gadbois" lane="932489397#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010977600" name="Sainte-Catherine / Victoria" lane="48431535#0_1" startPos="61.20" endPos="76.20" friendlyPos="true" lines="90-O"/>
+    <busStop id="6010978032" name="Clanranald / Bourret" lane="222780033#4_2" startPos="24.01" endPos="39.01" friendlyPos="true" lines="129-N 129-S"/>
+    <busStop id="6010978042" name="de Monkland / Benny" lane="1105314624_0" startPos="4.65" endPos="19.65" friendlyPos="true"/>
+    <busStop id="6010978074" name="École James-Lyng (Notre-Dame / de Carillon)" lane="932489410#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010978123" name="Girouard / Côte-Saint-Antoine" lane="933008487_0" startPos="5.82" endPos="20.82" friendlyPos="true"/>
+    <busStop id="6010978168" name="Somerled / Oxford" lane="453506595#1_1" startPos="0.00" endPos="7.70" friendlyPos="true" lines="102-O"/>
+    <busStop id="6010978204" name="Côte-Saint-Luc / Rosedale" lane="1078912362#2_0" startPos="36.39" endPos="51.39" friendlyPos="true"/>
+    <busStop id="6010978207" name="Notre-Dame-de-Grâce / Harvard" lane="1081024222_0" startPos="50.90" endPos="62.84" friendlyPos="true"/>
+    <busStop id="6010978234" name="Earnscliffe / Dupuis" lane="453957879#0_2" startPos="33.16" endPos="48.16" friendlyPos="true" lines="129-N"/>
+    <busStop id="6010978698" name="Queen-Mary / Trans Island" lane="933293641#3_0" startPos="15.90" endPos="30.90" friendlyPos="true"/>
+    <busStop id="6010978709" name="Saint-Antoine / De Courcelle" lane="932669866#0_1" startPos="23.06" endPos="38.06" friendlyPos="true" lines="17-N"/>
+    <busStop id="6010978726" name="Cavendish / Côte-Saint-Luc" lane="1079524310_0" startPos="2.75" endPos="17.75" friendlyPos="true"/>
+    <busStop id="6010978735" name="Notre-Dame-de-Grâce / Marcil" lane="1081024245_0" startPos="51.93" endPos="64.14" friendlyPos="true"/>
+    <busStop id="6010978745" name="Girouard / Guillaume-Couture" lane="933083932#1_0" startPos="9.18" endPos="16.68" friendlyPos="true"/>
+    <busStop id="6010978759" name="Notre-Dame / Gadbois" lane="932489404#1_0" startPos="0.00" endPos="7.71" friendlyPos="true"/>
+    <busStop id="6010979141" name="Sainte-Catherine / Grosvenor" lane="132217962#2_1" startPos="98.71" endPos="113.71" friendlyPos="true"/>
+    <busStop id="6010979381" name="Cavendish / Chester" lane="1079544573_0" startPos="5.84" endPos="20.84" friendlyPos="true"/>
+    <busStop id="6010980116" name="Somerled / Madison" lane="1082404464#1_1" startPos="59.08" endPos="74.08" friendlyPos="true" lines="102-O"/>
+    <busStop id="6010980399" name="Décarie / Lucy" lane="933370508#1_0" startPos="0.00" endPos="8.34" friendlyPos="true"/>
+    <busStop id="6010980449" name="Décarie / Lucy" lane="933370508#1_0" startPos="0.00" endPos="8.34" friendlyPos="true"/>
+    <busStop id="6010980477" name="Fleet / Finchley" lane="199260849_1" startPos="0.00" endPos="7.50" friendlyPos="true" lines="161-O"/>
+    <busStop id="6010980497" name="Côte-Saint-Luc / Walkley" lane="1079052786#0_0" startPos="0.00" endPos="12.55" friendlyPos="true"/>
+    <busStop id="6010980526" name="Décarie / Côte-Sainte-Catherine" lane="933360258_0" startPos="0.00" endPos="13.07" friendlyPos="true"/>
+    <busStop id="6010980536" name="Van Horne / Coolbrook" lane="454014493#0_1" startPos="5.25" endPos="20.25" friendlyPos="true" lines="161-O"/>
+    <busStop id="6010980558" name="Sherbrooke / Lansdowne" lane="453727319#2_1" startPos="43.27" endPos="58.27" friendlyPos="true" lines="24-E"/>
+    <busStop id="6010980806" name="Fleet / Netherwood" lane="479283858_1" startPos="36.43" endPos="51.43" friendlyPos="true" lines="161-E"/>
+    <busStop id="6010980844" name="Walkley / Côte-Saint-Luc" lane="165214084#0_1" startPos="0.00" endPos="7.50" friendlyPos="true" lines="66-S"/>
+    <busStop id="6010980844@9320535" name="Walkley / Côte-Saint-Luc" lane="1051531397#0_1" startPos="161.91" endPos="176.91" friendlyPos="true" lines="66-N"/>
+    <busStop id="6010980852" name="De Courcelle / Saint-Jacques" lane="1077998352#1_0" startPos="0.00" endPos="10.81" friendlyPos="true"/>
+    <busStop id="6010980987" name="Sainte-Catherine / Victoria" lane="132217962#0_1" startPos="329.37" endPos="344.37" friendlyPos="true" lines="90-E"/>
+    <busStop id="6010981046" name="Plamondon / Décarie" lane="464094283#2_1" startPos="14.96" endPos="27.72" friendlyPos="true" lines="160-E"/>
+    <busStop id="6010981128" name="Décarie / Isabella" lane="933326569_0" startPos="0.00" endPos="5.58" friendlyPos="true"/>
+    <busStop id="6010981147" name="Clanranald / Côte-Saint-Luc" lane="1079098167#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="6010981173" name="Van Horne / Macdonald" lane="453293298_1" startPos="1.52" endPos="16.52" friendlyPos="true" lines="161-O"/>
+    <busStop id="6010981284" name="Girouard / Sherbrooke" lane="933008483#1_0" startPos="63.96" endPos="78.96" friendlyPos="true"/>
+    <busStop id="6010981522" name="Le Boulevard / Sydenham" lane="825948056#0_1" startPos="82.60" endPos="97.60" friendlyPos="true" lines="66-S"/>
+    <busStop id="6010981535" name="Clanranald / Isabella" lane="222780033#1_2" startPos="60.72" endPos="75.72" friendlyPos="true" lines="129-N 129-S"/>
+    <busStop id="6010981570" name="Queen-Mary / Stratford" lane="1079091053_0" startPos="0.00" endPos="14.71" friendlyPos="true"/>
+    <busStop id="6010981571" name="Décarie / Dupuis" lane="933360276#1_0" startPos="0.00" endPos="8.97" friendlyPos="true"/>
+    <busStop id="6010981580" name="Le Boulevard / Grosvenor" lane="453998154#1_1" startPos="0.00" endPos="7.70" friendlyPos="true" lines="66-S"/>
+    <busStop id="6010981690" name="Cavendish / Merton" lane="1079524302_0" startPos="298.86" endPos="312.82" friendlyPos="true"/>
+    <busStop id="6010981738" name="Décarie / Côte-Saint-Antoine" lane="1081625526_0" startPos="27.17" endPos="42.17" friendlyPos="true"/>
+    <busStop id="6258476419" name="Vendôme" lane="1079753096_0" startPos="1520.80" endPos="1720.80" friendlyPos="true" lines="exo2">
+        <access lane="-1082936909_0" pos="16.51" length="15.08" friendlyPos="1"/>
+        <access lane="1082936909_0" pos="0.00" length="19.78" friendlyPos="1"/>
+        <access lane="1082936910_0" pos="0.20" length="17.03" friendlyPos="1"/>
+        <access lane="1082936911#10_0" pos="20.53" length="12.08" friendlyPos="1"/>
+        <access lane="653439886#3_0" pos="108.25" length="4.99" friendlyPos="1"/>
     </busStop>
-    <busStop id="1457813196" name="Côte-des-Neiges / du Docteur-Penfield" lane="4872827_1" startPos="19.11" endPos="34.11" friendlyPos="true" lines="165-N 66-N"/>
-    <busStop id="1465572617" name="du Docteur-Penfield / Côte-des-Neiges" lane="453745802_1" startPos="0.00" endPos="13.37" friendlyPos="true" lines="165-S"/>
-    <busStop id="1465572617@9320534" name="du Docteur-Penfield / Côte-des-Neiges" lane="48678910#0_1" startPos="1.06" endPos="16.06" friendlyPos="true" lines="66-S"/>
-    <busStop id="208949374" name="Guy-Concordia" lane="164831271_0" startPos="12773.51" endPos="12973.51" friendlyPos="true" lines="1">
-        <access lane="-330153470#1_0" pos="10.53" length="16.33" friendlyPos="1"/>
-        <access lane="330153470#1_0" pos="41.41" length="7.03" friendlyPos="1"/>
-        <access lane="391085483#1_0" pos="39.80" length="8.56" friendlyPos="1"/>
-        <access lane="398547483#0_0" pos="8.58" length="23.68" friendlyPos="1"/>
-        <access lane="399816159#0_0" pos="92.33" length="4.85" friendlyPos="1"/>
+    <busStop id="6615974727" name="Snowdon" lane="1082752881_0" startPos="460.61" endPos="660.61" friendlyPos="true" lines="2">
+        <access lane="-933328174#4_0" pos="98.25" length="75.23" friendlyPos="1"/>
+        <access lane="20194967_0" pos="111.76" length="57.71" friendlyPos="1"/>
+        <access lane="933328165_0" pos="104.95" length="46.49" friendlyPos="1"/>
+        <access lane="933328172#1_0" pos="106.72" length="78.59" friendlyPos="1"/>
+        <access lane="933328174#2_0" pos="105.37" length="51.53" friendlyPos="1"/>
     </busStop>
-    <busStop id="208949381" name="Peel" lane="164831271_0" startPos="12083.57" endPos="12283.57" friendlyPos="true" lines="1"/>
-    <busStop id="208949385" name="McGill" lane="164831271_0" startPos="11608.15" endPos="11808.15" friendlyPos="true" lines="1"/>
-    <busStop id="208949390" name="Place-des-Arts" lane="164831271_0" startPos="11100.32" endPos="11300.32" friendlyPos="true" lines="1"/>
-    <busStop id="208949406" name="Saint-Laurent" lane="164831271_0" startPos="10667.90" endPos="10867.90" friendlyPos="true" lines="1"/>
-    <busStop id="2091616651" lane="20113489#4_1" startPos="0.00" endPos="14.14" friendlyPos="true"/>
-    <busStop id="2091616655" name="Shearer / Richardson" lane="20113489#1_1" startPos="61.95" endPos="72.27" friendlyPos="true" lines="57-E"/>
-    <busStop id="2091616656" lane="20113489#1_1" startPos="62.65" endPos="72.27" friendlyPos="true"/>
-    <busStop id="2091616660" lane="1042470293#0_1" startPos="4.00" endPos="19.00" friendlyPos="true"/>
-    <busStop id="2091616663" name="du Centre / de la Sucrerie" lane="1042470293#0_1" startPos="31.99" endPos="46.99" friendlyPos="true" lines="107-N 71-S"/>
-    <busStop id="2091616667" lane="1042470293#0_1" startPos="32.92" endPos="47.92" friendlyPos="true"/>
-    <busStop id="2106085871" lane="509777718#1_1" startPos="45.97" endPos="60.97" friendlyPos="true"/>
-    <busStop id="2106085874" name="Station de métro Lionel-Groulx" lane="792160913#1_1" startPos="46.51" endPos="61.51" friendlyPos="true" lines="747-E"/>
-    <busStop id="2106085876" lane="792160913#1_1" startPos="43.69" endPos="58.69" friendlyPos="true"/>
-    <busStop id="213329687" name="Atwater" lane="784099214#1_0" startPos="63.34" endPos="263.34" friendlyPos="true" lines="1">
-        <access lane="-107696154#0_0" pos="136.68" length="8.07" friendlyPos="1"/>
-        <access lane="107696154#0_0" pos="45.40" length="6.78" friendlyPos="1"/>
-        <access lane="453949527_0" pos="0.00" length="74.28" friendlyPos="1"/>
-        <access lane="474841415#1_0" pos="86.36" length="75.87" friendlyPos="1"/>
-        <access lane="924892081#3_0" pos="76.14" length="89.42" friendlyPos="1"/>
+    <busStop id="6975099127" name="Outremont" lane="1075356857_0" startPos="0.00" endPos="163.60" friendlyPos="true" lines="5"/>
+    <busStop id="7159795394" name="Vendôme" lane="1079753097_0" startPos="1520.66" endPos="1720.66" friendlyPos="true">
+        <access lane="1082936911#18_0" pos="16.88" length="36.15" friendlyPos="1"/>
+        <access lane="653439886#0_0" pos="0.49" length="23.17" friendlyPos="1"/>
+        <access lane="653439887_0" pos="0.46" length="5.07" friendlyPos="1"/>
+        <access lane="931538627#0_0" pos="18.18" length="26.94" friendlyPos="1"/>
+        <access lane="931545005_0" pos="57.32" length="26.90" friendlyPos="1"/>
     </busStop>
-    <busStop id="213331953" name="Charlevoix" lane="784099214#1_0" startPos="2897.01" endPos="3097.01" friendlyPos="true" lines="1">
-        <access lane="-121905758#0_0" pos="265.16" length="565.37" friendlyPos="1"/>
-        <access lane="121905758#0_0" pos="238.73" length="563.87" friendlyPos="1"/>
+    <busStop id="7159795395" name="Vendôme" lane="-368070942_0" startPos="1520.68" endPos="1720.68" friendlyPos="true">
+        <access lane="-1082936909_0" pos="16.51" length="9.22" friendlyPos="1"/>
+        <access lane="1082936909_0" pos="0.00" length="13.76" friendlyPos="1"/>
+        <access lane="1082936910_0" pos="0.20" length="10.83" friendlyPos="1"/>
+        <access lane="1082936911#10_0" pos="20.53" length="6.03" friendlyPos="1"/>
+        <access lane="653439886#3_0" pos="108.18" length="11.20" friendlyPos="1"/>
     </busStop>
-    <busStop id="213403939" name="Papineau" lane="164831271_0" startPos="8938.85" endPos="9138.85" friendlyPos="true" lines="1"/>
-    <busStop id="213403941" name="Beaudry" lane="164831271_0" startPos="9539.10" endPos="9739.10" friendlyPos="true" lines="1"/>
-    <busStop id="218283857" name="Frontenac" lane="164831271_0" startPos="7716.29" endPos="7916.29" friendlyPos="true" lines="1"/>
-    <busStop id="218356337" name="Préfontaine" lane="164831271_0" startPos="6551.80" endPos="6751.80" friendlyPos="true" lines="1"/>
-    <busStop id="218356349" name="Joliette" lane="164831271_0" startPos="5928.27" endPos="6128.27" friendlyPos="true" lines="1"/>
-    <busStop id="225689808" name="Jolicoeur" lane="784099214#1_0" startPos="6432.90" endPos="6632.90" friendlyPos="true" lines="1"/>
-    <busStop id="225690774" name="Monk" lane="784099214#1_0" startPos="7612.52" endPos="7812.52" friendlyPos="true" lines="1"/>
-    <busStop id="2264682031" lane="329988460#3_2" startPos="0.00" endPos="12.43" friendlyPos="true"/>
-    <busStop id="2264682032" name="Guy / Paxton" lane="329988460#1_2" startPos="180.67" endPos="195.67" friendlyPos="true" lines="57-E 36-O"/>
-    <busStop id="2264682034" lane="329988460#1_2" startPos="182.30" endPos="197.30" friendlyPos="true"/>
-    <busStop id="246654576" name="Assomption" lane="164831271_0" startPos="3265.93" endPos="3465.93" friendlyPos="true" lines="1"/>
-    <busStop id="246655684" name="Cadillac" lane="164831271_0" startPos="2338.01" endPos="2538.01" friendlyPos="true" lines="1"/>
-    <busStop id="246656707" name="Langelier" lane="164831271_0" startPos="1625.56" endPos="1825.56" friendlyPos="true" lines="1"/>
-    <busStop id="246656708" name="Radisson" lane="164831271_0" startPos="855.56" endPos="1055.56" friendlyPos="true" lines="1"/>
-    <busStop id="246656713" name="Honoré-Beaugrand" lane="164831271_0" startPos="0.00" endPos="189.18" friendlyPos="true" lines="1"/>
-    <busStop id="2471652365" name="Verdun" lane="784099214#1_0" startPos="5355.71" endPos="5555.71" friendlyPos="true" lines="1"/>
-    <busStop id="2519449677" name="Station Atwater (Tupper / Atwater)" lane="329694558_1" startPos="1.27" endPos="16.27" friendlyPos="true" lines="104-O"/>
-    <busStop id="2519449678" name="Saint-Catherine/Awater" lane="165217839#2_1" startPos="0.00" endPos="11.12" friendlyPos="true" lines="104-E"/>
-    <busStop id="2519454983" name="Station Atwater (Lambert-Closse / Ste-Catherine)" lane="329694554#1_1" startPos="14.44" endPos="29.44" friendlyPos="true" lines="57-E"/>
-    <busStop id="26232890" name="Viau" lane="164831271_0" startPos="4240.13" endPos="4440.13" friendlyPos="true" lines="1"/>
-    <busStop id="264271702" name="Pie IX" lane="164831271_0" startPos="5088.81" endPos="5288.81" friendlyPos="true" lines="1"/>
-    <busStop id="2687686419" lane="1042467978#0_1" startPos="1.91" endPos="16.91" friendlyPos="true"/>
-    <busStop id="2687686450" lane="122076249_1" startPos="17.67" endPos="32.67" friendlyPos="true"/>
-    <busStop id="2687686451" name="Wellington / De Condé" lane="122076249_1" startPos="18.07" endPos="33.07" friendlyPos="true" lines="61-O"/>
-    <busStop id="2687686452" lane="20113824_1" startPos="13.22" endPos="28.22" friendlyPos="true"/>
-    <busStop id="2687686460" name="Wellington / du Centre" lane="122076249_1" startPos="48.83" endPos="63.83" friendlyPos="true" lines="61-E"/>
-    <busStop id="2687686463" lane="122076249_1" startPos="48.31" endPos="63.31" friendlyPos="true"/>
-    <busStop id="2687686469" name="du Centre / Wellington" lane="1042470291_1" startPos="28.05" endPos="43.05" friendlyPos="true" lines="107-N"/>
-    <busStop id="2687686476" name="du Centre / Wellington" lane="1042470291_1" startPos="38.39" endPos="53.39" friendlyPos="true"/>
-    <busStop id="2687686486" name="Wellington / Bridge" lane="37722304_1" startPos="6.08" endPos="21.08" friendlyPos="true" lines="61-O"/>
-    <busStop id="2687686489" name="Wellington / Bridge" lane="37722304_1" startPos="25.73" endPos="40.73" friendlyPos="true" lines="107-N 61-E"/>
-    <busStop id="2687914637" name="Notre-Dame / Georges-Vanier" lane="165217829#11_1" startPos="174.36" endPos="182.37" friendlyPos="true"/>
-    <busStop id="2687914647" lane="545490137#1_1" startPos="116.80" endPos="131.80" friendlyPos="true"/>
-    <busStop id="2687914649" name="Notre-Dame / Dominion" lane="545490137#1_1" startPos="115.44" endPos="130.44" friendlyPos="true" lines="36-O 35-O"/>
-    <busStop id="2687914650" lane="545490137#1_1" startPos="94.19" endPos="109.19" friendlyPos="true"/>
-    <busStop id="2687914653" lane="545490137#1_1" startPos="0.00" endPos="12.17" friendlyPos="true"/>
-    <busStop id="2687914654" name="Notre-Dame / Georges-Vanier" lane="165217829#11_1" startPos="172.62" endPos="182.37" friendlyPos="true" lines="36-O 35-O"/>
-    <busStop id="2687914657" lane="165217829#9_1" startPos="23.71" endPos="38.71" friendlyPos="true"/>
-    <busStop id="2687914658" name="Notre-Dame / des Seigneurs" lane="165217829#9_1" startPos="25.43" endPos="40.43" friendlyPos="true" lines="36-O 35-O"/>
-    <busStop id="2687914660" lane="165217829#9_1" startPos="0.00" endPos="12.83" friendlyPos="true"/>
-    <busStop id="2688370352" lane="455712867#1_1" startPos="21.59" endPos="36.59" friendlyPos="true"/>
-    <busStop id="2688370358" name="Peel / Notre-Dame" lane="456353760#1_1" startPos="120.13" endPos="134.24" friendlyPos="true"/>
-    <busStop id="2688370362" name="Peel / Saint-Jacques" lane="37722302#1_1" startPos="167.74" endPos="182.74" friendlyPos="true"/>
-    <busStop id="2688370367" name="Peel / Saint-Antoine" lane="354710422#1_1" startPos="65.57" endPos="79.46" friendlyPos="true"/>
-    <busStop id="2701338565" name="du Centre / De Condé" lane="1042470291_1" startPos="10.86" endPos="25.86" friendlyPos="true"/>
-    <busStop id="311564344" name="LaSalle" lane="784099214#1_0" startPos="3818.26" endPos="4018.26" friendlyPos="true" lines="1"/>
-    <busStop id="311564349" name="De l&apos;Église" lane="784099214#1_0" startPos="4712.96" endPos="4912.96" friendlyPos="true" lines="1"/>
-    <busStop id="311564466" name="Angrignon" lane="784099214#1_0" startPos="8595.16" endPos="8695.16" friendlyPos="true" lines="1"/>
-    <busStop id="3676828784" name="Lionel-Groulx" lane="784099214#1_0" startPos="1747.81" endPos="1947.81" friendlyPos="true" lines="1">
-        <access lane="792160910#2_0" pos="58.30" length="94.86" friendlyPos="1"/>
-        <access lane="792160913#0_0" pos="18.76" length="84.79" friendlyPos="1"/>
-        <access lane="792160913#1_0" pos="0.00" length="91.86" friendlyPos="1"/>
-        <access lane="792160914_0" pos="39.49" length="96.90" friendlyPos="1"/>
-        <access lane="961683175_0" pos="0.00" length="99.56" friendlyPos="1"/>
+    <busStop id="7159795396" name="Vendôme" lane="1079753096_0" startPos="1520.80" endPos="1720.80" friendlyPos="true">
+        <access lane="-931545032#0_0" pos="24.96" length="27.38" friendlyPos="1"/>
+        <access lane="653439886#0_0" pos="0.63" length="4.97" friendlyPos="1"/>
+        <access lane="653439887_0" pos="0.35" length="13.13" friendlyPos="1"/>
+        <access lane="931538627#0_0" pos="28.35" length="34.78" friendlyPos="1"/>
+        <access lane="931545032#0_0" pos="3.05" length="32.18" friendlyPos="1"/>
     </busStop>
-    <busStop id="4030794085" name="René-Lévesque / Bishop" lane="455083984#2_1" startPos="27.21" endPos="41.65" friendlyPos="true" lines="747-O 427-O 150-O"/>
-    <busStop id="427618242" name="Peel / Saint-Jacques" lane="37722302#1_1" startPos="164.15" endPos="179.15" friendlyPos="true" lines="107-N 75-N"/>
-    <busStop id="427618243" name="Peel / Notre-Dame" lane="456353760#1_1" startPos="120.31" endPos="134.24" friendlyPos="true" lines="107-N 75-N"/>
-    <busStop id="427618244" name="Peel / Ottawa" lane="455712867#1_1" startPos="21.37" endPos="36.37" friendlyPos="true" lines="107-N"/>
-    <busStop id="443938658" name="Atwater / du Souvenir" lane="231387458#2_1" startPos="13.91" endPos="28.91" friendlyPos="true" lines="108-E"/>
-    <busStop id="445067518" name="René-Lévesque / Seymour" lane="463825907#2_1" startPos="50.08" endPos="63.31" friendlyPos="true" lines="150-O"/>
-    <busStop id="504318024" name="Station Guy-Concordia (St-Mathieu/De Maisonneuve)" lane="165217834#7_1" startPos="62.82" endPos="75.30" friendlyPos="true" lines="165-S 66-S"/>
-    <busStop id="5067544722" name="Lucien-L&apos;Allier / René-Lévesque" lane="103896396#1_1" startPos="0.00" endPos="7.70" friendlyPos="true"/>
-    <busStop id="5228487326" name="Berri-UQAM" lane="164831271_0" startPos="10144.48" endPos="10344.48" friendlyPos="true" lines="1"/>
-    <busStop id="5330993593" name="Lionel-Groulx" lane="784099214#1_0" startPos="1744.01" endPos="1944.01" friendlyPos="true">
-        <access lane="792160910#2_0" pos="62.09" length="95.07" friendlyPos="1"/>
-        <access lane="792160913#0_0" pos="15.02" length="85.04" friendlyPos="1"/>
-        <access lane="792160913#1_0" pos="0.00" length="94.26" friendlyPos="1"/>
-        <access lane="792160914_0" pos="39.49" length="102.37" friendlyPos="1"/>
-        <access lane="961683175_0" pos="0.00" length="105.14" friendlyPos="1"/>
+    <busStop id="7431218640" name="Décarie / Brillon" lane="933032905#4_0" startPos="1.09" endPos="14.70" friendlyPos="true"/>
+    <busStop id="7431218642" name="Saint-Jacques / Saint-Rémi" lane="932667769#0_0" startPos="0.00" endPos="7.50" friendlyPos="true"/>
+    <busStop id="7431218643" name="Saint-Jacques / Saint-Rémi" lane="932667757_0" startPos="0.00" endPos="7.50" friendlyPos="true"/>
+    <busStop id="7431349609" name="Saint-Rémi / Pullman" lane="932667770_0" startPos="0.00" endPos="12.14" friendlyPos="true"/>
+    <busStop id="7431349610" name="Saint-Rémi / Saint-Jacques" lane="1078010803#2_0" startPos="42.11" endPos="57.11" friendlyPos="true"/>
+    <busStop id="7431394167" name="Décarie / Brillon" lane="933032908#1_0" startPos="4.81" endPos="12.31" friendlyPos="true"/>
+    <busStop id="7431394168" name="Girouard / de Monkland" lane="933008463#1_0" startPos="7.57" endPos="22.57" friendlyPos="true"/>
+    <busStop id="8648574930" name="Girouard / Notre-Dame-de-Grâce" lane="933008455_0" startPos="37.22" endPos="49.37" friendlyPos="true"/>
+    <busStop id="8648575034" name="Girouard / Sherbrooke" lane="933008483#1_0" startPos="0.00" endPos="14.62" friendlyPos="true"/>
+    <busStop id="8648808163" name="de Monkland / Décarie" lane="996726716_0" startPos="0.00" endPos="8.43" friendlyPos="true"/>
+    <busStop id="8651077255" name="Station Snowdon (Queen-Mary / Circle)" lane="933293639_0" startPos="9.77" endPos="24.77" friendlyPos="true"/>
+    <busStop id="8651370814" name="Décarie / Édouard-Montpetit" lane="933326550#2_0" startPos="0.00" endPos="3.62" friendlyPos="true"/>
+    <busStop id="8651377835" name="Décarie / Édouard-Montpetit" lane="933360278#1_0" startPos="0.00" endPos="8.59" friendlyPos="true"/>
+    <busStop id="8651638803" name="Décarie / Van Horne" lane="933370519#1_0" startPos="0.00" endPos="7.70" friendlyPos="true"/>
+    <busStop id="9281976343" lane="47971510#1_0" startPos="86.23" endPos="86.23" friendlyPos="true" lines="51-O"/>
+    <busStop id="9289119915" lane="1082415020_0" startPos="217.76" endPos="232.76" friendlyPos="true"/>
+    <busStop id="9861400391" name="Côte-des-Neiges" lane="1075226250_0" startPos="0.00" endPos="162.03" friendlyPos="true">
+        <access lane="463878770#1_0" pos="789.18" length="260.21" friendlyPos="1"/>
     </busStop>
-    <busStop id="5754358289" name="Wellington / Murray" lane="492899793#0_1" startPos="47.16" endPos="62.16" friendlyPos="true" lines="107-S 35-O"/>
-    <busStop id="5754358289@9320523" name="Wellington / Murray" lane="455718964#0_1" startPos="0.00" endPos="7.50" friendlyPos="true" lines="61-O"/>
-    <busStop id="5754358290" name="Wellington / Young" lane="914737889#2_1" startPos="50.68" endPos="65.68" friendlyPos="true" lines="107-N 61-E 35-E"/>
-    <busStop id="5754358291" name="Wellington / Ann" lane="37722301#3_1" startPos="49.38" endPos="64.38" friendlyPos="true" lines="61-E 35-E"/>
-    <busStop id="5754358292" name="Wellington / Peel" lane="37722301#2_1" startPos="0.00" endPos="11.33" friendlyPos="true" lines="61-O"/>
-    <busStop id="5754358293" name="Wellington / Ann" lane="361815166#0_1" startPos="0.74" endPos="15.74" friendlyPos="true" lines="61-O"/>
-    <busStop id="5754358294" name="Peel / Wellington" lane="455712869#1_1" startPos="21.66" endPos="36.66" friendlyPos="true" lines="107-N"/>
-    <busStop id="6010964698" name="Notre-Dame / Guy" lane="1041940066#7_1" startPos="2.19" endPos="11.23" friendlyPos="true" lines="35-O"/>
-    <busStop id="6010964910" name="Sherbrooke / Côte-des-Neiges" lane="165217870#1_1" startPos="77.76" endPos="86.04" friendlyPos="true" lines="24-E"/>
-    <busStop id="6010965221" name="Guy / Saint-Jacques" lane="111771067#5_2" startPos="16.31" endPos="27.93" friendlyPos="true" lines="57-E 36-O"/>
-    <busStop id="6010965396" name="Sherbrooke / Saint-Mathieu" lane="465411711#1_1" startPos="85.45" endPos="100.45" friendlyPos="true" lines="24-E"/>
-    <busStop id="6010965548" name="Station Lionel-Groulx / Saint-Jacques" lane="792160913#1_1" startPos="27.82" endPos="42.82" friendlyPos="true"/>
-    <busStop id="6010965695" name="Atwater / Saint-Jacques" lane="509777703#0_1" startPos="65.92" endPos="80.92" friendlyPos="true" lines="108-E"/>
-    <busStop id="6010965736" name="Atwater / du Docteur-Penfield" lane="143920959#0_1" startPos="33.13" endPos="48.13" friendlyPos="true" lines="144-E"/>
-    <busStop id="6010965782" name="Sainte-Catherine / Gladstone" lane="92352264_1" startPos="123.94" endPos="138.94" friendlyPos="true" lines="90-E"/>
-    <busStop id="6010965891" name="Notre-Dame / de Versailles" lane="1041940066#4_1" startPos="8.35" endPos="23.35" friendlyPos="true" lines="35-O"/>
-    <busStop id="6010965893" name="Lambert-Closse / Sainte-Catherine" lane="1042466503#1_1" startPos="69.07" endPos="84.07" friendlyPos="true" lines="15-O"/>
-    <busStop id="6010966040" name="Station Guy-Concordia (Maisonneuve / St-Mathieu)" lane="330150736#0_1" startPos="31.71" endPos="46.71" friendlyPos="true" lines="427-E 427-O"/>
-    <busStop id="6010966051" name="Guy / Sainte-Catherine" lane="455083994#1_2" startPos="57.98" endPos="72.98" friendlyPos="true" lines="57-E"/>
-    <busStop id="6010966061" name="Station Atwater (Sainte-Catherine / Atwater)" lane="394910074#0_1" startPos="0.94" endPos="15.94" friendlyPos="true" lines="15-E"/>
-    <busStop id="6010966061@9320162" name="Station Atwater (Sainte-Catherine / Atwater)" lane="165217839#2_1" startPos="16.76" endPos="24.26" friendlyPos="true" lines="15-O"/>
-    <busStop id="6010966218" name="Hôpital général (des Pins/Côte-des-Neiges)" lane="727849147#0_1" startPos="30.41" endPos="45.41" friendlyPos="true" lines="165-N 66-N"/>
-    <busStop id="6010967053" name="Atwater / Saint-Sulpice" lane="165217772#1_1" startPos="32.11" endPos="47.11" friendlyPos="true" lines="144-O"/>
-    <busStop id="6010967058" name="de la Montagne / Ottawa" lane="455722372#0_1" startPos="104.94" endPos="119.94" friendlyPos="true" lines="35-E"/>
-    <busStop id="6010967076" name="Station Atwater (Atwater / Tupper)" lane="329694559#0_1" startPos="0.00" endPos="9.21" friendlyPos="true" lines="144-E"/>
-    <busStop id="6010967477" name="Sainte-Catherine / Atwater" lane="92352263#2_1" startPos="153.20" endPos="168.20" friendlyPos="true" lines="90-E"/>
-    <busStop id="6010968427" name="René-Lévesque / du Sussex" lane="337432401#1_1" startPos="32.07" endPos="42.10" friendlyPos="true" lines="150-O"/>
-    <busStop id="6010968565" name="Atwater / De Maisonneuve" lane="474841415#1_1" startPos="83.22" endPos="98.22" friendlyPos="true" lines="104-E"/>
-    <busStop id="6010968682" name="Sainte-Catherine / Saint-Mathieu" lane="329694554#7_1" startPos="114.06" endPos="128.52" friendlyPos="true" lines="15-E 57-E"/>
-    <busStop id="6010968827" name="René-Lévesque / Guy" lane="455083981#1_1" startPos="60.87" endPos="73.08" friendlyPos="true" lines="427-O 150-O"/>
-    <busStop id="6010968869" name="Station Atwater (Atwater / Sainte-Catherine)" lane="329694559#3_1" startPos="3.95" endPos="18.30" friendlyPos="true" lines="150-O 108-E"/>
-    <busStop id="6010968874" name="Sherbrooke / Atwater" lane="561490750#0_1" startPos="0.00" endPos="13.78" friendlyPos="true" lines="24-O"/>
-    <busStop id="6010969519" name="Station Guy-Concordia (De Maisonneuve/St-Mathieu)" lane="330150435#1_1" startPos="21.37" endPos="36.37" friendlyPos="true" lines="15-O"/>
-    <busStop id="6010969566" name="René-Lévesque / Saint-Mathieu" lane="330153472#2_1" startPos="75.92" endPos="90.92" friendlyPos="true" lines="150-O"/>
-    <busStop id="6010969810" name="Saint-Antoine / Lusignan" lane="975251637#1_1" startPos="44.07" endPos="59.07" friendlyPos="true" lines="36-O"/>
-    <busStop id="6010969833" name="Sainte-Catherine / Dorchester" lane="165217874_1" startPos="35.28" endPos="50.28" friendlyPos="true" lines="90-E"/>
-    <busStop id="6010970060" name="Atwater / Saint-Antoine" lane="200638835#3_1" startPos="25.66" endPos="40.66" friendlyPos="true" lines="108-O"/>
-    <busStop id="6010970071" name="De Maisonneuve / Chomedey" lane="330150435#8_1" startPos="25.28" endPos="37.83" friendlyPos="true" lines="15-O 57-E"/>
-    <busStop id="6010970078" name="Atwater / Saint-Jacques" lane="463671314#1_1" startPos="125.54" endPos="140.54" friendlyPos="true" lines="108-O"/>
-    <busStop id="6010970338" name="Saint-Mathieu / Sherbrooke" lane="165217834#1_1" startPos="58.01" endPos="67.27" friendlyPos="true" lines="165-S 66-S"/>
-    <busStop id="6010970373" name="Atwater / Picquet" lane="165217769_1" startPos="154.36" endPos="169.36" friendlyPos="true" lines="144-E"/>
-    <busStop id="6010970597" name="de la Montagne / William" lane="573448691#3_1" startPos="44.09" endPos="59.09" friendlyPos="true" lines="35-E"/>
-    <busStop id="6010970824" name="Sainte-Catherine / Greene" lane="92352265_1" startPos="75.28" endPos="90.28" friendlyPos="true" lines="90-E"/>
-    <busStop id="6010971108" name="René-Lévesque / Guy" lane="41258973#2_1" startPos="87.14" endPos="95.33" friendlyPos="true" lines="427-E 150-E"/>
-    <busStop id="6010971302" name="Sherbrooke / Saint-Marc" lane="465408862#3_1" startPos="50.43" endPos="63.15" friendlyPos="true" lines="24-E"/>
-    <busStop id="6010971347" name="Guy / William" lane="111771071#3_2" startPos="46.98" endPos="61.98" friendlyPos="true" lines="57-E"/>
-    <busStop id="6010972047" name="René-Lévesque / Saint-Mathieu" lane="455083976#0_1" startPos="43.18" endPos="58.18" friendlyPos="true" lines="150-E"/>
-    <busStop id="6010973621" name="Station Guy-Concordia (De Maisonneuve / Guy)" lane="329384217#8_1" startPos="45.40" endPos="58.63" friendlyPos="true" lines="15-O"/>
-    <busStop id="6010973662" name="Station Atwater (Ste-Catherine / Lambert-Closse)" lane="165217839#2_1" startPos="16.76" endPos="24.26" friendlyPos="true" lines="150-O"/>
-    <busStop id="6010973662@8873279" name="Station Atwater (Ste-Catherine / Lambert-Closse)" lane="394910074#0_1" startPos="16.55" endPos="31.55" friendlyPos="true" lines="150-E"/>
-    <busStop id="6010973748" name="René-Lévesque / du Fort" lane="453964892#1_1" startPos="18.07" endPos="33.07" friendlyPos="true" lines="150-E"/>
-    <busStop id="6010974344" name="Saint-Mathieu / Baile" lane="330150434#7_1" startPos="46.67" endPos="61.67" friendlyPos="true" lines="66-S"/>
-    <busStop id="6010974358" name="Station Guy-Concordia (Maisonneuve / St-Mathieu)" lane="330150435#0_1" startPos="0.00" endPos="7.50" friendlyPos="true" lines="57-E"/>
-    <busStop id="6010974370" name="Atwater / Lincoln" lane="474841418#0_1" startPos="46.71" endPos="61.71" friendlyPos="true" lines="144-E 104-O"/>
-    <busStop id="6010974583" name="de la Montagne / du Square-Gallery" lane="455713130#2_1" startPos="127.75" endPos="142.75" friendlyPos="true" lines="35-E"/>
-    <busStop id="6010975289" name="Saint-Patrick / Shearer" lane="463595256_1" startPos="41.27" endPos="56.27" friendlyPos="true" lines="57-E"/>
-    <busStop id="6010975324" name="Côte-des-Neiges / Summerhill" lane="143920958#2_1" startPos="4.39" endPos="19.39" friendlyPos="true" lines="165-S 66-S"/>
-    <busStop id="6010975333" name="René-Lévesque / Bishop" lane="455083970#1_1" startPos="60.16" endPos="75.16" friendlyPos="true" lines="427-E 150-E"/>
-    <busStop id="6010975602" name="Saint-Jacques / Lucien-L&apos;Allier" lane="329988459#4_1" startPos="55.60" endPos="68.68" friendlyPos="true" lines="36-E"/>
-    <busStop id="6010975640" name="Sainte-Catherine / Guy" lane="329694554#11_1" startPos="63.69" endPos="78.69" friendlyPos="true" lines="15-E"/>
-    <busStop id="6010975695" name="Saint-Jacques / Peel" lane="133806980#5_1" startPos="32.36" endPos="47.27" friendlyPos="true" lines="36-E"/>
-    <busStop id="6010977514" name="Sainte-Catherine / du Fort" lane="329694554#2_1" startPos="113.58" endPos="128.58" friendlyPos="true" lines="15-E 57-E"/>
-    <busStop id="6010977887" name="Saint-Mathieu / René-Lévesque" lane="330150434#8_1" startPos="48.65" endPos="62.55" friendlyPos="true" lines="165-S 66-S"/>
-    <busStop id="6010977887@9320535" name="Saint-Mathieu / René-Lévesque" lane="1051530916#0_1" startPos="0.00" endPos="7.50" friendlyPos="true" lines="66-N"/>
-    <busStop id="6010977969" name="Saint-Mathieu / Sainte-Catherine" lane="330150434#2_1" startPos="99.97" endPos="112.52" friendlyPos="true" lines="427-E 165-S 66-S"/>
-    <busStop id="6010978061" name="Atwater / Sherbrooke" lane="474841418#1_1" startPos="9.30" endPos="24.30" friendlyPos="true" lines="144-E"/>
-    <busStop id="6010978137" name="Saint-Jacques / de la Montagne" lane="133806980#1_1" startPos="20.74" endPos="35.74" friendlyPos="true" lines="36-E"/>
-    <busStop id="6010978235" name="René-Lévesque / Atwater" lane="337432401#6_1" startPos="74.16" endPos="89.16" friendlyPos="true" lines="150-O"/>
-    <busStop id="6010979145" name="Sherbrooke / Chomedey" lane="465408864#3_1" startPos="89.78" endPos="102.92" friendlyPos="true" lines="24-E"/>
-    <busStop id="6010980478" name="Hôpital général (des Pins/Côte-des-Neiges)" lane="465159973_1" startPos="13.98" endPos="28.98" friendlyPos="true" lines="144-O"/>
-    <busStop id="6010981007" name="Wellington / Robert-Bourassa" lane="360802894#1_1" startPos="2.30" endPos="17.30" friendlyPos="true" lines="61-O"/>
-    <busStop id="6010981014" name="De Maisonneuve / du Fort" lane="330150435#6_1" startPos="50.12" endPos="65.12" friendlyPos="true" lines="15-O 57-E"/>
-    <busStop id="6010981200" name="Guy / René-Lévesque" lane="455083994#1_2" startPos="212.80" endPos="227.06" friendlyPos="true" lines="57-E"/>
-    <busStop id="6010981247" name="Sherbrooke / Atwater" lane="561490751#0_1" startPos="2.28" endPos="16.35" friendlyPos="true" lines="24-E 104-E"/>
-    <busStop id="6010981721" name="Atwater / Dorchester" lane="575547253#0_1" startPos="48.71" endPos="63.71" friendlyPos="true" lines="108-O"/>
-    <busStop id="6132968614" name="rue de Nazareth / rue Ottawa" lane="664696778#0_1" startPos="115.38" endPos="128.56" friendlyPos="true" lines="401 S"/>
-    <busStop id="6133322816" name="rue de Nazareth / rue Ottawa" lane="664696778#0_1" startPos="120.58" endPos="128.56" friendlyPos="true" lines="124 S 321 S 323 S"/>
-    <busStop id="6133453870" name="rue de Nazareth/rue Ottawa" lane="664696778#0_1" startPos="109.28" endPos="124.28" friendlyPos="true"/>
-    <busStop id="6274677573" name="Wellington / Prince" lane="360802894#1_1" startPos="30.12" endPos="45.12" friendlyPos="true" lines="61-E 35-E"/>
-    <busStop id="6274677575" name="des Seigneurs / du Canal" lane="52135931#2_1" startPos="26.41" endPos="41.41" friendlyPos="true" lines="57-E"/>
-    <busStop id="8583333166" name="Berri-UQAM" lane="164831271_0" startPos="10113.78" endPos="10313.78" friendlyPos="true"/>
-    <busStop id="913940068" name="Atwater / Saint-Antoine" lane="463671313#3_1" startPos="72.87" endPos="87.87" friendlyPos="true" lines="108-E"/>
-    <busStop id="98943391" name="Lucien-L&apos;Allier" lane="103974916_0" startPos="267.05" endPos="367.05" friendlyPos="true">
-        <access lane="-103935601_0" pos="15.17" length="4.55" friendlyPos="1"/>
-        <access lane="-103935602#0_0" pos="26.94" length="27.37" friendlyPos="1"/>
-        <access lane="103935601_0" pos="25.43" length="12.55" friendlyPos="1"/>
-        <access lane="481492220#2_0" pos="94.98" length="17.65" friendlyPos="1"/>
-        <access lane="481492995#1_0" pos="46.38" length="6.00" friendlyPos="1"/>
+    <busStop id="9862437207" name="Snowdon" lane="1075226250_0" startPos="1181.41" endPos="1281.41" friendlyPos="true">
+        <access lane="-933328174#4_0" pos="86.49" length="113.94" friendlyPos="1"/>
+        <access lane="20194967_0" pos="100.02" length="18.99" friendlyPos="1"/>
+        <access lane="933328165_0" pos="93.42" length="85.36" friendlyPos="1"/>
+        <access lane="933328172#1_0" pos="118.36" length="117.39" friendlyPos="1"/>
+        <access lane="933328174#2_0" pos="117.13" length="90.24" friendlyPos="1"/>
+    </busStop>
+    <busStop id="9862694906" name="Villa-Maria" lane="1075387555#2_0" startPos="495.96" endPos="595.96" friendlyPos="true">
+        <access lane="933071115#0_0" pos="0.00" length="21.25" friendlyPos="1"/>
+        <access lane="933071117#2_0" pos="19.19" length="20.97" friendlyPos="1"/>
+        <access lane="933071117#3_0" pos="0.00" length="21.74" friendlyPos="1"/>
+        <access lane="933071121_0" pos="0.00" length="13.04" friendlyPos="1"/>
+        <access lane="993362118_0" pos="4.21" length="18.01" friendlyPos="1"/>
+    </busStop>
+    <busStop id="9862727729" name="Snowdon" lane="1075387558_0" startPos="908.64" endPos="1108.64" friendlyPos="true">
+        <access lane="-933328174#4_0" pos="96.66" length="80.62" friendlyPos="1"/>
+        <access lane="20194967_0" pos="110.17" length="52.32" friendlyPos="1"/>
+        <access lane="933328165_0" pos="103.39" length="51.90" friendlyPos="1"/>
+        <access lane="933328172#1_0" pos="108.29" length="83.99" friendlyPos="1"/>
+        <access lane="933328174#2_0" pos="106.96" length="56.92" friendlyPos="1"/>
+    </busStop>
+    <busStop id="98949380" name="Vendôme" lane="-368070942_0" startPos="1520.68" endPos="1720.68" friendlyPos="true">
+        <access lane="-931545032#0_0" pos="23.88" length="35.20" friendlyPos="1"/>
+        <access lane="653439886#0_0" pos="0.55" length="12.96" friendlyPos="1"/>
+        <access lane="653439887_0" pos="0.38" length="5.14" friendlyPos="1"/>
+        <access lane="931538627#0_0" pos="24.28" length="31.22" friendlyPos="1"/>
+        <access lane="931545005_0" pos="51.24" length="31.49" friendlyPos="1"/>
     </busStop>
 </additional>
