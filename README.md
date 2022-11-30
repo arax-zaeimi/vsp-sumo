@@ -57,24 +57,24 @@ In the VSP the user imports vehicles plan and the VSP processes the plan to crea
 
 ## **Installation:**
 
-### **1. Database**
-
-- Install **PostgreSQL**. Follow PostgreSQL installation guid: (https://www.postgresql.org/download/)
-- After installation of PostgreSQL, use **_PgAdmin_** application to create a new database. Create a new database with this name: **_vspsumodb_**
-- Navigate to the root directory of the project and run this script: `python data_access.py` [data_access.py](./data_access.py)
-
-### **2. Install SUMO**
+### **1. Install SUMO**
 
 - Download and install SUMO simulation engine. Following SUMO official instructions: (https://sumo.dlr.de/docs/Downloads.php)
 - You need to verify sumo installation by running the following command on your command terminal: `sumo --version`. If you cannot see the sumo version and description, you need to follow the SUMO instructions to make sure you can run sumo without any issues.
 
-### **3. Setup Simulation Platform**
+### **2. Setup Simulation Platform**
 
 - Clone the VSP repository and navigate to the root directory
 - Create a new python environment: `python -m venv env`
 - Activate the python environment: `env/scripts/activate`
 - Install python libraries: `pip install -r requirements.txt`
 - [Optional] If you need to change the database connection string, you can update this file: [DbConfigFile](./config.py)
+
+### **3. Database**
+
+- Install **PostgreSQL**. Follow PostgreSQL installation guid: (https://www.postgresql.org/download/)
+- After installation of PostgreSQL, use **_PgAdmin_** application to create a new database. Create a new database with this name: **_vspsumodb_**
+- Navigate to the root directory of the project and run this script: `python data_access.py` [data_access.py](./data_access.py)
 
 ## **How to Use:**
 
